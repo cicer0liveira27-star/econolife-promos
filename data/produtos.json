@@ -76,6 +76,17 @@
    "unidade": "",
    "ativo": true,
    "criadoEm": "2026-11-05T15:10:07Z"
+  },
+  {
+   "nome": "Ventilador",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 120,
+   "marcas": "Britânia",
+   "detalhes": "",
+   "unidade": "1",
+   "ativo": true,
+   "criadoEm": "2026-11-05T16:33:54.299Z",
+   "id": "ventilador"
   }
  ]
 }
