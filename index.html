@@ -42,7 +42,7 @@ html,body{margin:0;background:var(--bg);color:var(--fg)}
 body{font-family:var(--body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
 a{color:inherit}
-button,input,select{font:inherit;color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 img{max-width:100%}
 [hidden]{display:none!important}
@@ -159,8 +159,8 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
 .f{display:flex;flex-direction:column;gap:5px;min-width:0}
 .f.full{grid-column:1/-1}
 .f label{font-size:12px;color:var(--muted);font-weight:500}
-.f input,.f select{background:#000;border:1px solid var(--line-2);border-radius:12px;padding:11px 12px;width:100%;min-width:0}
-.f input:focus,.f select:focus{border-color:var(--orange);outline:none}
+.f input,.f select,.f textarea{background:#000;border:1px solid var(--line-2);border-radius:12px;padding:11px 12px;width:100%;min-width:0}
+.f input:focus,.f select:focus,.f textarea:focus{border-color:var(--orange);outline:none}
 .help{font-size:13px;color:var(--muted)}
 .help ol{padding-left:20px;margin:8px 0}
 .help li{margin:4px 0}
@@ -237,6 +237,7 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
       <div class="f"><label for="fMarcas">Marcas</label><input id="fMarcas" placeholder="Ex.: Portobello, Eliane"></div>
       <div class="f"><label for="fUn">Unidade</label><input id="fUn" placeholder="Ex.: por m², por unidade"></div>
       <div class="f full"><label for="fDet">Detalhes (cor, tamanho, voltagem…)</label><input id="fDet" placeholder="Ex.: cinza, retificado, 220V"></div>
+      <div class="f full"><label for="fMod">Modelos específicos (opcional, um por linha)</label><textarea id="fMod" rows="4" placeholder="Cole o nome do modelo como aparece na loja, ex.:&#10;Geladeira Electrolux Frost Free 400L IF44S&#10;Cooktop a Gás Dako Pratiko 4 Bocas"></textarea><span class="help">Com modelos preenchidos, o robô procura só eles. O código do modelo (ex.: IF44S) é o que mais ajuda.</span></div>
       <div class="f full"><button class="btn primary" type="submit" id="addSubmit">Adicionar à lista</button></div>
       <p class="help f full" id="addHelp">O robô busca os preços na próxima rodada.</p>
     </form>
@@ -377,7 +378,7 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
     let flag;if(p.ativo===false)flag='<span class="flag off">Pausado</span>';else if(!b)flag='<span class="flag off">Buscando…</span>';else if(hit)flag='<span class="flag hit">Abaixo do alvo</span>';else if(near)flag='<span class="flag near">Perto do alvo</span>';else flag='<span class="flag">Acima do alvo</span>';
     const img=b&&httpsImg(b.imagem)||((offersOf(p).find(o=>httpsImg(o.imagem))||{}).imagem);
     const photo='<div class="photo">'+(img?'<img src="'+esc(img)+'" alt="'+esc(p.nome)+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><div class="ph" hidden>'+catIcon(p.categoria)+'</div>':'<div class="ph">'+catIcon(p.categoria)+'</div>')+flag+'</div>';
-    const spec=[p.marcas,p.detalhes,p.unidade].filter(Boolean).join(' · ');
+    const nm=Array.isArray(p.modelos)?p.modelos.length:0;const spec=nm?(nm+(nm>1?' modelos escolhidos':' modelo escolhido')):[p.marcas,p.detalhes,p.unidade].filter(Boolean).join(' · ');
     const pct=b&&alvo?Math.min(100,Math.round(alvo/b.preco*100)):0;
     const offers=offersOf(p).slice(0,4);
     const oh=offers.length?'<div class="offers">'+offers.map(o=>{const ok=o.verificado?'<svg class="ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-label="Preço conferido na página"><path d="M20 6 9 17l-5-5"/></svg>':'';const sub=[o.vendedor?'vendido por '+o.vendedor:'',o.observacao].filter(Boolean).join(' · ');return'<a class="offer" href="'+esc(trusted(o.url))+'" target="_blank" rel="noopener noreferrer"><span class="st">'+ok+'<span>'+esc(o.loja||'Loja')+'</span></span><span class="p'+(alvo!=null&&o.preco<=alvo?' hit':'')+'">'+money(o.preco)+'</span><span class="sub">'+esc(sub||'abrir na loja')+'</span></a>';}).join('')+'</div>':'';
@@ -446,7 +447,7 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
     $('#addHelp').textContent=p?'Mudou nome, marca ou detalhes? O robô refaz a busca em poucos minutos.':'O robô busca os preços em poucos minutos.';
     $('#fNome').value=p?p.nome||'':'';$('#fCat').value=p&&p.categoria||'Eletrodomésticos';
     $('#fAlvo').value=p&&typeof p.precoAlvo==='number'?String(p.precoAlvo).replace('.',','):'';
-    $('#fMarcas').value=p?p.marcas||'':'';$('#fUn').value=p?p.unidade||'':'';$('#fDet').value=p?p.detalhes||'':'';
+    $('#fMarcas').value=p?p.marcas||'':'';$('#fUn').value=p?p.unidade||'':'';$('#fDet').value=p?p.detalhes||'':'';$('#fMod').value=p&&Array.isArray(p.modelos)?p.modelos.join('\n'):'';
   }
   function openEditor(id){
     if(!token()){openSettings();toast('Para editar itens, salve sua chave do GitHub primeiro.');return;}
@@ -457,9 +458,9 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
   $('#bellBtn').addEventListener('click',openSettings);
   $('#addForm').addEventListener('submit',async e=>{
     e.preventDefault();const nome=$('#fNome').value.trim();if(!nome)return;const btn=$('#addSubmit');btn.disabled=true;
-    const p={nome,categoria:$('#fCat').value,precoAlvo:parseMoney($('#fAlvo').value),marcas:$('#fMarcas').value.trim(),detalhes:$('#fDet').value.trim(),unidade:$('#fUn').value.trim(),ativo:true,criadoEm:new Date().toISOString()};
+    const p={nome,categoria:$('#fCat').value,precoAlvo:parseMoney($('#fAlvo').value),marcas:$('#fMarcas').value.trim(),detalhes:$('#fDet').value.trim(),unidade:$('#fUn').value.trim(),modelos:$('#fMod').value.split('\n').map(x=>x.trim()).filter(Boolean),ativo:true,criadoEm:new Date().toISOString()};
     try{
-      if(editId){const id=editId;await mutateProdutos(l=>{const x=l.find(x=>x.id===id);if(x){x.nome=p.nome;x.categoria=p.categoria;x.precoAlvo=p.precoAlvo;x.marcas=p.marcas;x.detalhes=p.detalhes;x.unidade=p.unidade;}},'Edita '+nome);closeSheets();prepForm(null);toast('Produto atualizado. O robô refaz a busca em poucos minutos.');}
+      if(editId){const id=editId;await mutateProdutos(l=>{const x=l.find(x=>x.id===id);if(x){x.nome=p.nome;x.categoria=p.categoria;x.precoAlvo=p.precoAlvo;x.marcas=p.marcas;x.detalhes=p.detalhes;x.unidade=p.unidade;if(p.modelos.length)x.modelos=p.modelos;else delete x.modelos;}},'Edita '+nome);closeSheets();prepForm(null);toast('Produto atualizado. O robô refaz a busca em poucos minutos.');}
       else{await mutateProdutos(l=>{let id=slug(nome),n=2;while(l.some(x=>x.id===id))id=slug(nome)+'-'+(n++);p.id=id;l.push(p);},'Adiciona '+nome);$('#addForm').reset();closeSheets();toast('Adicionado. O robô busca em poucos minutos.');}
     }
     catch(err){errMsg(err);}finally{btn.disabled=false;}

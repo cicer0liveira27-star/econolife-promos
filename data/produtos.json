@@ -1,114 +1,129 @@
 {
- "produtos": [
-  {
-   "id": "geladeira",
-   "nome": "Geladeira",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 2800,
-   "marcas": "Brastemp, Electrolux",
-   "detalhes": "cor cinza ou inox",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T15:10:01Z"
-  },
-  {
-   "id": "gelagua",
-   "nome": "Purificador / Gelágua",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 350,
-   "marcas": "Electrolux",
-   "detalhes": "cinza",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T15:10:03Z"
-  },
-  {
-   "id": "microondas",
-   "nome": "Micro-ondas Electrolux 31L",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 480,
-   "marcas": "Electrolux",
-   "detalhes": "cinza ou inox",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T15:10:04Z"
-  },
-  {
-   "id": "tv",
-   "nome": "Smart TV Samsung Crystal UHD",
-   "categoria": "Eletrônicos",
-   "precoAlvo": 2200,
-   "marcas": "Samsung (linha Crystal)",
-   "detalhes": "50 ou 55 polegadas",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T15:10:05Z"
-  },
-  {
-   "id": "lavadora",
-   "nome": "Lavadora Front Load",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 2800,
-   "marcas": "Brastemp, Electrolux ou Midea",
-   "detalhes": "cinza ou inox",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T15:10:06Z"
-  },
-  {
-   "id": "lava-loucas",
-   "nome": "Lava-louças",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 2400,
-   "marcas": "Brastemp, Electrolux ou Midea",
-   "detalhes": "cinza ou inox",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T15:10:07Z"
-  },
-  {
-   "nome": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 120,
-   "marcas": "Britânia",
-   "detalhes": "",
-   "unidade": "1",
-   "ativo": true,
-   "criadoEm": "2026-11-05T16:33:54.299Z",
-   "id": "ventilador"
-  },
-  {
-   "nome": "Liquidificador",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 100,
-   "marcas": "",
-   "detalhes": "",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T16:35:23.626Z",
-   "id": "liquidificador"
-  },
-  {
-   "nome": "Iphone 16 Lacrado",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 4600,
-   "marcas": "Apple",
-   "detalhes": "",
-   "unidade": "1",
-   "ativo": true,
-   "criadoEm": "2026-11-05T16:36:03.477Z",
-   "id": "iphone-16-lacrado"
-  },
-  {
-   "nome": "Cooktop 4 Bocas a Gás GLP",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 450,
-   "marcas": "Eletrolux, Dako",
-   "detalhes": "Preto",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T22:05:01.078Z",
-   "id": "cooktop-4-bocas-a-gas"
-  }
- ]
+  "produtos": [
+    {
+      "id": "geladeira",
+      "nome": "Geladeira",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 2800,
+      "marcas": "Brastemp, Electrolux",
+      "detalhes": "cor cinza ou inox",
+      "unidade": "",
+      "ativo": true,
+      "criadoEm": "2026-11-05T15:10:01Z",
+      "modelos": [
+        "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S",
+        "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V",
+        "Geladeira Electrolux Frost Free Inverter 480L Efficient com AutoSense SmartBivolt Duplex (IT70S) - Bivolt (inox)"
+      ]
+    },
+    {
+      "id": "gelagua",
+      "nome": "Purificador / Gelágua",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 350,
+      "marcas": "Electrolux",
+      "detalhes": "cinza",
+      "unidade": "",
+      "ativo": true,
+      "criadoEm": "2026-11-05T15:10:03Z"
+    },
+    {
+      "id": "microondas",
+      "nome": "Micro-ondas Electrolux 31L",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 480,
+      "marcas": "Electrolux",
+      "detalhes": "cinza ou inox",
+      "unidade": "",
+      "ativo": true,
+      "criadoEm": "2026-11-05T15:10:04Z",
+      "modelos": [
+        "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
+      ]
+    },
+    {
+      "id": "tv",
+      "nome": "Smart TV Samsung Crystal UHD",
+      "categoria": "Eletrônicos",
+      "precoAlvo": 2200,
+      "marcas": "Samsung (linha Crystal)",
+      "detalhes": "50 ou 55 polegadas",
+      "unidade": "",
+      "ativo": true,
+      "criadoEm": "2026-11-05T15:10:05Z"
+    },
+    {
+      "id": "lavadora",
+      "nome": "Lavadora Front Load",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 2800,
+      "marcas": "Brastemp, Electrolux ou Midea",
+      "detalhes": "cinza ou inox",
+      "unidade": "",
+      "ativo": true,
+      "criadoEm": "2026-11-05T15:10:06Z"
+    },
+    {
+      "id": "lava-loucas",
+      "nome": "Lava-louças",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 2400,
+      "marcas": "Brastemp, Electrolux ou Midea",
+      "detalhes": "cinza ou inox",
+      "unidade": "",
+      "ativo": true,
+      "criadoEm": "2026-11-05T15:10:07Z"
+    },
+    {
+      "nome": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 120,
+      "marcas": "Britânia",
+      "detalhes": "",
+      "unidade": "1",
+      "ativo": true,
+      "criadoEm": "2026-11-05T16:33:54.299Z",
+      "id": "ventilador",
+      "modelos": [
+        "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
+      ]
+    },
+    {
+      "nome": "Liquidificador",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 100,
+      "marcas": "",
+      "detalhes": "",
+      "unidade": "",
+      "ativo": true,
+      "criadoEm": "2026-11-05T16:35:23.626Z",
+      "id": "liquidificador"
+    },
+    {
+      "nome": "Iphone 16 Lacrado",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 4600,
+      "marcas": "Apple",
+      "detalhes": "",
+      "unidade": "1",
+      "ativo": true,
+      "criadoEm": "2026-11-05T16:36:03.477Z",
+      "id": "iphone-16-lacrado"
+    },
+    {
+      "nome": "Cooktop 4 Bocas a Gás GLP",
+      "categoria": "Eletrodomésticos",
+      "precoAlvo": 450,
+      "marcas": "Eletrolux, Dako",
+      "detalhes": "Preto",
+      "unidade": "",
+      "ativo": true,
+      "criadoEm": "2026-11-05T22:05:01.078Z",
+      "id": "cooktop-4-bocas-a-gas",
+      "modelos": [
+        "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR",
+        "Cooktop 4 Bocas a Gás Dako Pratiko com Acendimento Automático e Mega Chama Preto Bivolt"
+      ]
+    }
+  ]
 }

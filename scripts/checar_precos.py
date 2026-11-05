@@ -157,7 +157,76 @@ def ofertas_do_produto(fonte, hit):
     return saida
 
 
+# ---------------- modelos específicos ----------------
+UNIDADE = re.compile(r"^\d+(l|w|v|kg|cm|gb|mm|pol|btu|hz)$")
+GENERICAS = {"geladeira", "refrigerador", "cooktop", "micro", "ondas", "ventilador", "tecnologia", "funcao", "painel",
+             "integrado", "acendimento", "automatico", "efficient", "com", "cor", "frost", "free", "duplex", "bivolt", "smartbivolt", "inox", "preto", "look", "espelhado", "mesa", "vidro", "gas", "glp"}
+
+
+def codigo_modelo(m):
+    """Código do modelo (ex.: IF44S, TF70S, KE4GR, BVT301), se houver."""
+    for w in re.findall(r"[A-Za-z0-9]+", m):
+        wl = w.lower()
+        if re.search(r"\d", wl) and re.search(r"[a-z]", wl) and 4 <= len(wl) <= 12 and not UNIDADE.match(wl):
+            return wl
+    return None
+
+
+def combina_modelo(modelo, titulo):
+    t = sa(titulo).replace("-", "").replace(" ", "")
+    cod = codigo_modelo(modelo)
+    if cod:
+        return cod in t
+    ws = [w for w in tokens(modelo) if not UNIDADE.match(w) and not w.isdigit()]
+    raras = [w for w in ws if w not in GENERICAS]
+    tt = sa(titulo)
+    return bool(raras) and all(w in tt for w in raras[:2])
+
+
+def consulta_modelo(modelo, p):
+    cod = codigo_modelo(modelo)
+    marca = next((m for m in marcas(p) if m.split()[0] in sa(modelo)), None) or next(
+        (w for w in ("electrolux", "brastemp", "consul", "midea", "samsung", "lg", "dako", "britania", "philco", "mondial", "apple") if w in sa(modelo)), "")
+    if cod:
+        return f"{marca} {cod}".strip()
+    ws = [w for w in tokens(modelo) if not UNIDADE.match(w) and not w.isdigit()]
+    raras = [w for w in ws if w not in GENERICAS]
+    return " ".join(([ws[0]] if ws else []) + raras[:2])
+
+
+def coletar_modelos(p):
+    modelos = [m.strip() for m in p.get("modelos") or [] if m.strip()]
+    for fonte in FONTES:
+        ofertas, achou_algum, erro = [], 0, False
+        for modelo in modelos:
+            try:
+                hits = buscar_uma(fonte, consulta_modelo(modelo, p))
+            except Exception as e:  # noqa: BLE001
+                log["falhas"].append({"produto": p["id"], "onde": fonte, "motivo": str(e)[:80]})
+                erro = True
+                break
+            bons = [h for h in hits if combina_modelo(modelo, h["name"])]
+            bons.sort(key=lambda h: h.get("price") or 1e12)
+            achou_algum += bool(bons)
+            for h in bons[:2]:
+                try:
+                    for o in ofertas_do_produto(fonte, h):
+                        o["modelo"] = modelo
+                        ofertas.append(o)
+                except Exception as e:  # noqa: BLE001
+                    log["falhas"].append({"produto": p["id"], "onde": h["url"][:60], "motivo": str(e)[:80]})
+                time.sleep(1)
+            time.sleep(1)
+        if erro:
+            continue
+        log["debug"][p["id"]] = {"modelos": len(modelos), "modelosAchados": achou_algum, "ofertas": len(ofertas)}
+        return ofertas, fonte
+    return None, None
+
+
 def coletar(p):
+    if p.get("modelos"):
+        return coletar_modelos(p)
     for fonte in FONTES:
         try:
             hits = buscar(fonte, p)
@@ -220,7 +289,10 @@ def main():
             continue
         if not ofertas:
             log["semResultado"].append(p["id"])
-            it["ofertas"] = [o for o in it.get("ofertas", []) if combina(p, o.get("titulo", ""))]
+            if p.get("modelos"):
+                it["ofertas"] = [o for o in it.get("ofertas", []) if o.get("modelo") in p["modelos"]]
+            else:
+                it["ofertas"] = [o for o in it.get("ofertas", []) if combina(p, o.get("titulo", ""))]
             continue
         ofertas.sort(key=lambda o: o["preco"])
         vistos, top = set(), []
