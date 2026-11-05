@@ -1,134 +1,144 @@
 {
- "atualizadoEm": "2026-11-05T19:40:01Z",
+ "atualizadoEm": "2026-11-05T19:46:29Z",
  "status": {
-  "resumo": "1 páginas conferidas, 0 ofertas novas",
+  "resumo": "36 ofertas de lojas confiáveis via buscape.com.br",
   "produtosVerificados": 10,
-  "alertas": 0
+  "alertas": 5
  },
  "itens": {
   "cooktop": {
    "ofertas": [
     {
-     "loja": "Magazine Luiza",
+     "loja": "Amazon",
      "vendedor": null,
-     "titulo": "Cooktop 4 Bocas a Gás Dako Pratiko Mesa de Vidro Preto Bivolt",
-     "preco": 449.65,
-     "url": "https://www.magazineluiza.com.br/cooktop-4-bocas-dako-pratiko-mesa-de-vidro-e-acendimento-super-automatico-a-gas-preto-bivolt/p/daff8f80aj/ed/ck4b/?seller_id=dakooficial2",
-     "imagem": null,
-     "observacao": "Pix; vendido por Dako oficial; bivolt",
+     "titulo": "Cooktop 4 Bocas a Gás GLP Itatiaia Preto Essencial",
+     "preco": 299.0,
+     "url": "https://www.buscape.com.br/lead?oid=879582583&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-itatiaia-essencial-4-bocas-acendimento-superautomatico",
+     "imagem": "https://image.zst.com.br/FF356EBE429687E7EDE55FAD472A4973_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Fast Shop",
+     "vendedor": null,
+     "titulo": "Cooktop Itatiaia 4 Bocas Essencial Preto - Bivolt Bivolt",
+     "preco": 328.52,
+     "url": "https://www.buscape.com.br/lead?oid=1543950304&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-itatiaia-essencial-4-bocas-acendimento-superautomatico",
+     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Americanas",
+     "vendedor": null,
+     "titulo": "Cooktop a Gás 4 Bocas Itatiaia Essencial Vidro Temperado Bivolt Preto",
+     "preco": 336.6,
+     "url": "https://www.buscape.com.br/lead?oid=1469413842&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-itatiaia-essencial-4-bocas-acendimento-superautomatico",
+     "imagem": "https://i.zst.com.br/thumbs/49/6/15/-1492143259.jpg",
+     "observacao": "ou 7x de R$ 56,57",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Webcontinental",
+     "vendedor": null,
+     "titulo": "Cooktop a Gás Itatiaia Essencial 4 Bocas em Vidro Temperado Preto com Acendimento Automático Bivolt",
+     "preco": 339.91,
+     "url": "https://www.buscape.com.br/lead?oid=1517364795&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-itatiaia-essencial-4-bocas-acendimento-superautomatico",
+     "imagem": "https://image.zst.com.br/DEEC1F7D66E198B98177F0046A1C0E8E_235_235.jpg",
+     "observacao": "ou 4x de R$ 87,97",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
-     "titulo": "Cooktop 4 Bocas a Gás Electrolux Efficient KE4GR Preto",
-     "preco": 502.55,
-     "url": "https://www.magazineluiza.com.br/cooktop-4-bocas-a-gas-glp-electrolux-mesa-de-vidro-preto-acendimento-automatico-efficient-ke4gr/p/240161500/ed/ck4b/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; GLP",
+     "titulo": "Cooktop 4 Bocas a Gás GLP Continental Mesa de Vidro Preto Acendimento ",
+     "preco": 349.0,
+     "url": "https://www.buscape.com.br/lead?oid=1491201000&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-continental-kc4gr-4-bocas-acendimento-superautomatico",
+     "imagem": "https://image.zst.com.br/9228EADE388F01B8B1D958104D87E6D1_235_235.jpg",
+     "observacao": "ou 3x de R$ 122,46",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Cooktop 4 Bocas Electrolux Efficient KE4GR Vidro Preto Bivolt",
-     "preco": 526.72,
-     "url": "https://m.magazineluiza.com.br/cooktop-4-bocas-electrolux-efficient-a-gas-ke4gr-mesa-de-vidro-preto-bivolt/p/dfj88fa255/ed/cook/?seller_id=dufrio",
-     "imagem": null,
-     "observacao": "Pix; vendedor Dufrio",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Cooktop Dako Supreme a Gás 4 Bocas Tripla Chama",
-     "preco": 539.91,
-     "url": "https://www.magazineluiza.com.br/cooktop-dako-supreme-a-gas-4-bocas-acendimento-automatico-e-tripla-chama/p/jjb022a3bc/ed/ck4b/?seller_id=ebomdecomprar",
-     "imagem": null,
-     "observacao": "Pix; vendedor parceiro",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Cooktop 4 Bocas Gás Dako Supreme Vidro Temperado Preto",
-     "preco": 597.52,
-     "url": "https://www.magazineluiza.com.br/cooktop-fogao-4-bocas-gas-dako-supreme-com-vidro-temperado-preto/p/aj84372gkd/ed/ck4b/?seller_id=arede",
-     "imagem": null,
-     "observacao": "Pix; vendedor parceiro",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     }
    ],
    "historico": [
     {
      "d": "2026-11-05",
-     "p": 449.65,
-     "loja": "Magazine Luiza"
+     "p": 299.0,
+     "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "geladeira": {
    "ofertas": [
     {
-     "loja": "Magazine Luiza",
-     "vendedor": "Belmicro",
-     "titulo": "Geladeira Consul 333L Duplex Frost Free Inox CRM40MK",
-     "preco": 1887,
-     "url": "https://www.magazineluiza.com.br/geladeira-consul-333-l-duplex-frost-free-inox-crm40mk/p/fbaj2j6eek/ed/ref2/?seller_id=comprebel2",
-     "imagem": null,
-     "observacao": "Pix (32% off); 220V; entregue pela Magalu; ou 10x R$ 205",
+     "loja": "Webcontinental",
+     "vendedor": null,
+     "titulo": "Geladeira Brastemp Duplex Frost Free Inverter 385L com Painel Digital BRM46MK Inox",
+     "preco": 2753.15,
+     "url": "https://www.buscape.com.br/lead?oid=1553549324&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-brastemp-brm46mk-frost-free-duplex-385-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/081CEA3C4975705B2A80A27158A5F78B_235_235.jpg",
+     "observacao": "ou 8x de R$ 356,29",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:24:00Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": "Consul",
-     "titulo": "Geladeira Consul Frost Free 337L Inox CRB39MK",
-     "preco": 2099.01,
-     "url": "https://www.magazineluiza.com.br/geladeira-frost-free-337l-com-espaco-extra-frio-cor-inox-consul-crb39mk/p/kaj67fb39g/ed/refr/?seller_id=consul",
-     "imagem": null,
-     "observacao": "Pix; 110V (220V em outro anúncio); ou 10x R$ 225,70",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:24:00Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": "Consul",
-     "titulo": "Geladeira Consul Frost Free Duplex 333L Inox CRM40MK",
-     "preco": 2399.4,
-     "url": "https://www.magazineluiza.com.br/geladeira-frost-free-duplex-inox-consul-crm40mk/p/fef3f5g82f/ed/ref2/?seller_id=consul",
-     "imagem": null,
-     "observacao": "Pix (7% off); 220V; ou 10x R$ 258",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:20:28Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
-     "titulo": "Geladeira Midea Frost Free Duplex Inox 394L MDRT533",
-     "preco": 2429,
-     "url": "https://www.magazineluiza.com.br/geladeira-refrigerador-midea-frost-free-duplex-inox-394l-mdrt533evd461/p/240733200/ed/ref2/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; vendido pela Magalu",
+     "titulo": "Geladeira Frost Free BRM46MK Duplex 385 Litros Inox Extrafrio Brastemp",
+     "preco": 2835.57,
+     "url": "https://www.buscape.com.br/lead?oid=1561932399&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-brastemp-brm46mk-frost-free-duplex-385-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/2DE8F53A6D74804B5D078BF8962D41BD_235_235.jpg",
+     "observacao": "ou 10x de R$ 304,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Magazine Luiza",
-     "vendedor": "mgshopgra",
-     "titulo": "Geladeira Consul Frost Free 333L Duplex Inox CRM40MK",
-     "preco": 2449.98,
-     "url": "https://www.magazineluiza.com.br/geladeira-consul-frost-free-333-litros-duplex-inox-crm40mk/p/jg4abeea54/ed/ref2/?seller_id=mgshopgra",
-     "imagem": null,
-     "observacao": "Pix; vendedor parceiro",
+     "loja": "Fast Shop",
+     "vendedor": null,
+     "titulo": "Geladeira Electrolux Frost Free 400L AutoSense Inverter Duplex Inox Look (IF44S)",
+     "preco": 2879.1,
+     "url": "https://www.buscape.com.br/lead?oid=1560533564&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-electrolux-if44s-frost-free-duplex-400-litros-inox",
+     "imagem": "https://image.zst.com.br/5C087F20E580B2952D1EC90E175DB00E_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:20:28Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Electrolux",
+     "vendedor": null,
+     "titulo": "Geladeira Electrolux Frost Free 432L Efficient AutoSense Duplex Branca (TF70)",
+     "preco": 2899.0,
+     "url": "https://www.buscape.com.br/lead?oid=1412499336&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-electrolux-tf70s-frost-free-duplex-431-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/E27683F2C31D9E7B5F22C71DC10BF551_235_235.jpg",
+     "observacao": "ou 12x de R$ 241,58",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Amazon",
+     "vendedor": null,
+     "titulo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Branca (TF70) 220V",
+     "preco": 2949.0,
+     "url": "https://www.buscape.com.br/lead?oid=1427899894&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-electrolux-tf70s-frost-free-duplex-431-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/D4604038172992FE7673A10A9C0197CA_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
     }
    ],
    "historico": [
@@ -138,141 +148,151 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "gelagua": {
    "ofertas": [
     {
-     "loja": "Magazine Luiza",
+     "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Purificador Electrolux Efficient Cinza 3 Estágios (sem energia)",
-     "preco": 455.05,
-     "url": "https://www.magazineluiza.com.br/purificador-de-agua-efficient-cinza-3-estagios-filtro-sem-energia-electrolux/p/be701hfk28/ep/purf/?seller_id=mataplace",
-     "imagem": null,
-     "observacao": "Pix; sem refrigeração (não gela)",
+     "titulo": "Purificador de Água Electrolux Efficient Compacto Água Natural com Tecnologia Acqua Pure (PN10B)",
+     "preco": 296.91,
+     "url": "https://www.buscape.com.br/lead?oid=1578267696&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-electrolux-efficient-pn10",
+     "imagem": "https://image.zst.com.br/805FFDC72F4FE48A9DA0B7F86E92A9ED_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Magazine Luiza",
+     "loja": "Electrolux",
      "vendedor": null,
-     "titulo": "Purificador Electrolux Efficient PE15X Cinza Bivolt",
+     "titulo": "Purificador de Água Electrolux Efficient Compacto Água Natural com Tecnologia Acqua Pure (PN10B)",
+     "preco": 299.9,
+     "url": "https://www.buscape.com.br/lead?oid=1578067266&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-electrolux-efficient-pn10",
+     "imagem": "https://image.zst.com.br/D1CC65A1C86D03376293E2B2C81BEA68_235_235.jpg",
+     "observacao": "ou 7x de R$ 42,84",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Amazon",
+     "vendedor": null,
+     "titulo": "Electrolux Purificador de Água Gelada Fria e Natural Elétrico Compacto Eletronico placa Electrolux Filtro refil 6 meses ",
+     "preco": 489.0,
+     "url": "https://www.buscape.com.br/lead?oid=1365202071&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-natural-e-gelada-electrolux-pe15",
+     "imagem": "https://image.zst.com.br/A0609F62BB5D62E806BDA0524924767E_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Webcontinental",
+     "vendedor": null,
+     "titulo": "Purificador de Água Parede Electrolux PE15X Filtragem 3 Etapas Natural e Gelada Cinza Bivolt",
      "preco": 499.9,
-     "url": "https://www.magazineluiza.com.br/purificador-electrolux-eletronico-compacto-efficient-painel-mecanico-bivolt-cinza-pe15x/p/fg5g8h56b0/ep/papd/?seller_id=electrolux",
-     "imagem": null,
-     "observacao": "Água gelada; loja Electrolux",
+     "url": "https://www.buscape.com.br/lead?oid=1456477384&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-natural-e-gelada-electrolux-pe15",
+     "imagem": "https://image.zst.com.br/BC204B78175189AD6C7FBCFFC4311FE5_235_235.jpg",
+     "observacao": "ou 6x de R$ 83,31",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Casas Bahia",
+     "loja": "Americanas",
      "vendedor": null,
-     "titulo": "Purificador Electrolux Água Gelada Cinza PE15X Bivolt",
+     "titulo": "Purificador de Água Eletrônico Electrolux Efficient PE15X Bivolt Grafite",
      "preco": 499.9,
-     "url": "https://www.casasbahia.com.br/purificador-electrolux-gua-gelada-3-nveis-cinza-efficient-eletrnico-pe15x--bivolt/p/1567826850",
-     "imagem": null,
-     "observacao": "Água gelada; 6x sem juros; loja Electrolux",
+     "url": "https://www.buscape.com.br/lead?oid=1467667580&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-natural-e-gelada-electrolux-pe15",
+     "imagem": "https://i.zst.com.br/thumbs/49/2d/11/-1490340104.jpg",
+     "observacao": "ou 8x de R$ 62,48",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Purificador Electrolux Efficient PE11X Painel Digital Cinza",
-     "preco": 549.9,
-     "url": "https://www.magazineluiza.com.br/purificador-electrolux-eletronico-compacto-efficient-painel-digital-bivolt-cinza-pe11x/p/714958200/ep/papd/?seller_id=electrolux",
-     "imagem": null,
-     "observacao": "Água gelada; loja Electrolux",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Purificador Electrolux Pure 4x PE12G Cinza",
-     "preco": 598.41,
-     "url": "https://www.magazineluiza.com.br/purificador-de-agua-electrolux-pe12g-com-filtro-carvao-3000l-painel-touch-cinza/p/gg4bkdh97k/ep/purf/?seller_id=eletrosid",
-     "imagem": null,
-     "observacao": "Pix; vendedor parceiro",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     }
    ],
    "historico": [
     {
      "d": "2026-11-05",
-     "p": 455.05,
-     "loja": "Magazine Luiza"
+     "p": 296.91,
+     "loja": "Fast Shop"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "lava-loucas": {
    "ofertas": [
     {
-     "loja": "Magazine Luiza",
+     "loja": "Webcontinental",
      "vendedor": null,
-     "titulo": "Lava-louças Electrolux 8 Serviços LS08E Inox",
-     "preco": 2079.55,
-     "url": "https://www.magazineluiza.com.br/lava-loucas-electrolux-8-servicos-com-funcao-higienizar-ls08e-inox/p/240157100/ed/l08s/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; 8 serviços; vendido pela Magalu",
+     "titulo": "Lava-Louça de Embutir Brastemp BLF08BSBNA 8 Serviços Compacta Inox 220V",
+     "preco": 1614.53,
+     "url": "https://www.buscape.com.br/lead?oid=1501220260&channel=1",
+     "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-brastemp-blf08bs",
+     "imagem": "https://image.zst.com.br/24FD142E3F06DF62688F7987FE5C3B3C_235_235.jpg",
+     "observacao": "ou 8x de R$ 208,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Americanas",
+     "vendedor": null,
+     "titulo": "Lava-louças de Bancada Brastemp 8 Serviços BLF08BS Cinza",
+     "preco": 1799.0,
+     "url": "https://www.buscape.com.br/lead?oid=1560906218&channel=1",
+     "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-brastemp-blf08bs",
+     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
+     "observacao": "ou 8x de R$ 241,80",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
-     "titulo": "Lava-louças Midea 8 Serviços Touch Plus Cinza",
-     "preco": 2099,
-     "url": "https://www.magazineluiza.com.br/lava-loucas-8-servicos-cinza-touch-plus-midea/p/adaj1akf01/ed/l08s/?seller_id=mideacarrier",
-     "imagem": null,
-     "observacao": "8 serviços; loja Midea",
+     "titulo": "Lava-Louças 8 Serviços de Lavagem BLF08BS Brastemp, Cinza, 220V",
+     "preco": 1961.37,
+     "url": "https://www.buscape.com.br/lead?oid=1562029323&channel=1",
+     "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-brastemp-blf08bs",
+     "imagem": "https://image.zst.com.br/2910E43439BB33640B9C66F6E537BBD4_235_235.jpg",
+     "observacao": "ou 10x de R$ 210,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Magazine Luiza",
+     "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Lava-louças Midea 8 Serviços MDWTF08S2 Cinza",
-     "preco": 2099,
-     "url": "https://www.magazineluiza.com.br/lava-loucas-midea-8-servicos-mdwtf08s2-cinza/p/241105400/ed/l10s/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; 8 serviços",
+     "titulo": "Lava-Louça Electrolux 8 Serviços Inox com Programa Lava & Seca 50 min (LS08E)",
+     "preco": 2099.0,
+     "url": "https://www.buscape.com.br/lead?oid=1543948987&channel=1",
+     "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-electrolux-ls08e-cor-inox",
+     "imagem": "https://image.zst.com.br/7FF8492619113FDC0CA977AFB913049C_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Magazine Luiza",
+     "loja": "Electrolux",
      "vendedor": null,
-     "titulo": "Lava-louças Electrolux 8 Serviços Inox LS08E",
-     "preco": 2099,
-     "url": "https://www.magazineluiza.com.br/lava-louca-electrolux-8-servicos-inox-com-programa-lava-seca-50-min-ls08e/p/ff41g1359c/ed/l08s/?seller_id=electrolux",
-     "imagem": null,
-     "observacao": "Loja Electrolux",
+     "titulo": "Lava-Louça Electrolux 8 Serviços Inox com Programa Lava & Seca 50 min (LS08E)",
+     "preco": 2099.0,
+     "url": "https://www.buscape.com.br/lead?oid=1475346166&channel=1",
+     "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-electrolux-ls08e-cor-inox",
+     "imagem": "https://image.zst.com.br/875E8BB7A4660BBE4668F780990859A3_235_235.jpg",
+     "observacao": "ou 14x de R$ 149,92",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Lava-louças Midea 14 Serviços DWA14S2 Cinza 220V",
-     "preco": 2799,
-     "url": "https://www.magazineluiza.com.br/lava-loucas-14-servicos-midea-dwa14s2-220v-cinza/p/227974600/ed/l14s/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; 14 serviços; 220V",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     }
    ],
    "historico": [
     {
      "d": "2026-11-05",
-     "p": 2079.55,
-     "loja": "Magazine Luiza"
+     "p": 1614.53,
+     "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "lavadora": {
    "ofertas": [
@@ -339,64 +359,57 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "microondas": {
    "ofertas": [
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 20L MT30S Inox Espelhado",
-     "preco": 499,
-     "url": "https://www.magazineluiza.com.br/micro-ondas-electrolux-20l-cor-inox-espelhado-com-funcao-tira-odor-mt30s/p/737766300/ed/mond/?seller_id=electrolux",
-     "imagem": null,
-     "observacao": "À vista; loja Electrolux",
+     "titulo": "Micro-ondas Electrolux 20L cor Inox Espelhado com Função Tira Odor (MT",
+     "preco": 540.55,
+     "url": "https://www.buscape.com.br/lead?oid=1431372835&channel=1",
+     "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-20-litros-mt30s",
+     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
+     "observacao": "ou 4x de R$ 142,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Loja Electrolux",
+     "loja": "Webcontinental",
      "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 20L MT30S Inox Espelhado",
-     "preco": 549,
-     "url": "https://loja.electrolux.com.br/micro-ondas",
-     "imagem": null,
-     "observacao": "Site oficial",
+     "titulo": "Micro-ondas de Bancada Electrolux MT30S 20L 1300W com Função Tira Odor Menu Kids Inox",
+     "preco": 549.0,
+     "url": "https://www.buscape.com.br/lead?oid=934443465&channel=1",
+     "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-20-litros-mt30s",
+     "imagem": "https://image.zst.com.br/CC1106B58F01DE16567D6BB0EABFDEC3_235_235.jpg",
+     "observacao": "ou 6x de R$ 91,50",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Magazine Luiza",
+     "loja": "Electrolux",
      "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 23L Efficient ME23S Prata 110V",
-     "preco": 557.1,
-     "url": "https://www.magazineluiza.com.br/microondas-electrolux-23l-efficient-me23s-prata-110v/p/fed73b0bk5/ed/mond/?seller_id=temdetudo1001",
-     "imagem": null,
-     "observacao": "Pix; 110V; vendedor parceiro",
+     "titulo": "Micro-ondas Electrolux 20L cor Inox Espelhado com Função Tira Odor (MT30S)",
+     "preco": 549.0,
+     "url": "https://www.buscape.com.br/lead?oid=1350172896&channel=1",
+     "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-20-litros-mt30s",
+     "imagem": "https://image.zst.com.br/2B4309C401352A8A5F2BE947E1AAC5A6_235_235.jpg",
+     "observacao": "ou 9x de R$ 61,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Magazine Luiza",
+     "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 23L Prata Efficient ME23S",
-     "preco": 643.08,
-     "url": "https://www.magazineluiza.com.br/micro-ondas-electrolux-23l-prata-efficient-me23s/p/235613500/ed/mond/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; vendido pela Magalu",
+     "titulo": "Micro-ondas Electrolux 20L cor Inox Espelhado com Função Tira Odor (MT30S)",
+     "preco": 549.0,
+     "url": "https://www.buscape.com.br/lead?oid=1543949648&channel=1",
+     "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-20-litros-mt30s",
+     "imagem": "https://image.zst.com.br/022A536DB5E3E8AD48CE7D3571C0A670_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 23L Inox Efficient ME23S",
-     "preco": 649,
-     "url": "https://www.magazineluiza.com.br/micro-ondas-electrolux-23l-cor-inox-efficient-com-descongelamento-assistido-me23s/p/bf9488cckg/ed/mond/?seller_id=electrolux",
-     "imagem": null,
-     "observacao": "Loja Electrolux",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     }
    ],
    "historico": [
@@ -406,89 +419,192 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "tv": {
    "ofertas": [
     {
-     "loja": "Magazine Luiza",
+     "loja": "Americanas",
      "vendedor": null,
-     "titulo": "Smart TV Samsung 50\" Crystal UHD 4K U8000H",
-     "preco": 2555.5,
-     "url": "https://www.magazineluiza.com.br/smart-tv-50-samsung-4k-uhd-crystal-uhd-un50u8000hgxzd-one-ui-tizen-2026/p/242406200/et/elit/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; modelo 2026",
+     "titulo": "Smart TV 4K Samsung Crystal UHD 50\" U8600F LED Wi-Fi Bluetooth Tizen",
+     "preco": 2399.0,
+     "url": "https://www.buscape.com.br/lead?oid=1561571489&channel=1",
+     "pagina": "https://www.buscape.com.br/tv/smart-tv-led-50-samsung-crystal-4k-hdr-u8600f",
+     "imagem": "https://i.zst.com.br/thumbs/49/a/15/-1694457784.jpg",
+     "observacao": "ou 8x de R$ 299,87",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Amazon",
+     "vendedor": null,
+     "titulo": "Samsung Smart TV 50\" Crystal UHD 4K U8600F 2025",
+     "preco": 2580.0,
+     "url": "https://www.buscape.com.br/lead?oid=1509340777&channel=1",
+     "pagina": "https://www.buscape.com.br/tv/smart-tv-led-50-samsung-crystal-4k-hdr-u8600f",
+     "imagem": "https://image.zst.com.br/C5CC1936B2A4B58851458BC7A2F48F76_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
-     "titulo": "Smart TV Samsung 50\" Crystal 4K UHD U8600F",
-     "preco": 2707.9,
-     "url": "https://www.magazineluiza.com.br/smart-tv-50-polegadas-samsung-crystal-4k-uhd-hdr-3-hdmi-1-usb-un50u8600fgxzd/p/kfj7eh471d/et/elit/?seller_id=lojaszema",
-     "imagem": null,
-     "observacao": "Vendedor Zema",
+     "titulo": "Smart TV Samsung 50 UHD 4K 50DU7700 com Xbox Game Pass, IA Energy Mode",
+     "preco": 2617.91,
+     "url": "https://www.buscape.com.br/lead?oid=1562849087&channel=1",
+     "pagina": "https://www.buscape.com.br/tv/smart-tv-led-50-samsung-crystal-4k-hdr-du7700",
+     "imagem": "https://image.zst.com.br/040106AA13E83295A99146B18F0DDF8D_235_235.jpg",
+     "observacao": "ou 10x de R$ 297,49",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     },
     {
-     "loja": "Magazine Luiza",
+     "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Smart TV Samsung 55\" Crystal UHD 4K U8000H",
-     "preco": 2789,
-     "url": "https://www.magazineluiza.com.br/samsung-smart-tv-55-crystal-uhd-4k-u8000h-26-2027-vision-ai-companion-modo-estadio-xbox-cloud-gaming/p/ke8kjdbk4b/et/elit/?seller_id=samsung",
-     "imagem": null,
-     "observacao": "Pix; loja Samsung",
+     "titulo": "Smart TV 50\" 4K Samsung 50U8600F Crystal HDR Tizen Alexa e Xbox Gaming",
+     "preco": 2739.35,
+     "url": "https://www.buscape.com.br/lead?oid=1553495661&channel=1",
+     "pagina": "https://www.buscape.com.br/tv/smart-tv-led-50-samsung-crystal-4k-hdr-u8600f",
+     "imagem": "https://image.zst.com.br/0D217994A51C476AF5637A235A12FE94_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Smart TV Samsung 55\" Crystal UHD 4K U8600F",
-     "preco": 2840,
-     "url": "https://www.magazineluiza.com.br/samsung-smart-tv-55-crystal-uhd-4k-u8600f-2025-xbox-cloud-gaming-canais-gratuitos-alexa/p/kh6643e17a/et/elit/?seller_id=samsung",
-     "imagem": null,
-     "observacao": "Loja Samsung",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Smart TV Samsung 55\" Crystal UHD 4K UN55U8000H",
-     "preco": 2840.5,
-     "url": "https://www.magazineluiza.com.br/smart-tv-55-samsung-4k-uhd-crystal-uhd-un55u8000hgxzd-one-ui-tizen-2026/p/242406600/et/elit/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; vendido pela Magalu",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:46:29Z"
     }
    ],
    "historico": [
     {
      "d": "2026-11-05",
-     "p": 2555.5,
-     "loja": "Magazine Luiza"
+     "p": 2399.0,
+     "loja": "Americanas"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "ventilador": {
-   "ofertas": [],
-   "historico": [],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ofertas": [
+    {
+     "loja": "Webcontinental",
+     "vendedor": null,
+     "titulo": "Ventilador Circulador de Mesa Britânia 30W Hélice 23cm 3 Pás 3 Velocidades Preto BCA25A",
+     "preco": 52.71,
+     "url": "https://www.buscape.com.br/lead?oid=1503067389&channel=1",
+     "pagina": "https://www.buscape.com.br/ventilador-circulador/ventilador-circulador-britania-30w-3-velocidades-bca25a-220v",
+     "imagem": "https://image.zst.com.br/20F686EE4AD4A9B1D126D4EB2F0DAAA6_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Amazon",
+     "vendedor": null,
+     "titulo": "Ventilador Circulador Britânia 30W 3 Velocidades BCA25A 220V",
+     "preco": 59.9,
+     "url": "https://www.buscape.com.br/lead?oid=1411632292&channel=1",
+     "pagina": "https://www.buscape.com.br/ventilador-circulador/ventilador-circulador-britania-30w-3-velocidades-bca25a-220v",
+     "imagem": "https://image.zst.com.br/7CAA606C7148EFBDAECC903B38BC3FE9_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Ventilador Britânia Tecnologia Maxx Force 150W BVT404, 220V",
+     "preco": 118.66,
+     "url": "https://www.buscape.com.br/lead?oid=1522887740&channel=1",
+     "pagina": "https://www.buscape.com.br/ventilador-circulador/ventilador-de-mesa-britania-bvt404-8-pas-3-velocidades",
+     "imagem": "https://image.zst.com.br/11D06FA6079CA09B32345DDC31BCE93E_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 52.71,
+     "loja": "Webcontinental"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "liquidificador": {
-   "ofertas": [],
-   "historico": [],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ofertas": [
+    {
+     "loja": "Amazon",
+     "vendedor": null,
+     "titulo": "MONDIAL Liquidificador Easy Power, Vermelho, 550W, 220V - L-550-R",
+     "preco": 68.38,
+     "url": "https://www.buscape.com.br/lead?oid=665885640&channel=1",
+     "pagina": "https://www.buscape.com.br/liquidificador/liquidificador-mondial-easy-power-l-550-w-2-2l-2-velocidades",
+     "imagem": "https://image.zst.com.br/79AC748A33355422B5693984D3AD3FD8_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Americanas",
+     "vendedor": null,
+     "titulo": "Liquidificador Mondial Easy Power Crystal 550W 1,9L 110V",
+     "preco": 69.9,
+     "url": "https://www.buscape.com.br/lead?oid=1530250879&channel=1",
+     "pagina": "https://www.buscape.com.br/liquidificador/liquidificador-mondial-easy-power-l-550-w-2-2l-2-velocidades",
+     "imagem": "https://image.zst.com.br/EF4CFDA4E155CA6992FE79DADA114682_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Liquidificador Easy Power Mondial Branco 550W L-550-W, Branco, 110V",
+     "preco": 79.9,
+     "url": "https://www.buscape.com.br/lead?oid=1410237432&channel=1",
+     "pagina": "https://www.buscape.com.br/liquidificador/liquidificador-mondial-easy-power-l-550-w-2-2l-2-velocidades",
+     "imagem": "https://image.zst.com.br/E54C6126BD2585D06C97E6CC3678A8A1_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Fast Shop",
+     "vendedor": null,
+     "titulo": "Liquidificador Philco 1200W 3 Litros 12 Velocidades Vermelho PH900 220 Volts 220",
+     "preco": 101.48,
+     "url": "https://www.buscape.com.br/lead?oid=1543962334&channel=1",
+     "pagina": "https://www.buscape.com.br/liquidificador/liquidificador-philco-ph900-3-litros-12-velocidades-1-200-w",
+     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    },
+    {
+     "loja": "Webcontinental",
+     "vendedor": null,
+     "titulo": "Liquidificador Philco PH900 1200W 3L com Filtro 6 Lâminas Aço Inox 12 Velocidades Preto",
+     "preco": 105.51,
+     "url": "https://www.buscape.com.br/lead?oid=1502197981&channel=1",
+     "pagina": "https://www.buscape.com.br/liquidificador/liquidificador-philco-ph900-3-litros-12-velocidades-1-200-w",
+     "imagem": "https://image.zst.com.br/F63E69AF3443666C72E3767F8B0649AB_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:46:29Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 68.38,
+     "loja": "Amazon"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   },
   "iphone-16-lacrado": {
    "ofertas": [],
    "historico": [],
-   "ultimaBusca": "2026-11-05T19:40:01Z"
+   "ultimaBusca": "2026-11-05T19:46:29Z"
   }
  },
  "alertas": [
@@ -531,6 +647,56 @@
    "loja": "Magazine Luiza",
    "url": "https://www.magazineluiza.com.br/lavadora-de-roupas-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/ehjd8fffkj/ed/lava/?seller_id=fastshop2",
    "criadoEm": "2026-11-05T15:24:00Z"
+  },
+  {
+   "id": "cooktop-202611051946",
+   "produtoId": "cooktop",
+   "produtoNome": "Cooktop 4 bocas",
+   "texto": "Cooktop 4 bocas: Cooktop 4 Bocas a Gás GLP Itatiaia Preto Essencial por R$ 299,00 na Amazon (R$ 151,00 abaixo do alvo)",
+   "preco": 299.0,
+   "loja": "Amazon",
+   "url": "https://www.buscape.com.br/lead?oid=879582583&channel=1",
+   "criadoEm": "2026-11-05T19:46:29Z"
+  },
+  {
+   "id": "gelagua-202611051946",
+   "produtoId": "gelagua",
+   "produtoNome": "Purificador / Gelágua",
+   "texto": "Purificador / Gelágua: Purificador de Água Electrolux Efficient Compacto Água Natural com Tec por R$ 296,91 na Fast Shop (R$ 53,09 abaixo do alvo)",
+   "preco": 296.91,
+   "loja": "Fast Shop",
+   "url": "https://www.buscape.com.br/lead?oid=1578267696&channel=1",
+   "criadoEm": "2026-11-05T19:46:29Z"
+  },
+  {
+   "id": "lava-loucas-202611051946",
+   "produtoId": "lava-loucas",
+   "produtoNome": "Lava-louças",
+   "texto": "Lava-louças: Lava-Louça de Embutir Brastemp BLF08BSBNA 8 Serviços Compacta Inox 220 por R$ 1.614,53 na Webcontinental (R$ 785,47 abaixo do alvo)",
+   "preco": 1614.53,
+   "loja": "Webcontinental",
+   "url": "https://www.buscape.com.br/lead?oid=1501220260&channel=1",
+   "criadoEm": "2026-11-05T19:46:29Z"
+  },
+  {
+   "id": "ventilador-202611051946",
+   "produtoId": "ventilador",
+   "produtoNome": "Ventilador",
+   "texto": "Ventilador: Ventilador Circulador de Mesa Britânia 30W Hélice 23cm 3 Pás 3 Velocid por R$ 52,71 na Webcontinental (R$ 67,29 abaixo do alvo)",
+   "preco": 52.71,
+   "loja": "Webcontinental",
+   "url": "https://www.buscape.com.br/lead?oid=1503067389&channel=1",
+   "criadoEm": "2026-11-05T19:46:29Z"
+  },
+  {
+   "id": "liquidificador-202611051946",
+   "produtoId": "liquidificador",
+   "produtoNome": "Liquidificador",
+   "texto": "Liquidificador: MONDIAL Liquidificador Easy Power, Vermelho, 550W, 220V - L-550-R por R$ 68,38 na Amazon (R$ 31,62 abaixo do alvo)",
+   "preco": 68.38,
+   "loja": "Amazon",
+   "url": "https://www.buscape.com.br/lead?oid=665885640&channel=1",
+   "criadoEm": "2026-11-05T19:46:29Z"
   }
  ]
 }
