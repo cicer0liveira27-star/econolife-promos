@@ -131,6 +131,19 @@
     "https://www.amazon.com.br/Cooktop-Dako-Pratiko-Acendimento-Autom%C3%A1tico/dp/B0G1CR9S5P/ref=asc_df_B0G1CR9S5P?mcid=e13fac0243383cfc9552b3e576e8a7e2&tag=googleshopp00-20&linkCode=df0&hvadid=709884460996&hvpos=&hvnetw=g&hvrand=9827606470823910892&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2673443684352&psc=1&hvocijid=9827606470823910892-B0G1CR9S5P-&hvexpln=0&language=pt_BR",
     "https://www.amazon.com.br/Electrolux-Cooktop-Efficient-KE4GR-Bivolt/dp/B0FCYXMJMQ/ref=asc_df_B0FCYXMJMQ?mcid=ab9f0777f2a73d558ba6ba3e868b3d8c&tag=googleshopp00-20&linkCode=df0&hvadid=709884460996&hvpos=&hvnetw=g&hvrand=9827606470823910892&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2442108841135&psc=1&hvocijid=9827606470823910892-B0FCYXMJMQ-&hvexpln=0&language=pt_BR"
    ]
+  },
+  {
+   "nome": "Forno de Embutir Elétrico",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 800,
+   "marcas": "Dako ou Eletrolux",
+   "detalhes": "Preto",
+   "unidade": "",
+   "modelos": [],
+   "links": [],
+   "ativo": true,
+   "criadoEm": "2026-11-05T23:16:12.389Z",
+   "id": "forno-de-embutir-eletrico"
   }
  ]
 }
