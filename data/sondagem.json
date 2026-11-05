@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-05T19:43:33.100028+00:00",
+ "quando": "2026-11-05T19:44:15.167573+00:00",
  "produto_url": "https://www.buscape.com.br/geladeira/geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox",
  "chaves_estado": [
   "sidebar",
@@ -57,220 +57,101 @@
   "comparativeProducts",
   "pageSEO"
  ],
- "ofertas": [
+ "pageProps_chaves": {
+  "route": [
+   "id",
+   "entityType",
+   "entityID",
+   "canonical",
+   "searchParameters",
+   "seo"
+  ],
+  "page": [
+   "productID",
+   "banner",
+   "leadParams",
+   "path",
+   "articles",
+   "smartRecommenderDeviceType",
+   "smartRecommenderHits",
+   "loginUrl",
+   "logoutUrl"
+  ],
+  "deviceType": "str",
+  "isNovaProd": "bool",
+  "isVelhaProd": "bool"
+ },
+ "listas_ofertas": [
   {
-   "path": ".props.pageProps.page.smartRecommenderHits[0]",
-   "item": {
-    "bestOffer": {
-     "id": "1489104908",
-     "merchantId": "9385",
-     "merchantName": "Amazon"
-    },
-    "cashback": {
-     "cashbackValue": null,
-     "formula": null,
-     "isSuperCashback": false
-    },
-    "categoryId": "3",
-    "categoryName": "TV",
-    "categoryRankType": "CAE",
-    "categorySeoUrl": "tv",
-    "competitivenessIndex": 0.839,
-    "hasInterest": true,
-    "image": "https://image.zst.com.br/F814DADC10D4FCB5D704A882A940F49B_235_235.jpg",
+   "path": ".props.initialReduxState.offers.displayOffers",
+   "n": 4,
+   "primeiro": {
+    "id": "1537276453",
+    "name": "Geladeira Frost Free Consul Duplex CRM53MK 437L Inox",
+    "imageUrl": "https://i.zst.com.br/thumbs/49/29/1f/-1618181268.jpg",
+    "categoryID": "8",
+    "productID": "13993590",
+    "price": 2859,
+    "numParcels": 8,
+    "parcelValue": 384.27,
+    "totalParceledValue": 3074.16,
+    "merchantId": "23254",
+    "sellerID": "23254",
+    "sellerName": "Americanas",
+    "sellerLogoURL": "https://s.zst.com.br/prod/cupons/thumbs/9/null",
+    "sellerRoundedLogoURL": "https://s.zst.com.br/prod/cupons/23254-Logo-80x80.png",
+    "sellerIsMarketplace": false,
+    "paymentMethod": "AME",
+    "totalPrice": 3074.16,
     "loweringPercentage": 0,
-    "marketplace": false,
-    "merchants": [
+    "competitivenessIndex": 0.8985,
+    "hasInterest": true,
+    "skuVariations": [
      {
-      "id": "9385",
-      "name": "Amazon"
-     },
-     {
-      "id": "16108",
-      "name": "KaBuM!"
-     },
-     {
-      "id": "5",
-      "name": "Fast Shop"
+      "selector_id": 0,
+      "selector_name": "Característica",
+      "value_id": 0,
+      "value_name": "Não Identificado"
      }
-    ],
-    "name": "Smart TV Mini LED 55\" TCL 4K 55C6K",
-    "objectId": "product13992267",
-    "popularityScore": 181159,
-    "position": 1,
-    "price": 3099,
-    "seoUrl": "smart-tv-mini-led-55-tcl-4k-55c6k",
-    "shortName": "Smart TV Mini LED 55\" TCL 4K 55C6K",
-    "sourceId": "13992267",
-    "storeCount": 6,
-    "type": "product",
-    "url": "/tv/smart-tv-mini-led-55-tcl-4k-55c6k"
+    ]
    }
   },
   {
-   "path": ".props.pageProps.page.smartRecommenderHits[1]",
-   "item": {
-    "bestOffer": {
-     "id": "1500906138",
-     "merchantId": "22905",
-     "merchantName": "Magazine Luiza"
-    },
-    "cashback": {
-     "cashbackValue": 121.39,
-     "formula": {
-      "cashbackRate": 0.06,
-      "modalityCashbackType": "ALL_MERCHANT"
-     },
-     "isSuperCashback": true
-    },
-    "categoryId": "383",
-    "categoryName": "Ar-Condicionado",
-    "categoryRankType": "CAE",
-    "categorySeoUrl": "ar-condicionado",
-    "competitivenessIndex": 0.8252,
-    "hasInterest": true,
-    "image": "https://i.zst.com.br/thumbs/45/29/12/-1541458502.jpg",
-    "installments": {
-     "amount_months": 10,
-     "price": 229.9,
-     "total_value": 2299
-    },
+   "path": ".props.initialReduxState.offers.offerList",
+   "n": 6,
+   "primeiro": {
+    "id": "1537276453",
+    "name": "Geladeira Frost Free Consul Duplex CRM53MK 437L Inox",
+    "imageUrl": "https://i.zst.com.br/thumbs/49/29/1f/-1618181268.jpg",
+    "categoryID": "8",
+    "productID": "13993590",
+    "price": 2859,
+    "numParcels": 8,
+    "parcelValue": 384.27,
+    "totalParceledValue": 3074.16,
+    "merchantId": "23254",
+    "sellerID": "23254",
+    "sellerName": "Americanas",
+    "sellerLogoURL": "https://s.zst.com.br/prod/cupons/thumbs/9/null",
+    "sellerRoundedLogoURL": "https://s.zst.com.br/prod/cupons/23254-Logo-80x80.png",
+    "sellerIsMarketplace": false,
+    "paymentMethod": "AME",
+    "totalPrice": 3074.16,
     "loweringPercentage": 0,
-    "marketplace": false,
-    "merchants": [
-     {
-      "id": "22905",
-      "name": "Magazine Luiza"
-     },
-     {
-      "id": "245",
-      "name": "Webcontinental"
-     },
-     {
-      "id": "1582",
-      "name": "Amazon"
-     }
-    ],
-    "name": "Ar-Condicionado Split Hi Wall Springer Midea AI Ecomaster 12000 BTUs Frio Inverter 42EZVCA12M5 / 38EZVCA12M5",
-    "objectId": "product13992430",
-    "popularityScore": 179311,
-    "position": 2,
-    "price": 2023.12,
-    "seoUrl": "ar-condicionado-split-hi-wall-springer-midea-ai-ecomaster-12000-btus-frio-inverter-42ezvca12m5-38ezvca12m5",
-    "shortName": "Ar-Condicionado Split Hi Wall Springer Midea AI Ecomaster 12000 BTUs Frio Inverter 42EZVCA12M5 / 38EZVCA12M5",
-    "sourceId": "13992430",
-    "storeCount": 6,
-    "type": "product",
-    "url": "/ar-condicionado/ar-condicionado-split-hi-wall-springer-midea-ai-ecomaster-12000-btus-frio-inverter-42ezvca12m5-38ezvca12m5"
-   }
-  },
-  {
-   "path": ".props.pageProps.page.smartRecommenderHits[2]",
-   "item": {
-    "bestOffer": {
-     "id": "1560776376",
-     "merchantId": "22902",
-     "merchantName": "Magazine Luiza"
-    },
-    "cashback": {
-     "cashbackValue": 341.94,
-     "formula": {
-      "cashbackRate": 0.06,
-      "modalityCashbackType": "ALL_MERCHANT"
-     },
-     "isSuperCashback": true
-    },
-    "categoryId": "7",
-    "categoryName": "Celular e Smartphone",
-    "categoryRankType": "CAE",
-    "categorySeoUrl": "celular",
-    "competitivenessIndex": 0.7704,
+    "competitivenessIndex": 0.8985,
     "hasInterest": true,
-    "image": "https://i.zst.com.br/thumbs/45/15/19/-1584053110.jpg",
-    "installments": {
-     "amount_months": 10,
-     "price": 633.22,
-     "total_value": 6332.2
-    },
-    "loweringPercentage": 0,
-    "marketplace": false,
-    "merchants": [
+    "skuVariations": [
      {
-      "id": "22902",
-      "name": "Magazine Luiza"
-     },
-     {
-      "id": "16108",
-      "name": "KaBuM!"
-     },
-     {
-      "id": "23326",
-      "name": "Fast Shop"
+      "selector_id": 0,
+      "selector_name": "Característica",
+      "value_id": 0,
+      "value_name": "Não Identificado"
      }
-    ],
-    "name": "iPhone 17 256GB",
-    "objectId": "product13992938",
-    "popularityScore": 166452,
-    "position": 3,
-    "price": 5699,
-    "seoUrl": "celular-apple-iphone-17-256gb",
-    "shortName": "iPhone 17 256GB",
-    "sourceId": "13992938",
-    "storeCount": 6,
-    "type": "product",
-    "url": "/celular/celular-apple-iphone-17-256gb"
-   }
-  },
-  {
-   "path": ".props.pageProps.page.smartRecommenderHits[3]",
-   "item": {
-    "bestOffer": {
-     "id": "1369363534",
-     "merchantId": "22905",
-     "merchantName": "Magazine Luiza"
-    },
-    "cashback": {
-     "cashbackValue": 8.93,
-     "formula": {
-      "cashbackRate": 0.06,
-      "modalityCashbackType": "ALL_MERCHANT"
-     },
-     "isSuperCashback": true
-    },
-    "categoryId": "384",
-    "categoryName": "Aspirador de Pó e Água",
-    "categoryRankType": "MIDTAIL",
-    "categorySeoUrl": "aspirador-po-agua",
-    "competitivenessIndex": 0.7273,
-    "hasInterest": true,
-    "image": "https://i.zst.com.br/thumbs/45/2f/2f/-1615824523.jpg",
-    "installments": {
-     "amount_months": 2,
-     "price": 84.56,
-     "total_value": 169.12
-    },
-    "loweringPercentage": 0,
-    "marketplace": false,
-    "merchants": [
-     {
-      "id": "22905",
-      "name": "Magazine Luiza"
-     }
-    ],
-    "name": "Aspirador de Pó Robô Monac",
-    "objectId": "product13191583",
-    "popularityScore": 166180,
-    "position": 4,
-    "price": 148.82,
-    "seoUrl": "aspirador-robo-inteligente-mop-e-funcao-passa-pano-bivolt-monac",
-    "shortName": "Aspirador de Pó Robô Monac",
-    "sourceId": "13191583",
-    "storeCount": 1,
-    "type": "product",
-    "url": "/aspirador-po-agua/aspirador-robo-inteligente-mop-e-funcao-passa-pano-bivolt-monac"
+    ]
    }
   }
  ],
+ "ofertas": [],
  "links_saida": [
   "https://login.buscape.com.br/api/login/logout",
   "https://www.youtube.com/buscape/"
