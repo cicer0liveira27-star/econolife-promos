@@ -1,9 +1,9 @@
 {
- "atualizadoEm": "2026-11-05T22:28:22Z",
+ "atualizadoEm": "2026-11-05T22:30:19Z",
  "status": {
   "resumo": "28 ofertas de lojas confiáveis via buscape.com.br",
   "produtosVerificados": 10,
-  "alertas": 1
+  "alertas": 0
  },
  "itens": {
   "geladeira": {
@@ -13,12 +13,12 @@
      "vendedor": null,
      "titulo": "Geladeira Brastemp Duplex Frost Free Inverter 385L com Painel Digital BRM46MK Inox",
      "preco": 2753.15,
-     "url": "https://www.buscape.com.br/lead?oid=1553549324&channel=1",
+     "url": "https://www.buscape.com.br/lead?oid=1553549313&channel=1",
      "pagina": "https://www.buscape.com.br/geladeira/geladeira-brastemp-brm46mk-frost-free-duplex-385-litros-cor-inox",
-     "imagem": "https://image.zst.com.br/081CEA3C4975705B2A80A27158A5F78B_235_235.jpg",
+     "imagem": "https://image.zst.com.br/F0B7856B14A795AB3948A4159C844522_235_235.jpg",
      "observacao": "ou 8x de R$ 356,29",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Americanas",
@@ -30,7 +30,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/3f/e/-1573508658.jpg",
      "observacao": "ou 8x de R$ 387,37",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -42,7 +42,7 @@
      "imagem": "https://image.zst.com.br/98C160FB2455170F2815902CFED44E21_235_235.jpg",
      "observacao": "ou 10x de R$ 303,70",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Fast Shop",
@@ -54,7 +54,7 @@
      "imagem": "https://image.zst.com.br/5C087F20E580B2952D1EC90E175DB00E_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     }
    ],
    "historico": [
@@ -64,7 +64,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "gelagua": {
    "ofertas": [
@@ -78,7 +78,7 @@
      "imagem": "https://image.zst.com.br/288762087B747356613F92869558A783_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Webcontinental",
@@ -90,19 +90,7 @@
      "imagem": "https://image.zst.com.br/BC204B78175189AD6C7FBCFFC4311FE5_235_235.jpg",
      "observacao": "ou 6x de R$ 83,31",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
-    },
-    {
-     "loja": "Fast Shop",
-     "vendedor": null,
-     "titulo": "Purificador Electrolux Eletrônico Compacto Efficient Painel Mecânico Bivolt Cinza (PE15X) Bivolt",
-     "preco": 499.9,
-     "url": "https://www.buscape.com.br/lead?oid=1543951869&channel=1",
-     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-natural-e-gelada-electrolux-pe15",
-     "imagem": "https://image.zst.com.br/AC8D441B74C97F27D497017373EB9DEF_235_235.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Electrolux",
@@ -114,7 +102,19 @@
      "imagem": "https://image.zst.com.br/913275028B33F7E0F9851DCC4A536D44_235_235.jpg",
      "observacao": "ou 12x de R$ 41,65",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
+    },
+    {
+     "loja": "Fast Shop",
+     "vendedor": null,
+     "titulo": "Purificador Electrolux Eletrônico Compacto Efficient Painel Mecânico Bivolt Cinza (PE15X) Bivolt",
+     "preco": 499.9,
+     "url": "https://www.buscape.com.br/lead?oid=1543951869&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-natural-e-gelada-electrolux-pe15",
+     "imagem": "https://image.zst.com.br/AC8D441B74C97F27D497017373EB9DEF_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -126,7 +126,7 @@
      "imagem": "https://image.zst.com.br/32625EC3F837327627785F68533693DD_235_235.jpg",
      "observacao": "ou 10x de R$ 93,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     }
    ],
    "historico": [
@@ -136,7 +136,7 @@
      "loja": "Fast Shop"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "lava-loucas": {
    "ofertas": [
@@ -150,7 +150,7 @@
      "imagem": "https://image.zst.com.br/24FD142E3F06DF62688F7987FE5C3B3C_235_235.jpg",
      "observacao": "ou 8x de R$ 208,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Americanas",
@@ -159,10 +159,10 @@
      "preco": 1871.65,
      "url": "https://www.buscape.com.br/lead?oid=1560906218&channel=1",
      "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-brastemp-blf08bs",
-     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
+     "imagem": "https://image.zst.com.br/60604999A5903A45C1FD40518F3BE386_235_235.jpg",
      "observacao": "ou 8x de R$ 251,56",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -174,7 +174,7 @@
      "imagem": "https://image.zst.com.br/B72689EAACDDA6EF7D64D1B681F8815C_235_235.jpg",
      "observacao": "ou 10x de R$ 214,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Amazon",
@@ -186,7 +186,7 @@
      "imagem": "https://image.zst.com.br/CD59F59AC9D990BCBDF6E0116E2256BF_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Fast Shop",
@@ -198,7 +198,7 @@
      "imagem": "https://image.zst.com.br/1418545E81AB5B7A12DA293D44E2D569_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     }
    ],
    "historico": [
@@ -208,7 +208,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "lavadora": {
    "ofertas": [
@@ -268,7 +268,7 @@
      "loja": "Brastemp"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "microondas": {
    "ofertas": [
@@ -292,7 +292,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "tv": {
    "ofertas": [
@@ -306,7 +306,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/a/15/-1694457784.jpg",
      "observacao": "ou 8x de R$ 299,87",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Amazon",
@@ -318,7 +318,7 @@
      "imagem": "https://image.zst.com.br/C5CC1936B2A4B58851458BC7A2F48F76_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -330,7 +330,7 @@
      "imagem": "https://image.zst.com.br/040106AA13E83295A99146B18F0DDF8D_235_235.jpg",
      "observacao": "ou 10x de R$ 297,49",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Fast Shop",
@@ -342,7 +342,7 @@
      "imagem": "https://image.zst.com.br/0D217994A51C476AF5637A235A12FE94_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     }
    ],
    "historico": [
@@ -352,7 +352,7 @@
      "loja": "Americanas"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "ventilador": {
    "ofertas": [
@@ -366,7 +366,7 @@
      "imagem": "https://image.zst.com.br/F000C503FB53D8D458AE60F394364C66_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Amazon",
@@ -378,7 +378,7 @@
      "imagem": "https://image.zst.com.br/126536B96C4FD6B07C1E92C244E8CF73_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     }
    ],
    "historico": [
@@ -388,7 +388,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "liquidificador": {
    "ofertas": [
@@ -402,7 +402,7 @@
      "imagem": "https://image.zst.com.br/79AC748A33355422B5693984D3AD3FD8_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Americanas",
@@ -414,7 +414,7 @@
      "imagem": "https://image.zst.com.br/EF4CFDA4E155CA6992FE79DADA114682_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -426,7 +426,7 @@
      "imagem": "https://image.zst.com.br/E54C6126BD2585D06C97E6CC3678A8A1_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Fast Shop",
@@ -438,7 +438,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Webcontinental",
@@ -450,7 +450,7 @@
      "imagem": "https://image.zst.com.br/F63E69AF3443666C72E3767F8B0649AB_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     }
    ],
    "historico": [
@@ -460,7 +460,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "iphone-16-lacrado": {
    "ofertas": [
@@ -474,7 +474,7 @@
      "imagem": "https://image.zst.com.br/87945D666188C4A3627EE32C2FD35305_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -486,7 +486,7 @@
      "imagem": "https://image.zst.com.br/F23B0D818FA68600F59C06A6298E56A7_235_235.jpg",
      "observacao": "ou 10x de R$ 550,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     },
     {
      "loja": "KaBuM",
@@ -498,7 +498,7 @@
      "imagem": "https://image.zst.com.br/A85C0CDA4C3D68545A24E7A2F7E14E9C_235_235.jpg",
      "observacao": "ou 10x de R$ 599,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:28:22Z"
+     "encontradoEm": "2026-11-05T22:30:19Z"
     }
    ],
    "historico": [
@@ -508,7 +508,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   },
   "cooktop-4-bocas-a-gas": {
    "ofertas": [
@@ -556,7 +556,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:28:22Z"
+   "ultimaBusca": "2026-11-05T22:30:19Z"
   }
  },
  "alertas": [
