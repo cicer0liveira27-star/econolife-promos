@@ -65,6 +65,12 @@ try:
         if len(ofl) >= 4:
             break
     out["listas_ofertas"] = ofl
+    ol = nd2["props"]["initialReduxState"]["offers"]["offerList"]
+    out["offer_keys"] = list(ol[0].keys())
+    out["offer_extra"] = {k: ol[0][k] for k in list(ol[0].keys())[30:]}
+    out["sellers"] = [(o.get("sellerName"), o.get("price"), o.get("sellerIsMarketplace")) for o in ol]
+    out["leadParams"] = nd2["props"]["pageProps"]["page"].get("leadParams")
+    out["lead_html"] = sorted(set(re.findall(r'[^"\s]{0,60}/lead[^"\s]{0,160}', pp)))[:8]
     out["ofertas"] = []
     out["links_saida"] = sorted(set(re.findall(r'https?://[^"\s]*(?:lead|redirect|offer|out)[^"\s]{0,120}', pp)))[:10]
 except Exception as e:  # noqa: BLE001
