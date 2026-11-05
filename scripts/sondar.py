@@ -55,7 +55,17 @@ try:
             achados.append({"path": path, "item": corta(d)})
         if len(achados) >= 4:
             break
-    out["ofertas"] = achados
+    pp_ = nd2["props"]["pageProps"]
+    out["pageProps_chaves"] = {k: (list(v.keys())[:40] if isinstance(v, dict) else type(v).__name__) for k, v in pp_.items()}
+    ofl = []
+    for path, d in walk(nd2):
+        for k, v in d.items():
+            if "offer" in k.lower() and isinstance(v, list) and v and isinstance(v[0], dict):
+                ofl.append({"path": path + "." + k, "n": len(v), "primeiro": corta(v[0])})
+        if len(ofl) >= 4:
+            break
+    out["listas_ofertas"] = ofl
+    out["ofertas"] = []
     out["links_saida"] = sorted(set(re.findall(r'https?://[^"\s]*(?:lead|redirect|offer|out)[^"\s]{0,120}', pp)))[:10]
 except Exception as e:  # noqa: BLE001
     out["erro"] = repr(e)[:300]
