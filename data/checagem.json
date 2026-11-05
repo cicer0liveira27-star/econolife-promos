@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-05T22:03:45Z",
+ "quando": "2026-11-05T22:15:16Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 24,
- "paginas": 27,
- "ofertas": 25,
- "fotos": 25,
+ "buscas": 28,
+ "paginas": 28,
+ "ofertas": 28,
+ "fotos": 28,
  "alertas": 0,
  "semResultado": [
   "microondas",
@@ -55,6 +55,11 @@
   "iphone-16-lacrado": {
    "hits": 12,
    "combinam": 3,
+   "ofertas": 3
+  },
+  "cooktop-4-bocas-a-gas": {
+   "hits": 62,
+   "combinam": 1,
    "ofertas": 3
   }
  }
