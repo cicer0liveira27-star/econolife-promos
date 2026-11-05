@@ -1,9 +1,9 @@
 {
- "atualizadoEm": "2026-11-05T19:46:29Z",
+ "atualizadoEm": "2026-11-05T19:48:18Z",
  "status": {
-  "resumo": "36 ofertas de lojas confiáveis via buscape.com.br",
+  "resumo": "34 ofertas de lojas confiáveis via buscape.com.br",
   "produtosVerificados": 10,
-  "alertas": 5
+  "alertas": 3
  },
  "itens": {
   "cooktop": {
@@ -11,134 +11,74 @@
     {
      "loja": "Amazon",
      "vendedor": null,
-     "titulo": "Cooktop 4 Bocas a Gás GLP Itatiaia Preto Essencial",
-     "preco": 299.0,
-     "url": "https://www.buscape.com.br/lead?oid=879582583&channel=1",
-     "pagina": "https://www.buscape.com.br/fogao/cooktop-itatiaia-essencial-4-bocas-acendimento-superautomatico",
-     "imagem": "https://image.zst.com.br/FF356EBE429687E7EDE55FAD472A4973_235_235.jpg",
+     "titulo": "COOKTOP IND 1 ZONA 127V",
+     "preco": 187.11,
+     "url": "https://www.buscape.com.br/lead?oid=1515857180&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-de-inducao-1-boca-dako-portatil-preto-127v",
+     "imagem": "https://image.zst.com.br/5455E0761CA4AC4AA07E61AB6B778057_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
-    },
-    {
-     "loja": "Fast Shop",
-     "vendedor": null,
-     "titulo": "Cooktop Itatiaia 4 Bocas Essencial Preto - Bivolt Bivolt",
-     "preco": 328.52,
-     "url": "https://www.buscape.com.br/lead?oid=1543950304&channel=1",
-     "pagina": "https://www.buscape.com.br/fogao/cooktop-itatiaia-essencial-4-bocas-acendimento-superautomatico",
-     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
-    },
-    {
-     "loja": "Americanas",
-     "vendedor": null,
-     "titulo": "Cooktop a Gás 4 Bocas Itatiaia Essencial Vidro Temperado Bivolt Preto",
-     "preco": 336.6,
-     "url": "https://www.buscape.com.br/lead?oid=1469413842&channel=1",
-     "pagina": "https://www.buscape.com.br/fogao/cooktop-itatiaia-essencial-4-bocas-acendimento-superautomatico",
-     "imagem": "https://i.zst.com.br/thumbs/49/6/15/-1492143259.jpg",
-     "observacao": "ou 7x de R$ 56,57",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
-    },
-    {
-     "loja": "Webcontinental",
-     "vendedor": null,
-     "titulo": "Cooktop a Gás Itatiaia Essencial 4 Bocas em Vidro Temperado Preto com Acendimento Automático Bivolt",
-     "preco": 339.91,
-     "url": "https://www.buscape.com.br/lead?oid=1517364795&channel=1",
-     "pagina": "https://www.buscape.com.br/fogao/cooktop-itatiaia-essencial-4-bocas-acendimento-superautomatico",
-     "imagem": "https://image.zst.com.br/DEEC1F7D66E198B98177F0046A1C0E8E_235_235.jpg",
-     "observacao": "ou 4x de R$ 87,97",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Cooktop 4 Bocas a Gás GLP Continental Mesa de Vidro Preto Acendimento ",
-     "preco": 349.0,
-     "url": "https://www.buscape.com.br/lead?oid=1491201000&channel=1",
-     "pagina": "https://www.buscape.com.br/fogao/cooktop-continental-kc4gr-4-bocas-acendimento-superautomatico",
-     "imagem": "https://image.zst.com.br/9228EADE388F01B8B1D958104D87E6D1_235_235.jpg",
-     "observacao": "ou 3x de R$ 122,46",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     }
    ],
    "historico": [
     {
      "d": "2026-11-05",
-     "p": 299.0,
+     "p": 187.11,
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "geladeira": {
    "ofertas": [
     {
-     "loja": "Webcontinental",
+     "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Geladeira Brastemp Duplex Frost Free Inverter 385L com Painel Digital BRM46MK Inox",
-     "preco": 2753.15,
-     "url": "https://www.buscape.com.br/lead?oid=1553549324&channel=1",
-     "pagina": "https://www.buscape.com.br/geladeira/geladeira-brastemp-brm46mk-frost-free-duplex-385-litros-cor-inox",
-     "imagem": "https://image.zst.com.br/081CEA3C4975705B2A80A27158A5F78B_235_235.jpg",
-     "observacao": "ou 8x de R$ 356,29",
+     "titulo": "Refrigerador Consul 333 Litros Frost Free Inox CRM40MK - 127 Volts 110",
+     "preco": 2265.48,
+     "url": "https://www.buscape.com.br/lead?oid=1561653616&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-consul-crm40mk-frost-free-duplex-333-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/F074CC161F7D502500F7119C42CB9397_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
+    },
+    {
+     "loja": "Americanas",
+     "vendedor": null,
+     "titulo": "Geladeira Duplex Frost Free Consul CRM40MK 333L Inox 127V",
+     "preco": 2365.55,
+     "url": "https://www.buscape.com.br/lead?oid=1563157257&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-consul-crm40mk-frost-free-duplex-333-litros-cor-inox",
+     "imagem": "https://i.zst.com.br/thumbs/49/19/37/-1695027645.jpg",
+     "observacao": "ou 8x de R$ 347,87",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
-     "titulo": "Geladeira Frost Free BRM46MK Duplex 385 Litros Inox Extrafrio Brastemp",
-     "preco": 2835.57,
-     "url": "https://www.buscape.com.br/lead?oid=1561932399&channel=1",
-     "pagina": "https://www.buscape.com.br/geladeira/geladeira-brastemp-brm46mk-frost-free-duplex-385-litros-cor-inox",
-     "imagem": "https://image.zst.com.br/2DE8F53A6D74804B5D078BF8962D41BD_235_235.jpg",
-     "observacao": "ou 10x de R$ 304,90",
+     "titulo": "Geladeira Frost Free Midea MD-RT645MTA462 Duplex 463L Slim Inox 220V, ",
+     "preco": 2375.91,
+     "url": "https://www.buscape.com.br/lead?oid=1517701276&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-midea-md-rt645mta46-frost-free-duplex-463-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/4F0C62DBBF69608E39A4E0DB55381A50_235_235.jpg",
+     "observacao": "ou 10x de R$ 269,99",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
-     "loja": "Fast Shop",
+     "loja": "Webcontinental",
      "vendedor": null,
-     "titulo": "Geladeira Electrolux Frost Free 400L AutoSense Inverter Duplex Inox Look (IF44S)",
-     "preco": 2879.1,
-     "url": "https://www.buscape.com.br/lead?oid=1560533564&channel=1",
-     "pagina": "https://www.buscape.com.br/geladeira/geladeira-electrolux-if44s-frost-free-duplex-400-litros-inox",
-     "imagem": "https://image.zst.com.br/5C087F20E580B2952D1EC90E175DB00E_235_235.jpg",
-     "observacao": "",
+     "titulo": "Geladeira Midea Duplex Frost Free Slim Inox 463L com Painel Digital e LED MD-RT645MTA461",
+     "preco": 2402.91,
+     "url": "https://www.buscape.com.br/lead?oid=1487691580&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-midea-md-rt645mta46-frost-free-duplex-463-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/85C173A988AE3D7C8C78BE7F6FFC42BE_235_235.jpg",
+     "observacao": "ou 8x de R$ 310,48",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
-    },
-    {
-     "loja": "Electrolux",
-     "vendedor": null,
-     "titulo": "Geladeira Electrolux Frost Free 432L Efficient AutoSense Duplex Branca (TF70)",
-     "preco": 2899.0,
-     "url": "https://www.buscape.com.br/lead?oid=1412499336&channel=1",
-     "pagina": "https://www.buscape.com.br/geladeira/geladeira-electrolux-tf70s-frost-free-duplex-431-litros-cor-inox",
-     "imagem": "https://image.zst.com.br/E27683F2C31D9E7B5F22C71DC10BF551_235_235.jpg",
-     "observacao": "ou 12x de R$ 241,58",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
-    },
-    {
-     "loja": "Amazon",
-     "vendedor": null,
-     "titulo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Branca (TF70) 220V",
-     "preco": 2949.0,
-     "url": "https://www.buscape.com.br/lead?oid=1427899894&channel=1",
-     "pagina": "https://www.buscape.com.br/geladeira/geladeira-electrolux-tf70s-frost-free-duplex-431-litros-cor-inox",
-     "imagem": "https://image.zst.com.br/D4604038172992FE7673A10A9C0197CA_235_235.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     }
    ],
    "historico": [
@@ -148,7 +88,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "gelagua": {
    "ofertas": [
@@ -162,7 +102,7 @@
      "imagem": "https://image.zst.com.br/805FFDC72F4FE48A9DA0B7F86E92A9ED_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Electrolux",
@@ -174,7 +114,7 @@
      "imagem": "https://image.zst.com.br/D1CC65A1C86D03376293E2B2C81BEA68_235_235.jpg",
      "observacao": "ou 7x de R$ 42,84",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Amazon",
@@ -186,7 +126,7 @@
      "imagem": "https://image.zst.com.br/A0609F62BB5D62E806BDA0524924767E_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Webcontinental",
@@ -198,7 +138,7 @@
      "imagem": "https://image.zst.com.br/BC204B78175189AD6C7FBCFFC4311FE5_235_235.jpg",
      "observacao": "ou 6x de R$ 83,31",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Americanas",
@@ -210,7 +150,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/2d/11/-1490340104.jpg",
      "observacao": "ou 8x de R$ 62,48",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     }
    ],
    "historico": [
@@ -220,7 +160,7 @@
      "loja": "Fast Shop"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "lava-loucas": {
    "ofertas": [
@@ -234,7 +174,7 @@
      "imagem": "https://image.zst.com.br/24FD142E3F06DF62688F7987FE5C3B3C_235_235.jpg",
      "observacao": "ou 8x de R$ 208,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Americanas",
@@ -246,7 +186,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "ou 8x de R$ 241,80",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -258,7 +198,7 @@
      "imagem": "https://image.zst.com.br/2910E43439BB33640B9C66F6E537BBD4_235_235.jpg",
      "observacao": "ou 10x de R$ 210,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Fast Shop",
@@ -270,7 +210,7 @@
      "imagem": "https://image.zst.com.br/7FF8492619113FDC0CA977AFB913049C_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Electrolux",
@@ -282,7 +222,7 @@
      "imagem": "https://image.zst.com.br/875E8BB7A4660BBE4668F780990859A3_235_235.jpg",
      "observacao": "ou 14x de R$ 149,92",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     }
    ],
    "historico": [
@@ -292,7 +232,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "lavadora": {
    "ofertas": [
@@ -359,7 +299,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "microondas": {
    "ofertas": [
@@ -373,7 +313,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "ou 4x de R$ 142,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Webcontinental",
@@ -385,7 +325,7 @@
      "imagem": "https://image.zst.com.br/CC1106B58F01DE16567D6BB0EABFDEC3_235_235.jpg",
      "observacao": "ou 6x de R$ 91,50",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Electrolux",
@@ -397,7 +337,7 @@
      "imagem": "https://image.zst.com.br/2B4309C401352A8A5F2BE947E1AAC5A6_235_235.jpg",
      "observacao": "ou 9x de R$ 61,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Fast Shop",
@@ -409,7 +349,7 @@
      "imagem": "https://image.zst.com.br/022A536DB5E3E8AD48CE7D3571C0A670_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     }
    ],
    "historico": [
@@ -419,7 +359,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "tv": {
    "ofertas": [
@@ -433,7 +373,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/a/15/-1694457784.jpg",
      "observacao": "ou 8x de R$ 299,87",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Amazon",
@@ -445,7 +385,7 @@
      "imagem": "https://image.zst.com.br/C5CC1936B2A4B58851458BC7A2F48F76_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -457,7 +397,7 @@
      "imagem": "https://image.zst.com.br/040106AA13E83295A99146B18F0DDF8D_235_235.jpg",
      "observacao": "ou 10x de R$ 297,49",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Fast Shop",
@@ -469,7 +409,7 @@
      "imagem": "https://image.zst.com.br/0D217994A51C476AF5637A235A12FE94_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     }
    ],
    "historico": [
@@ -479,7 +419,7 @@
      "loja": "Americanas"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "ventilador": {
    "ofertas": [
@@ -493,7 +433,7 @@
      "imagem": "https://image.zst.com.br/20F686EE4AD4A9B1D126D4EB2F0DAAA6_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Amazon",
@@ -505,7 +445,7 @@
      "imagem": "https://image.zst.com.br/7CAA606C7148EFBDAECC903B38BC3FE9_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -517,7 +457,7 @@
      "imagem": "https://image.zst.com.br/11D06FA6079CA09B32345DDC31BCE93E_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     }
    ],
    "historico": [
@@ -527,7 +467,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "liquidificador": {
    "ofertas": [
@@ -541,7 +481,7 @@
      "imagem": "https://image.zst.com.br/79AC748A33355422B5693984D3AD3FD8_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Americanas",
@@ -553,7 +493,7 @@
      "imagem": "https://image.zst.com.br/EF4CFDA4E155CA6992FE79DADA114682_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -565,7 +505,7 @@
      "imagem": "https://image.zst.com.br/E54C6126BD2585D06C97E6CC3678A8A1_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Fast Shop",
@@ -577,7 +517,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     },
     {
      "loja": "Webcontinental",
@@ -589,7 +529,7 @@
      "imagem": "https://image.zst.com.br/F63E69AF3443666C72E3767F8B0649AB_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:46:29Z"
+     "encontradoEm": "2026-11-05T19:48:18Z"
     }
    ],
    "historico": [
@@ -599,12 +539,55 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   },
   "iphone-16-lacrado": {
-   "ofertas": [],
-   "historico": [],
-   "ultimaBusca": "2026-11-05T19:46:29Z"
+   "ofertas": [
+    {
+     "loja": "Amazon",
+     "vendedor": null,
+     "titulo": "Apple iPhone 16 (128 GB) – Branco",
+     "preco": 4549.0,
+     "url": "https://www.buscape.com.br/lead?oid=1447408574&channel=1",
+     "pagina": "https://www.buscape.com.br/celular/smartphone-apple-iphone-16-128gb-camera-dupla",
+     "imagem": "https://image.zst.com.br/87945D666188C4A3627EE32C2FD35305_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:48:18Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Smartphone Apple iPhone 16 128GB Branco - 5G + Carregador Apple USB-C ",
+     "preco": 4949.99,
+     "url": "https://www.buscape.com.br/lead?oid=1570159173&channel=1",
+     "pagina": "https://www.buscape.com.br/celular/smartphone-apple-iphone-16-128gb-camera-dupla",
+     "imagem": "https://image.zst.com.br/F23B0D818FA68600F59C06A6298E56A7_235_235.jpg",
+     "observacao": "ou 10x de R$ 550,00",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:48:18Z"
+    },
+    {
+     "loja": "KaBuM",
+     "vendedor": null,
+     "titulo": "Apple Iphone 16 256gb Preto",
+     "preco": 5399.1,
+     "url": "https://www.buscape.com.br/lead?oid=1508790648&channel=1",
+     "pagina": "https://www.buscape.com.br/celular/smartphone-apple-iphone-16-256gb-camera-dupla",
+     "imagem": "https://image.zst.com.br/A85C0CDA4C3D68545A24E7A2F7E14E9C_235_235.jpg",
+     "observacao": "ou 10x de R$ 599,90",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:48:18Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 4549.0,
+     "loja": "Amazon"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T19:48:18Z"
   }
  },
  "alertas": [
@@ -697,6 +680,36 @@
    "loja": "Amazon",
    "url": "https://www.buscape.com.br/lead?oid=665885640&channel=1",
    "criadoEm": "2026-11-05T19:46:29Z"
+  },
+  {
+   "id": "geladeira-202611051948",
+   "produtoId": "geladeira",
+   "produtoNome": "Geladeira",
+   "texto": "Geladeira: Refrigerador Consul 333 Litros Frost Free Inox CRM40MK - 127 Volts 110 por R$ 2.265,48 na Fast Shop (R$ 134,52 abaixo do alvo)",
+   "preco": 2265.48,
+   "loja": "Fast Shop",
+   "url": "https://www.buscape.com.br/lead?oid=1561653616&channel=1",
+   "criadoEm": "2026-11-05T19:48:18Z"
+  },
+  {
+   "id": "cooktop-202611051948",
+   "produtoId": "cooktop",
+   "produtoNome": "Cooktop 4 bocas",
+   "texto": "Cooktop 4 bocas: COOKTOP IND 1 ZONA 127V por R$ 187,11 na Amazon (R$ 262,89 abaixo do alvo)",
+   "preco": 187.11,
+   "loja": "Amazon",
+   "url": "https://www.buscape.com.br/lead?oid=1515857180&channel=1",
+   "criadoEm": "2026-11-05T19:48:18Z"
+  },
+  {
+   "id": "iphone-16-lacrado-202611051948",
+   "produtoId": "iphone-16-lacrado",
+   "produtoNome": "Iphone 16 Lacrado",
+   "texto": "Iphone 16 Lacrado: Apple iPhone 16 (128 GB) – Branco por R$ 4.549,00 na Amazon (R$ 51,00 abaixo do alvo)",
+   "preco": 4549.0,
+   "loja": "Amazon",
+   "url": "https://www.buscape.com.br/lead?oid=1447408574&channel=1",
+   "criadoEm": "2026-11-05T19:48:18Z"
   }
  ]
 }

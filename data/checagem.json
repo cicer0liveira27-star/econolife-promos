@@ -1,14 +1,13 @@
 {
- "quando": "2026-11-05T19:46:29Z",
+ "quando": "2026-11-05T19:48:18Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 10,
- "paginas": 24,
- "ofertas": 36,
- "fotos": 36,
- "alertas": 5,
+ "buscas": 28,
+ "paginas": 27,
+ "ofertas": 34,
+ "fotos": 34,
+ "alertas": 3,
  "semResultado": [
-  "lavadora",
-  "iphone-16-lacrado"
+  "lavadora"
  ],
  "falhas": []
 }
