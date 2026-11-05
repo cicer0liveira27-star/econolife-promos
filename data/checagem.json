@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-05T22:00:25Z",
+ "quando": "2026-11-05T22:03:45Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 28,
- "paginas": 28,
- "ofertas": 28,
- "fotos": 28,
+ "buscas": 24,
+ "paginas": 27,
+ "ofertas": 25,
+ "fotos": 25,
  "alertas": 0,
  "semResultado": [
   "microondas",
@@ -16,11 +16,6 @@
    "hits": 88,
    "combinam": 31,
    "ofertas": 12
-  },
-  "cooktop": {
-   "hits": 62,
-   "combinam": 1,
-   "ofertas": 3
   },
   "gelagua": {
    "hits": 30,
