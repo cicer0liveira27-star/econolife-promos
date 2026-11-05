@@ -1,16 +1,20 @@
-"""Envia os alertas do Econolife Promos para o WhatsApp via CallMeBot.
+"""Envia os alertas do Econolife Promos para o Telegram (e WhatsApp via CallMeBot, se configurado).
 
 Modos (variável MODO):
   novos  -> só os alertas que entraram neste commit (padrão, roda a cada gravação do robô)
   resumo -> todos os itens que hoje estão abaixo do preço-alvo
   teste  -> mensagem de teste
-Números e chaves vêm dos segredos do repositório (WA_PHONE_1/WA_KEY_1, WA_PHONE_2/WA_KEY_2).
+Segredos do repositório:
+  TG_TOKEN                      token do robô criado no @BotFather (obrigatório para Telegram)
+  TG_CHAT_ID                    opcional; se faltar, o grupo é descoberto sozinho e salvo em data/config.json
+  WA_PHONE_1/WA_KEY_1, WA_PHONE_2/WA_KEY_2   opcionais (CallMeBot)
 """
 import json, os, subprocess, sys, time, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
 
 SITE = os.environ.get("SITE_URL", "")
 MODO = (os.environ.get("MODO") or "novos").strip().lower()
+TG_TOKEN = (os.environ.get("TG_TOKEN") or "").strip()
 
 
 def brl(v):
@@ -18,35 +22,106 @@ def brl(v):
     return "R$ " + s
 
 
-def destinos():
-    out = []
+def http_json(url, data=None):
+    body = urllib.parse.urlencode(data).encode() if data else None
+    with urllib.request.urlopen(urllib.request.Request(url, data=body), timeout=40) as r:
+        return json.loads(r.read().decode("utf-8", "ignore"))
+
+
+# ---------- Telegram ----------
+def salvar_chat(chat_id):
+    try:
+        cfg = json.load(open("data/config.json", encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        cfg = {}
+    cfg["telegramChatId"] = chat_id
+    json.dump(cfg, open("data/config.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    open("data/config.json", "a").write("\n")
+    try:
+        subprocess.run(["git", "config", "user.name", "Econolife Promos"], check=True)
+        subprocess.run(["git", "config", "user.email", "actions@users.noreply.github.com"], check=True)
+        subprocess.run(["git", "add", "data/config.json"], check=True)
+        subprocess.run(["git", "commit", "-m", "Telegram: grupo conectado"], check=True)
+        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
+        subprocess.run(["git", "push", "origin", "HEAD:main"], check=True)
+        print("Grupo do Telegram salvo na configuração.")
+    except Exception as e:  # noqa: BLE001
+        print("Não consegui salvar o grupo na configuração: " + str(e))
+
+
+def chat_telegram():
+    env = (os.environ.get("TG_CHAT_ID") or "").strip()
+    if env:
+        return env
+    try:
+        cfg = json.load(open("data/config.json", encoding="utf-8"))
+        if cfg.get("telegramChatId"):
+            return str(cfg["telegramChatId"])
+    except Exception:  # noqa: BLE001
+        pass
+    # descobre o grupo onde o robô foi adicionado
+    try:
+        res = http_json(f"https://api.telegram.org/bot{TG_TOKEN}/getUpdates")
+    except Exception as e:  # noqa: BLE001
+        print("Telegram: não consegui ler as atualizações do robô: " + str(e))
+        return None
+    achado = None
+    for up in res.get("result", []):
+        for k in ("my_chat_member", "message", "channel_post", "chat_member"):
+            chat = (up.get(k) or {}).get("chat")
+            if chat and chat.get("type") in ("group", "supergroup"):
+                achado = chat.get("id")
+            elif chat and chat.get("type") == "private" and achado is None:
+                achado = chat.get("id")
+    if achado is None:
+        print("Telegram: nenhum grupo encontrado. Adicione o robô ao grupo e mande /start nele.")
+        return None
+    salvar_chat(achado)
+    return str(achado)
+
+
+def enviar_telegram(texto):
+    if not TG_TOKEN:
+        return False
+    chat = chat_telegram()
+    if not chat:
+        return False
+    try:
+        r = http_json(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
+                      {"chat_id": chat, "text": texto, "disable_web_page_preview": "false"})
+        print("Telegram: " + ("enviado" if r.get("ok") else "resposta inesperada"))
+        return bool(r.get("ok"))
+    except Exception as e:  # noqa: BLE001
+        print("Telegram: falha ao enviar: " + str(e))
+        return False
+
+
+# ---------- WhatsApp (CallMeBot, opcional) ----------
+def enviar_whatsapp(texto):
     for i in ("1", "2"):
         phone = (os.environ.get("WA_PHONE_" + i) or "").strip()
         key = (os.environ.get("WA_KEY_" + i) or "").strip()
-        if phone and key:
-            digits = "".join(c for c in phone if c.isdigit())
-            if len(digits) <= 11:
-                digits = "55" + digits
-            out.append(("+" + digits, key))
-    return out
+        if not (phone and key):
+            continue
+        digits = "".join(c for c in phone if c.isdigit())
+        if len(digits) <= 11:
+            digits = "55" + digits
+        q = urllib.parse.urlencode({"phone": "+" + digits, "text": texto, "apikey": key})
+        try:
+            with urllib.request.urlopen("https://api.callmebot.com/whatsapp.php?" + q, timeout=40) as r:
+                r.read()
+            print("WhatsApp " + i + ": enviado")
+        except Exception as e:  # noqa: BLE001
+            print("WhatsApp " + i + ": falha: " + str(e))
+        time.sleep(4)
 
 
 def enviar(texto):
-    alvo = destinos()
-    if not alvo:
-        print("Nenhum número configurado nos segredos do repositório (WA_PHONE_1/WA_KEY_1). Nada enviado.")
+    if not TG_TOKEN and not os.environ.get("WA_KEY_1"):
+        print("Nenhum canal configurado (crie o segredo TG_TOKEN). Nada enviado.")
         return
-    for phone, key in alvo:
-        q = urllib.parse.urlencode({"phone": phone, "text": texto, "apikey": key})
-        url = "https://api.callmebot.com/whatsapp.php?" + q
-        try:
-            with urllib.request.urlopen(url, timeout=40) as r:
-                body = r.read().decode("utf-8", "ignore")
-            ok = "queued" in body.lower() or "sent" in body.lower()
-            print(("OK " if ok else "Resposta inesperada ") + phone[:6] + "…")
-        except Exception as e:  # noqa: BLE001
-            print("Falha ao enviar para " + phone[:6] + "…: " + str(e))
-        time.sleep(4)
+    enviar_telegram(texto)
+    enviar_whatsapp(texto)
 
 
 def carregar(caminho, ref=None):
@@ -63,7 +138,7 @@ def carregar(caminho, ref=None):
 def main():
     cfg = carregar("data/config.json") or {}
     if MODO == "teste":
-        enviar("✅ Econolife Promos: teste de mensagem. Os alertas de preço vão chegar por aqui.\n" + SITE)
+        enviar("✅ Econolife Promos conectado! Os alertas de preço vão chegar por aqui.\n" + SITE)
         return
     if cfg.get("notificacoes") is False and MODO == "novos":
         print("Alertas desligados no app. Nada enviado.")

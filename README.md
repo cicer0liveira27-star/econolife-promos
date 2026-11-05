@@ -1,6 +1,6 @@
 # Econolife Promos
 
-Lista de compras da casa com um robô que caça os melhores preços em lojas confiáveis e avisa no WhatsApp.
+Lista de compras da casa com um robô que caça os melhores preços em lojas confiáveis e avisa no Telegram.
 
 **Site:** https://cicer0liveira27-star.github.io/econolife-promos/
 
@@ -9,18 +9,16 @@ Lista de compras da casa com um robô que caça os melhores preços em lojas con
 - `data/produtos.json` — a lista (editada pelo app, com a chave do GitHub salva no aparelho).
 - `data/ofertas.json` — preços, fotos, links, histórico e alertas. Gravado pelo robô (tarefa agendada no Claude, 6x por dia).
 - `data/config.json` — liga/desliga os alertas no WhatsApp.
-- `.github/workflows/whatsapp.yml` — quando o robô grava alertas novos, manda mensagem para os números configurados.
+- `.github/workflows/whatsapp.yml` — quando o robô grava alertas novos, manda mensagem no grupo do Telegram.
 
-## Segredos do WhatsApp (Settings → Secrets and variables → Actions)
+## Alertas no Telegram (Settings → Secrets and variables → Actions)
 
 | Nome | O que é |
 |---|---|
-| `WA_PHONE_1` | número 1 com DDD (ex.: 81999999999) |
-| `WA_KEY_1` | apikey do CallMeBot do número 1 |
-| `WA_PHONE_2` | número 2 com DDD |
-| `WA_KEY_2` | apikey do CallMeBot do número 2 |
+| `TG_TOKEN` | token do robô criado no @BotFather |
 
-Cada número pega a própria apikey uma única vez em https://www.callmebot.com/blog/free-api-whatsapp-messages/.
+Adicione o robô a um grupo, mande `/start` no grupo e toque em "Enviar mensagem de teste" no app: o grupo é encontrado sozinho e salvo em `data/config.json`.
+WhatsApp via CallMeBot continua opcional (`WA_PHONE_1`/`WA_KEY_1`, `WA_PHONE_2`/`WA_KEY_2`).
 
 ## Lojas aceitas
 

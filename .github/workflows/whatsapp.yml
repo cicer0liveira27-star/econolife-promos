@@ -1,4 +1,4 @@
-name: Alertas no WhatsApp
+name: Alertas (Telegram)
 
 # Roda sozinho quando o robô grava ofertas novas, ou pelo botão do app (teste / resumo).
 on:
@@ -10,13 +10,13 @@ on:
       modo:
         description: 'teste, resumo ou novos'
         required: false
-        default: 'novos'
+        default: 'teste'
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: whatsapp
+  group: alertas
   cancel-in-progress: false
 
 jobs:
@@ -29,9 +29,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Enviar mensagens
+      - name: Enviar alertas
         env:
           MODO: ${{ github.event.inputs.modo || 'novos' }}
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           WA_PHONE_1: ${{ secrets.WA_PHONE_1 }}
           WA_KEY_1: ${{ secrets.WA_KEY_1 }}
           WA_PHONE_2: ${{ secrets.WA_PHONE_2 }}
