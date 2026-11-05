@@ -3,7 +3,7 @@ name: Robô de preços (a cada 15 min)
 # Roda de graça no GitHub Actions: confere preços, fotos e links e avisa no Telegram.
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
