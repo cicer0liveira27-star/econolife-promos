@@ -1,14 +1,12 @@
 {
- "quando": "2026-11-05T21:15:17Z",
+ "quando": "2026-11-05T21:21:02Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 31,
- "paginas": 32,
- "ofertas": 35,
- "fotos": 35,
+ "buscas": 27,
+ "paginas": 35,
+ "ofertas": 39,
+ "fotos": 39,
  "alertas": 1,
- "semResultado": [
-  "lavadora"
- ],
+ "semResultado": [],
  "falhas": [],
  "debug": {
   "geladeira": {
@@ -29,7 +27,7 @@
   "microondas": {
    "hits": 30,
    "combinam": 5,
-   "ofertas": 16
+   "ofertas": 17
   },
   "tv": {
    "hits": 12,
@@ -37,14 +35,9 @@
    "ofertas": 17
   },
   "lavadora": {
-   "hits": 30,
-   "combinam": 0,
-   "exemplos": [
-    "Lavadora Brastemp 16kg BWY16A9 cor Inox",
-    "Lavadora De Roupas Automática Brastemp 16Kg - Cesto Inox 12 ",
-    "Lavadora Electrolux 9kg LED09",
-    "Lavadora Midea 13kg Wave Agitator MA512W130A/WKBR0"
-   ]
+   "hits": 3,
+   "combinam": 3,
+   "ofertas": 7
   },
   "lava-loucas": {
    "hits": 38,
