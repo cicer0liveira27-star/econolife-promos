@@ -1,321 +1,278 @@
 {
- "quando": "2026-11-05T19:43:00.622280+00:00",
- "buscape_busca": [
+ "quando": "2026-11-05T19:43:33.100028+00:00",
+ "produto_url": "https://www.buscape.com.br/geladeira/geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox",
+ "chaves_estado": [
+  "sidebar",
+  "items",
+  "search_suggestions",
+  "search",
+  "promotions",
+  "preferences",
+  "offers",
+  "dynamicFacets",
+  "category",
+  "products",
+  "hits",
+  "normalizedRefinements",
+  "cashback",
+  "merchantCashbacks",
+  "cashbackMaxRate",
+  "PRODUCT_SKU",
+  "sponsored",
+  "articles",
+  "highlightedArticle",
+  "unleash",
+  "offerpage",
+  "priceHistory",
+  "location",
+  "shipment",
+  "user",
+  "device",
+  "webview",
+  "expertReviews",
+  "savedProducts",
+  "productRanking",
+  "priceAlert",
+  "currentPageSection",
+  "modal",
+  "convSearch",
+  "backend_app",
+  "promotionCondition",
+  "COMMON_STORE_KEY",
+  "priceTip",
+  "offerSkuModal",
+  "searchTrails",
+  "searchfaq",
+  "login",
+  "dealsShowcase",
+  "modalManager",
+  "plaCashbackTrail",
+  "offerSKUDescription",
+  "CONTENT_SNIPPET",
+  "plaPage",
+  "adobeABTest",
+  "vtexOffers",
+  "sponsoredVtexHits",
+  "competitivenessIndex",
+  "comparativeProducts",
+  "pageSEO"
+ ],
+ "ofertas": [
   {
-   "path": ".props.initialReduxState.products.product.product",
-   "item": {
-    "id": "",
-    "name": "",
-    "countOfComments": 0,
-    "productSeries": "",
-    "image": "",
-    "minPrice": 0,
-    "maxPrice": 0,
-    "rating": 0,
-    "stores": 0,
-    "saved": false,
-    "adultContent": false,
-    "alertNotify": false,
-    "alertLowerBound": 0,
-    "alertUpperBound": 0,
-    "alertStepSize": 0,
-    "alertSuggestedValue": 0,
-    "seoUrl": "",
-    "categoryId": 0,
-    "priceHistorySet": false,
-    "status": "Active",
-    "mainImageId": 0,
-    "popularity": 0,
-    "loweredSeal": false,
-    "highlightedFeatures": [],
-    "highlightedAttributes": [],
-    "description": "",
-    "creationDate": ""
-   }
-  },
-  {
-   "path": ".props.initialReduxState.hits.hits[0]",
+   "path": ".props.pageProps.page.smartRecommenderHits[0]",
    "item": {
     "bestOffer": {
-     "id": "1537276453",
-     "merchantId": "23254",
-     "merchantName": "Americanas"
+     "id": "1489104908",
+     "merchantId": "9385",
+     "merchantName": "Amazon"
     },
     "cashback": {
-     "cashbackValue": 142.95,
-     "formula": {
-      "cashbackRate": 0.05,
-      "modalityCashbackType": "ALL_MERCHANT"
-     },
+     "cashbackValue": null,
+     "formula": null,
      "isSuperCashback": false
     },
-    "categoryId": "8",
-    "categoryName": "Geladeira",
+    "categoryId": "3",
+    "categoryName": "TV",
     "categoryRankType": "CAE",
-    "categorySeoUrl": "geladeira",
-    "competitivenessIndex": 0.8985,
+    "categorySeoUrl": "tv",
+    "competitivenessIndex": 0.839,
     "hasInterest": true,
-    "image": "https://i.zst.com.br/thumbs/45/25/34/-1618733994.jpg",
-    "installments": {
-     "amount_months": 8,
-     "price": 384.27,
-     "total_value": 3074.16
-    },
+    "image": "https://image.zst.com.br/F814DADC10D4FCB5D704A882A940F49B_235_235.jpg",
     "loweringPercentage": 0,
     "marketplace": false,
     "merchants": [
      {
-      "id": "23254",
-      "name": "Americanas"
-     },
-     {
-      "id": "1582",
+      "id": "9385",
       "name": "Amazon"
      },
      {
-      "id": "23326",
+      "id": "16108",
+      "name": "KaBuM!"
+     },
+     {
+      "id": "5",
       "name": "Fast Shop"
      }
     ],
-    "name": "Geladeira Consul Frost Free Duplex 455 cor Inox CRM53MK",
-    "objectId": "product13993590",
-    "popularityScore": 14194,
-    "position": 2,
-    "price": 2859,
-    "seoUrl": "geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox",
-    "shortName": "Geladeira Consul Frost Free Duplex 455 cor Inox CRM53MK",
-    "sourceId": "13993590",
+    "name": "Smart TV Mini LED 55\" TCL 4K 55C6K",
+    "objectId": "product13992267",
+    "popularityScore": 181159,
+    "position": 1,
+    "price": 3099,
+    "seoUrl": "smart-tv-mini-led-55-tcl-4k-55c6k",
+    "shortName": "Smart TV Mini LED 55\" TCL 4K 55C6K",
+    "sourceId": "13992267",
     "storeCount": 6,
     "type": "product",
-    "url": "/geladeira/geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox"
+    "url": "/tv/smart-tv-mini-led-55-tcl-4k-55c6k"
    }
   },
   {
-   "path": ".props.initialReduxState.hits.hits[1]",
+   "path": ".props.pageProps.page.smartRecommenderHits[1]",
    "item": {
     "bestOffer": {
-     "id": "1535718266",
-     "merchantId": "245",
-     "merchantName": "Webcontinental"
+     "id": "1500906138",
+     "merchantId": "22905",
+     "merchantName": "Magazine Luiza"
     },
     "cashback": {
-     "cashbackValue": 266.17,
+     "cashbackValue": 121.39,
      "formula": {
       "cashbackRate": 0.06,
       "modalityCashbackType": "ALL_MERCHANT"
      },
      "isSuperCashback": true
     },
-    "categoryId": "8",
-    "categoryName": "Geladeira",
+    "categoryId": "383",
+    "categoryName": "Ar-Condicionado",
     "categoryRankType": "CAE",
-    "categorySeoUrl": "geladeira",
-    "competitivenessIndex": 0.5355,
+    "categorySeoUrl": "ar-condicionado",
+    "competitivenessIndex": 0.8252,
     "hasInterest": true,
-    "image": "https://i.zst.com.br/thumbs/45/13/10/-1621878694.jpg",
+    "image": "https://i.zst.com.br/thumbs/45/29/12/-1541458502.jpg",
     "installments": {
-     "amount_months": 8,
-     "price": 574.09,
-     "total_value": 4592.72
+     "amount_months": 10,
+     "price": 229.9,
+     "total_value": 2299
     },
     "loweringPercentage": 0,
     "marketplace": false,
     "merchants": [
+     {
+      "id": "22905",
+      "name": "Magazine Luiza"
+     },
      {
       "id": "245",
       "name": "Webcontinental"
      },
      {
-      "id": "23326",
-      "name": "Fast Shop"
-     }
-    ],
-    "name": "Geladeira Consul Frost Free Inverse 399 cor Inox CRE45MK",
-    "objectId": "product13993652",
-    "popularityScore": 2164,
-    "position": 3,
-    "price": 4436.15,
-    "seoUrl": "geladeira-consul-cre45mk-frost-free-inverse-399-litros-cor-inox",
-    "shortName": "Geladeira Consul Frost Free Inverse 399 cor Inox CRE45MK",
-    "sourceId": "13993652",
-    "storeCount": 2,
-    "type": "product",
-    "url": "/geladeira/geladeira-consul-cre45mk-frost-free-inverse-399-litros-cor-inox"
-   }
-  }
- ],
- "buscape_links_exemplo": [
-  "/search?q=geladeira%20consul%20inox&amp;page=2",
-  "/geladeira/brastemp",
-  "/geladeira/electrolux",
-  "/geladeira/consul",
-  "/geladeira/lg",
-  "/geladeira/panasonic",
-  "/geladeira/philco",
-  "/geladeira/duplex"
- ],
- "buscape_produto_url": "/geladeira",
- "buscape_produto_ofertas": [],
- "buscape_produto_ldjson": [
-  "{\"@context\":\"https://schema.org/\",\"@type\":\"Organization\",\"@id\":\"snippet-organization\",\"name\":\"Buscapé\",\"url\":\"https://www.buscape.com.br\",\"email\":\"atendimento@mosaico.com.br\",\"address\":{\"@type\":\"PostalAddress\",\"postalCode\":\"22271-022\",\"streetAddress\":\"Rua Visconde de Caravelas, 14\",\"addressLocality\":\"Rio de Janeiro, RJ, Brasil\"},\"sameAs\":[\"https://www.youtube.com/buscape/\",\"https://www.facebook.com/buscape/\",\"https://twitter.com/buscape\",\"https://www.instagram.com/buscape.oficial\"],\"legalName\":\"Mosaico Tecnologia ao Consumidor S.A.\"}"
- ],
- "zoom_busca": [
-  {
-   "path": ".props.initialReduxState.products.product.product",
-   "item": {
-    "id": "",
-    "name": "",
-    "countOfComments": 0,
-    "productSeries": "",
-    "image": "",
-    "minPrice": 0,
-    "maxPrice": 0,
-    "rating": 0,
-    "stores": 0,
-    "saved": false,
-    "adultContent": false,
-    "alertNotify": false,
-    "alertLowerBound": 0,
-    "alertUpperBound": 0,
-    "alertStepSize": 0,
-    "alertSuggestedValue": 0,
-    "seoUrl": "",
-    "categoryId": 0,
-    "priceHistorySet": false,
-    "status": "Active",
-    "mainImageId": 0,
-    "popularity": 0,
-    "loweredSeal": false,
-    "highlightedFeatures": [],
-    "highlightedAttributes": [],
-    "description": "",
-    "creationDate": ""
-   }
-  },
-  {
-   "path": ".props.initialReduxState.hits.hits[0]",
-   "item": {
-    "bestOffer": {
-     "id": "1537276453",
-     "merchantId": "23254",
-     "merchantName": "Americanas"
-    },
-    "cashback": {
-     "cashbackValue": 142.95,
-     "formula": {
-      "cashbackRate": 0.05,
-      "modalityCashbackType": "ALL_MERCHANT"
-     },
-     "isSuperCashback": false
-    },
-    "categoryId": "8",
-    "categoryName": "Geladeira",
-    "categoryRankType": "CAE",
-    "categorySeoUrl": "geladeira",
-    "competitivenessIndex": 0.8985,
-    "hasInterest": true,
-    "image": "https://i.zst.com.br/thumbs/45/25/34/-1618733994.jpg",
-    "installments": {
-     "amount_months": 8,
-     "price": 384.27,
-     "total_value": 3074.16
-    },
-    "loweringPercentage": 0,
-    "marketplace": false,
-    "merchants": [
-     {
-      "id": "23254",
-      "name": "Americanas"
-     },
-     {
       "id": "1582",
       "name": "Amazon"
-     },
-     {
-      "id": "23326",
-      "name": "Fast Shop"
      }
     ],
-    "name": "Geladeira Consul Frost Free Duplex 455 cor Inox CRM53MK",
-    "objectId": "product13993590",
-    "popularityScore": 14194,
+    "name": "Ar-Condicionado Split Hi Wall Springer Midea AI Ecomaster 12000 BTUs Frio Inverter 42EZVCA12M5 / 38EZVCA12M5",
+    "objectId": "product13992430",
+    "popularityScore": 179311,
     "position": 2,
-    "price": 2859,
-    "seoUrl": "geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox",
-    "shortName": "Geladeira Consul Frost Free Duplex 455 cor Inox CRM53MK",
-    "sourceId": "13993590",
+    "price": 2023.12,
+    "seoUrl": "ar-condicionado-split-hi-wall-springer-midea-ai-ecomaster-12000-btus-frio-inverter-42ezvca12m5-38ezvca12m5",
+    "shortName": "Ar-Condicionado Split Hi Wall Springer Midea AI Ecomaster 12000 BTUs Frio Inverter 42EZVCA12M5 / 38EZVCA12M5",
+    "sourceId": "13992430",
     "storeCount": 6,
     "type": "product",
-    "url": "/geladeira/geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox"
+    "url": "/ar-condicionado/ar-condicionado-split-hi-wall-springer-midea-ai-ecomaster-12000-btus-frio-inverter-42ezvca12m5-38ezvca12m5"
    }
   },
   {
-   "path": ".props.initialReduxState.hits.hits[1]",
+   "path": ".props.pageProps.page.smartRecommenderHits[2]",
    "item": {
     "bestOffer": {
-     "id": "1535718266",
-     "merchantId": "245",
-     "merchantName": "Webcontinental"
+     "id": "1560776376",
+     "merchantId": "22902",
+     "merchantName": "Magazine Luiza"
     },
     "cashback": {
-     "cashbackValue": 266.17,
+     "cashbackValue": 341.94,
      "formula": {
       "cashbackRate": 0.06,
       "modalityCashbackType": "ALL_MERCHANT"
      },
      "isSuperCashback": true
     },
-    "categoryId": "8",
-    "categoryName": "Geladeira",
+    "categoryId": "7",
+    "categoryName": "Celular e Smartphone",
     "categoryRankType": "CAE",
-    "categorySeoUrl": "geladeira",
-    "competitivenessIndex": 0.5355,
+    "categorySeoUrl": "celular",
+    "competitivenessIndex": 0.7704,
     "hasInterest": true,
-    "image": "https://i.zst.com.br/thumbs/45/13/10/-1621878694.jpg",
+    "image": "https://i.zst.com.br/thumbs/45/15/19/-1584053110.jpg",
     "installments": {
-     "amount_months": 8,
-     "price": 574.09,
-     "total_value": 4592.72
+     "amount_months": 10,
+     "price": 633.22,
+     "total_value": 6332.2
     },
     "loweringPercentage": 0,
     "marketplace": false,
     "merchants": [
      {
-      "id": "245",
-      "name": "Webcontinental"
+      "id": "22902",
+      "name": "Magazine Luiza"
+     },
+     {
+      "id": "16108",
+      "name": "KaBuM!"
      },
      {
       "id": "23326",
       "name": "Fast Shop"
      }
     ],
-    "name": "Geladeira Consul Frost Free Inverse 399 cor Inox CRE45MK",
-    "objectId": "product13993652",
-    "popularityScore": 2164,
+    "name": "iPhone 17 256GB",
+    "objectId": "product13992938",
+    "popularityScore": 166452,
     "position": 3,
-    "price": 4436.15,
-    "seoUrl": "geladeira-consul-cre45mk-frost-free-inverse-399-litros-cor-inox",
-    "shortName": "Geladeira Consul Frost Free Inverse 399 cor Inox CRE45MK",
-    "sourceId": "13993652",
-    "storeCount": 2,
+    "price": 5699,
+    "seoUrl": "celular-apple-iphone-17-256gb",
+    "shortName": "iPhone 17 256GB",
+    "sourceId": "13992938",
+    "storeCount": 6,
     "type": "product",
-    "url": "/geladeira/geladeira-consul-cre45mk-frost-free-inverse-399-litros-cor-inox"
+    "url": "/celular/celular-apple-iphone-17-256gb"
+   }
+  },
+  {
+   "path": ".props.pageProps.page.smartRecommenderHits[3]",
+   "item": {
+    "bestOffer": {
+     "id": "1369363534",
+     "merchantId": "22905",
+     "merchantName": "Magazine Luiza"
+    },
+    "cashback": {
+     "cashbackValue": 8.93,
+     "formula": {
+      "cashbackRate": 0.06,
+      "modalityCashbackType": "ALL_MERCHANT"
+     },
+     "isSuperCashback": true
+    },
+    "categoryId": "384",
+    "categoryName": "Aspirador de Pó e Água",
+    "categoryRankType": "MIDTAIL",
+    "categorySeoUrl": "aspirador-po-agua",
+    "competitivenessIndex": 0.7273,
+    "hasInterest": true,
+    "image": "https://i.zst.com.br/thumbs/45/2f/2f/-1615824523.jpg",
+    "installments": {
+     "amount_months": 2,
+     "price": 84.56,
+     "total_value": 169.12
+    },
+    "loweringPercentage": 0,
+    "marketplace": false,
+    "merchants": [
+     {
+      "id": "22905",
+      "name": "Magazine Luiza"
+     }
+    ],
+    "name": "Aspirador de Pó Robô Monac",
+    "objectId": "product13191583",
+    "popularityScore": 166180,
+    "position": 4,
+    "price": 148.82,
+    "seoUrl": "aspirador-robo-inteligente-mop-e-funcao-passa-pano-bivolt-monac",
+    "shortName": "Aspirador de Pó Robô Monac",
+    "sourceId": "13191583",
+    "storeCount": 1,
+    "type": "product",
+    "url": "/aspirador-po-agua/aspirador-robo-inteligente-mop-e-funcao-passa-pano-bivolt-monac"
    }
   }
  ],
- "zoom_links_exemplo": [
-  "/search?q=geladeira%20consul%20inox&amp;page=2",
-  "/geladeira/brastemp",
-  "/geladeira/electrolux",
-  "/geladeira/consul",
-  "/geladeira/lg",
-  "/geladeira/panasonic",
-  "/geladeira/philco",
-  "/geladeira/duplex"
- ],
- "zoom_produto_url": "/geladeira",
- "zoom_produto_ofertas": [],
- "zoom_produto_ldjson": [
-  "{\"@context\":\"https://schema.org/\",\"@type\":\"Organization\",\"@id\":\"snippet-organization\",\"name\":\"Zoom\",\"url\":\"https://www.zoom.com.br\",\"email\":\"atendimento@mosaico.com.br\",\"address\":{\"@type\":\"PostalAddress\",\"postalCode\":\"22271-022\",\"streetAddress\":\"Rua Visconde de Caravelas, 14\",\"addressLocality\":\"Rio de Janeiro, RJ, Brasil\"},\"sameAs\":[\"https://www.youtube.com/user/deumzoom/\",\"https://www.facebook.com/deumzoom/\",\"https://twitter.com/deumzoom\",\"https://instagram.com/deumzoom\"],\"legalName\":\"Mosaico Tecnologia ao Consumidor S.A.\"}"
+ "links_saida": [
+  "https://login.buscape.com.br/api/login/logout",
+  "https://www.youtube.com/buscape/"
  ]
 }
