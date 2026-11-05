@@ -1,18 +1,18 @@
 {
- "quando": "2026-11-05T21:21:02Z",
+ "quando": "2026-11-05T21:24:49Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 27,
- "paginas": 35,
- "ofertas": 39,
- "fotos": 39,
- "alertas": 1,
+ "buscas": 26,
+ "paginas": 33,
+ "ofertas": 34,
+ "fotos": 34,
+ "alertas": 0,
  "semResultado": [],
  "falhas": [],
  "debug": {
   "geladeira": {
-   "hits": 105,
-   "combinam": 37,
-   "ofertas": 11
+   "hits": 87,
+   "combinam": 31,
+   "ofertas": 12
   },
   "cooktop": {
    "hits": 76,
@@ -26,8 +26,8 @@
   },
   "microondas": {
    "hits": 30,
-   "combinam": 5,
-   "ofertas": 17
+   "combinam": 2,
+   "ofertas": 3
   },
   "tv": {
    "hits": 12,
@@ -37,7 +37,7 @@
   "lavadora": {
    "hits": 3,
    "combinam": 3,
-   "ofertas": 7
+   "ofertas": 6
   },
   "lava-loucas": {
    "hits": 38,
@@ -45,9 +45,9 @@
    "ofertas": 21
   },
   "ventilador": {
-   "hits": 19,
-   "combinam": 19,
-   "ofertas": 16
+   "hits": 7,
+   "combinam": 7,
+   "ofertas": 7
   },
   "liquidificador": {
    "hits": 22,

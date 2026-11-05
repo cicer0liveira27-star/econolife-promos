@@ -1,9 +1,9 @@
 {
- "atualizadoEm": "2026-11-05T21:21:02Z",
+ "atualizadoEm": "2026-11-05T21:24:49Z",
  "status": {
-  "resumo": "39 ofertas de lojas confiáveis via buscape.com.br",
+  "resumo": "34 ofertas de lojas confiáveis via buscape.com.br",
   "produtosVerificados": 10,
-  "alertas": 1
+  "alertas": 0
  },
  "itens": {
   "cooktop": {
@@ -18,7 +18,7 @@
      "imagem": "https://image.zst.com.br/03557E8C1A0DC1DD5A6A339411B2B623_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -30,7 +30,7 @@
      "imagem": "https://image.zst.com.br/B2A6DF19F3FCBC9E143E3D4A8294C2C6_235_235.jpg",
      "observacao": "ou 10x de R$ 144,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Webcontinental",
@@ -42,7 +42,7 @@
      "imagem": "https://image.zst.com.br/B1F5952A87ED1FF1645A9DE4F95B1FFB_235_235.jpg",
      "observacao": "ou 8x de R$ 187,61",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -52,34 +52,10 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "geladeira": {
    "ofertas": [
-    {
-     "loja": "Americanas",
-     "vendedor": null,
-     "titulo": "Geladeira Duplex Frost Free Consul CRM40MK 333L Inox 127V",
-     "preco": 2208.3,
-     "url": "https://www.buscape.com.br/lead?oid=1563157257&channel=1",
-     "pagina": "https://www.buscape.com.br/geladeira/geladeira-consul-crm40mk-frost-free-duplex-333-litros-cor-inox",
-     "imagem": "https://i.zst.com.br/thumbs/49/19/37/-1695027645.jpg",
-     "observacao": "ou 8x de R$ 324,75",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
-    },
-    {
-     "loja": "Fast Shop",
-     "vendedor": null,
-     "titulo": "Geladeira Frost Free Duplex 333 Litros Inox Consul - CRM40MK",
-     "preco": 2339.1,
-     "url": "https://www.buscape.com.br/lead?oid=1543954841&channel=1",
-     "pagina": "https://www.buscape.com.br/geladeira/geladeira-consul-crm40mk-frost-free-duplex-333-litros-cor-inox",
-     "imagem": "https://image.zst.com.br/94ED03BCC0731D1A35A62C29F3EFBEF1_235_235.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
-    },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
@@ -90,7 +66,7 @@
      "imagem": "https://image.zst.com.br/4F0C62DBBF69608E39A4E0DB55381A50_235_235.jpg",
      "observacao": "ou 10x de R$ 269,99",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Webcontinental",
@@ -102,7 +78,31 @@
      "imagem": "https://image.zst.com.br/85C173A988AE3D7C8C78BE7F6FFC42BE_235_235.jpg",
      "observacao": "ou 8x de R$ 310,48",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
+    },
+    {
+     "loja": "Americanas",
+     "vendedor": null,
+     "titulo": "Geladeira Brastemp 375 Litros Frost Free com Gavetão de Legumes Fresh Zone Inox BRM44HK - 127V",
+     "preco": 2789.1,
+     "url": "https://www.buscape.com.br/lead?oid=1516570981&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-brastemp-brm44hk-frost-free-duplex-375-litros-inox",
+     "imagem": "https://i.zst.com.br/thumbs/49/3f/e/-1573508658.jpg",
+     "observacao": "ou 8x de R$ 387,37",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T21:24:49Z"
+    },
+    {
+     "loja": "Amazon",
+     "vendedor": null,
+     "titulo": "Geladeira Frost Free Duplex 473L Inverter cor Inox Midea MD-RT611EVD463 - Bivolt",
+     "preco": 3859.9,
+     "url": "https://www.buscape.com.br/lead?oid=1397651999&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-midea-md-rt611evd463-frost-free-duplex-473-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/12F6E798331B79DD4D283570588CEA84_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -112,7 +112,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "gelagua": {
    "ofertas": [
@@ -126,7 +126,7 @@
      "imagem": "https://image.zst.com.br/288762087B747356613F92869558A783_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Webcontinental",
@@ -138,7 +138,7 @@
      "imagem": "https://image.zst.com.br/BC204B78175189AD6C7FBCFFC4311FE5_235_235.jpg",
      "observacao": "ou 6x de R$ 83,31",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Fast Shop",
@@ -150,7 +150,7 @@
      "imagem": "https://image.zst.com.br/AC8D441B74C97F27D497017373EB9DEF_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Electrolux",
@@ -162,7 +162,7 @@
      "imagem": "https://image.zst.com.br/913275028B33F7E0F9851DCC4A536D44_235_235.jpg",
      "observacao": "ou 12x de R$ 41,65",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -174,7 +174,7 @@
      "imagem": "https://image.zst.com.br/32625EC3F837327627785F68533693DD_235_235.jpg",
      "observacao": "ou 10x de R$ 93,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -184,7 +184,7 @@
      "loja": "Fast Shop"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "lava-loucas": {
    "ofertas": [
@@ -198,7 +198,7 @@
      "imagem": "https://image.zst.com.br/24FD142E3F06DF62688F7987FE5C3B3C_235_235.jpg",
      "observacao": "ou 8x de R$ 208,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Americanas",
@@ -210,7 +210,7 @@
      "imagem": "https://image.zst.com.br/293739F7E4985980DFFC57D254445C81_235_235.jpg",
      "observacao": "ou 8x de R$ 241,80",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -222,7 +222,7 @@
      "imagem": "https://image.zst.com.br/2910E43439BB33640B9C66F6E537BBD4_235_235.jpg",
      "observacao": "ou 10x de R$ 210,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Fast Shop",
@@ -234,7 +234,7 @@
      "imagem": "https://image.zst.com.br/7FF8492619113FDC0CA977AFB913049C_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Electrolux",
@@ -246,7 +246,7 @@
      "imagem": "https://image.zst.com.br/875E8BB7A4660BBE4668F780990859A3_235_235.jpg",
      "observacao": "ou 14x de R$ 149,92",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -256,21 +256,21 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "lavadora": {
    "ofertas": [
     {
      "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Máquina de Lavar Frontal Electrolux 12kg Branca Inverter com Água Quente e Lavagem Inteligente (LFB12)",
-     "preco": 2789.1,
-     "url": "https://www.buscape.com.br/lead?oid=1560527336&channel=1",
-     "pagina": "https://www.buscape.com.br/lavadora-roupas/maquina-de-lavar-roupas-electrolux-12kg-lfb12",
-     "imagem": "https://image.zst.com.br/D8368A6F34A4C6DE75B8391DEAFB8AAC_235_235.jpg",
+     "titulo": "Máquina de Lavar Frontal Electrolux 12kg Cinza Ônix Inverter com Água Quente e Lavagem Inteligente (LFC12)",
+     "preco": 2969.1,
+     "url": "https://www.buscape.com.br/lead?oid=1560527334&channel=1",
+     "pagina": "https://www.buscape.com.br/lavadora-roupas/maquina-de-lavar-roupas-electrolux-12kg-lfc12",
+     "imagem": "https://image.zst.com.br/BBEA24C984E430C1EA0900243EAF5C13_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -282,7 +282,7 @@
      "imagem": "https://image.zst.com.br/3CE4739D06E47B48AE7DA8CC6BDF534D_235_235.jpg",
      "observacao": "ou 10x de R$ 329,99",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Webcontinental",
@@ -294,7 +294,7 @@
      "imagem": "https://image.zst.com.br/E1B64C4BE88B0FCC6177789AD8DFA712_235_235.jpg",
      "observacao": "ou 8x de R$ 406,12",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Electrolux",
@@ -306,7 +306,7 @@
      "imagem": "https://image.zst.com.br/FF04C5144F078FE4183B82B8F0668DD2_235_235.jpg",
      "observacao": "ou 21x de R$ 157,09",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -316,69 +316,21 @@
      "loja": "Brastemp"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "microondas": {
    "ofertas": [
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 20L cor Inox Espelhado com Função Tira Odor (MT",
-     "preco": 540.55,
-     "url": "https://www.buscape.com.br/lead?oid=1431372835&channel=1",
-     "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-20-litros-mt30s",
-     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
-     "observacao": "ou 4x de R$ 142,25",
+     "titulo": "Microondas 36 Litros 1600W 52X42X32Cm 127V - Electrolux, Cinza, 220V",
+     "preco": 1380.68,
+     "url": "https://www.buscape.com.br/lead?oid=1443618965&channel=1",
+     "pagina": "https://www.buscape.com.br/microondas/microondas-36-litros-1600w-52x42x32cm-127v-electrolux",
+     "imagem": "https://image.zst.com.br/88F308F0D9AE2618A77FC91A438B8053_235_235.jpg",
+     "observacao": "ou 10x de R$ 148,46",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
-    },
-    {
-     "loja": "Webcontinental",
-     "vendedor": null,
-     "titulo": "Micro-ondas de Bancada Electrolux MT30S 20L 1300W com Função Tira Odor Menu Kids Inox",
-     "preco": 549.0,
-     "url": "https://www.buscape.com.br/lead?oid=934443465&channel=1",
-     "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-20-litros-mt30s",
-     "imagem": "https://image.zst.com.br/CC1106B58F01DE16567D6BB0EABFDEC3_235_235.jpg",
-     "observacao": "ou 6x de R$ 91,50",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
-    },
-    {
-     "loja": "Electrolux",
-     "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 20L cor Inox Espelhado com Função Tira Odor (MT30S)",
-     "preco": 549.0,
-     "url": "https://www.buscape.com.br/lead?oid=1350172896&channel=1",
-     "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-20-litros-mt30s",
-     "imagem": "https://image.zst.com.br/2B4309C401352A8A5F2BE947E1AAC5A6_235_235.jpg",
-     "observacao": "ou 9x de R$ 61,00",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
-    },
-    {
-     "loja": "Fast Shop",
-     "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 20L cor Inox Espelhado com Função Tira Odor (MT30S)",
-     "preco": 549.0,
-     "url": "https://www.buscape.com.br/lead?oid=1543949648&channel=1",
-     "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-20-litros-mt30s",
-     "imagem": "https://image.zst.com.br/022A536DB5E3E8AD48CE7D3571C0A670_235_235.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
-    },
-    {
-     "loja": "Americanas",
-     "vendedor": null,
-     "titulo": "Micro-ondas de Embutir Electrolux ME3HP com 34L Inox com Grill e Função Tira Odor",
-     "preco": 4947.9,
-     "url": "https://www.buscape.com.br/lead?oid=1529269725&channel=1",
-     "pagina": "https://www.buscape.com.br/microondas/micro-ondas-de-embutir-electrolux-home-pro-34-litros-me3hp-inox",
-     "imagem": "https://i.zst.com.br/thumbs/49/9/31/-1683753518.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -388,7 +340,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "tv": {
    "ofertas": [
@@ -402,7 +354,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/a/15/-1694457784.jpg",
      "observacao": "ou 8x de R$ 299,87",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Amazon",
@@ -414,7 +366,7 @@
      "imagem": "https://image.zst.com.br/C5CC1936B2A4B58851458BC7A2F48F76_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -426,7 +378,7 @@
      "imagem": "https://image.zst.com.br/040106AA13E83295A99146B18F0DDF8D_235_235.jpg",
      "observacao": "ou 10x de R$ 297,49",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Fast Shop",
@@ -438,7 +390,7 @@
      "imagem": "https://image.zst.com.br/0D217994A51C476AF5637A235A12FE94_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -448,45 +400,33 @@
      "loja": "Americanas"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "ventilador": {
    "ofertas": [
     {
      "loja": "Webcontinental",
      "vendedor": null,
-     "titulo": "Ventilador Circulador de Mesa Britânia 30W Hélice 23cm 3 Pás 3 Velocidades Preto BCA25A",
-     "preco": 52.71,
-     "url": "https://www.buscape.com.br/lead?oid=1503067389&channel=1",
-     "pagina": "https://www.buscape.com.br/ventilador-circulador/ventilador-circulador-britania-30w-3-velocidades-bca25a-220v",
-     "imagem": "https://image.zst.com.br/20F686EE4AD4A9B1D126D4EB2F0DAAA6_235_235.jpg",
+     "titulo": "Ventilador de Mesa e Parede Britânia 150W 40cm 6 Pás 3 Velocidades Preto BVT400 Maxx Force Turbo",
+     "preco": 131.91,
+     "url": "https://www.buscape.com.br/lead?oid=1502729421&channel=1",
+     "pagina": "https://www.buscape.com.br/ventilador-circulador/ventilador-britania-2-em-1-bvt400-maxx-force-150w-220v",
+     "imagem": "https://image.zst.com.br/F000C503FB53D8D458AE60F394364C66_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Amazon",
      "vendedor": null,
-     "titulo": "Ventilador Circulador Britânia 30W 3 Velocidades BCA25A 220V",
-     "preco": 59.9,
-     "url": "https://www.buscape.com.br/lead?oid=1411632292&channel=1",
-     "pagina": "https://www.buscape.com.br/ventilador-circulador/ventilador-circulador-britania-30w-3-velocidades-bca25a-220v",
-     "imagem": "https://image.zst.com.br/7CAA606C7148EFBDAECC903B38BC3FE9_235_235.jpg",
+     "titulo": "Ventilador Britânia 2 em 1 BVT400 Maxx Force 150W 220V | 40 Centímetros",
+     "preco": 149.9,
+     "url": "https://www.buscape.com.br/lead?oid=1236679987&channel=1",
+     "pagina": "https://www.buscape.com.br/ventilador-circulador/ventilador-britania-2-em-1-bvt400-maxx-force-150w-220v",
+     "imagem": "https://image.zst.com.br/126536B96C4FD6B07C1E92C244E8CF73_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Ventilador Britânia Tecnologia Maxx Force 150W BVT404, 220V",
-     "preco": 118.66,
-     "url": "https://www.buscape.com.br/lead?oid=1522887740&channel=1",
-     "pagina": "https://www.buscape.com.br/ventilador-circulador/ventilador-de-mesa-britania-bvt404-8-pas-3-velocidades",
-     "imagem": "https://image.zst.com.br/11D06FA6079CA09B32345DDC31BCE93E_235_235.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -496,7 +436,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "liquidificador": {
    "ofertas": [
@@ -510,7 +450,7 @@
      "imagem": "https://image.zst.com.br/79AC748A33355422B5693984D3AD3FD8_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Americanas",
@@ -522,7 +462,7 @@
      "imagem": "https://image.zst.com.br/EF4CFDA4E155CA6992FE79DADA114682_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -534,7 +474,7 @@
      "imagem": "https://image.zst.com.br/E54C6126BD2585D06C97E6CC3678A8A1_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Fast Shop",
@@ -546,7 +486,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     },
     {
      "loja": "Webcontinental",
@@ -558,7 +498,7 @@
      "imagem": "https://image.zst.com.br/F63E69AF3443666C72E3767F8B0649AB_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -568,7 +508,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   },
   "iphone-16-lacrado": {
    "ofertas": [
@@ -582,7 +522,7 @@
      "imagem": "https://image.zst.com.br/FC18C121DEAF95DF2E2D89C449BAC565_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T21:21:02Z"
+     "encontradoEm": "2026-11-05T21:24:49Z"
     }
    ],
    "historico": [
@@ -592,7 +532,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T21:21:02Z"
+   "ultimaBusca": "2026-11-05T21:24:49Z"
   }
  },
  "alertas": [
