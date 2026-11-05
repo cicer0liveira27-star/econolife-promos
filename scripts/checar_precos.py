@@ -87,7 +87,7 @@ def combina(p, titulo):
         return False
     ms = marcas(p)
     implicita = {"iphone": "apple", "ipad": "apple", "macbook": "apple", "airpods": "apple", "galaxy": "samsung"}
-    if ms and not any(m.split()[0] in t or any(k in t and v == m.split()[0] for k, v in implicita.items()) for m in ms):
+    if ms and not any(marca_no_titulo(m, titulo) or any(k in t and v == m.split()[0] for k, v in implicita.items()) for m in ms):
         return False
     for n in re.findall(r"\b\d+\b", sa(p["nome"])):
         if not re.search(r"(?<![\d])" + n + r"(?![\d])", t):
@@ -320,12 +320,8 @@ def coletar_links(p):
             ref = {"nome": nome, "marcas": "", "detalhes": ""}
             cod = codigo_modelo(nome)
             hits = buscar_uma(FONTES[0], consulta_modelo(nome, ref) if cod else " ".join(tokens(nome)[:7]))
-            alvo_t = set(w for w in tokens(nome) if not UNIDADE.match(w))
             def parecido(h):
-                if cod:
-                    return combina_modelo(nome, h["name"])
-                ht = set(tokens(h["name"]))
-                return len(alvo_t & ht) >= max(2, int(len(alvo_t) * 0.6))
+                return combina_modelo(nome, h["name"])
             bons = sorted([h for h in hits if parecido(h)], key=lambda h: h.get("price") or 1e12)[:2]
             for h in bons:
                 for o in ofertas_do_produto(FONTES[0], h):
@@ -340,12 +336,38 @@ def coletar_links(p):
     return ofertas
 
 
+def marca_no_titulo(marca, titulo):
+    from difflib import SequenceMatcher
+    m = sa(marca).split()[0] if sa(marca).split() else ""
+    if not m:
+        return True
+    if m in sa(titulo):
+        return True
+    return any(SequenceMatcher(None, m, w).ratio() >= 0.8 for w in tokens(titulo))  # aceita "Eletrolux" ~ "Electrolux"
+
+
+def guarda(p, titulo):
+    """Trava final: marca pedida, números do nome (ex.: 4 bocas) e nada de acessório."""
+    t = sa(titulo)
+    ms = marcas(p)
+    if ms and not any(marca_no_titulo(m, titulo) for m in ms):
+        return False
+    for n in re.findall(r"\b\d+\b", sa(p["nome"])):
+        if not re.search(r"(?<!\d)" + n + r"(?!\d)", t):
+            return False
+    return not any(r in t + " " for r in ("capa ", "pelicula", "suporte", "refil", "usado", "recondicionado", "seminovo", "vitrine", "peca "))
+
+
 def coletar(p):
     extras = coletar_links(p) if p.get("links") else []
     ofertas, fonte = coletar_base(p) if (p.get("modelos") or not p.get("links")) else ([], FONTES[0])
-    if extras:
-        return (ofertas or []) + extras, fonte or FONTES[0]
-    return ofertas, fonte
+    if ofertas is None and not extras:
+        return None, None
+    todas = (ofertas or []) + extras
+    boas = [o for o in todas if guarda(p, o["titulo"])]
+    if len(boas) < len(todas):
+        log["debug"].setdefault(p["id"], {})["barradasNaTrava"] = len(todas) - len(boas)
+    return boas, fonte or FONTES[0]
 
 
 def coletar_base(p):
@@ -413,6 +435,7 @@ def main():
             continue
         if not ofertas:
             log["semResultado"].append(p["id"])
+            it["ofertas"] = [o for o in it.get("ofertas", []) if guarda(p, o.get("titulo", ""))]
             if p.get("modelos") or p.get("links"):
                 ok = set(p.get("modelos") or []) | set(p.get("links") or [])
                 it["ofertas"] = [o for o in it.get("ofertas", []) if o.get("modelo") in ok]
