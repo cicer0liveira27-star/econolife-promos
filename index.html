@@ -136,6 +136,8 @@ img{max-width:100%}
 .mrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .mrow .cod{font-size:11px;font-weight:700;color:var(--fg);margin-right:2px}
 .mbtn{border:1px dashed var(--line-2);border-radius:999px;padding:5px 11px;font-size:12px;font-weight:600;text-decoration:none;color:var(--fg);white-space:nowrap}
+.mbtn.has{border-style:solid}
+.mbtn.hit{border-color:var(--orange);color:var(--orange-ink)}
 .mbtn:hover{border-color:var(--orange);color:var(--orange-ink)}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
 .actions .btn{flex:1 1 auto}
@@ -393,7 +395,9 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
   function manualHTML(p){
     const extra=['Construção','Pisos e revestimentos','Iluminação'].includes(p.categoria)?[['Leroy Merlin',q=>'https://www.leroymerlin.com.br/search?term='+encodeURIComponent(q)]]:[];
     const mods=Array.isArray(p.modelos)&&p.modelos.length?p.modelos.slice(0,3):[null];
-    const rows=mods.map(m=>{const q=termo(p,m);const c=m&&codigoModelo(m);return '<div class="mrow">'+(c&&mods.length>1?'<span class="cod">'+esc(c.toUpperCase())+'</span>':'')+LOJAS_MANUAIS.concat(extra).map(([n,f])=>'<a class="mbtn" href="'+esc(f(q))+'" target="_blank" rel="noopener noreferrer">'+esc(n)+'</a>').join('')+'</div>';}).join('');
+    const ofs=offersOf(p);const alias={'Magalu':'magazine luiza','Google':'__nunca__'};
+    const precoLoja=(n,m)=>{const k=(alias[n]||n).toLowerCase();const l=ofs.filter(o=>(o.loja||'').toLowerCase().includes(k)&&(!m||!o.modelo||o.modelo===m));return l.length?l[0]:null;};
+    const rows=mods.map(m=>{const q=termo(p,m);const c=m&&codigoModelo(m);return '<div class="mrow">'+(c&&mods.length>1?'<span class="cod">'+esc(c.toUpperCase())+'</span>':'')+LOJAS_MANUAIS.concat(extra).map(([n,f])=>{const o=precoLoja(n,m);const alvo=typeof p.precoAlvo==='number'?p.precoAlvo:null;return o?'<a class="mbtn has'+(alvo!=null&&o.preco<=alvo?' hit':'')+'" href="'+esc(o.url)+'" target="_blank" rel="noopener noreferrer">'+esc(n)+' · '+money(o.preco)+'</a>':'<a class="mbtn" href="'+esc(f(q))+'" target="_blank" rel="noopener noreferrer">'+esc(n)+' · ver preço</a>';}).join('')+'</div>';}).join('');
     return '<div class="sec-t"><span class="dot man"></span>Conferir você mesmo</div><div class="manual">'+rows+'</div>';
   }
   function cardHTML(p){
