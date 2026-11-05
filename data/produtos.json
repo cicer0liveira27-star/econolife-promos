@@ -12,17 +12,6 @@
    "criadoEm": "2026-11-05T15:10:01Z"
   },
   {
-   "id": "cooktop",
-   "nome": "Cooktop 4 Bocas a Gás",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 450,
-   "marcas": "Dako ou Electrolux",
-   "detalhes": "preto, 4 bocas",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T15:10:02Z"
-  },
-  {
    "id": "gelagua",
    "nome": "Purificador / Gelágua",
    "categoria": "Eletrodomésticos",
