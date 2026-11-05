@@ -1,9 +1,9 @@
 {
- "atualizadoEm": "2026-11-05T22:41:30Z",
+ "atualizadoEm": "2026-11-05T22:45:17Z",
  "status": {
   "resumo": "38 ofertas de lojas confiáveis via buscape.com.br",
   "produtosVerificados": 10,
-  "alertas": 2
+  "alertas": 0
  },
  "itens": {
   "geladeira": {
@@ -18,7 +18,7 @@
      "imagem": "https://image.zst.com.br/5C087F20E580B2952D1EC90E175DB00E_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     },
     {
@@ -31,7 +31,7 @@
      "imagem": "https://image.zst.com.br/E27683F2C31D9E7B5F22C71DC10BF551_235_235.jpg",
      "observacao": "ou 12x de R$ 241,58",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     },
     {
@@ -44,7 +44,7 @@
      "imagem": "https://image.zst.com.br/31723D362B4A6F895D79CEE75C5EEFCF_235_235.jpg",
      "observacao": "ou 8x de R$ 368,62",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     },
     {
@@ -57,7 +57,7 @@
      "imagem": "https://image.zst.com.br/D4604038172992FE7673A10A9C0197CA_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     },
     {
@@ -70,7 +70,7 @@
      "imagem": "https://image.zst.com.br/499D1D90F77A401205BDD286FF853007_235_235.jpg",
      "observacao": "ou 10x de R$ 327,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     }
    ],
@@ -81,7 +81,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "gelagua": {
    "ofertas": [
@@ -95,7 +95,7 @@
      "imagem": "https://image.zst.com.br/288762087B747356613F92869558A783_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Webcontinental",
@@ -107,7 +107,7 @@
      "imagem": "https://image.zst.com.br/BC204B78175189AD6C7FBCFFC4311FE5_235_235.jpg",
      "observacao": "ou 6x de R$ 83,31",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Fast Shop",
@@ -119,7 +119,7 @@
      "imagem": "https://image.zst.com.br/AC8D441B74C97F27D497017373EB9DEF_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Electrolux",
@@ -131,7 +131,7 @@
      "imagem": "https://image.zst.com.br/913275028B33F7E0F9851DCC4A536D44_235_235.jpg",
      "observacao": "ou 12x de R$ 41,65",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -143,7 +143,7 @@
      "imagem": "https://image.zst.com.br/32625EC3F837327627785F68533693DD_235_235.jpg",
      "observacao": "ou 10x de R$ 93,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     }
    ],
    "historico": [
@@ -153,21 +153,21 @@
      "loja": "Fast Shop"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "lava-loucas": {
    "ofertas": [
     {
      "loja": "Webcontinental",
      "vendedor": null,
-     "titulo": "Lava-louça de Embutir Brastemp BLF08BSBNA 8 Serviços Inox Compacta 110V",
+     "titulo": "Lava-Louça de Embutir Brastemp BLF08BSBNA 8 Serviços Compacta Inox 220V",
      "preco": 1614.53,
-     "url": "https://www.buscape.com.br/lead?oid=1515998474&channel=1",
+     "url": "https://www.buscape.com.br/lead?oid=1501220260&channel=1",
      "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-brastemp-blf08bs",
-     "imagem": "https://image.zst.com.br/A25C399857619B59473C972B70D3279C_235_235.jpg",
+     "imagem": "https://image.zst.com.br/24FD142E3F06DF62688F7987FE5C3B3C_235_235.jpg",
      "observacao": "ou 8x de R$ 208,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Americanas",
@@ -179,7 +179,7 @@
      "imagem": "https://image.zst.com.br/E34CD54A81611FC5523DC740FC985483_235_235.jpg",
      "observacao": "ou 8x de R$ 251,56",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Amazon",
@@ -191,7 +191,7 @@
      "imagem": "https://image.zst.com.br/CD59F59AC9D990BCBDF6E0116E2256BF_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -203,7 +203,7 @@
      "imagem": "https://image.zst.com.br/409B8925D34AB71B4BB4B5A2C4B879EE_235_235.jpg",
      "observacao": "ou 10x de R$ 218,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Fast Shop",
@@ -215,7 +215,7 @@
      "imagem": "https://image.zst.com.br/1418545E81AB5B7A12DA293D44E2D569_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     }
    ],
    "historico": [
@@ -225,7 +225,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "lavadora": {
    "ofertas": [
@@ -285,7 +285,7 @@
      "loja": "Brastemp"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "microondas": {
    "ofertas": [
@@ -299,7 +299,7 @@
      "imagem": "https://image.zst.com.br/2EC29255A1876F447F0FAF812F735238_235_235.jpg",
      "observacao": "ou 6x de R$ 123,17",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -312,7 +312,7 @@
      "imagem": "https://image.zst.com.br/28BFA9C1B39B673E5F4DDC5A828C23EF_235_235.jpg",
      "observacao": "ou 8x de R$ 93,62",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -325,7 +325,7 @@
      "imagem": "https://image.zst.com.br/BA6B2639BDFD6D1174D690B15EBED6A8_235_235.jpg",
      "observacao": "ou 13x de R$ 57,61",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -338,7 +338,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/d/37/-1745139406.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     }
    ],
@@ -349,7 +349,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "tv": {
    "ofertas": [
@@ -363,7 +363,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/a/15/-1694457784.jpg",
      "observacao": "ou 8x de R$ 299,87",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Amazon",
@@ -375,7 +375,7 @@
      "imagem": "https://image.zst.com.br/C5CC1936B2A4B58851458BC7A2F48F76_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -387,7 +387,7 @@
      "imagem": "https://image.zst.com.br/040106AA13E83295A99146B18F0DDF8D_235_235.jpg",
      "observacao": "ou 10x de R$ 297,49",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Fast Shop",
@@ -399,7 +399,7 @@
      "imagem": "https://image.zst.com.br/0D217994A51C476AF5637A235A12FE94_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     }
    ],
    "historico": [
@@ -409,7 +409,7 @@
      "loja": "Americanas"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "ventilador": {
    "ofertas": [
@@ -423,7 +423,7 @@
      "imagem": "https://image.zst.com.br/6DC9A3E977C4290F3A958AEED51A441B_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
     },
     {
@@ -436,7 +436,7 @@
      "imagem": "https://image.zst.com.br/19AF806CE7991C409A79FBCC9C575622_235_235.jpg",
      "observacao": "ou 2x de R$ 67,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
     }
    ],
@@ -447,7 +447,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "liquidificador": {
    "ofertas": [
@@ -461,7 +461,7 @@
      "imagem": "https://image.zst.com.br/79AC748A33355422B5693984D3AD3FD8_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Americanas",
@@ -473,7 +473,7 @@
      "imagem": "https://image.zst.com.br/EF4CFDA4E155CA6992FE79DADA114682_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -485,7 +485,7 @@
      "imagem": "https://image.zst.com.br/E54C6126BD2585D06C97E6CC3678A8A1_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Fast Shop",
@@ -497,7 +497,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Webcontinental",
@@ -509,7 +509,7 @@
      "imagem": "https://image.zst.com.br/F63E69AF3443666C72E3767F8B0649AB_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     }
    ],
    "historico": [
@@ -519,7 +519,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "iphone-16-lacrado": {
    "ofertas": [
@@ -533,7 +533,7 @@
      "imagem": "https://image.zst.com.br/87945D666188C4A3627EE32C2FD35305_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -545,7 +545,7 @@
      "imagem": "https://image.zst.com.br/F23B0D818FA68600F59C06A6298E56A7_235_235.jpg",
      "observacao": "ou 10x de R$ 550,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     },
     {
      "loja": "KaBuM",
@@ -557,7 +557,7 @@
      "imagem": "https://image.zst.com.br/A85C0CDA4C3D68545A24E7A2F7E14E9C_235_235.jpg",
      "observacao": "ou 10x de R$ 599,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z"
+     "encontradoEm": "2026-11-05T22:45:17Z"
     }
    ],
    "historico": [
@@ -567,7 +567,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   },
   "cooktop-4-bocas-a-gas": {
    "ofertas": [
@@ -581,7 +581,7 @@
      "imagem": "https://image.zst.com.br/9079B23BFBB1EB2F8AAF73A2FC9B8B12_235_235.jpg",
      "observacao": "ou 4x de R$ 138,61",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     },
     {
@@ -594,7 +594,7 @@
      "imagem": "https://image.zst.com.br/A20B54E4BB7A85A529962241F3C0FD02_235_235.jpg",
      "observacao": "ou 6x de R$ 91,50",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     },
     {
@@ -607,7 +607,7 @@
      "imagem": "https://image.zst.com.br/C6DD6030EE81B34586DF940987742531_235_235.jpg",
      "observacao": "ou 9x de R$ 61,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     },
     {
@@ -620,7 +620,7 @@
      "imagem": "https://image.zst.com.br/486DD078F713D89B117CC6A7B6A317B9_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     },
     {
@@ -633,7 +633,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/f/d/-1704814696.jpg",
      "observacao": "ou 8x de R$ 79,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T22:41:30Z",
+     "encontradoEm": "2026-11-05T22:45:17Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     }
    ],
@@ -644,7 +644,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T22:41:30Z"
+   "ultimaBusca": "2026-11-05T22:45:17Z"
   }
  },
  "alertas": [
