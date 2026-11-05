@@ -1,15 +1,21 @@
 {
- "quando": "2026-11-05T23:07:37Z",
+ "quando": "2026-11-05T23:12:34Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 25,
- "paginas": 30,
+ "buscas": 26,
+ "paginas": 32,
  "ofertas": 37,
  "fotos": 37,
- "alertas": 1,
+ "alertas": 0,
  "semResultado": [
   "lavadora"
  ],
- "falhas": [],
+ "falhas": [
+  {
+   "produto": "cooktop-4-bocas-a-gas",
+   "onde": "amazon.com.br",
+   "motivo": "produto do link não encontrado"
+  }
+ ],
  "debug": {
   "geladeira": {
    "modelos": 3,
