@@ -1,0 +1,29 @@
+{
+ "quando": "2026-11-05T23:18:48.020318+00:00",
+ "r": {
+  "zoom": "200 tam=491804 ld=1 next=True R$=43 ke4gr=True",
+  "americanas": "200 tam=96042 ld=0 next=True R$=4 ke4gr=True",
+  "submarino": "ERRO <urlopen error [Errno -2] Name or service not known>",
+  "shoptime": "200 tam=564432 ld=2 next=True R$=70 ke4gr=False",
+  "mercadolivre_html": "200 tam=41971 ld=0 next=False R$=0 ke4gr=True",
+  "mercadolivre_api": "ERRO HTTP Error 403: Forbidden",
+  "amazon": "ERRO HTTP Error 503: Service Unavailable",
+  "magalu": "ERRO HTTP Error 403: Forbidden",
+  "casasbahia": "ERRO HTTP Error 403: Forbidden",
+  "pontofrio": "ERRO HTTP Error 403: Forbidden",
+  "kabum": "200 tam=54573 ld=0 next=True R$=0 ke4gr=True",
+  "fastshop": "ERRO HTTP Error 404: Not Found",
+  "carrefour": "ERRO HTTP Error 403: Forbidden",
+  "electrolux": "200 tam=255808 ld=0 next=False R$=21 ke4gr=False",
+  "brastemp": "ERRO HTTP Error 404: Not Found",
+  "webcontinental": "ERRO HTTP Error 404: Not Found",
+  "leroy": "ERRO HTTP Error 403: ",
+  "ferreiracosta": "ERRO HTTP Error 404: Not Found",
+  "pelando": "ERRO HTTP Error 403: Forbidden",
+  "promobit": "200 tam=49014 ld=3 next=True R$=0 ke4gr=False",
+  "google_shopping": "200 tam=94003 ld=0 next=False R$=0 ke4gr=True",
+  "bing_shopping": "200 tam=112625 ld=0 next=False R$=0 ke4gr=True",
+  "jacotei": "ERRO HTTP Error 403: Forbidden",
+  "comparamais": "ERRO <urlopen error [Errno -2] Name or service not known>"
+ }
+}
