@@ -1,0 +1,520 @@
+{
+ "atualizadoEm": "2026-11-05T15:24:00Z",
+ "status": {
+  "resumo": "Primeira rodada do robô (migrada do app anterior). Fotos chegam na próxima busca.",
+  "produtosVerificados": 7
+ },
+ "itens": {
+  "cooktop": {
+   "ofertas": [
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Cooktop 4 Bocas a Gás Dako Pratiko Mesa de Vidro Preto Bivolt",
+     "preco": 449.65,
+     "url": "https://www.magazineluiza.com.br/cooktop-4-bocas-dako-pratiko-mesa-de-vidro-e-acendimento-super-automatico-a-gas-preto-bivolt/p/daff8f80aj/ed/ck4b/?seller_id=dakooficial2",
+     "imagem": null,
+     "observacao": "Pix; vendido por Dako oficial; bivolt",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Cooktop 4 Bocas a Gás Electrolux Efficient KE4GR Preto",
+     "preco": 502.55,
+     "url": "https://www.magazineluiza.com.br/cooktop-4-bocas-a-gas-glp-electrolux-mesa-de-vidro-preto-acendimento-automatico-efficient-ke4gr/p/240161500/ed/ck4b/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; GLP",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Cooktop 4 Bocas Electrolux Efficient KE4GR Vidro Preto Bivolt",
+     "preco": 526.72,
+     "url": "https://m.magazineluiza.com.br/cooktop-4-bocas-electrolux-efficient-a-gas-ke4gr-mesa-de-vidro-preto-bivolt/p/dfj88fa255/ed/cook/?seller_id=dufrio",
+     "imagem": null,
+     "observacao": "Pix; vendedor Dufrio",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Cooktop Dako Supreme a Gás 4 Bocas Tripla Chama",
+     "preco": 539.91,
+     "url": "https://www.magazineluiza.com.br/cooktop-dako-supreme-a-gas-4-bocas-acendimento-automatico-e-tripla-chama/p/jjb022a3bc/ed/ck4b/?seller_id=ebomdecomprar",
+     "imagem": null,
+     "observacao": "Pix; vendedor parceiro",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Cooktop 4 Bocas Gás Dako Supreme Vidro Temperado Preto",
+     "preco": 597.52,
+     "url": "https://www.magazineluiza.com.br/cooktop-fogao-4-bocas-gas-dako-supreme-com-vidro-temperado-preto/p/aj84372gkd/ed/ck4b/?seller_id=arede",
+     "imagem": null,
+     "observacao": "Pix; vendedor parceiro",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 449.65,
+     "loja": "Magazine Luiza"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T15:18:05Z"
+  },
+  "geladeira": {
+   "ofertas": [
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": "Belmicro",
+     "titulo": "Geladeira Consul 333L Duplex Frost Free Inox CRM40MK",
+     "preco": 1887,
+     "url": "https://www.magazineluiza.com.br/geladeira-consul-333-l-duplex-frost-free-inox-crm40mk/p/fbaj2j6eek/ed/ref2/?seller_id=comprebel2",
+     "imagem": null,
+     "observacao": "Pix (32% off); 220V; entregue pela Magalu; ou 10x R$ 205",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:24:00Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": "Consul",
+     "titulo": "Geladeira Consul Frost Free 337L Inox CRB39MK",
+     "preco": 2099.01,
+     "url": "https://www.magazineluiza.com.br/geladeira-frost-free-337l-com-espaco-extra-frio-cor-inox-consul-crb39mk/p/kaj67fb39g/ed/refr/?seller_id=consul",
+     "imagem": null,
+     "observacao": "Pix; 110V (220V em outro anúncio); ou 10x R$ 225,70",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:24:00Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": "Consul",
+     "titulo": "Geladeira Consul Frost Free Duplex 333L Inox CRM40MK",
+     "preco": 2399.4,
+     "url": "https://www.magazineluiza.com.br/geladeira-frost-free-duplex-inox-consul-crm40mk/p/fef3f5g82f/ed/ref2/?seller_id=consul",
+     "imagem": null,
+     "observacao": "Pix (7% off); 220V; ou 10x R$ 258",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:20:28Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Geladeira Midea Frost Free Duplex Inox 394L MDRT533",
+     "preco": 2429,
+     "url": "https://www.magazineluiza.com.br/geladeira-refrigerador-midea-frost-free-duplex-inox-394l-mdrt533evd461/p/240733200/ed/ref2/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; vendido pela Magalu",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": "mgshopgra",
+     "titulo": "Geladeira Consul Frost Free 333L Duplex Inox CRM40MK",
+     "preco": 2449.98,
+     "url": "https://www.magazineluiza.com.br/geladeira-consul-frost-free-333-litros-duplex-inox-crm40mk/p/jg4abeea54/ed/ref2/?seller_id=mgshopgra",
+     "imagem": null,
+     "observacao": "Pix; vendedor parceiro",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:20:28Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 1887,
+     "loja": "Magazine Luiza"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T15:24:00Z"
+  },
+  "gelagua": {
+   "ofertas": [
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Purificador Electrolux Efficient Cinza 3 Estágios (sem energia)",
+     "preco": 455.05,
+     "url": "https://www.magazineluiza.com.br/purificador-de-agua-efficient-cinza-3-estagios-filtro-sem-energia-electrolux/p/be701hfk28/ep/purf/?seller_id=mataplace",
+     "imagem": null,
+     "observacao": "Pix; sem refrigeração (não gela)",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Purificador Electrolux Efficient PE15X Cinza Bivolt",
+     "preco": 499.9,
+     "url": "https://www.magazineluiza.com.br/purificador-electrolux-eletronico-compacto-efficient-painel-mecanico-bivolt-cinza-pe15x/p/fg5g8h56b0/ep/papd/?seller_id=electrolux",
+     "imagem": null,
+     "observacao": "Água gelada; loja Electrolux",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Casas Bahia",
+     "vendedor": null,
+     "titulo": "Purificador Electrolux Água Gelada Cinza PE15X Bivolt",
+     "preco": 499.9,
+     "url": "https://www.casasbahia.com.br/purificador-electrolux-gua-gelada-3-nveis-cinza-efficient-eletrnico-pe15x--bivolt/p/1567826850",
+     "imagem": null,
+     "observacao": "Água gelada; 6x sem juros; loja Electrolux",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Purificador Electrolux Efficient PE11X Painel Digital Cinza",
+     "preco": 549.9,
+     "url": "https://www.magazineluiza.com.br/purificador-electrolux-eletronico-compacto-efficient-painel-digital-bivolt-cinza-pe11x/p/714958200/ep/papd/?seller_id=electrolux",
+     "imagem": null,
+     "observacao": "Água gelada; loja Electrolux",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Purificador Electrolux Pure 4x PE12G Cinza",
+     "preco": 598.41,
+     "url": "https://www.magazineluiza.com.br/purificador-de-agua-electrolux-pe12g-com-filtro-carvao-3000l-painel-touch-cinza/p/gg4bkdh97k/ep/purf/?seller_id=eletrosid",
+     "imagem": null,
+     "observacao": "Pix; vendedor parceiro",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 455.05,
+     "loja": "Magazine Luiza"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T15:18:05Z"
+  },
+  "lava-loucas": {
+   "ofertas": [
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Lava-louças Electrolux 8 Serviços LS08E Inox",
+     "preco": 2079.55,
+     "url": "https://www.magazineluiza.com.br/lava-loucas-electrolux-8-servicos-com-funcao-higienizar-ls08e-inox/p/240157100/ed/l08s/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; 8 serviços; vendido pela Magalu",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Lava-louças Midea 8 Serviços Touch Plus Cinza",
+     "preco": 2099,
+     "url": "https://www.magazineluiza.com.br/lava-loucas-8-servicos-cinza-touch-plus-midea/p/adaj1akf01/ed/l08s/?seller_id=mideacarrier",
+     "imagem": null,
+     "observacao": "8 serviços; loja Midea",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Lava-louças Midea 8 Serviços MDWTF08S2 Cinza",
+     "preco": 2099,
+     "url": "https://www.magazineluiza.com.br/lava-loucas-midea-8-servicos-mdwtf08s2-cinza/p/241105400/ed/l10s/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; 8 serviços",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Lava-louças Electrolux 8 Serviços Inox LS08E",
+     "preco": 2099,
+     "url": "https://www.magazineluiza.com.br/lava-louca-electrolux-8-servicos-inox-com-programa-lava-seca-50-min-ls08e/p/ff41g1359c/ed/l08s/?seller_id=electrolux",
+     "imagem": null,
+     "observacao": "Loja Electrolux",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Lava-louças Midea 14 Serviços DWA14S2 Cinza 220V",
+     "preco": 2799,
+     "url": "https://www.magazineluiza.com.br/lava-loucas-14-servicos-midea-dwa14s2-220v-cinza/p/227974600/ed/l14s/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; 14 serviços; 220V",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 2079.55,
+     "loja": "Magazine Luiza"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T15:18:05Z"
+  },
+  "lavadora": {
+   "ofertas": [
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": "Fast Shop",
+     "titulo": "Lavadora Frontal Electrolux 12kg Cinza Ônix Inverter LFC12",
+     "preco": 2584.46,
+     "url": "https://www.magazineluiza.com.br/lavadora-de-roupas-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/ehjd8fffkj/ed/lava/?seller_id=fastshop2",
+     "imagem": null,
+     "observacao": "Pix; abertura frontal; 110V (não bivolt); ou 10x R$ 280,92",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:24:00Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Lavadora Midea Slim 11kg HealthGuard Inverter Titanium MF201W110",
+     "preco": 2935.86,
+     "url": "https://www.magazineluiza.com.br/lavadora-de-roupas-midea-slim-11kg-healthguard-smart-inverter-agua-fria-e-quente-titanium-mf201w110wbgk02/p/240112200/ed/lava/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; cor titânio; ou 10x R$ 315,68",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:20:28Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": "Electrolux",
+     "titulo": "Máquina de Lavar Frontal Electrolux 12kg Cinza Ônix LFC12",
+     "preco": 2999,
+     "url": "https://www.magazineluiza.com.br/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/eej9bcg6a2/ed/lava/?seller_id=electrolux",
+     "imagem": null,
+     "observacao": "preço Pix não informado",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:20:28Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Lava e Seca Midea 10,5kg Titanium Inverter",
+     "preco": 3039.05,
+     "url": "https://www.magazineluiza.com.br/lava-e-seca-105kg-titanium-inverter-ciclo-pet-midea/p/ag3j02bj63/ed/ela1/?seller_id=mideacarrier",
+     "imagem": null,
+     "observacao": "lava e seca",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Lavadora Frontal Electrolux 12kg Cinza Ônix LFC12",
+     "preco": 3199,
+     "url": "https://www.magazineluiza.com.br/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/feec5d2a10/ed/lava/?seller_id=electrolux",
+     "imagem": null,
+     "observacao": "outro anúncio do mesmo modelo",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 2584.46,
+     "loja": "Magazine Luiza"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T15:24:00Z"
+  },
+  "microondas": {
+   "ofertas": [
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Micro-ondas Electrolux 20L MT30S Inox Espelhado",
+     "preco": 499,
+     "url": "https://www.magazineluiza.com.br/micro-ondas-electrolux-20l-cor-inox-espelhado-com-funcao-tira-odor-mt30s/p/737766300/ed/mond/?seller_id=electrolux",
+     "imagem": null,
+     "observacao": "À vista; loja Electrolux",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Loja Electrolux",
+     "vendedor": null,
+     "titulo": "Micro-ondas Electrolux 20L MT30S Inox Espelhado",
+     "preco": 549,
+     "url": "https://loja.electrolux.com.br/micro-ondas",
+     "imagem": null,
+     "observacao": "Site oficial",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Micro-ondas Electrolux 23L Efficient ME23S Prata 110V",
+     "preco": 557.1,
+     "url": "https://www.magazineluiza.com.br/microondas-electrolux-23l-efficient-me23s-prata-110v/p/fed73b0bk5/ed/mond/?seller_id=temdetudo1001",
+     "imagem": null,
+     "observacao": "Pix; 110V; vendedor parceiro",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Micro-ondas Electrolux 23L Prata Efficient ME23S",
+     "preco": 643.08,
+     "url": "https://www.magazineluiza.com.br/micro-ondas-electrolux-23l-prata-efficient-me23s/p/235613500/ed/mond/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; vendido pela Magalu",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Micro-ondas Electrolux 23L Inox Efficient ME23S",
+     "preco": 649,
+     "url": "https://www.magazineluiza.com.br/micro-ondas-electrolux-23l-cor-inox-efficient-com-descongelamento-assistido-me23s/p/bf9488cckg/ed/mond/?seller_id=electrolux",
+     "imagem": null,
+     "observacao": "Loja Electrolux",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 499,
+     "loja": "Magazine Luiza"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T15:18:05Z"
+  },
+  "tv": {
+   "ofertas": [
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Smart TV Samsung 50\" Crystal UHD 4K U8000H",
+     "preco": 2555.5,
+     "url": "https://www.magazineluiza.com.br/smart-tv-50-samsung-4k-uhd-crystal-uhd-un50u8000hgxzd-one-ui-tizen-2026/p/242406200/et/elit/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; modelo 2026",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Smart TV Samsung 50\" Crystal 4K UHD U8600F",
+     "preco": 2707.9,
+     "url": "https://www.magazineluiza.com.br/smart-tv-50-polegadas-samsung-crystal-4k-uhd-hdr-3-hdmi-1-usb-un50u8600fgxzd/p/kfj7eh471d/et/elit/?seller_id=lojaszema",
+     "imagem": null,
+     "observacao": "Vendedor Zema",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Smart TV Samsung 55\" Crystal UHD 4K U8000H",
+     "preco": 2789,
+     "url": "https://www.magazineluiza.com.br/samsung-smart-tv-55-crystal-uhd-4k-u8000h-26-2027-vision-ai-companion-modo-estadio-xbox-cloud-gaming/p/ke8kjdbk4b/et/elit/?seller_id=samsung",
+     "imagem": null,
+     "observacao": "Pix; loja Samsung",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Smart TV Samsung 55\" Crystal UHD 4K U8600F",
+     "preco": 2840,
+     "url": "https://www.magazineluiza.com.br/samsung-smart-tv-55-crystal-uhd-4k-u8600f-2025-xbox-cloud-gaming-canais-gratuitos-alexa/p/kh6643e17a/et/elit/?seller_id=samsung",
+     "imagem": null,
+     "observacao": "Loja Samsung",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Smart TV Samsung 55\" Crystal UHD 4K UN55U8000H",
+     "preco": 2840.5,
+     "url": "https://www.magazineluiza.com.br/smart-tv-55-samsung-4k-uhd-crystal-uhd-un55u8000hgxzd-one-ui-tizen-2026/p/242406600/et/elit/?seller_id=magazineluiza",
+     "imagem": null,
+     "observacao": "Pix; vendido pela Magalu",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T15:18:05Z"
+    }
+   ],
+   "historico": [
+    {
+     "d": "2026-11-05",
+     "p": 2555.5,
+     "loja": "Magazine Luiza"
+    }
+   ],
+   "ultimaBusca": "2026-11-05T15:18:05Z"
+  }
+ },
+ "alertas": [
+  {
+   "id": "cooktop-202611051524",
+   "produtoId": "cooktop",
+   "produtoNome": "Cooktop 4 bocas",
+   "texto": "Cooktop 4 bocas: Cooktop 4 Bocas a Gás Dako Pratiko Mesa de Vidro Preto Bivol por R$ 449,65 na Magazine Luiza (R$ 0,35 abaixo do alvo)",
+   "preco": 449.65,
+   "loja": "Magazine Luiza",
+   "url": "https://www.magazineluiza.com.br/cooktop-4-bocas-dako-pratiko-mesa-de-vidro-e-acendimento-super-automatico-a-gas-preto-bivolt/p/daff8f80aj/ed/ck4b/?seller_id=dakooficial2",
+   "criadoEm": "2026-11-05T15:24:00Z"
+  },
+  {
+   "id": "geladeira-202611051524",
+   "produtoId": "geladeira",
+   "produtoNome": "Geladeira",
+   "texto": "Geladeira: Geladeira Consul 333L Duplex Frost Free Inox CRM40MK por R$ 1.887,00 na Magazine Luiza (R$ 513,00 abaixo do alvo)",
+   "preco": 1887,
+   "loja": "Magazine Luiza",
+   "url": "https://www.magazineluiza.com.br/geladeira-consul-333-l-duplex-frost-free-inox-crm40mk/p/fbaj2j6eek/ed/ref2/?seller_id=comprebel2",
+   "criadoEm": "2026-11-05T15:24:00Z"
+  },
+  {
+   "id": "lava-loucas-202611051524",
+   "produtoId": "lava-loucas",
+   "produtoNome": "Lava-louças",
+   "texto": "Lava-louças: Lava-louças Electrolux 8 Serviços LS08E Inox por R$ 2.079,55 na Magazine Luiza (R$ 320,45 abaixo do alvo)",
+   "preco": 2079.55,
+   "loja": "Magazine Luiza",
+   "url": "https://www.magazineluiza.com.br/lava-loucas-electrolux-8-servicos-com-funcao-higienizar-ls08e-inox/p/240157100/ed/l08s/?seller_id=magazineluiza",
+   "criadoEm": "2026-11-05T15:24:00Z"
+  },
+  {
+   "id": "lavadora-202611051524",
+   "produtoId": "lavadora",
+   "produtoNome": "Máquina de lavar porta frontal",
+   "texto": "Máquina de lavar porta frontal: Lavadora Frontal Electrolux 12kg Cinza Ônix Inverter LFC12 por R$ 2.584,46 na Magazine Luiza (R$ 215,54 abaixo do alvo)",
+   "preco": 2584.46,
+   "loja": "Magazine Luiza",
+   "url": "https://www.magazineluiza.com.br/lavadora-de-roupas-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/ehjd8fffkj/ed/lava/?seller_id=fastshop2",
+   "criadoEm": "2026-11-05T15:24:00Z"
+  }
+ ]
+}

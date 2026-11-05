@@ -1,0 +1,81 @@
+{
+ "produtos": [
+  {
+   "id": "geladeira",
+   "nome": "Geladeira",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 2400,
+   "marcas": "Brastemp, Electrolux, Midea ou Consul",
+   "detalhes": "cor cinza ou inox",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T15:10:01Z"
+  },
+  {
+   "id": "cooktop",
+   "nome": "Cooktop 4 bocas",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 450,
+   "marcas": "Dako ou Electrolux",
+   "detalhes": "preto, 4 bocas",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T15:10:02Z"
+  },
+  {
+   "id": "gelagua",
+   "nome": "Purificador / Gelágua",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 350,
+   "marcas": "Electrolux",
+   "detalhes": "cinza",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T15:10:03Z"
+  },
+  {
+   "id": "microondas",
+   "nome": "Micro-ondas",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 480,
+   "marcas": "Electrolux",
+   "detalhes": "cinza ou inox",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T15:10:04Z"
+  },
+  {
+   "id": "tv",
+   "nome": "Smart TV Samsung Crystal UHD",
+   "categoria": "Eletrônicos",
+   "precoAlvo": 2200,
+   "marcas": "Samsung (linha Crystal)",
+   "detalhes": "50 ou 55 polegadas",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T15:10:05Z"
+  },
+  {
+   "id": "lavadora",
+   "nome": "Máquina de lavar porta frontal",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 2800,
+   "marcas": "Brastemp, Electrolux ou Midea",
+   "detalhes": "abertura frontal (porta redonda), cinza ou inox",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T15:10:06Z"
+  },
+  {
+   "id": "lava-loucas",
+   "nome": "Lava-louças",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 2400,
+   "marcas": "Brastemp, Electrolux ou Midea",
+   "detalhes": "cinza ou inox",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T15:10:07Z"
+  }
+ ]
+}
