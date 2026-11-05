@@ -1,233 +1,157 @@
-"""Robô gratuito do Econolife Promos (roda no GitHub Actions, sem usar o Claude).
+"""Robô gratuito do Econolife Promos (roda no GitHub Actions a cada 15 min, sem usar o Claude).
 
-A cada execução:
-  1. Abre a página de cada oferta já conhecida e atualiza preço, foto e disponibilidade.
-  2. Para produtos sem ofertas (ou com poucas), procura na busca da Magazine Luiza e do Mercado Livre.
-  3. Atualiza histórico, cria alertas e manda no Telegram quando o preço fica bom.
-  4. Grava um relatório em data/checagem.json.
+As grandes lojas bloqueiam os servidores do GitHub, então o robô usa o Buscapé (e o Zoom como reserva),
+que já comparam Americanas, Magalu, Amazon, Casas Bahia, Fast Shop etc. Para cada produto da lista:
+  1. Busca no Buscapé e escolhe os anúncios que batem com nome, marca e detalhes.
+  2. Abre a página de cada anúncio e lê as ofertas por loja (preço, foto, link).
+  3. Fica só com lojas confiáveis, atualiza histórico, cria alertas e avisa no Telegram.
 """
 import html, json, os, re, sys, time, unicodedata, urllib.parse, urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 import enviar_whatsapp as avisos  # noqa: E402
 
 AGORA = datetime.now(timezone.utc)
 ISO = AGORA.strftime("%Y-%m-%dT%H:%M:%SZ")
-from datetime import timedelta
 HOJE = (AGORA - timedelta(hours=3)).strftime("%Y-%m-%d")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
-TRUSTED = ["amazon.com.br", "mercadolivre.com.br", "magazineluiza.com.br", "casasbahia.com.br", "pontofrio.com.br",
-           "ponto.com.br", "extra.com.br", "americanas.com.br", "submarino.com.br", "shoptime.com.br", "carrefour.com.br",
-           "fastshop.com.br", "kabum.com.br", "girafa.com.br", "leroymerlin.com.br", "telhanorte.com.br", "cec.com.br",
-           "obramax.com.br", "ferreiracosta.com", "madeiramadeira.com.br", "tokstok.com.br", "mobly.com.br",
-           "brastemp.com.br", "consul.com.br", "electrolux.com.br", "midea.com", "samsung.com", "lg.com", "dako.com.br",
-           "philco.com.br", "britania.com.br", "portobello.com.br", "portobelloshop.com.br", "eliane.com",
-           "tramontina.com.br", "stella.com.br", "balaroti.com.br"]
-LOJA_POR_DOMINIO = {"magazineluiza.com.br": "Magazine Luiza", "mercadolivre.com.br": "Mercado Livre",
-                    "amazon.com.br": "Amazon", "casasbahia.com.br": "Casas Bahia", "americanas.com.br": "Americanas",
-                    "kabum.com.br": "KaBuM", "leroymerlin.com.br": "Leroy Merlin", "fastshop.com.br": "Fast Shop"}
-log = {"quando": ISO, "verificados": 0, "atualizados": 0, "fotos": 0, "descobertas": 0, "falhas": [], "alertas": 0}
+FONTES = ["https://www.buscape.com.br", "https://www.zoom.com.br"]
 
+# Lojas aceitas (nome como aparece no Buscapé, sem acento e minúsculo)
+LOJAS_OK = ["americanas", "magazine luiza", "magalu", "amazon", "casas bahia", "ponto", "pontofrio", "extra",
+            "submarino", "shoptime", "carrefour", "fast shop", "kabum", "girafa", "mercado livre", "leroy merlin",
+            "telhanorte", "c&c", "obramax", "ferreira costa", "madeiramadeira", "tok&stok", "tok stok", "mobly",
+            "webcontinental", "brastemp", "consul", "electrolux", "loja electrolux", "midea", "samsung", "lg",
+            "apple", "dako", "philco", "britania", "tramontina", "portobello", "eliane", "balaroti", "colombo",
+            "lojas colombo", "havan", "efacil", "zema"]
 
-# ---------------- util ----------------
-def confiavel(url):
-    try:
-        u = urllib.parse.urlparse(url)
-        h = u.hostname or ""
-        h = h[4:] if h.startswith("www.") else h
-        return u.scheme == "https" and any(h == d or h.endswith("." + d) for d in TRUSTED)
-    except Exception:  # noqa: BLE001
-        return False
+log = {"quando": ISO, "fonte": None, "buscas": 0, "paginas": 0, "ofertas": 0, "fotos": 0, "alertas": 0,
+       "semResultado": [], "falhas": []}
 
 
 def baixar(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "pt-BR,pt;q=0.9",
-                                               "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8"})
+                                               "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8"})
     with urllib.request.urlopen(req, timeout=25) as r:
         return r.read().decode("utf-8", "ignore")
 
 
-def num(v):
-    if v is None:
-        return None
-    if isinstance(v, (int, float)):
-        return float(v) if v > 0 else None
-    s = str(v).strip()
-    s = re.sub(r"[^\d,\.]", "", s)
-    if "," in s and "." in s:
-        s = s.replace(".", "").replace(",", ".")
-    elif "," in s:
-        s = s.replace(",", ".")
-    try:
-        f = float(s)
-        return f if f > 0 else None
-    except ValueError:
-        return None
+def next_data(pg):
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', pg, re.S)
+    return json.loads(m.group(1)) if m else {}
 
 
-def sem_acento(s):
+def sa(s):
     return "".join(c for c in unicodedata.normalize("NFD", (s or "").lower()) if unicodedata.category(c) != "Mn")
 
 
-def walk(o):
-    if isinstance(o, dict):
-        yield o
-        for v in o.values():
-            yield from walk(v)
-    elif isinstance(o, list):
-        for v in o:
-            yield from walk(v)
+def loja_ok(nome):
+    n = sa(nome).replace("!", "").strip()
+    return any(n == l or n.startswith(l + " ") or n.endswith(" " + l) for l in LOJAS_OK)
 
 
-def meta(pagina, prop):
-    m = re.search(r'<meta[^>]+(?:property|name|itemprop)=["\']' + re.escape(prop) + r'["\'][^>]*content=["\']([^"\']+)', pagina, re.I) \
-        or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name|itemprop)=["\']' + re.escape(prop) + r'["\']', pagina, re.I)
-    return html.unescape(m.group(1)) if m else None
+# ---------------- filtros do produto ----------------
+PARADAS = {"com", "para", "de", "da", "do", "e", "ou", "a", "o", "cor", "porta", "bocas", "lacrado", "linha"}
 
 
-def ler_produto(pagina):
-    """Extrai preço, imagem, título e disponibilidade de uma página de produto."""
-    info = {"preco": None, "imagem": None, "titulo": None, "esgotado": False}
-    for bloco in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', pagina, re.S | re.I):
-        try:
-            dado = json.loads(html.unescape(bloco.strip()), strict=False)
-        except Exception:  # noqa: BLE001
-            continue
-        for d in walk(dado):
-            tipo = d.get("@type")
-            tipos = tipo if isinstance(tipo, list) else [tipo]
-            if "Product" not in tipos:
-                continue
-            info["titulo"] = info["titulo"] or d.get("name")
-            img = d.get("image")
-            if isinstance(img, list):
-                img = img[0] if img else None
-            if isinstance(img, dict):
-                img = img.get("url")
-            info["imagem"] = info["imagem"] or img
-            ofs = d.get("offers")
-            ofs = ofs if isinstance(ofs, list) else [ofs] if ofs else []
-            precos = []
-            for of in ofs:
-                if not isinstance(of, dict):
-                    continue
-                p = num(of.get("price")) or num(of.get("lowPrice"))
-                if p:
-                    precos.append(p)
-                if "OutOfStock" in str(of.get("availability", "")):
-                    info["esgotado"] = True
-            if precos:
-                info["preco"] = min(precos)
-    info["preco"] = info["preco"] or num(meta(pagina, "product:price:amount")) or num(meta(pagina, "og:price:amount"))
-    info["imagem"] = info["imagem"] or meta(pagina, "og:image")
-    info["titulo"] = info["titulo"] or meta(pagina, "og:title")
-    if info["imagem"] and info["imagem"].startswith("//"):
-        info["imagem"] = "https:" + info["imagem"]
-    if info["imagem"] and not info["imagem"].startswith("https://"):
-        info["imagem"] = None
-    return info
-
-
-# ---------------- busca de novas ofertas ----------------
-def palavras_chave(p):
-    base = sem_acento(p["nome"])
-    base = re.sub(r"[^a-z0-9 ]", " ", base)
-    return [w for w in base.split() if len(w) > 2 and w not in {"com", "para", "porta", "bocas", "lacrado"}]
+def tokens(s):
+    return [w for w in re.sub(r"[^a-z0-9 ]", " ", sa(s)).split() if w not in PARADAS and len(w) > 1]
 
 
 def marcas(p):
-    m = sem_acento(p.get("marcas") or "")
-    m = re.sub(r"\(.*?\)", " ", m)
-    return [w.strip() for w in re.split(r",| ou | e |/", m) if w.strip() and len(w.strip()) > 1]
-
-
-def combina(p, titulo):
-    t = sem_acento(titulo)
-    chaves = palavras_chave(p)
-    if chaves and not any(k in t for k in chaves):
-        return False
-    ms = marcas(p)
-    if ms and not any(m.split()[0] in t for m in ms):
-        return False
-    for ruim in ("capa", "pelicula", "suporte", "filtro refil", "peca", "usado", "recondicionado", "seminovo", "vitrine"):
-        if ruim in t:
-            return False
-    return True
+    m = re.sub(r"\(.*?\)", " ", sa(p.get("marcas") or ""))
+    return [w.strip() for w in re.split(r",| ou | e |/", m) if len(w.strip()) > 1]
 
 
 def consulta(p):
     partes = [p["nome"]]
     ms = marcas(p)
-    if ms and sem_acento(ms[0]) not in sem_acento(p["nome"]):
+    if len(ms) == 1 and ms[0] not in sa(p["nome"]):
         partes.append(ms[0])
-    det = (p.get("detalhes") or "").split(",")[0]
-    if det and len(det) < 25:
-        partes.append(det)
     return " ".join(partes)
 
 
-def buscar_magalu(p):
+def combina(p, titulo):
+    t = sa(titulo)
+    chave = [w for w in tokens(p["nome"]) if len(w) > 2]
+    if chave and not any(w in t for w in chave):
+        return False
+    ms = marcas(p)
+    nome_inteiro = all(w in t for w in tokens(p["nome"]))  # ex.: "iphone 16" já identifica a marca
+    if ms and not nome_inteiro and not any(m.split()[0] in t for m in ms):
+        return False
+    for ruim in ("capa ", "pelicula", "suporte", "refil", "usado", "recondicionado", "seminovo", "vitrine", "peca "):
+        if ruim in t + " ":
+            return False
+    return True
+
+
+def nota_detalhe(p, titulo):
+    """Quantos detalhes pedidos (cor, tamanho...) aparecem no título."""
+    t = sa(titulo)
+    return sum(1 for w in tokens(p.get("detalhes") or "") if len(w) > 1 and w in t)
+
+
+# ---------------- coleta ----------------
+def buscar(fonte, p):
     q = urllib.parse.quote(consulta(p))
-    pagina = baixar(f"https://www.magazineluiza.com.br/busca/{q}/")
-    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', pagina, re.S)
-    achados = []
-    if m:
-        dado = json.loads(m.group(1))
-        for d in walk(dado):
-            if not isinstance(d.get("title"), str):
-                continue
-            preco = d.get("price")
-            if isinstance(preco, dict):
-                preco = preco.get("bestPrice") or preco.get("price")
-            preco = num(preco)
-            path = d.get("url") or d.get("path")
-            if not preco or not isinstance(path, str):
-                continue
-            url = path if path.startswith("http") else "https://www.magazineluiza.com.br/" + path.lstrip("/")
-            img = d.get("image")
-            if isinstance(img, str):
-                img = img.replace("{w}", "600").replace("{h}", "450")
-                if img.startswith("//"):
-                    img = "https:" + img
-            seller = d.get("seller")
-            vend = seller.get("description") if isinstance(seller, dict) else None
-            achados.append({"loja": "Magazine Luiza", "vendedor": vend if vend and "magalu" not in sem_acento(vend) and "magazine" not in sem_acento(vend) else None,
-                            "titulo": d["title"], "preco": preco, "url": url.split("?")[0],
-                            "imagem": img if isinstance(img, str) and img.startswith("https://") else None})
-    return achados
+    nd = next_data(baixar(f"{fonte}/search?q={q}"))
+    log["buscas"] += 1
+    hits = (((nd.get("props") or {}).get("initialReduxState") or {}).get("hits") or {}).get("hits") or []
+    return [h for h in hits if h.get("type") == "product" and h.get("url") and h.get("name")]
 
 
-def buscar_ml(p):
-    q = urllib.parse.quote(consulta(p).replace(" ", "-"))
-    pagina = baixar(f"https://lista.mercadolivre.com.br/{q}_NoIndex_True")
-    achados = []
-    for bloco in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', pagina, re.S | re.I):
-        try:
-            dado = json.loads(html.unescape(bloco), strict=False)
-        except Exception:  # noqa: BLE001
+def ofertas_do_produto(fonte, hit):
+    nd = next_data(baixar(fonte + hit["url"]))
+    log["paginas"] += 1
+    ol = ((((nd.get("props") or {}).get("initialReduxState") or {}).get("offers") or {}).get("offerList")) or []
+    saida = []
+    for o in ol:
+        preco = o.get("price")
+        loja = (o.get("sellerName") or "").strip()
+        if not isinstance(preco, (int, float)) or preco <= 0 or not loja_ok(loja) or o.get("sellerIsMarketplace"):
             continue
-        for d in walk(dado):
-            if d.get("@type") != "Product":
-                continue
-            ofs = d.get("offers") or {}
-            ofs = ofs if isinstance(ofs, dict) else (ofs[0] if ofs else {})
-            preco, url = num(ofs.get("price")), ofs.get("url") or d.get("url")
-            img = d.get("image")
-            if isinstance(img, list):
-                img = img[0] if img else None
-            if preco and isinstance(url, str):
-                achados.append({"loja": "Mercado Livre", "vendedor": None, "titulo": d.get("name", ""), "preco": preco,
-                                 "url": url.split("#")[0].split("?")[0], "imagem": img if isinstance(img, str) and img.startswith("https://") else None})
-    return achados
+        img = o.get("imageUrl") or hit.get("image")
+        saida.append({
+            "loja": loja.replace("KaBuM!", "KaBuM"), "vendedor": None,
+            "titulo": (o.get("name") or hit["name"])[:120], "preco": round(float(preco), 2),
+            "url": f"{fonte}/lead?oid={o.get('id')}&channel=1",
+            "pagina": fonte + hit["url"],
+            "imagem": img if isinstance(img, str) and img.startswith("https://") else None,
+            "observacao": f"ou {o.get('numParcels')}x de {avisos.brl(o['parcelValue'])}" if o.get("numParcels", 0) > 1 and o.get("parcelValue") else "",
+            "verificado": True, "encontradoEm": ISO,
+        })
+    return saida
+
+
+def coletar(p):
+    for fonte in FONTES:
+        try:
+            hits = buscar(fonte, p)
+        except Exception as e:  # noqa: BLE001
+            log["falhas"].append({"produto": p["id"], "onde": fonte, "motivo": str(e)[:80]})
+            continue
+        bons = [h for h in hits if combina(p, h["name"])]
+        if not bons:
+            return [], fonte
+        melhor_nota = max(nota_detalhe(p, h["name"]) for h in bons)
+        if melhor_nota > 0:
+            bons = [h for h in bons if nota_detalhe(p, h["name"]) == melhor_nota] or bons
+        bons.sort(key=lambda h: h.get("price") or 1e12)
+        ofertas = []
+        for h in bons[:3]:
+            try:
+                ofertas += ofertas_do_produto(fonte, h)
+            except Exception as e:  # noqa: BLE001
+                log["falhas"].append({"produto": p["id"], "onde": h["url"][:60], "motivo": str(e)[:80]})
+            time.sleep(1)
+        return ofertas, fonte
+    return None, None
 
 
 # ---------------- principal ----------------
-def brl(v):
-    return avisos.brl(v)
-
-
 def main():
     prods = json.load(open("data/produtos.json", encoding="utf-8")).get("produtos", [])
     try:
@@ -240,74 +164,35 @@ def main():
     for k in list(itens):
         if k not in ids:
             del itens[k]
-    novos_alertas = []
-
-    # descoberta só de hora em hora (minuto < 15) ou para itens sem oferta
-    hora_de_descobrir = AGORA.minute < 15
+    novos = []
 
     for p in prods:
         if p.get("ativo") is False:
             continue
         it = itens.setdefault(p["id"], {"ofertas": [], "historico": []})
-        antes = min((o["preco"] for o in it["ofertas"] if o.get("preco")), default=None)
-
-        # 1) reconfere ofertas conhecidas
-        validas = []
-        for o in it["ofertas"]:
-            if not confiavel(o.get("url", "")):
-                continue
-            try:
-                info = ler_produto(baixar(o["url"]))
-                log["verificados"] += 1
-                if info["esgotado"]:
-                    continue
-                if info["preco"] and (not o.get("preco") or 0.4 < info["preco"] / o["preco"] < 1.6):
-                    if info["preco"] != o.get("preco"):
-                        log["atualizados"] += 1
-                    o["preco"] = round(info["preco"], 2)
-                    o["verificado"] = True
-                    o["encontradoEm"] = ISO
-                if info["imagem"] and not o.get("imagem"):
-                    o["imagem"] = info["imagem"]
-                    log["fotos"] += 1
-            except Exception as e:  # noqa: BLE001
-                log["falhas"].append({"produto": p["id"], "loja": o.get("loja"), "motivo": str(e)[:80]})
-            validas.append(o)
-            time.sleep(1)
-
-        # 2) procura novas ofertas
-        if not validas or len(validas) < 3 and hora_de_descobrir:
-            for busca in (buscar_magalu, buscar_ml):
-                try:
-                    for a in busca(p):
-                        if not confiavel(a["url"]) or not combina(p, a["titulo"]):
-                            continue
-                        if any(v["url"] == a["url"] for v in validas):
-                            continue
-                        a.update(observacao="", verificado=False, encontradoEm=ISO)
-                        validas.append(a)
-                        log["descobertas"] += 1
-                except Exception as e:  # noqa: BLE001
-                    log["falhas"].append({"produto": p["id"], "loja": busca.__name__, "motivo": str(e)[:80]})
-                time.sleep(1)
-
-        validas.sort(key=lambda o: o.get("preco") or 1e12)
-        # mantém as 5 melhores, sem repetir o mesmo anúncio
+        antes = min((o["preco"] for o in it.get("ofertas", []) if o.get("preco")), default=None)
+        ofertas, fonte = coletar(p)
+        log["fonte"] = log["fonte"] or fonte
+        it["ultimaBusca"] = ISO
+        if ofertas is None:          # fonte fora do ar: mantém o que já tinha
+            continue
+        if not ofertas:
+            log["semResultado"].append(p["id"])
+            continue
+        ofertas.sort(key=lambda o: o["preco"])
         vistos, top = set(), []
-        for o in validas:
-            if o["url"] in vistos:
+        for o in ofertas:            # uma oferta por loja (a mais barata)
+            chave = sa(o["loja"])
+            if chave in vistos:
                 continue
-            vistos.add(o["url"])
+            vistos.add(chave)
             top.append(o)
         it["ofertas"] = top[:5]
-        if not it["ofertas"]:
-            it["ultimaBusca"] = ISO
-            continue
-        it["ultimaBusca"] = ISO
+        log["ofertas"] += len(it["ofertas"])
+        log["fotos"] += sum(1 for o in it["ofertas"] if o.get("imagem"))
         b = it["ofertas"][0]
         agora = b["preco"]
 
-        # histórico (um ponto por dia, menor preço)
         h = it.setdefault("historico", [])
         if h and h[-1].get("d") == HOJE:
             if agora < h[-1]["p"]:
@@ -316,41 +201,37 @@ def main():
             h.append({"d": HOJE, "p": agora, "loja": b["loja"]})
         it["historico"] = h[-180:]
 
-        # alertas
         alvo = p.get("precoAlvo")
-        criar = False
-        if alvo and agora <= alvo and (antes is None or antes > alvo or agora <= antes * 0.97):
-            criar = True
+        criar = bool(alvo and agora <= alvo and (antes is None or antes > alvo or agora <= antes * 0.97))
         if antes and agora <= antes * 0.92:
             criar = True
         if criar:
-            extra = f" ({brl(alvo - agora)} abaixo do alvo)" if alvo and agora <= alvo else f" (caiu {round((1 - agora / antes) * 100)}%)"
+            extra = f" ({avisos.brl(alvo - agora)} abaixo do alvo)" if alvo and agora <= alvo else f" (caiu {round((1 - agora / antes) * 100)}%)"
             a = {"id": f"{p['id']}-{AGORA.strftime('%Y%m%d%H%M')}", "produtoId": p["id"], "produtoNome": p["nome"],
-                 "texto": f"{p['nome']}: {b['titulo'][:70]} por {brl(agora)} na {b['loja']}{extra}",
+                 "texto": f"{p['nome']}: {b['titulo'][:70]} por {avisos.brl(agora)} na {b['loja']}{extra}",
                  "preco": agora, "loja": b["loja"], "url": b["url"], "criadoEm": ISO}
             alertas.append(a)
-            novos_alertas.append(a)
+            novos.append(a)
+        time.sleep(1)
 
     dados["alertas"] = sorted(alertas, key=lambda a: a.get("criadoEm", ""))[-200:]
     dados["atualizadoEm"] = ISO
-    dados["status"] = {"resumo": f"{log['verificados']} páginas conferidas, {log['descobertas']} ofertas novas",
-                       "produtosVerificados": sum(1 for p in prods if p.get("ativo") is not False),
-                       "alertas": len(novos_alertas)}
-    log["alertas"] = len(novos_alertas)
+    dados["status"] = {"resumo": f"{log['ofertas']} ofertas de lojas confiáveis via {(log['fonte'] or '').replace('https://www.', '')}",
+                       "produtosVerificados": sum(1 for p in prods if p.get("ativo") is not False), "alertas": len(novos)}
+    log["alertas"] = len(novos)
     log["falhas"] = log["falhas"][:30]
     json.dump(dados, open("data/ofertas.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(log, open("data/checagem.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(json.dumps(log, ensure_ascii=False)[:800])
+    print(json.dumps(log, ensure_ascii=False)[:1500])
 
-    # Telegram
     cfg = {}
     try:
         cfg = json.load(open("data/config.json", encoding="utf-8"))
     except Exception:  # noqa: BLE001
         pass
-    if novos_alertas and cfg.get("notificacoes") is not False:
-        partes = [f"🔥 {a['texto']}\n{a['url']}" for a in novos_alertas[:6]]
-        extra = f"\n\n+{len(novos_alertas) - 6} outros no app" if len(novos_alertas) > 6 else ""
+    if novos and cfg.get("notificacoes") is not False:
+        partes = [f"🔥 {a['texto']}\n{a['url']}" for a in novos[:6]]
+        extra = f"\n\n+{len(novos) - 6} outros no app" if len(novos) > 6 else ""
         avisos.enviar("🛒 Econolife Promos\n\n" + "\n\n".join(partes) + extra + "\n\n" + avisos.SITE)
 
 
