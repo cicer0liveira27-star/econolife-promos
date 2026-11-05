@@ -1,19 +1,15 @@
 {
- "quando": "2026-11-05T19:50:58Z",
+ "quando": "2026-11-05T19:53:31Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 31,
- "paginas": 33,
- "ofertas": 39,
- "fotos": 39,
- "alertas": 1,
- "semResultado": [],
- "falhas": [
-  {
-   "produto": "microondas",
-   "onde": "/microondas/micro-ondas-de-embutir-electrolux-home-pro-34-li",
-   "motivo": "HTTP Error 500: Internal Server Error"
-  }
+ "paginas": 32,
+ "ofertas": 36,
+ "fotos": 36,
+ "alertas": 0,
+ "semResultado": [
+  "lavadora"
  ],
+ "falhas": [],
  "debug": {
   "geladeira": {
    "hits": 105,
@@ -33,7 +29,7 @@
   "microondas": {
    "hits": 30,
    "combinam": 5,
-   "ofertas": 10
+   "ofertas": 16
   },
   "tv": {
    "hits": 12,
@@ -42,8 +38,13 @@
   },
   "lavadora": {
    "hits": 30,
-   "combinam": 2,
-   "ofertas": 7
+   "combinam": 0,
+   "exemplos": [
+    "Lavadora Brastemp 16kg BWY16A9 cor Inox",
+    "Lavadora De Roupas Automática Brastemp 16Kg - Cesto Inox 12 ",
+    "Lavadora Electrolux 9kg LED09",
+    "Lavadora Midea 13kg Wave Agitator MA512W130A/WKBR0"
+   ]
   },
   "lava-loucas": {
    "hits": 38,
