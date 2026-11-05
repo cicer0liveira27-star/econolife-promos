@@ -1,14 +1,12 @@
 {
- "quando": "2026-11-05T23:30:21Z",
+ "quando": "2026-11-05T23:36:07Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
- "paginas": 58,
- "ofertas": 41,
- "fotos": 41,
- "alertas": 0,
- "semResultado": [
-  "lavadora"
- ],
+ "paginas": 62,
+ "ofertas": 44,
+ "fotos": 44,
+ "alertas": 1,
+ "semResultado": [],
  "falhas": [
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -38,9 +36,9 @@
    "ofertas": 17
   },
   "lavadora": {
-   "hits": 0,
-   "combinam": 0,
-   "exemplos": []
+   "hits": 69,
+   "combinam": 2,
+   "ofertas": 5
   },
   "lava-loucas": {
    "hits": 38,
@@ -68,7 +66,7 @@
    "ofertas": 5
   },
   "forno-de-embutir-eletrico": {
-   "hits": 27,
+   "hits": 26,
    "combinam": 1,
    "ofertas": 4
   }
