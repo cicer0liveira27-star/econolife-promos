@@ -384,7 +384,7 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
     let actions;
     if(S.confirmDel===p.id)actions='<div class="confirm">Remover da lista? <button class="btn sm" data-act="del-yes" data-id="'+esc(p.id)+'">Remover</button><button class="btn sm ghost" data-act="cancel">Cancelar</button></div>';
     else if(S.editing===p.id)actions='<div class="edit-row"><input id="ed-'+esc(p.id)+'" inputmode="decimal" aria-label="Novo preço-alvo" value="'+(alvo!=null?String(alvo).replace('.',','):'')+'"><button class="btn sm primary" data-act="edit-save" data-id="'+esc(p.id)+'">Salvar alvo</button><button class="btn sm ghost" data-act="cancel">Cancelar</button></div>';
-    else actions='<div class="actions">'+(b?'<a class="btn sm primary" href="'+esc(trusted(b.url))+'" target="_blank" rel="noopener noreferrer">Ver na '+esc(b.loja)+'</a>':'')+'<button class="btn sm" data-act="edit" data-id="'+esc(p.id)+'">Alvo</button><button class="btn sm ghost" data-act="toggle" data-id="'+esc(p.id)+'">'+(p.ativo===false?'Retomar':'Pausar')+'</button><button class="btn sm ghost" data-act="del" data-id="'+esc(p.id)+'" aria-label="Remover">✕</button></div>';
+    else actions='<div class="actions">'+(b?'<a class="btn sm primary" href="'+esc(trusted(b.url))+'" target="_blank" rel="noopener noreferrer">Ver na '+esc(b.loja)+'</a>':'')+'<button class="btn sm" data-act="edit" data-id="'+esc(p.id)+'">Editar</button><button class="btn sm ghost" data-act="toggle" data-id="'+esc(p.id)+'">'+(p.ativo===false?'Retomar':'Pausar')+'</button><button class="btn sm ghost" data-act="del" data-id="'+esc(p.id)+'" aria-label="Remover">✕</button></div>';
     const lb=item(p).ultimaBusca;
     return '<article class="card'+(hit?' hit':'')+(p.ativo===false?' paused':'')+'">'+photo+'<div class="body">'
       +'<div><div class="cat">'+esc(p.categoria||'Outros')+'</div><h3>'+esc(p.nome)+'</h3>'+(spec?'<div class="spec">'+esc(spec)+'</div>':'')+(b&&b.titulo?'<div class="ptitle">'+esc(b.titulo)+'</div>':'')+'</div>'
@@ -423,7 +423,7 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
     const b=e.target.closest('[data-act]');if(!b)return;const act=b.dataset.act,id=b.dataset.id;
     if(act==='cancel'){S.confirmDel=S.editing=null;render();return;}
     if(act==='del'){S.confirmDel=id;S.editing=null;render();return;}
-    if(act==='edit'){S.editing=id;S.confirmDel=null;render();const i=document.getElementById('ed-'+id);i&&i.focus();return;}
+    if(act==='edit'){openEditor(id);return;}
     b.disabled=true;
     try{
       if(act==='del-yes'){await mutateProdutos(l=>{const i=l.findIndex(x=>x.id===id);if(i>=0)l.splice(i,1);},'Remove '+id);S.confirmDel=null;toast('Removido da lista');}
@@ -438,13 +438,30 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
   function openSettings(){openSheet('setSheet');}
   document.querySelectorAll('.scrim').forEach(s=>s.addEventListener('click',e=>{if(e.target===s||e.target.closest('[data-close]'))closeSheets();}));
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheets();});
-  $('#addBtn').addEventListener('click',()=>{if(!token()){openSettings();toast('Para adicionar itens, salve sua chave do GitHub primeiro.');return;}openSheet('addSheet');});
+  let editId=null;
+  function prepForm(p){
+    editId=p?p.id:null;
+    $('#addTitle').textContent=p?'Editar produto':'Adicionar produto';
+    $('#addSubmit').textContent=p?'Salvar alterações':'Adicionar à lista';
+    $('#addHelp').textContent=p?'Mudou nome, marca ou detalhes? O robô refaz a busca em poucos minutos.':'O robô busca os preços em poucos minutos.';
+    $('#fNome').value=p?p.nome||'':'';$('#fCat').value=p&&p.categoria||'Eletrodomésticos';
+    $('#fAlvo').value=p&&typeof p.precoAlvo==='number'?String(p.precoAlvo).replace('.',','):'';
+    $('#fMarcas').value=p?p.marcas||'':'';$('#fUn').value=p?p.unidade||'':'';$('#fDet').value=p?p.detalhes||'':'';
+  }
+  function openEditor(id){
+    if(!token()){openSettings();toast('Para editar itens, salve sua chave do GitHub primeiro.');return;}
+    const p=S.produtos.find(x=>x.id===id);if(!p)return;prepForm(p);openSheet('addSheet');
+  }
+  $('#addBtn').addEventListener('click',()=>{if(!token()){openSettings();toast('Para adicionar itens, salve sua chave do GitHub primeiro.');return;}prepForm(null);openSheet('addSheet');});
   $('#setBtn').addEventListener('click',openSettings);
   $('#bellBtn').addEventListener('click',openSettings);
   $('#addForm').addEventListener('submit',async e=>{
     e.preventDefault();const nome=$('#fNome').value.trim();if(!nome)return;const btn=$('#addSubmit');btn.disabled=true;
     const p={nome,categoria:$('#fCat').value,precoAlvo:parseMoney($('#fAlvo').value),marcas:$('#fMarcas').value.trim(),detalhes:$('#fDet').value.trim(),unidade:$('#fUn').value.trim(),ativo:true,criadoEm:new Date().toISOString()};
-    try{await mutateProdutos(l=>{let id=slug(nome),n=2;while(l.some(x=>x.id===id))id=slug(nome)+'-'+(n++);p.id=id;l.push(p);},'Adiciona '+nome);$('#addForm').reset();closeSheets();toast('Adicionado. O robô busca na próxima rodada.');}
+    try{
+      if(editId){const id=editId;await mutateProdutos(l=>{const x=l.find(x=>x.id===id);if(x){x.nome=p.nome;x.categoria=p.categoria;x.precoAlvo=p.precoAlvo;x.marcas=p.marcas;x.detalhes=p.detalhes;x.unidade=p.unidade;}},'Edita '+nome);closeSheets();prepForm(null);toast('Produto atualizado. O robô refaz a busca em poucos minutos.');}
+      else{await mutateProdutos(l=>{let id=slug(nome),n=2;while(l.some(x=>x.id===id))id=slug(nome)+'-'+(n++);p.id=id;l.push(p);},'Adiciona '+nome);$('#addForm').reset();closeSheets();toast('Adicionado. O robô busca em poucos minutos.');}
+    }
     catch(err){errMsg(err);}finally{btn.disabled=false;}
   });
   $('#notifToggle').addEventListener('click',async()=>{const on=S.config.notificacoes===false;try{await setConfig({notificacoes:on});toast(on?'Alertas no Telegram ativados':'Alertas no Telegram desligados. O robô continua buscando.');}catch(e){errMsg(e);}});
