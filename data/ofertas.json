@@ -1,9 +1,9 @@
 {
- "atualizadoEm": "2026-11-05T19:48:18Z",
+ "atualizadoEm": "2026-11-05T19:50:58Z",
  "status": {
-  "resumo": "34 ofertas de lojas confiáveis via buscape.com.br",
+  "resumo": "39 ofertas de lojas confiáveis via buscape.com.br",
   "produtosVerificados": 10,
-  "alertas": 3
+  "alertas": 1
  },
  "itens": {
   "cooktop": {
@@ -11,14 +11,38 @@
     {
      "loja": "Amazon",
      "vendedor": null,
-     "titulo": "COOKTOP IND 1 ZONA 127V",
-     "preco": 187.11,
-     "url": "https://www.buscape.com.br/lead?oid=1515857180&channel=1",
-     "pagina": "https://www.buscape.com.br/fogao/cooktop-de-inducao-1-boca-dako-portatil-preto-127v",
-     "imagem": "https://image.zst.com.br/5455E0761CA4AC4AA07E61AB6B778057_235_235.jpg",
+     "titulo": "Cooktop de Indução 4 Bocas Preto com Zona Flexível Dako Diplomata 220V",
+     "preco": 1288.9,
+     "url": "https://www.buscape.com.br/lead?oid=1361239539&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-de-inducao-4-bocas-dako-diplomata-preto-com-zona-flexivel-220",
+     "imagem": "https://image.zst.com.br/03557E8C1A0DC1DD5A6A339411B2B623_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Cooktop de Indução 4 Bocas Preto com Zona Flexível Dako Diplomata 220V",
+     "preco": 1304.1,
+     "url": "https://www.buscape.com.br/lead?oid=1431285977&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-de-inducao-4-bocas-dako-diplomata-preto-com-zona-flexivel-220",
+     "imagem": "https://image.zst.com.br/B2A6DF19F3FCBC9E143E3D4A8294C2C6_235_235.jpg",
+     "observacao": "ou 10x de R$ 144,90",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:50:58Z"
+    },
+    {
+     "loja": "Webcontinental",
+     "vendedor": null,
+     "titulo": "Cooktop de Indução 4 Bocas Dako Diplomata Vitrocerâmico com Zona Flexível e Turbo Preto 220V",
+     "preco": 1500.9,
+     "url": "https://www.buscape.com.br/lead?oid=1490891174&channel=1",
+     "pagina": "https://www.buscape.com.br/fogao/cooktop-de-inducao-4-bocas-dako-diplomata-preto-com-zona-flexivel-220",
+     "imagem": "https://image.zst.com.br/B1F5952A87ED1FF1645A9DE4F95B1FFB_235_235.jpg",
+     "observacao": "ou 8x de R$ 187,61",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -28,21 +52,21 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "geladeira": {
    "ofertas": [
     {
      "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Refrigerador Consul 333 Litros Frost Free Inox CRM40MK - 127 Volts 110",
-     "preco": 2265.48,
-     "url": "https://www.buscape.com.br/lead?oid=1561653616&channel=1",
+     "titulo": "Geladeira Frost Free Duplex 333 Litros Inox Consul - CRM40MK",
+     "preco": 2339.1,
+     "url": "https://www.buscape.com.br/lead?oid=1543954841&channel=1",
      "pagina": "https://www.buscape.com.br/geladeira/geladeira-consul-crm40mk-frost-free-duplex-333-litros-cor-inox",
-     "imagem": "https://image.zst.com.br/F074CC161F7D502500F7119C42CB9397_235_235.jpg",
+     "imagem": "https://image.zst.com.br/94ED03BCC0731D1A35A62C29F3EFBEF1_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Americanas",
@@ -54,7 +78,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/19/37/-1695027645.jpg",
      "observacao": "ou 8x de R$ 347,87",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -66,7 +90,7 @@
      "imagem": "https://image.zst.com.br/4F0C62DBBF69608E39A4E0DB55381A50_235_235.jpg",
      "observacao": "ou 10x de R$ 269,99",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Webcontinental",
@@ -78,7 +102,19 @@
      "imagem": "https://image.zst.com.br/85C173A988AE3D7C8C78BE7F6FFC42BE_235_235.jpg",
      "observacao": "ou 8x de R$ 310,48",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
+    },
+    {
+     "loja": "Amazon",
+     "vendedor": null,
+     "titulo": "Geladeira Frost Free Duplex 473L Inverter cor Inox Midea MD-RT611EVD463 - Bivolt",
+     "preco": 3859.9,
+     "url": "https://www.buscape.com.br/lead?oid=1397651999&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-midea-md-rt611evd463-frost-free-duplex-473-litros-cor-inox",
+     "imagem": "https://image.zst.com.br/12F6E798331B79DD4D283570588CEA84_235_235.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -88,45 +124,21 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "gelagua": {
    "ofertas": [
     {
-     "loja": "Fast Shop",
-     "vendedor": null,
-     "titulo": "Purificador de Água Electrolux Efficient Compacto Água Natural com Tecnologia Acqua Pure (PN10B)",
-     "preco": 296.91,
-     "url": "https://www.buscape.com.br/lead?oid=1578267696&channel=1",
-     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-electrolux-efficient-pn10",
-     "imagem": "https://image.zst.com.br/805FFDC72F4FE48A9DA0B7F86E92A9ED_235_235.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
-    },
-    {
-     "loja": "Electrolux",
-     "vendedor": null,
-     "titulo": "Purificador de Água Electrolux Efficient Compacto Água Natural com Tecnologia Acqua Pure (PN10B)",
-     "preco": 299.9,
-     "url": "https://www.buscape.com.br/lead?oid=1578067266&channel=1",
-     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-electrolux-efficient-pn10",
-     "imagem": "https://image.zst.com.br/D1CC65A1C86D03376293E2B2C81BEA68_235_235.jpg",
-     "observacao": "ou 7x de R$ 42,84",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
-    },
-    {
      "loja": "Amazon",
      "vendedor": null,
-     "titulo": "Electrolux Purificador de Água Gelada Fria e Natural Elétrico Compacto Eletronico placa Electrolux Filtro refil 6 meses ",
-     "preco": 489.0,
-     "url": "https://www.buscape.com.br/lead?oid=1365202071&channel=1",
-     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-natural-e-gelada-electrolux-pe15",
-     "imagem": "https://image.zst.com.br/A0609F62BB5D62E806BDA0524924767E_235_235.jpg",
+     "titulo": "Purificador de Água Gelada Fria e Natural Elétrico Compacto Eletronico placa Electrolux cinza prata com Painel Touch Biv",
+     "preco": 494.91,
+     "url": "https://www.buscape.com.br/lead?oid=1553824911&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-electrolux-pe11x-",
+     "imagem": "https://image.zst.com.br/288762087B747356613F92869558A783_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Webcontinental",
@@ -138,19 +150,43 @@
      "imagem": "https://image.zst.com.br/BC204B78175189AD6C7FBCFFC4311FE5_235_235.jpg",
      "observacao": "ou 6x de R$ 83,31",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
-     "loja": "Americanas",
+     "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Purificador de Água Eletrônico Electrolux Efficient PE15X Bivolt Grafite",
+     "titulo": "Purificador Electrolux Eletrônico Compacto Efficient Painel Mecânico Bivolt Cinza (PE15X) Bivolt",
      "preco": 499.9,
-     "url": "https://www.buscape.com.br/lead?oid=1467667580&channel=1",
+     "url": "https://www.buscape.com.br/lead?oid=1543951869&channel=1",
      "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-natural-e-gelada-electrolux-pe15",
-     "imagem": "https://i.zst.com.br/thumbs/49/2d/11/-1490340104.jpg",
-     "observacao": "ou 8x de R$ 62,48",
+     "imagem": "https://image.zst.com.br/AC8D441B74C97F27D497017373EB9DEF_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
+    },
+    {
+     "loja": "Electrolux",
+     "vendedor": null,
+     "titulo": "Purificador Electrolux Eletrônico Compacto Efficient Painel Mecânico Bivolt Cinza (PE15X)",
+     "preco": 499.9,
+     "url": "https://www.buscape.com.br/lead?oid=1350172613&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-natural-e-gelada-electrolux-pe15",
+     "imagem": "https://image.zst.com.br/913275028B33F7E0F9851DCC4A536D44_235_235.jpg",
+     "observacao": "ou 12x de R$ 41,65",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:50:58Z"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Purificador de Água Electrolux Pe11x Gelada Fria e Natural., Cinza, Bi",
+     "preco": 883.49,
+     "url": "https://www.buscape.com.br/lead?oid=1562023375&channel=1",
+     "pagina": "https://www.buscape.com.br/purificador-de-agua/purificador-de-agua-electrolux-pe11x-",
+     "imagem": "https://image.zst.com.br/32625EC3F837327627785F68533693DD_235_235.jpg",
+     "observacao": "ou 10x de R$ 93,00",
+     "verificado": true,
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -160,7 +196,7 @@
      "loja": "Fast Shop"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "lava-loucas": {
    "ofertas": [
@@ -174,7 +210,7 @@
      "imagem": "https://image.zst.com.br/24FD142E3F06DF62688F7987FE5C3B3C_235_235.jpg",
      "observacao": "ou 8x de R$ 208,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Americanas",
@@ -186,7 +222,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "ou 8x de R$ 241,80",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -198,7 +234,7 @@
      "imagem": "https://image.zst.com.br/2910E43439BB33640B9C66F6E537BBD4_235_235.jpg",
      "observacao": "ou 10x de R$ 210,90",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Fast Shop",
@@ -210,7 +246,7 @@
      "imagem": "https://image.zst.com.br/7FF8492619113FDC0CA977AFB913049C_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Electrolux",
@@ -222,7 +258,7 @@
      "imagem": "https://image.zst.com.br/875E8BB7A4660BBE4668F780990859A3_235_235.jpg",
      "observacao": "ou 14x de R$ 149,92",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -232,74 +268,67 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "lavadora": {
    "ofertas": [
     {
-     "loja": "Magazine Luiza",
-     "vendedor": "Fast Shop",
-     "titulo": "Lavadora Frontal Electrolux 12kg Cinza Ônix Inverter LFC12",
-     "preco": 2584.46,
-     "url": "https://www.magazineluiza.com.br/lavadora-de-roupas-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/ehjd8fffkj/ed/lava/?seller_id=fastshop2",
-     "imagem": null,
-     "observacao": "Pix; abertura frontal; 110V (não bivolt); ou 10x R$ 280,92",
+     "loja": "Brastemp",
+     "vendedor": null,
+     "titulo": "Máquina De Lavar - Brastemp 16Kg Cinza Platinum Com Tecnologia Flex Wash E Ciclo Tira Manchas Advanced - Bwy16a9 110V",
+     "preco": 2155.55,
+     "url": "https://www.buscape.com.br/lead?oid=1351562795&channel=1",
+     "pagina": "https://www.buscape.com.br/lavadora-roupas/lavadora-brastemp-16kg-bwy16a9-cor-inox",
+     "imagem": "https://image.zst.com.br/5A751AB8F898C54F032837AC8A3B303F_235_235.jpg",
+     "observacao": "ou 12x de R$ 205,55",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:24:00Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
-     "titulo": "Lavadora Midea Slim 11kg HealthGuard Inverter Titanium MF201W110",
-     "preco": 2935.86,
-     "url": "https://www.magazineluiza.com.br/lavadora-de-roupas-midea-slim-11kg-healthguard-smart-inverter-agua-fria-e-quente-titanium-mf201w110wbgk02/p/240112200/ed/lava/?seller_id=magazineluiza",
-     "imagem": null,
-     "observacao": "Pix; cor titânio; ou 10x R$ 315,68",
+     "titulo": "Máquina de Lavar - Brastemp 16Kg Cinza Platinum com Tecnologia Flex Wa",
+     "preco": 2199.45,
+     "url": "https://www.buscape.com.br/lead?oid=1431313781&channel=1",
+     "pagina": "https://www.buscape.com.br/lavadora-roupas/lavadora-brastemp-16kg-bwy16a9-cor-inox",
+     "imagem": "https://image.zst.com.br/83962125824659DA6DCEA9045B221177_235_235.jpg",
+     "observacao": "ou 10x de R$ 236,50",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:20:28Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
-     "loja": "Magazine Luiza",
-     "vendedor": "Electrolux",
-     "titulo": "Máquina de Lavar Frontal Electrolux 12kg Cinza Ônix LFC12",
-     "preco": 2999,
-     "url": "https://www.magazineluiza.com.br/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/eej9bcg6a2/ed/lava/?seller_id=electrolux",
-     "imagem": null,
-     "observacao": "preço Pix não informado",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T15:20:28Z"
-    },
-    {
-     "loja": "Magazine Luiza",
+     "loja": "Fast Shop",
      "vendedor": null,
-     "titulo": "Lava e Seca Midea 10,5kg Titanium Inverter",
-     "preco": 3039.05,
-     "url": "https://www.magazineluiza.com.br/lava-e-seca-105kg-titanium-inverter-ciclo-pet-midea/p/ag3j02bj63/ed/ela1/?seller_id=mideacarrier",
-     "imagem": null,
-     "observacao": "lava e seca",
+     "titulo": "Lavadora de Roupas Brastemp 16Kg Flex Wash e Ciclo Tira Manchas Advanced Cinza - BWY16A9",
+     "preco": 2359.0,
+     "url": "https://www.buscape.com.br/lead?oid=1543941594&channel=1",
+     "pagina": "https://www.buscape.com.br/lavadora-roupas/lavadora-brastemp-16kg-bwy16a9-cor-inox",
+     "imagem": "https://i.zst.com.br/thumbs/49/3/37/-1735134564.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
-     "loja": "Magazine Luiza",
+     "loja": "Webcontinental",
      "vendedor": null,
-     "titulo": "Lavadora Frontal Electrolux 12kg Cinza Ônix LFC12",
-     "preco": 3199,
-     "url": "https://www.magazineluiza.com.br/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/feec5d2a10/ed/lava/?seller_id=electrolux",
-     "imagem": null,
-     "observacao": "outro anúncio do mesmo modelo",
+     "titulo": "Lavadora de Roupas Brastemp BWY16A9 16kg Automática com Tecnologia Flex Wash e Tira Manchas Cinza Platinum",
+     "preco": 2464.15,
+     "url": "https://www.buscape.com.br/lead?oid=1363182011&channel=1",
+     "pagina": "https://www.buscape.com.br/lavadora-roupas/lavadora-brastemp-16kg-bwy16a9-cor-inox",
+     "imagem": "https://image.zst.com.br/D835489F63799FE2408DE9FA79B6783C_235_235.jpg",
+     "observacao": "ou 8x de R$ 318,89",
      "verificado": true,
-     "encontradoEm": "2026-11-05T15:18:05Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
     {
      "d": "2026-11-05",
-     "p": 2584.46,
-     "loja": "Magazine Luiza"
+     "p": 2155.55,
+     "loja": "Brastemp"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "microondas": {
    "ofertas": [
@@ -313,7 +342,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "ou 4x de R$ 142,25",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Webcontinental",
@@ -325,7 +354,7 @@
      "imagem": "https://image.zst.com.br/CC1106B58F01DE16567D6BB0EABFDEC3_235_235.jpg",
      "observacao": "ou 6x de R$ 91,50",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Electrolux",
@@ -337,7 +366,7 @@
      "imagem": "https://image.zst.com.br/2B4309C401352A8A5F2BE947E1AAC5A6_235_235.jpg",
      "observacao": "ou 9x de R$ 61,00",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Fast Shop",
@@ -349,7 +378,7 @@
      "imagem": "https://image.zst.com.br/022A536DB5E3E8AD48CE7D3571C0A670_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -359,7 +388,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "tv": {
    "ofertas": [
@@ -373,7 +402,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/a/15/-1694457784.jpg",
      "observacao": "ou 8x de R$ 299,87",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Amazon",
@@ -385,7 +414,7 @@
      "imagem": "https://image.zst.com.br/C5CC1936B2A4B58851458BC7A2F48F76_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -397,7 +426,7 @@
      "imagem": "https://image.zst.com.br/040106AA13E83295A99146B18F0DDF8D_235_235.jpg",
      "observacao": "ou 10x de R$ 297,49",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Fast Shop",
@@ -409,7 +438,7 @@
      "imagem": "https://image.zst.com.br/0D217994A51C476AF5637A235A12FE94_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -419,7 +448,7 @@
      "loja": "Americanas"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "ventilador": {
    "ofertas": [
@@ -433,7 +462,7 @@
      "imagem": "https://image.zst.com.br/20F686EE4AD4A9B1D126D4EB2F0DAAA6_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Amazon",
@@ -445,7 +474,7 @@
      "imagem": "https://image.zst.com.br/7CAA606C7148EFBDAECC903B38BC3FE9_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -457,7 +486,7 @@
      "imagem": "https://image.zst.com.br/11D06FA6079CA09B32345DDC31BCE93E_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -467,7 +496,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "liquidificador": {
    "ofertas": [
@@ -481,7 +510,7 @@
      "imagem": "https://image.zst.com.br/79AC748A33355422B5693984D3AD3FD8_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Americanas",
@@ -493,7 +522,7 @@
      "imagem": "https://image.zst.com.br/EF4CFDA4E155CA6992FE79DADA114682_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -505,7 +534,7 @@
      "imagem": "https://image.zst.com.br/E54C6126BD2585D06C97E6CC3678A8A1_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Fast Shop",
@@ -517,7 +546,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     },
     {
      "loja": "Webcontinental",
@@ -529,7 +558,7 @@
      "imagem": "https://image.zst.com.br/F63E69AF3443666C72E3767F8B0649AB_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -539,45 +568,21 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   },
   "iphone-16-lacrado": {
    "ofertas": [
     {
      "loja": "Amazon",
      "vendedor": null,
-     "titulo": "Apple iPhone 16 (128 GB) – Branco",
-     "preco": 4549.0,
-     "url": "https://www.buscape.com.br/lead?oid=1447408574&channel=1",
+     "titulo": "Apple iPhone 16 (128 GB) – Rosa",
+     "preco": 5054.44,
+     "url": "https://www.buscape.com.br/lead?oid=1428433127&channel=1",
      "pagina": "https://www.buscape.com.br/celular/smartphone-apple-iphone-16-128gb-camera-dupla",
-     "imagem": "https://image.zst.com.br/87945D666188C4A3627EE32C2FD35305_235_235.jpg",
+     "imagem": "https://image.zst.com.br/FC18C121DEAF95DF2E2D89C449BAC565_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
-    },
-    {
-     "loja": "Magazine Luiza",
-     "vendedor": null,
-     "titulo": "Smartphone Apple iPhone 16 128GB Branco - 5G + Carregador Apple USB-C ",
-     "preco": 4949.99,
-     "url": "https://www.buscape.com.br/lead?oid=1570159173&channel=1",
-     "pagina": "https://www.buscape.com.br/celular/smartphone-apple-iphone-16-128gb-camera-dupla",
-     "imagem": "https://image.zst.com.br/F23B0D818FA68600F59C06A6298E56A7_235_235.jpg",
-     "observacao": "ou 10x de R$ 550,00",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
-    },
-    {
-     "loja": "KaBuM",
-     "vendedor": null,
-     "titulo": "Apple Iphone 16 256gb Preto",
-     "preco": 5399.1,
-     "url": "https://www.buscape.com.br/lead?oid=1508790648&channel=1",
-     "pagina": "https://www.buscape.com.br/celular/smartphone-apple-iphone-16-256gb-camera-dupla",
-     "imagem": "https://image.zst.com.br/A85C0CDA4C3D68545A24E7A2F7E14E9C_235_235.jpg",
-     "observacao": "ou 10x de R$ 599,90",
-     "verificado": true,
-     "encontradoEm": "2026-11-05T19:48:18Z"
+     "encontradoEm": "2026-11-05T19:50:58Z"
     }
    ],
    "historico": [
@@ -587,7 +592,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-05T19:48:18Z"
+   "ultimaBusca": "2026-11-05T19:50:58Z"
   }
  },
  "alertas": [
@@ -710,6 +715,16 @@
    "loja": "Amazon",
    "url": "https://www.buscape.com.br/lead?oid=1447408574&channel=1",
    "criadoEm": "2026-11-05T19:48:18Z"
+  },
+  {
+   "id": "lavadora-202611051950",
+   "produtoId": "lavadora",
+   "produtoNome": "Máquina de lavar porta frontal",
+   "texto": "Máquina de lavar porta frontal: Máquina De Lavar - Brastemp 16Kg Cinza Platinum Com Tecnologia Flex Wa por R$ 2.155,55 na Brastemp (R$ 644,45 abaixo do alvo)",
+   "preco": 2155.55,
+   "loja": "Brastemp",
+   "url": "https://www.buscape.com.br/lead?oid=1351562795&channel=1",
+   "criadoEm": "2026-11-05T19:50:58Z"
   }
  ]
 }

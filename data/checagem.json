@@ -1,13 +1,69 @@
 {
- "quando": "2026-11-05T19:48:18Z",
+ "quando": "2026-11-05T19:50:58Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 28,
- "paginas": 27,
- "ofertas": 34,
- "fotos": 34,
- "alertas": 3,
- "semResultado": [
-  "lavadora"
+ "buscas": 31,
+ "paginas": 33,
+ "ofertas": 39,
+ "fotos": 39,
+ "alertas": 1,
+ "semResultado": [],
+ "falhas": [
+  {
+   "produto": "microondas",
+   "onde": "/microondas/micro-ondas-de-embutir-electrolux-home-pro-34-li",
+   "motivo": "HTTP Error 500: Internal Server Error"
+  }
  ],
- "falhas": []
+ "debug": {
+  "geladeira": {
+   "hits": 105,
+   "combinam": 37,
+   "ofertas": 10
+  },
+  "cooktop": {
+   "hits": 76,
+   "combinam": 1,
+   "ofertas": 3
+  },
+  "gelagua": {
+   "hits": 30,
+   "combinam": 14,
+   "ofertas": 6
+  },
+  "microondas": {
+   "hits": 30,
+   "combinam": 5,
+   "ofertas": 10
+  },
+  "tv": {
+   "hits": 12,
+   "combinam": 7,
+   "ofertas": 17
+  },
+  "lavadora": {
+   "hits": 30,
+   "combinam": 2,
+   "ofertas": 7
+  },
+  "lava-loucas": {
+   "hits": 38,
+   "combinam": 17,
+   "ofertas": 21
+  },
+  "ventilador": {
+   "hits": 21,
+   "combinam": 21,
+   "ofertas": 11
+  },
+  "liquidificador": {
+   "hits": 22,
+   "combinam": 22,
+   "ofertas": 24
+  },
+  "iphone-16-lacrado": {
+   "hits": 12,
+   "combinam": 3,
+   "ofertas": 3
+  }
+ }
 }
