@@ -224,7 +224,131 @@ def coletar_modelos(p):
     return None, None
 
 
+# ---------------- links colados pelo usuário ----------------
+NOME_LOJA = {"magazineluiza": "Magazine Luiza", "mercadolivre": "Mercado Livre", "amazon": "Amazon", "casasbahia": "Casas Bahia",
+             "americanas": "Americanas", "pontofrio": "Ponto", "ponto": "Ponto", "extra": "Extra", "fastshop": "Fast Shop",
+             "kabum": "KaBuM", "carrefour": "Carrefour", "leroymerlin": "Leroy Merlin", "electrolux": "Electrolux",
+             "brastemp": "Brastemp", "consul": "Consul", "webcontinental": "Webcontinental", "samsung": "Samsung",
+             "britania": "Britânia", "dako": "Dako", "midea": "Midea", "shoptime": "Shoptime", "submarino": "Submarino"}
+
+
+def loja_do_link(u):
+    h = (urllib.parse.urlparse(u).hostname or "").replace("www.", "")
+    for k, v in NOME_LOJA.items():
+        if k in h.replace("-", ""):
+            return v
+    return h.split(".")[0].capitalize()
+
+
+def ler_pagina_loja(pagina):
+    """Preço/foto/título de uma página de produto (JSON-LD ou metatags)."""
+    info = {"preco": None, "imagem": None, "titulo": None, "esgotado": False}
+    for bloco in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', pagina, re.S | re.I):
+        try:
+            dado = json.loads(html.unescape(bloco.strip()), strict=False)
+        except Exception:  # noqa: BLE001
+            continue
+        pilha = [dado]
+        while pilha:
+            d = pilha.pop()
+            if isinstance(d, list):
+                pilha += d
+                continue
+            if not isinstance(d, dict):
+                continue
+            pilha += [v for v in d.values() if isinstance(v, (dict, list))]
+            tipo = d.get("@type")
+            if "Product" not in (tipo if isinstance(tipo, list) else [tipo]):
+                continue
+            info["titulo"] = info["titulo"] or d.get("name")
+            img = d.get("image")
+            img = img[0] if isinstance(img, list) and img else img
+            img = img.get("url") if isinstance(img, dict) else img
+            info["imagem"] = info["imagem"] or (img if isinstance(img, str) and img.startswith("https://") else None)
+            ofs = d.get("offers")
+            ofs = ofs if isinstance(ofs, list) else [ofs] if ofs else []
+            for of in ofs:
+                if not isinstance(of, dict):
+                    continue
+                v = of.get("price") or of.get("lowPrice")
+                try:
+                    v = float(str(v).replace(",", "."))
+                except (TypeError, ValueError):
+                    v = None
+                if v and v > 0:
+                    info["preco"] = min(info["preco"] or v, v)
+                if "OutOfStock" in str(of.get("availability", "")):
+                    info["esgotado"] = True
+    return info
+
+
+def slug_do_link(u):
+    path = urllib.parse.unquote(urllib.parse.urlparse(u).path)
+    partes = [x for x in re.split(r"[/]", path) if x and not re.fullmatch(r"(p|dp|mlb|produto|item)", x, re.I)]
+    melhor = max(partes, key=lambda x: x.count("-"), default="")
+    return re.sub(r"[-_]+", " ", melhor)
+
+
+def coletar_links(p):
+    ofertas = []
+    for link in [l.strip() for l in p.get("links") or [] if l.strip().startswith("http")]:
+        host = (urllib.parse.urlparse(link).hostname or "").replace("www.", "")
+        try:
+            # 1) página de produto do Buscapé/Zoom: lê as ofertas de todas as lojas
+            if host in ("buscape.com.br", "zoom.com.br") and "/search" not in link:
+                fonte = "https://www." + host
+                path = urllib.parse.urlparse(link).path
+                for o in ofertas_do_produto(fonte, {"url": path, "name": "", "image": None}):
+                    o["modelo"] = link
+                    ofertas.append(o)
+                continue
+            # 2) link de loja: tenta abrir direto
+            try:
+                info = ler_pagina_loja(baixar(link))
+                log["paginas"] += 1
+                if info["preco"] and not info["esgotado"]:
+                    ofertas.append({"loja": loja_do_link(link), "vendedor": None, "titulo": (info["titulo"] or slug_do_link(link))[:120],
+                                    "preco": round(info["preco"], 2), "url": link, "imagem": info["imagem"], "observacao": "seu link",
+                                    "verificado": True, "encontradoEm": ISO, "modelo": link})
+                    continue
+            except Exception:  # noqa: BLE001
+                pass  # loja bloqueou o robô: procura o mesmo produto no Buscapé
+            # 3) procura o produto do link no Buscapé pelo nome que está no endereço
+            nome = slug_do_link(link)
+            if not nome:
+                continue
+            ref = {"nome": nome, "marcas": "", "detalhes": ""}
+            cod = codigo_modelo(nome)
+            hits = buscar_uma(FONTES[0], consulta_modelo(nome, ref) if cod else " ".join(tokens(nome)[:7]))
+            alvo_t = set(w for w in tokens(nome) if not UNIDADE.match(w))
+            def parecido(h):
+                if cod:
+                    return combina_modelo(nome, h["name"])
+                ht = set(tokens(h["name"]))
+                return len(alvo_t & ht) >= max(2, int(len(alvo_t) * 0.6))
+            bons = sorted([h for h in hits if parecido(h)], key=lambda h: h.get("price") or 1e12)[:2]
+            for h in bons:
+                for o in ofertas_do_produto(FONTES[0], h):
+                    o["modelo"] = link
+                    ofertas.append(o)
+                time.sleep(1)
+            if not bons:
+                log["falhas"].append({"produto": p["id"], "onde": host, "motivo": "produto do link não encontrado"})
+        except Exception as e:  # noqa: BLE001
+            log["falhas"].append({"produto": p["id"], "onde": host, "motivo": str(e)[:80]})
+        time.sleep(1)
+    return ofertas
+
+
 def coletar(p):
+    extras = coletar_links(p) if p.get("links") else []
+    ofertas, fonte = coletar_base(p) if (p.get("modelos") or not p.get("links")) else ([], FONTES[0])
+    if extras:
+        return (ofertas or []) + extras, fonte or FONTES[0]
+    return ofertas, fonte
+
+
+def coletar_base(p):
     if p.get("modelos"):
         return coletar_modelos(p)
     for fonte in FONTES:
@@ -289,8 +413,9 @@ def main():
             continue
         if not ofertas:
             log["semResultado"].append(p["id"])
-            if p.get("modelos"):
-                it["ofertas"] = [o for o in it.get("ofertas", []) if o.get("modelo") in p["modelos"]]
+            if p.get("modelos") or p.get("links"):
+                ok = set(p.get("modelos") or []) | set(p.get("links") or [])
+                it["ofertas"] = [o for o in it.get("ofertas", []) if o.get("modelo") in ok]
             else:
                 it["ofertas"] = [o for o in it.get("ofertas", []) if combina(p, o.get("titulo", ""))]
             continue
