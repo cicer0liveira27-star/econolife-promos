@@ -7,8 +7,9 @@ Lista de compras da casa com um robô que caça os melhores preços em lojas con
 ## Como funciona
 
 - `data/produtos.json` — a lista (editada pelo app, com a chave do GitHub salva no aparelho).
-- `data/ofertas.json` — preços, fotos, links, histórico e alertas. Gravado pelo robô (tarefa agendada no Claude, 6x por dia).
-- `data/config.json` — liga/desliga os alertas no WhatsApp.
+- `data/ofertas.json` — preços, fotos, links, histórico e alertas. Gravado pelo robô gratuito do GitHub Actions (`.github/workflows/checar.yml`), a cada 15 minutos.
+- `data/config.json` — liga/desliga os alertas.
+- `data/checagem.json` — relatório da última rodada do robô (páginas conferidas, falhas).
 - `.github/workflows/whatsapp.yml` — quando o robô grava alertas novos, manda mensagem no grupo do Telegram.
 
 ## Alertas no Telegram (Settings → Secrets and variables → Actions)

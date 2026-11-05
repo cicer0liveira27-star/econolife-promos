@@ -1,0 +1,49 @@
+name: Robô de preços (a cada 15 min)
+
+# Roda de graça no GitHub Actions: confere preços, fotos e links e avisa no Telegram.
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['data/produtos.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robo-precos
+  cancel-in-progress: false
+
+jobs:
+  checar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Conferir preços
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          WA_PHONE_1: ${{ secrets.WA_PHONE_1 }}
+          WA_KEY_1: ${{ secrets.WA_KEY_1 }}
+          WA_PHONE_2: ${{ secrets.WA_PHONE_2 }}
+          WA_KEY_2: ${{ secrets.WA_KEY_2 }}
+          SITE_URL: https://cicer0liveira27-star.github.io/econolife-promos/
+        run: python scripts/checar_precos.py
+      - name: Salvar resultado
+        run: |
+          git config user.name "Econolife Promos"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ofertas.json data/checagem.json data/config.json
+          if git diff --cached --quiet; then echo "Nada mudou"; exit 0; fi
+          git commit -m "Robô: preços $(TZ=America/Sao_Paulo date '+%d/%m %H:%M')"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1

@@ -395,7 +395,7 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
   function render(){
     if(!S.loaded)return;
     const at=S.ofertas.atualizadoEm;
-    $('#robotLine').innerHTML='Robô ativo · '+(at?'última busca <b>'+esc(ago(at))+'</b>':'primeira busca pendente')+' · roda 6x por dia';
+    $('#robotLine').innerHTML='Robô ativo · '+(at?'última busca <b>'+esc(ago(at))+'</b>':'primeira busca pendente')+' · confere a cada 15 min';
     const ativos=S.produtos.filter(p=>p.ativo!==false);
     let soma=0,com=0,hits=0,econ=0,alvoT=0;
     ativos.forEach(p=>{const b=best(p);if(typeof p.precoAlvo==='number')alvoT+=p.precoAlvo;if(b){soma+=b.preco;com++;if(typeof p.precoAlvo==='number'&&b.preco<=p.precoAlvo){hits++;econ+=p.precoAlvo-b.preco;}}});
