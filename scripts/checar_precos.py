@@ -220,6 +220,7 @@ def main():
             continue
         if not ofertas:
             log["semResultado"].append(p["id"])
+            it["ofertas"] = [o for o in it.get("ofertas", []) if combina(p, o.get("titulo", ""))]
             continue
         ofertas.sort(key=lambda o: o["preco"])
         vistos, top = set(), []
