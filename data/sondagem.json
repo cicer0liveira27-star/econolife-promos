@@ -1,29 +1,25 @@
 {
- "quando": "2026-11-05T23:18:48.020318+00:00",
- "r": {
-  "zoom": "200 tam=491804 ld=1 next=True R$=43 ke4gr=True",
-  "americanas": "200 tam=96042 ld=0 next=True R$=4 ke4gr=True",
-  "submarino": "ERRO <urlopen error [Errno -2] Name or service not known>",
-  "shoptime": "200 tam=564432 ld=2 next=True R$=70 ke4gr=False",
-  "mercadolivre_html": "200 tam=41971 ld=0 next=False R$=0 ke4gr=True",
-  "mercadolivre_api": "ERRO HTTP Error 403: Forbidden",
-  "amazon": "ERRO HTTP Error 503: Service Unavailable",
-  "magalu": "ERRO HTTP Error 403: Forbidden",
-  "casasbahia": "ERRO HTTP Error 403: Forbidden",
-  "pontofrio": "ERRO HTTP Error 403: Forbidden",
-  "kabum": "200 tam=54573 ld=0 next=True R$=0 ke4gr=True",
-  "fastshop": "ERRO HTTP Error 404: Not Found",
-  "carrefour": "ERRO HTTP Error 403: Forbidden",
-  "electrolux": "200 tam=255808 ld=0 next=False R$=21 ke4gr=False",
-  "brastemp": "ERRO HTTP Error 404: Not Found",
-  "webcontinental": "ERRO HTTP Error 404: Not Found",
-  "leroy": "ERRO HTTP Error 403: ",
-  "ferreiracosta": "ERRO HTTP Error 404: Not Found",
-  "pelando": "ERRO HTTP Error 403: Forbidden",
-  "promobit": "200 tam=49014 ld=3 next=True R$=0 ke4gr=False",
-  "google_shopping": "200 tam=94003 ld=0 next=False R$=0 ke4gr=True",
-  "bing_shopping": "200 tam=112625 ld=0 next=False R$=0 ke4gr=True",
-  "jacotei": "ERRO HTTP Error 403: Forbidden",
-  "comparamais": "ERRO <urlopen error [Errno -2] Name or service not known>"
+ "quando": "2026-11-05T23:19:40.615958+00:00",
+ "americanas": {
+  "achados": [],
+  "trecho_ke4gr": [
+   "><meta name=\"twitter:card\" content=\"summary_large_image\" data-next-head=\"\"/><meta name=\"generated-at\" content=\"2026-11-05T21:08:17.627Z\" data-next-head=\"\"/><title data-next-head=\"\">cooktop electrolux ke4gr em promoção nas Americanas</title><meta name=\"robots\" content=\"index,follow\" data-next-head=\"\"/><meta name=\"description\" content=\"cooktop electrolux ke4gr em oferta na Americanas. Aproveite as melhores promoções, parcelamento e muita economia n"
+  ]
+ },
+ "kabum": {
+  "achados": [],
+  "trecho_ke4gr": [
+   " bg-primary-300 px-32 desktop:h-48\"></div></div></div></div></div></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"data\":{\"searchTermWithoutHyphen\":\"cooktop electrolux ke4gr\",\"params\":{\"page_number\":1,\"page_size\":60,\"facet_filters\":\"\",\"sort\":\"most_searched\",\"variant\":\"catalog\",\"is_prime\":false,\"query\":\"cooktop electrolux ke4gr\"},\"type\":\"search\",\"cookieIsMobile\":false}},\"ssrFeatureFlags\":[{\"key\":\"campaign_feature_pr"
+  ]
+ },
+ "promobit": {
+  "achados": [],
+  "trecho_ke4gr": []
+ },
+ "mercadolivre": {
+  "achados": [],
+  "trecho_ke4gr": [
+   "t=\"0;URL=//www.mercadolivre.com.br/gz/webdevice/config?go=https%3A%2F%2Fwww.mercadolivre.com.br%2Fgz%2Faccount-verification%3Fgo%3Dhttps%253A%252F%252Flista.mercadolivre.com.br%252Fcooktop-electrolux-ke4gr%26tid%3D00e0e5e1-42b8-4954-899f-5ae285078a50&amp;noscript=true\"/></noscript><style id=\"__CUSTOM_ELEMENTS__\" type=\"text/css\">n-island,n-remote-fragment,n-remote-fragment-host{display:contents;}</style><style id=\"__FONTS__\" type=\"text/css\">/*! * "
+  ]
  }
 }
