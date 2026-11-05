@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-05T22:23:05Z",
+ "quando": "2026-11-05T22:28:22Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 28,
+ "buscas": 27,
  "paginas": 27,
- "ofertas": 25,
- "fotos": 25,
- "alertas": 0,
+ "ofertas": 28,
+ "fotos": 28,
+ "alertas": 1,
  "semResultado": [
   "microondas",
   "lavadora",
@@ -14,9 +14,9 @@
  "falhas": [],
  "debug": {
   "geladeira": {
-   "hits": 87,
-   "combinam": 31,
-   "ofertas": 12
+   "hits": 61,
+   "combinam": 21,
+   "ofertas": 16
   },
   "gelagua": {
    "hits": 30,
@@ -56,7 +56,7 @@
   "iphone-16-lacrado": {
    "hits": 12,
    "combinam": 3,
-   "ofertas": 3
+   "ofertas": 14
   },
   "cooktop-4-bocas-a-gas": {
    "hits": 24,
