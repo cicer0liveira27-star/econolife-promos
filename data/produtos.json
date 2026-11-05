@@ -135,12 +135,13 @@
   {
    "nome": "Forno de Embutir Elétrico",
    "categoria": "Eletrodomésticos",
-   "precoAlvo": 800,
+   "precoAlvo": 900,
    "marcas": "Dako ou Eletrolux",
    "detalhes": "Preto",
    "unidade": "",
-   "modelos": [],
-   "links": [],
+   "links": [
+    "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
+   ],
    "ativo": true,
    "criadoEm": "2026-11-05T23:16:12.389Z",
    "id": "forno-de-embutir-eletrico"
