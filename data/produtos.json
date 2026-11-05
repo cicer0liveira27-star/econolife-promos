@@ -98,6 +98,17 @@
    "ativo": true,
    "criadoEm": "2026-11-05T16:36:03.477Z",
    "id": "iphone-16-lacrado"
+  },
+  {
+   "nome": "Cooktop 4 Bocas a Gás",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 450,
+   "marcas": "Eletrolux ou Dako",
+   "detalhes": "Preto",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T22:05:01.078Z",
+   "id": "cooktop-4-bocas-a-gas"
   }
  ]
 }
