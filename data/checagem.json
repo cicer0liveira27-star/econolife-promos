@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-05T23:15:17Z",
+ "quando": "2026-11-05T23:18:52Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 26,
- "paginas": 32,
- "ofertas": 37,
- "fotos": 37,
+ "buscas": 30,
+ "paginas": 33,
+ "ofertas": 41,
+ "fotos": 41,
  "alertas": 0,
  "semResultado": [
   "lavadora"
@@ -66,6 +66,11 @@
    "modelos": 2,
    "modelosAchados": 1,
    "ofertas": 5
+  },
+  "forno-de-embutir-eletrico": {
+   "hits": 27,
+   "combinam": 1,
+   "ofertas": 4
   }
  }
 }
