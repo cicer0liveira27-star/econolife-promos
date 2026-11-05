@@ -87,6 +87,17 @@
    "ativo": true,
    "criadoEm": "2026-11-05T16:33:54.299Z",
    "id": "ventilador"
+  },
+  {
+   "nome": "Liquidificador",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 100,
+   "marcas": "",
+   "detalhes": "",
+   "unidade": "",
+   "ativo": true,
+   "criadoEm": "2026-11-05T16:35:23.626Z",
+   "id": "liquidificador"
   }
  ]
 }
