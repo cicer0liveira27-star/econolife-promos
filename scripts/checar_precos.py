@@ -92,6 +92,10 @@ def combina(p, titulo):
     for n in re.findall(r"\b\d+\b", sa(p["nome"])):
         if not re.search(r"(?<![\d])" + n + r"(?![\d])", t):
             return False
+    # palavra que está no nome E nos detalhes é obrigatória (ex.: "frontal" na lavadora)
+    for w in set(tokens(p["nome"])) & set(tokens(p.get("detalhes") or "")):
+        if len(w) > 2 and not w.isdigit() and w not in t:
+            return False
     nome_sa = sa(p["nome"])
     for variante in ("pro", "max", "plus", "mini", "ultra", "lite", "fe"):
         if re.search(r"\b" + variante + r"\b", t) and not re.search(r"\b" + variante + r"\b", nome_sa) and re.search(r"\b(iphone|galaxy|ipad|xiaomi|redmi|moto)\b", t):
