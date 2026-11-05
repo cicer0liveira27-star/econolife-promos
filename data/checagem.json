@@ -1,22 +1,20 @@
 {
- "quando": "2026-11-05T22:30:19Z",
+ "quando": "2026-11-05T22:41:30Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 27,
- "paginas": 27,
- "ofertas": 28,
- "fotos": 28,
- "alertas": 0,
+ "buscas": 23,
+ "paginas": 26,
+ "ofertas": 38,
+ "fotos": 38,
+ "alertas": 2,
  "semResultado": [
-  "microondas",
-  "lavadora",
-  "cooktop-4-bocas-a-gas"
+  "lavadora"
  ],
  "falhas": [],
  "debug": {
   "geladeira": {
-   "hits": 61,
-   "combinam": 21,
-   "ofertas": 16
+   "modelos": 3,
+   "modelosAchados": 3,
+   "ofertas": 18
   },
   "gelagua": {
    "hits": 30,
@@ -24,13 +22,13 @@
    "ofertas": 6
   },
   "microondas": {
-   "hits": 0,
-   "combinam": 0,
-   "exemplos": []
+   "modelos": 1,
+   "modelosAchados": 1,
+   "ofertas": 6
   },
   "tv": {
-   "hits": 12,
-   "combinam": 7,
+   "hits": 13,
+   "combinam": 8,
    "ofertas": 17
   },
   "lavadora": {
@@ -44,9 +42,9 @@
    "ofertas": 22
   },
   "ventilador": {
-   "hits": 7,
-   "combinam": 7,
-   "ofertas": 7
+   "modelos": 1,
+   "modelosAchados": 1,
+   "ofertas": 2
   },
   "liquidificador": {
    "hits": 22,
@@ -59,14 +57,9 @@
    "ofertas": 14
   },
   "cooktop-4-bocas-a-gas": {
-   "hits": 24,
-   "combinam": 0,
-   "exemplos": [
-    "Cooktop 5 Bocas a Gás Natural GLP Brastemp Inox Dupla Chama ",
-    "Cooktop a Gás 2 Bocas Mondial CTG-04",
-    "Cooktop À Gás 4 Bocas Vidro Flange Esmaltada Preto Bivolt",
-    "Cooktop Nardelli Safe Ferro Fundido 5 Bocas A Gas"
-   ]
+   "modelos": 2,
+   "modelosAchados": 1,
+   "ofertas": 5
   }
  }
 }
