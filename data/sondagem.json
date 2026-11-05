@@ -1,94 +1,321 @@
 {
- "quando": "2026-11-05T19:42:02.424145+00:00",
- "resultados": {
-  "ml_api_busca": {
-   "erro": "HTTP Error 403: Forbidden"
+ "quando": "2026-11-05T19:43:00.622280+00:00",
+ "buscape_busca": [
+  {
+   "path": ".props.initialReduxState.products.product.product",
+   "item": {
+    "id": "",
+    "name": "",
+    "countOfComments": 0,
+    "productSeries": "",
+    "image": "",
+    "minPrice": 0,
+    "maxPrice": 0,
+    "rating": 0,
+    "stores": 0,
+    "saved": false,
+    "adultContent": false,
+    "alertNotify": false,
+    "alertLowerBound": 0,
+    "alertUpperBound": 0,
+    "alertStepSize": 0,
+    "alertSuggestedValue": 0,
+    "seoUrl": "",
+    "categoryId": 0,
+    "priceHistorySet": false,
+    "status": "Active",
+    "mainImageId": 0,
+    "popularity": 0,
+    "loweredSeal": false,
+    "highlightedFeatures": [],
+    "highlightedAttributes": [],
+    "description": "",
+    "creationDate": ""
+   }
   },
-  "ml_api_item": {
-   "erro": "HTTP Error 403: Forbidden"
+  {
+   "path": ".props.initialReduxState.hits.hits[0]",
+   "item": {
+    "bestOffer": {
+     "id": "1537276453",
+     "merchantId": "23254",
+     "merchantName": "Americanas"
+    },
+    "cashback": {
+     "cashbackValue": 142.95,
+     "formula": {
+      "cashbackRate": 0.05,
+      "modalityCashbackType": "ALL_MERCHANT"
+     },
+     "isSuperCashback": false
+    },
+    "categoryId": "8",
+    "categoryName": "Geladeira",
+    "categoryRankType": "CAE",
+    "categorySeoUrl": "geladeira",
+    "competitivenessIndex": 0.8985,
+    "hasInterest": true,
+    "image": "https://i.zst.com.br/thumbs/45/25/34/-1618733994.jpg",
+    "installments": {
+     "amount_months": 8,
+     "price": 384.27,
+     "total_value": 3074.16
+    },
+    "loweringPercentage": 0,
+    "marketplace": false,
+    "merchants": [
+     {
+      "id": "23254",
+      "name": "Americanas"
+     },
+     {
+      "id": "1582",
+      "name": "Amazon"
+     },
+     {
+      "id": "23326",
+      "name": "Fast Shop"
+     }
+    ],
+    "name": "Geladeira Consul Frost Free Duplex 455 cor Inox CRM53MK",
+    "objectId": "product13993590",
+    "popularityScore": 14194,
+    "position": 2,
+    "price": 2859,
+    "seoUrl": "geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox",
+    "shortName": "Geladeira Consul Frost Free Duplex 455 cor Inox CRM53MK",
+    "sourceId": "13993590",
+    "storeCount": 6,
+    "type": "product",
+    "url": "/geladeira/geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox"
+   }
   },
-  "ml_api_produtos": {
-   "erro": "HTTP Error 403: Forbidden"
-  },
-  "ml_lista_html": {
-   "status": 200,
-   "tamanho": 41953,
-   "ldjson": 0,
-   "next_data": false,
-   "preco_R$": 0,
-   "inicio": "<!DOCTYPE html><html lang=\"pt-BR\" data-cdn=\"https://http2.mlstatic.com\" data-assets-prefix=\"https://http2.mlstatic.com/frontend-assets/suspicious-traffic-fronte"
-  },
-  "magalu_busca": {
-   "erro": "HTTP Error 403: Forbidden"
-  },
-  "amazon_busca": {
-   "erro": "HTTP Error 503: Service Unavailable"
-  },
-  "americanas_busca": {
-   "status": 200,
-   "tamanho": 96012,
-   "ldjson": 0,
-   "next_data": true,
-   "preco_R$": 4,
-   "inicio": "<!DOCTYPE html><html dir=\"ltr\" lang=\"pt-BR\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/"
-  },
-  "casasbahia_busca": {
-   "erro": "HTTP Error 403: Forbidden"
-  },
-  "kabum_busca": {
-   "status": 200,
-   "tamanho": 54549,
-   "ldjson": 0,
-   "next_data": true,
-   "preco_R$": 0,
-   "inicio": "<!DOCTYPE html><html lang=\"pt-br\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" data-next"
-  },
-  "leroy_busca": {
-   "erro": "HTTP Error 403: "
-  },
-  "carrefour_busca": {
-   "erro": "HTTP Error 403: Forbidden"
-  },
-  "fastshop_busca": {
-   "erro": "HTTP Error 404: Not Found"
-  },
-  "electrolux_busca": {
-   "status": 200,
-   "tamanho": 253593,
-   "ldjson": 0,
-   "next_data": false,
-   "preco_R$": 0,
-   "inicio": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003d\u000e0\u0014Fwڅ\u0012qb3kM{&˵\u0006Y4nNrzq8\u0011\u001ai&\u0003'aT/zwQK&\u0000[\u0012-\u0019<}ǢvQ(Qw\u0018G[ҟ\u0004\u001fx\fz\u0018Ȕ?HW)\t\n@UQVb\u0013\r@bu*{\u0003\u0000\u0000y8)XvM藡wS6Ϯ؛q*\u0005D\u000fE$5Nw\u000b\u0007I\u0004I4N⊭Hh44M/\u001eB\u0005ϼ$\u0002\u000fi\u001e,\u000b/M?z[0>ogm\u000b\u001f \u0016\u0006m0Ǧw"
-  },
-  "brastemp_busca": {
-   "erro": "HTTP Error 404: Not Found"
-  },
-  "zoom_busca": {
-   "status": 200,
-   "tamanho": 541645,
-   "ldjson": 1,
-   "next_data": true,
-   "preco_R$": 49,
-   "inicio": "<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"theme-color\" content=\"#000000\"/><"
-  },
-  "buscape_busca": {
-   "status": 200,
-   "tamanho": 721489,
-   "ldjson": 1,
-   "next_data": true,
-   "preco_R$": 49,
-   "inicio": "<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"theme-color\" content=\"#000000\"/><"
-  },
-  "google_shopping": {
-   "status": 200,
-   "tamanho": 94156,
-   "ldjson": 0,
-   "next_data": false,
-   "preco_R$": 0,
-   "inicio": "<!DOCTYPE html><html lang=\"pt-BR\"><head><title>Google Search</title><style>body{background-color:var(--xhUGwc)}</style><script nonce=\"DyI83ANLqZwikdmofrtD9Q\">wi"
-  },
-  "pelando": {
-   "erro": "HTTP Error 403: Forbidden"
+  {
+   "path": ".props.initialReduxState.hits.hits[1]",
+   "item": {
+    "bestOffer": {
+     "id": "1535718266",
+     "merchantId": "245",
+     "merchantName": "Webcontinental"
+    },
+    "cashback": {
+     "cashbackValue": 266.17,
+     "formula": {
+      "cashbackRate": 0.06,
+      "modalityCashbackType": "ALL_MERCHANT"
+     },
+     "isSuperCashback": true
+    },
+    "categoryId": "8",
+    "categoryName": "Geladeira",
+    "categoryRankType": "CAE",
+    "categorySeoUrl": "geladeira",
+    "competitivenessIndex": 0.5355,
+    "hasInterest": true,
+    "image": "https://i.zst.com.br/thumbs/45/13/10/-1621878694.jpg",
+    "installments": {
+     "amount_months": 8,
+     "price": 574.09,
+     "total_value": 4592.72
+    },
+    "loweringPercentage": 0,
+    "marketplace": false,
+    "merchants": [
+     {
+      "id": "245",
+      "name": "Webcontinental"
+     },
+     {
+      "id": "23326",
+      "name": "Fast Shop"
+     }
+    ],
+    "name": "Geladeira Consul Frost Free Inverse 399 cor Inox CRE45MK",
+    "objectId": "product13993652",
+    "popularityScore": 2164,
+    "position": 3,
+    "price": 4436.15,
+    "seoUrl": "geladeira-consul-cre45mk-frost-free-inverse-399-litros-cor-inox",
+    "shortName": "Geladeira Consul Frost Free Inverse 399 cor Inox CRE45MK",
+    "sourceId": "13993652",
+    "storeCount": 2,
+    "type": "product",
+    "url": "/geladeira/geladeira-consul-cre45mk-frost-free-inverse-399-litros-cor-inox"
+   }
   }
- }
+ ],
+ "buscape_links_exemplo": [
+  "/search?q=geladeira%20consul%20inox&amp;page=2",
+  "/geladeira/brastemp",
+  "/geladeira/electrolux",
+  "/geladeira/consul",
+  "/geladeira/lg",
+  "/geladeira/panasonic",
+  "/geladeira/philco",
+  "/geladeira/duplex"
+ ],
+ "buscape_produto_url": "/geladeira",
+ "buscape_produto_ofertas": [],
+ "buscape_produto_ldjson": [
+  "{\"@context\":\"https://schema.org/\",\"@type\":\"Organization\",\"@id\":\"snippet-organization\",\"name\":\"Buscapé\",\"url\":\"https://www.buscape.com.br\",\"email\":\"atendimento@mosaico.com.br\",\"address\":{\"@type\":\"PostalAddress\",\"postalCode\":\"22271-022\",\"streetAddress\":\"Rua Visconde de Caravelas, 14\",\"addressLocality\":\"Rio de Janeiro, RJ, Brasil\"},\"sameAs\":[\"https://www.youtube.com/buscape/\",\"https://www.facebook.com/buscape/\",\"https://twitter.com/buscape\",\"https://www.instagram.com/buscape.oficial\"],\"legalName\":\"Mosaico Tecnologia ao Consumidor S.A.\"}"
+ ],
+ "zoom_busca": [
+  {
+   "path": ".props.initialReduxState.products.product.product",
+   "item": {
+    "id": "",
+    "name": "",
+    "countOfComments": 0,
+    "productSeries": "",
+    "image": "",
+    "minPrice": 0,
+    "maxPrice": 0,
+    "rating": 0,
+    "stores": 0,
+    "saved": false,
+    "adultContent": false,
+    "alertNotify": false,
+    "alertLowerBound": 0,
+    "alertUpperBound": 0,
+    "alertStepSize": 0,
+    "alertSuggestedValue": 0,
+    "seoUrl": "",
+    "categoryId": 0,
+    "priceHistorySet": false,
+    "status": "Active",
+    "mainImageId": 0,
+    "popularity": 0,
+    "loweredSeal": false,
+    "highlightedFeatures": [],
+    "highlightedAttributes": [],
+    "description": "",
+    "creationDate": ""
+   }
+  },
+  {
+   "path": ".props.initialReduxState.hits.hits[0]",
+   "item": {
+    "bestOffer": {
+     "id": "1537276453",
+     "merchantId": "23254",
+     "merchantName": "Americanas"
+    },
+    "cashback": {
+     "cashbackValue": 142.95,
+     "formula": {
+      "cashbackRate": 0.05,
+      "modalityCashbackType": "ALL_MERCHANT"
+     },
+     "isSuperCashback": false
+    },
+    "categoryId": "8",
+    "categoryName": "Geladeira",
+    "categoryRankType": "CAE",
+    "categorySeoUrl": "geladeira",
+    "competitivenessIndex": 0.8985,
+    "hasInterest": true,
+    "image": "https://i.zst.com.br/thumbs/45/25/34/-1618733994.jpg",
+    "installments": {
+     "amount_months": 8,
+     "price": 384.27,
+     "total_value": 3074.16
+    },
+    "loweringPercentage": 0,
+    "marketplace": false,
+    "merchants": [
+     {
+      "id": "23254",
+      "name": "Americanas"
+     },
+     {
+      "id": "1582",
+      "name": "Amazon"
+     },
+     {
+      "id": "23326",
+      "name": "Fast Shop"
+     }
+    ],
+    "name": "Geladeira Consul Frost Free Duplex 455 cor Inox CRM53MK",
+    "objectId": "product13993590",
+    "popularityScore": 14194,
+    "position": 2,
+    "price": 2859,
+    "seoUrl": "geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox",
+    "shortName": "Geladeira Consul Frost Free Duplex 455 cor Inox CRM53MK",
+    "sourceId": "13993590",
+    "storeCount": 6,
+    "type": "product",
+    "url": "/geladeira/geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox"
+   }
+  },
+  {
+   "path": ".props.initialReduxState.hits.hits[1]",
+   "item": {
+    "bestOffer": {
+     "id": "1535718266",
+     "merchantId": "245",
+     "merchantName": "Webcontinental"
+    },
+    "cashback": {
+     "cashbackValue": 266.17,
+     "formula": {
+      "cashbackRate": 0.06,
+      "modalityCashbackType": "ALL_MERCHANT"
+     },
+     "isSuperCashback": true
+    },
+    "categoryId": "8",
+    "categoryName": "Geladeira",
+    "categoryRankType": "CAE",
+    "categorySeoUrl": "geladeira",
+    "competitivenessIndex": 0.5355,
+    "hasInterest": true,
+    "image": "https://i.zst.com.br/thumbs/45/13/10/-1621878694.jpg",
+    "installments": {
+     "amount_months": 8,
+     "price": 574.09,
+     "total_value": 4592.72
+    },
+    "loweringPercentage": 0,
+    "marketplace": false,
+    "merchants": [
+     {
+      "id": "245",
+      "name": "Webcontinental"
+     },
+     {
+      "id": "23326",
+      "name": "Fast Shop"
+     }
+    ],
+    "name": "Geladeira Consul Frost Free Inverse 399 cor Inox CRE45MK",
+    "objectId": "product13993652",
+    "popularityScore": 2164,
+    "position": 3,
+    "price": 4436.15,
+    "seoUrl": "geladeira-consul-cre45mk-frost-free-inverse-399-litros-cor-inox",
+    "shortName": "Geladeira Consul Frost Free Inverse 399 cor Inox CRE45MK",
+    "sourceId": "13993652",
+    "storeCount": 2,
+    "type": "product",
+    "url": "/geladeira/geladeira-consul-cre45mk-frost-free-inverse-399-litros-cor-inox"
+   }
+  }
+ ],
+ "zoom_links_exemplo": [
+  "/search?q=geladeira%20consul%20inox&amp;page=2",
+  "/geladeira/brastemp",
+  "/geladeira/electrolux",
+  "/geladeira/consul",
+  "/geladeira/lg",
+  "/geladeira/panasonic",
+  "/geladeira/philco",
+  "/geladeira/duplex"
+ ],
+ "zoom_produto_url": "/geladeira",
+ "zoom_produto_ofertas": [],
+ "zoom_produto_ldjson": [
+  "{\"@context\":\"https://schema.org/\",\"@type\":\"Organization\",\"@id\":\"snippet-organization\",\"name\":\"Zoom\",\"url\":\"https://www.zoom.com.br\",\"email\":\"atendimento@mosaico.com.br\",\"address\":{\"@type\":\"PostalAddress\",\"postalCode\":\"22271-022\",\"streetAddress\":\"Rua Visconde de Caravelas, 14\",\"addressLocality\":\"Rio de Janeiro, RJ, Brasil\"},\"sameAs\":[\"https://www.youtube.com/user/deumzoom/\",\"https://www.facebook.com/deumzoom/\",\"https://twitter.com/deumzoom\",\"https://instagram.com/deumzoom\"],\"legalName\":\"Mosaico Tecnologia ao Consumidor S.A.\"}"
+ ]
 }
