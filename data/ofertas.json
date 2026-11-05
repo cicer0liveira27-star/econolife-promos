@@ -1,8 +1,9 @@
 {
- "atualizadoEm": "2026-11-05T15:24:00Z",
+ "atualizadoEm": "2026-11-05T19:40:01Z",
  "status": {
-  "resumo": "Primeira rodada do robô (migrada do app anterior). Fotos chegam na próxima busca.",
-  "produtosVerificados": 7
+  "resumo": "1 páginas conferidas, 0 ofertas novas",
+  "produtosVerificados": 10,
+  "alertas": 0
  },
  "itens": {
   "cooktop": {
@@ -70,7 +71,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T15:18:05Z"
+   "ultimaBusca": "2026-11-05T19:40:01Z"
   },
   "geladeira": {
    "ofertas": [
@@ -137,7 +138,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T15:24:00Z"
+   "ultimaBusca": "2026-11-05T19:40:01Z"
   },
   "gelagua": {
    "ofertas": [
@@ -204,7 +205,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T15:18:05Z"
+   "ultimaBusca": "2026-11-05T19:40:01Z"
   },
   "lava-loucas": {
    "ofertas": [
@@ -271,7 +272,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T15:18:05Z"
+   "ultimaBusca": "2026-11-05T19:40:01Z"
   },
   "lavadora": {
    "ofertas": [
@@ -338,7 +339,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T15:24:00Z"
+   "ultimaBusca": "2026-11-05T19:40:01Z"
   },
   "microondas": {
    "ofertas": [
@@ -405,7 +406,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T15:18:05Z"
+   "ultimaBusca": "2026-11-05T19:40:01Z"
   },
   "tv": {
    "ofertas": [
@@ -472,7 +473,22 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-05T15:18:05Z"
+   "ultimaBusca": "2026-11-05T19:40:01Z"
+  },
+  "ventilador": {
+   "ofertas": [],
+   "historico": [],
+   "ultimaBusca": "2026-11-05T19:40:01Z"
+  },
+  "liquidificador": {
+   "ofertas": [],
+   "historico": [],
+   "ultimaBusca": "2026-11-05T19:40:01Z"
+  },
+  "iphone-16-lacrado": {
+   "ofertas": [],
+   "historico": [],
+   "ultimaBusca": "2026-11-05T19:40:01Z"
   }
  },
  "alertas": [
