@@ -1,19 +1,20 @@
 {
- "quando": "2026-11-05T22:15:16Z",
+ "quando": "2026-11-05T22:23:05Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 28,
- "paginas": 28,
- "ofertas": 28,
- "fotos": 28,
+ "paginas": 27,
+ "ofertas": 25,
+ "fotos": 25,
  "alertas": 0,
  "semResultado": [
   "microondas",
-  "lavadora"
+  "lavadora",
+  "cooktop-4-bocas-a-gas"
  ],
  "falhas": [],
  "debug": {
   "geladeira": {
-   "hits": 88,
+   "hits": 87,
    "combinam": 31,
    "ofertas": 12
   },
@@ -40,7 +41,7 @@
   "lava-loucas": {
    "hits": 38,
    "combinam": 17,
-   "ofertas": 21
+   "ofertas": 22
   },
   "ventilador": {
    "hits": 7,
@@ -58,9 +59,14 @@
    "ofertas": 3
   },
   "cooktop-4-bocas-a-gas": {
-   "hits": 62,
-   "combinam": 1,
-   "ofertas": 3
+   "hits": 24,
+   "combinam": 0,
+   "exemplos": [
+    "Cooktop 5 Bocas a Gás Natural GLP Brastemp Inox Dupla Chama ",
+    "Cooktop a Gás 2 Bocas Mondial CTG-04",
+    "Cooktop À Gás 4 Bocas Vidro Flange Esmaltada Preto Bivolt",
+    "Cooktop Nardelli Safe Ferro Fundido 5 Bocas A Gas"
+   ]
   }
  }
 }
