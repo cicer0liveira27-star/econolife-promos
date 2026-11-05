@@ -39,37 +39,25 @@ def corta(o, n=0):
 
 
 out = {"quando": datetime.now(timezone.utc).isoformat()}
-for site, url in [("buscape", "https://www.buscape.com.br/search?q=geladeira%20consul%20inox"),
-                  ("zoom", "https://www.zoom.com.br/search?q=geladeira%20consul%20inox")]:
-    try:
-        pg = baixar(url)
-        nd = next_data(pg)
-        cand = []
-        for path, d in walk(nd):
-            ks = set(d.keys())
-            if ("price" in ks or "minPrice" in ks or "bestPrice" in ks) and ("name" in ks or "title" in ks):
-                cand.append({"path": path, "item": corta(d)})
-            if len(cand) >= 3:
-                break
-        out[site + "_busca"] = cand
-        # primeiro link de produto
-        links = re.findall(r'href="(/[^"]+)"', pg)
-        prod = next((l for l in links if re.search(r"/(geladeira|refrigerador)[^/]*$", l) or "/p/" in l), None)
-        out[site + "_links_exemplo"] = [l for l in links if "geladeira" in l][:8]
-        if prod:
-            pp = baixar(("https://www.buscape.com.br" if site == "buscape" else "https://www.zoom.com.br") + prod)
-            nd2 = next_data(pp)
-            ofs = []
-            for path, d in walk(nd2):
-                ks = set(d.keys())
-                if "price" in ks and any(k in ks for k in ("store", "merchant", "seller", "storeName", "shop")):
-                    ofs.append({"path": path, "item": corta(d)})
-                if len(ofs) >= 3:
-                    break
-            out[site + "_produto_url"] = prod
-            out[site + "_produto_ofertas"] = ofs
-            out[site + "_produto_ldjson"] = [b[:1500] for b in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', pp, re.S)][:2]
-    except Exception as e:  # noqa: BLE001
-        out[site + "_erro"] = str(e)[:200]
+try:
+    nd = next_data(baixar("https://www.buscape.com.br/search?q=geladeira%20consul%20inox"))
+    hit = nd["props"]["initialReduxState"]["hits"]["hits"][0]
+    url = "https://www.buscape.com.br" + hit["url"]
+    pp = baixar(url)
+    out["produto_url"] = url
+    nd2 = next_data(pp)
+    st = nd2["props"]["initialReduxState"]
+    out["chaves_estado"] = list(st.keys())
+    achados = []
+    for path, d in walk(nd2):
+        ks = set(d.keys())
+        if ("price" in ks or "value" in ks) and any("merchant" in k.lower() or "store" in k.lower() or "seller" in k.lower() for k in ks):
+            achados.append({"path": path, "item": corta(d)})
+        if len(achados) >= 4:
+            break
+    out["ofertas"] = achados
+    out["links_saida"] = sorted(set(re.findall(r'https?://[^"\s]*(?:lead|redirect|offer|out)[^"\s]{0,120}', pp)))[:10]
+except Exception as e:  # noqa: BLE001
+    out["erro"] = repr(e)[:300]
 json.dump(out, open("data/sondagem.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print("ok")
