@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-05T21:45:15Z",
+ "quando": "2026-11-05T22:00:25Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 28,
  "paginas": 28,
@@ -13,12 +13,12 @@
  "falhas": [],
  "debug": {
   "geladeira": {
-   "hits": 87,
+   "hits": 88,
    "combinam": 31,
    "ofertas": 12
   },
   "cooktop": {
-   "hits": 63,
+   "hits": 62,
    "combinam": 1,
    "ofertas": 3
   },
