@@ -28,7 +28,7 @@ LOJAS_OK = ["americanas", "magazine luiza", "magalu", "amazon", "casas bahia", "
             "lojas colombo", "havan", "efacil", "zema"]
 
 log = {"quando": ISO, "fonte": None, "buscas": 0, "paginas": 0, "ofertas": 0, "fotos": 0, "alertas": 0,
-       "semResultado": [], "falhas": []}
+       "semResultado": [], "falhas": [], "debug": {}}
 
 
 def baixar(url):
@@ -73,18 +73,29 @@ def consultas(p):
     qs += [f"{enxuto} {m}" for m in ms[:4] if m not in enxuto]
     if enxuto and enxuto not in qs:
         qs.append(enxuto)
+    if "maquina lavar" in enxuto:
+        qs += [f"lavadora frontal {m}" for m in ms[:3]] or ["lavadora frontal"]
     return list(dict.fromkeys(q.strip() for q in qs if q.strip()))
 
 
 def combina(p, titulo):
     t = sa(titulo)
-    chave = [w for w in tokens(p["nome"]) if len(w) > 2]
+    chave = [w for w in tokens(p["nome"]) if len(w) > 2 and not w.isdigit()]
+    if "lavar" in chave:
+        chave.append("lavadora")
     if chave and not any(w in t for w in chave):
         return False
     ms = marcas(p)
     implicita = {"iphone": "apple", "ipad": "apple", "macbook": "apple", "airpods": "apple", "galaxy": "samsung"}
     if ms and not any(m.split()[0] in t or any(k in t and v == m.split()[0] for k, v in implicita.items()) for m in ms):
         return False
+    for n in re.findall(r"\b\d+\b", sa(p["nome"])):
+        if not re.search(r"(?<![\d])" + n + r"(?![\d])", t):
+            return False
+    nome_sa = sa(p["nome"])
+    for variante in ("pro", "max", "plus", "mini", "ultra", "lite", "fe"):
+        if re.search(r"\b" + variante + r"\b", t) and not re.search(r"\b" + variante + r"\b", nome_sa) and re.search(r"\b(iphone|galaxy|ipad|xiaomi|redmi|moto)\b", t):
+            return False
     for ruim in ("capa ", "pelicula", "suporte", "refil", "usado", "recondicionado", "seminovo", "vitrine", "peca "):
         if ruim in t + " ":
             return False
@@ -151,18 +162,29 @@ def coletar(p):
             continue
         bons = [h for h in hits if combina(p, h["name"])]
         if not bons:
+            log["debug"][p["id"]] = {"hits": len(hits), "combinam": 0, "exemplos": [h["name"][:60] for h in hits[:4]]}
             return [], fonte
         melhor_nota = max(nota_detalhe(p, h["name"]) for h in bons)
         if melhor_nota > 0:
             bons = [h for h in bons if nota_detalhe(p, h["name"]) == melhor_nota] or bons
         bons.sort(key=lambda h: h.get("price") or 1e12)
         ofertas = []
-        for h in bons[:3]:
+        for h in bons[:4]:
             try:
-                ofertas += ofertas_do_produto(fonte, h)
+                for o in ofertas_do_produto(fonte, h):
+                    if combina(p, o["titulo"]) or combina(p, h["name"]) and not re.search(r"\d", sa(p["nome"])) and any(w in sa(o["titulo"]) for w in tokens(p["nome"])):
+                        ofertas.append(o)
             except Exception as e:  # noqa: BLE001
                 log["falhas"].append({"produto": p["id"], "onde": h["url"][:60], "motivo": str(e)[:80]})
             time.sleep(1)
+        if (p.get("detalhes") or "").strip():
+            com_detalhe = [o for o in ofertas if nota_detalhe(p, o["titulo"]) > 0]
+            if com_detalhe:
+                ofertas = com_detalhe
+            else:
+                for o in ofertas:
+                    o["observacao"] = ("confira cor/tamanho · " + o["observacao"]).strip(" ·")
+        log["debug"][p["id"]] = {"hits": len(hits), "combinam": len(bons), "ofertas": len(ofertas)}
         return ofertas, fonte
     return None, None
 
