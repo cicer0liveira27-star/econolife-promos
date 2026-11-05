@@ -194,9 +194,9 @@ def consulta_modelo(modelo, p):
     return " ".join(([ws[0]] if ws else []) + raras[:2])
 
 
-def coletar_modelos(p):
+def coletar_modelos(p, fontes=None):
     modelos = [m.strip() for m in p.get("modelos") or [] if m.strip()]
-    for fonte in FONTES:
+    for fonte in fontes or FONTES:
         ofertas, achou_algum, erro = [], 0, False
         for modelo in modelos:
             try:
@@ -371,9 +371,20 @@ def coletar(p):
 
 
 def coletar_base(p):
-    if p.get("modelos"):
-        return coletar_modelos(p)
-    for fonte in FONTES:
+    """Consulta Buscapé e Zoom e junta as ofertas (o menor preço por loja fica depois)."""
+    todas, fonte_ok = [], None
+    for f in FONTES:
+        ofs, fonte = (coletar_modelos(p, [f]) if p.get("modelos") else coletar_geral(p, [f]))
+        if ofs is None:
+            continue
+        fonte_ok = fonte_ok or fonte
+        todas += ofs
+        time.sleep(1)
+    return (todas, fonte_ok) if fonte_ok else (None, None)
+
+
+def coletar_geral(p, fontes=None):
+    for fonte in fontes or FONTES:
         try:
             hits = buscar(fonte, p)
         except Exception as e:  # noqa: BLE001
@@ -479,7 +490,7 @@ def main():
 
     dados["alertas"] = sorted(alertas, key=lambda a: a.get("criadoEm", ""))[-200:]
     dados["atualizadoEm"] = ISO
-    dados["status"] = {"resumo": f"{log['ofertas']} ofertas de lojas confiáveis via {(log['fonte'] or '').replace('https://www.', '')}",
+    dados["status"] = {"resumo": f"{log['ofertas']} ofertas de lojas confiáveis via Buscapé e Zoom",
                        "produtosVerificados": sum(1 for p in prods if p.get("ativo") is not False), "alertas": len(novos)}
     log["alertas"] = len(novos)
     log["falhas"] = log["falhas"][:30]
