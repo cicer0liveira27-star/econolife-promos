@@ -1,12 +1,14 @@
 {
- "quando": "2026-11-05T21:24:49Z",
+ "quando": "2026-11-05T21:26:27Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 26,
- "paginas": 33,
- "ofertas": 34,
- "fotos": 34,
+ "buscas": 27,
+ "paginas": 30,
+ "ofertas": 30,
+ "fotos": 30,
  "alertas": 0,
- "semResultado": [],
+ "semResultado": [
+  "lavadora"
+ ],
  "falhas": [],
  "debug": {
   "geladeira": {
@@ -35,9 +37,9 @@
    "ofertas": 17
   },
   "lavadora": {
-   "hits": 3,
-   "combinam": 3,
-   "ofertas": 6
+   "hits": 0,
+   "combinam": 0,
+   "exemplos": []
   },
   "lava-loucas": {
    "hits": 38,
