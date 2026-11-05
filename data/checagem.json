@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-05T19:55:42Z",
+ "quando": "2026-11-05T21:15:17Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 31,
  "paginas": 32,
- "ofertas": 36,
- "fotos": 36,
- "alertas": 0,
+ "ofertas": 35,
+ "fotos": 35,
+ "alertas": 1,
  "semResultado": [
   "lavadora"
  ],
@@ -14,7 +14,7 @@
   "geladeira": {
    "hits": 105,
    "combinam": 37,
-   "ofertas": 10
+   "ofertas": 11
   },
   "cooktop": {
    "hits": 76,
@@ -52,9 +52,9 @@
    "ofertas": 21
   },
   "ventilador": {
-   "hits": 21,
-   "combinam": 21,
-   "ofertas": 11
+   "hits": 19,
+   "combinam": 19,
+   "ofertas": 16
   },
   "liquidificador": {
    "hits": 22,
