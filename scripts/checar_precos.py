@@ -53,7 +53,7 @@ def loja_ok(nome):
 
 
 # ---------------- filtros do produto ----------------
-PARADAS = {"com", "para", "de", "da", "do", "e", "ou", "a", "o", "cor", "porta", "bocas", "lacrado", "linha"}
+PARADAS = {"com", "para", "de", "da", "do", "e", "ou", "a", "o", "cor", "porta", "bocas", "lacrado", "linha", "novo", "original"}
 
 
 def tokens(s):
@@ -65,12 +65,15 @@ def marcas(p):
     return [w.strip() for w in re.split(r",| ou | e |/", m) if len(w.strip()) > 1]
 
 
-def consulta(p):
-    partes = [p["nome"]]
+def consultas(p):
+    """Busca principal e, de reserva, uma por marca com o nome enxuto."""
     ms = marcas(p)
-    if len(ms) == 1 and ms[0] not in sa(p["nome"]):
-        partes.append(ms[0])
-    return " ".join(partes)
+    enxuto = " ".join(w for w in tokens(p["nome"]))
+    qs = [p["nome"] + (" " + ms[0] if len(ms) == 1 and ms[0] not in sa(p["nome"]) else "")]
+    qs += [f"{enxuto} {m}" for m in ms[:4] if m not in enxuto]
+    if enxuto and enxuto not in qs:
+        qs.append(enxuto)
+    return list(dict.fromkeys(q.strip() for q in qs if q.strip()))
 
 
 def combina(p, titulo):
@@ -79,8 +82,8 @@ def combina(p, titulo):
     if chave and not any(w in t for w in chave):
         return False
     ms = marcas(p)
-    nome_inteiro = all(w in t for w in tokens(p["nome"]))  # ex.: "iphone 16" já identifica a marca
-    if ms and not nome_inteiro and not any(m.split()[0] in t for m in ms):
+    implicita = {"iphone": "apple", "ipad": "apple", "macbook": "apple", "airpods": "apple", "galaxy": "samsung"}
+    if ms and not any(m.split()[0] in t or any(k in t and v == m.split()[0] for k, v in implicita.items()) for m in ms):
         return False
     for ruim in ("capa ", "pelicula", "suporte", "refil", "usado", "recondicionado", "seminovo", "vitrine", "peca "):
         if ruim in t + " ":
@@ -95,12 +98,25 @@ def nota_detalhe(p, titulo):
 
 
 # ---------------- coleta ----------------
-def buscar(fonte, p):
-    q = urllib.parse.quote(consulta(p))
-    nd = next_data(baixar(f"{fonte}/search?q={q}"))
+def buscar_uma(fonte, q):
+    nd = next_data(baixar(f"{fonte}/search?q={urllib.parse.quote(q)}"))
     log["buscas"] += 1
     hits = (((nd.get("props") or {}).get("initialReduxState") or {}).get("hits") or {}).get("hits") or []
     return [h for h in hits if h.get("type") == "product" and h.get("url") and h.get("name")]
+
+
+def buscar(fonte, p):
+    vistos, todos = set(), []
+    for i, q in enumerate(consultas(p)):
+        hits = buscar_uma(fonte, q)
+        for h in hits:
+            if h["url"] not in vistos:
+                vistos.add(h["url"])
+                todos.append(h)
+        if i == 0 and any(combina(p, h["name"]) for h in hits) and len(marcas(p)) <= 1:
+            break
+        time.sleep(1)
+    return todos
 
 
 def ofertas_do_produto(fonte, hit):
