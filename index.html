@@ -129,6 +129,14 @@ img{max-width:100%}
 .offer .sub{font-size:11px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .offer .p{grid-row:1/3;grid-column:2;font-weight:600;font-size:14px;font-variant-numeric:tabular-nums;text-align:right}
 .offer .p.hit{color:var(--orange)}
+.sec-t{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-weight:600;display:flex;align-items:center;gap:6px;margin-bottom:-4px}
+.sec-t .dot{width:6px;height:6px;border-radius:50%;background:var(--good)}
+.sec-t .dot.man{background:var(--orange)}
+.manual{display:flex;flex-direction:column;gap:6px}
+.mrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.mrow .cod{font-size:11px;font-weight:700;color:var(--fg);margin-right:2px}
+.mbtn{border:1px dashed var(--line-2);border-radius:999px;padding:5px 11px;font-size:12px;font-weight:600;text-decoration:none;color:var(--fg);white-space:nowrap}
+.mbtn:hover{border-color:var(--orange);color:var(--orange-ink)}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
 .actions .btn{flex:1 1 auto}
 .actions .btn[data-act="del"]{flex:0 0 auto;width:40px;padding-inline:0}
@@ -375,6 +383,19 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
     const line=pts.map((q,i)=>x(i).toFixed(1)+','+y(q.p).toFixed(1)).join(' ');const last=pts[pts.length-1];const hit=alvo!=null&&last.p<=alvo;const col=hit?'var(--orange)':'var(--fg)';
     return '<svg class="spark" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" role="img" aria-label="Histórico do menor preço">'+(alvo!=null?'<line x1="0" x2="'+W+'" y1="'+y(alvo).toFixed(1)+'" y2="'+y(alvo).toFixed(1)+'" stroke="var(--dim)" stroke-dasharray="3 4" vector-effect="non-scaling-stroke"/>':'')+'<polyline points="'+line+'" fill="none" stroke="'+col+'" stroke-width="1.6" vector-effect="non-scaling-stroke"/><circle cx="'+x(pts.length-1).toFixed(1)+'" cy="'+y(last.p).toFixed(1)+'" r="3" fill="'+col+'"/></svg>';
   }
+  const LOJAS_MANUAIS=[['Amazon',q=>'https://www.amazon.com.br/s?k='+encodeURIComponent(q)],['Mercado Livre',q=>'https://lista.mercadolivre.com.br/'+encodeURIComponent(q.trim().split(/\s+/).join('-'))],['Magalu',q=>'https://www.magazineluiza.com.br/busca/'+encodeURIComponent(q)+'/'],['Casas Bahia',q=>'https://www.casasbahia.com.br/'+encodeURIComponent(q.trim().split(/\s+/).join('-'))+'/b'],['Google',q=>'https://www.google.com/search?tbm=shop&hl=pt-BR&gl=br&q='+encodeURIComponent(q)]];
+  const MARCAS_CONHECIDAS=['electrolux','brastemp','consul','midea','samsung','lg','dako','britania','britânia','philco','mondial','apple','arno','oster','philips','tramontina','portobello','eliane'];
+  function codigoModelo(m){const ws=(m||'').match(/[A-Za-z0-9]+/g)||[];for(const w of ws){const l=w.toLowerCase();if(/\d/.test(l)&&/[a-z]/.test(l)&&l.length>=4&&l.length<=12&&!/^\d+(l|w|v|kg|cm|gb|mm|pol|btu|hz)$/.test(l))return l;}return null;}
+  function termo(p,m){
+    if(m){const c=codigoModelo(m);const ml=m.toLowerCase();const marca=MARCAS_CONHECIDAS.find(x=>ml.includes(x))||'';if(c)return (marca+' '+c).trim();return m.replace(/[()]/g,' ').split(/\s+/).filter(w=>w&&!/^\d+(l|w|v)$/i.test(w)).slice(0,7).join(' ');}
+    const ms=(p.marcas||'').replace(/\(.*?\)/g,' ').split(/,| ou | e |\//).map(x=>x.trim()).filter(Boolean);let t=p.nome;if(ms.length===1&&!t.toLowerCase().includes(ms[0].toLowerCase()))t+=' '+ms[0];return t;
+  }
+  function manualHTML(p){
+    const extra=['Construção','Pisos e revestimentos','Iluminação'].includes(p.categoria)?[['Leroy Merlin',q=>'https://www.leroymerlin.com.br/search?term='+encodeURIComponent(q)]]:[];
+    const mods=Array.isArray(p.modelos)&&p.modelos.length?p.modelos.slice(0,3):[null];
+    const rows=mods.map(m=>{const q=termo(p,m);const c=m&&codigoModelo(m);return '<div class="mrow">'+(c&&mods.length>1?'<span class="cod">'+esc(c.toUpperCase())+'</span>':'')+LOJAS_MANUAIS.concat(extra).map(([n,f])=>'<a class="mbtn" href="'+esc(f(q))+'" target="_blank" rel="noopener noreferrer">'+esc(n)+'</a>').join('')+'</div>';}).join('');
+    return '<div class="sec-t"><span class="dot man"></span>Conferir você mesmo</div><div class="manual">'+rows+'</div>';
+  }
   function cardHTML(p){
     const b=best(p),alvo=typeof p.precoAlvo==='number'?p.precoAlvo:null,hit=b&&alvo!=null&&b.preco<=alvo,near=b&&alvo!=null&&!hit&&b.preco<=alvo*1.1;
     let flag;if(p.ativo===false)flag='<span class="flag off">Pausado</span>';else if(!b)flag='<span class="flag off">Buscando…</span>';else if(hit)flag='<span class="flag hit">Abaixo do alvo</span>';else if(near)flag='<span class="flag near">Perto do alvo</span>';else flag='<span class="flag">Acima do alvo</span>';
@@ -393,7 +414,7 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
       +'<div><div class="cat">'+esc(p.categoria||'Outros')+'</div><h3>'+esc(p.nome)+'</h3>'+(spec?'<div class="spec">'+esc(spec)+'</div>':'')+(b&&b.titulo?'<div class="ptitle">'+esc(b.titulo)+'</div>':'')+'</div>'
       +'<div class="priceline"><div class="now"><div class="v'+(hit?' hit':'')+'">'+(b?money(b.preco):'—')+'</div><div class="s">'+(b?'na '+esc(b.loja):'aguardando o robô')+'</div></div><div class="goal">Alvo<b>'+(alvo!=null?money(alvo):'—')+'</b>'+(hit?'<span class="save">economia '+money(alvo-b.preco)+'</span>':(b&&alvo?'faltam '+money(b.preco-alvo):''))+'</div></div>'
       +(b&&alvo?'<div class="bar" aria-hidden="true"><i class="'+(hit?'hit':'')+'" style="width:'+pct+'%"></i></div>':'')
-      +spark(p)+oh+actions+'<div class="meta">'+(lb?'Atualizado '+ago(lb):'Ainda não buscado')+'</div></div></article>';
+      +spark(p)+(oh?'<div class="sec-t"><span class="dot"></span>Achadas pelo robô · avisa sozinho</div>'+oh:'')+manualHTML(p)+actions+'<div class="meta">'+(lb?'Atualizado '+ago(lb):'Ainda não buscado')+'</div></div></article>';
   }
   function render(){
     if(!S.loaded)return;

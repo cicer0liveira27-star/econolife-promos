@@ -419,6 +419,41 @@ def coletar_geral(p, fontes=None):
     return None, None
 
 
+# ---------------- links para conferir manualmente ----------------
+LOJAS_MANUAIS = [
+    ("Amazon", "https://www.amazon.com.br/s?k={q}"),
+    ("Mercado Livre", "https://lista.mercadolivre.com.br/{d}"),
+    ("Magalu", "https://www.magazineluiza.com.br/busca/{q}/"),
+    ("Casas Bahia", "https://www.casasbahia.com.br/{d}/b"),
+    ("Google Shopping", "https://www.google.com/search?tbm=shop&hl=pt-BR&gl=br&q={q}"),
+]
+LOJAS_OBRA = [("Leroy Merlin", "https://www.leroymerlin.com.br/search?term={q}")]
+
+
+def termo_busca(p, modelo=None):
+    if modelo:
+        return consulta_modelo(modelo, p)
+    ms = marcas(p)
+    t = p["nome"]
+    if len(ms) == 1 and ms[0] not in sa(t):
+        t += " " + ms[0]
+    return t
+
+
+def links_manuais(p, modelo=None):
+    q = termo_busca(p, modelo)
+    lojas = LOJAS_MANUAIS + (LOJAS_OBRA if p.get("categoria") in ("Construção", "Pisos e revestimentos", "Iluminação") else [])
+    return [(n, u.format(q=urllib.parse.quote_plus(q), d=urllib.parse.quote("-".join(q.split())))) for n, u in lojas]
+
+
+def h(s):
+    return html.escape(str(s or ""), quote=True)
+
+
+def bloco_links(p, modelo=None):
+    return " · ".join(f'<a href="{h(u)}">{h(n)}</a>' for n, u in links_manuais(p, modelo))
+
+
 # ---------------- principal ----------------
 def main():
     prods = json.load(open("data/produtos.json", encoding="utf-8")).get("produtos", [])
@@ -483,7 +518,7 @@ def main():
             extra = f" ({avisos.brl(alvo - agora)} abaixo do alvo)" if alvo and agora <= alvo else f" (caiu {round((1 - agora / antes) * 100)}%)"
             a = {"id": f"{p['id']}-{AGORA.strftime('%Y%m%d%H%M')}", "produtoId": p["id"], "produtoNome": p["nome"],
                  "texto": f"{p['nome']}: {b['titulo'][:70]} por {avisos.brl(agora)} na {b['loja']}{extra}",
-                 "preco": agora, "loja": b["loja"], "url": b["url"], "criadoEm": ISO}
+                 "preco": agora, "loja": b["loja"], "url": b["url"], "criadoEm": ISO, "modelo": b.get("modelo")}
             alertas.append(a)
             novos.append(a)
         time.sleep(1)
@@ -503,10 +538,47 @@ def main():
         cfg = json.load(open("data/config.json", encoding="utf-8"))
     except Exception:  # noqa: BLE001
         pass
+    porid = {p["id"]: p for p in prods}
     if novos and cfg.get("notificacoes") is not False:
-        partes = [f"🔥 {a['texto']}\n{a['url']}" for a in novos[:6]]
+        partes = []
+        for a in novos[:6]:
+            p = porid.get(a["produtoId"], {"nome": a["produtoNome"], "marcas": ""})
+            mod = a.get("modelo") if a.get("modelo") in (p.get("modelos") or []) else None
+            partes.append(f"🔥 <b>{h(a['texto'])}</b>\n👉 <a href=\"{h(a['url'])}\">Abrir oferta na {h(a['loja'])}</a>\n"
+                          f"🔎 Conferir você mesmo: {bloco_links(p, mod)}")
         extra = f"\n\n+{len(novos) - 6} outros no app" if len(novos) > 6 else ""
-        avisos.enviar("🛒 Econolife Promos\n\n" + "\n\n".join(partes) + extra + "\n\n" + avisos.SITE)
+        avisos.enviar_telegram("🛒 <b>Econolife Promos</b>\n\n" + "\n\n".join(partes) + extra +
+                               f"\n\n<a href=\"{h(avisos.SITE)}\">Abrir o app</a>", html_mode=True)
+
+    # resumo diário (uma vez por dia, a partir das 9h de Brasília) com os links para conferir à mão
+    hora_br = (AGORA - timedelta(hours=3)).hour
+    if hora_br >= 9 and dados.get("ultimoResumo") != HOJE and cfg.get("notificacoes") is not False and avisos.TG_TOKEN:
+        blocos = []
+        for p in prods:
+            if p.get("ativo") is False:
+                continue
+            of = (itens.get(p["id"]) or {}).get("ofertas") or []
+            b = of[0] if of else None
+            linha = f"<b>{h(p['nome'])}</b>"
+            if b:
+                alvo = p.get("precoAlvo")
+                marca = " ✅" if alvo and b["preco"] <= alvo else ""
+                linha += f"\n🤖 Robô achou: <a href=\"{h(b['url'])}\">{h(avisos.brl(b['preco']))} na {h(b['loja'])}</a>{marca}"
+                if alvo:
+                    linha += f" · alvo {h(avisos.brl(alvo))}"
+            else:
+                linha += "\n🤖 Robô ainda não achou"
+            mods = p.get("modelos") or [None]
+            for m in mods[:3]:
+                rot = (codigo_modelo(m) or "").upper() if m else ""
+                linha += f"\n🔎 {h(rot + ': ') if rot else ''}{bloco_links(p, m)}"
+            blocos.append(linha)
+        for i in range(0, len(blocos), 5):
+            cab = "📋 <b>Resumo do dia — Econolife Promos</b>\n\n" if i == 0 else ""
+            avisos.enviar_telegram(cab + "\n\n".join(blocos[i:i + 5]), html_mode=True)
+            time.sleep(1)
+        dados["ultimoResumo"] = HOJE
+        json.dump(dados, open("data/ofertas.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":

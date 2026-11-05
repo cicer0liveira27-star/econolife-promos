@@ -80,7 +80,7 @@ def chat_telegram():
     return str(achado)
 
 
-def enviar_telegram(texto):
+def enviar_telegram(texto, html_mode=False):
     if not TG_TOKEN:
         return False
     chat = chat_telegram()
@@ -88,7 +88,8 @@ def enviar_telegram(texto):
         return False
     try:
         r = http_json(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-                      {"chat_id": chat, "text": texto, "disable_web_page_preview": "false"})
+                      dict({"chat_id": chat, "text": texto, "disable_web_page_preview": "true" if html_mode else "false"},
+                           **({"parse_mode": "HTML"} if html_mode else {})))
         print("Telegram: " + ("enviado" if r.get("ok") else "resposta inesperada"))
         return bool(r.get("ok"))
     except Exception as e:  # noqa: BLE001
