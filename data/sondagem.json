@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-05T19:44:15.167573+00:00",
+ "quando": "2026-11-05T19:44:51.648171+00:00",
  "produto_url": "https://www.buscape.com.br/geladeira/geladeira-consul-crm53mk-frost-free-duplex-455-litros-cor-inox",
  "chaves_estado": [
   "sidebar",
@@ -150,6 +150,75 @@
     ]
    }
   }
+ ],
+ "offer_keys": [
+  "id",
+  "name",
+  "imageUrl",
+  "categoryID",
+  "productID",
+  "price",
+  "numParcels",
+  "parcelValue",
+  "totalParceledValue",
+  "merchantId",
+  "sellerID",
+  "sellerName",
+  "sellerLogoURL",
+  "sellerRoundedLogoURL",
+  "sellerIsMarketplace",
+  "paymentMethod",
+  "totalPrice",
+  "loweringPercentage",
+  "competitivenessIndex",
+  "hasInterest",
+  "skuVariations"
+ ],
+ "offer_extra": {},
+ "sellers": [
+  [
+   "Americanas",
+   2859,
+   false
+  ],
+  [
+   "Americanas",
+   2859,
+   false
+  ],
+  [
+   "Americanas",
+   2878.11,
+   false
+  ],
+  [
+   "Magazine Luiza",
+   2965,
+   false
+  ],
+  [
+   "Amazon",
+   2876.6699999999996,
+   false
+  ],
+  [
+   "Fast Shop",
+   2899,
+   false
+  ]
+ ],
+ "leadParams": {
+  "leadChannel": "1",
+  "searchterm": ""
+ },
+ "lead_html": [
+  "/lead?oid=1534842467&amp;channel=1&amp;index=1&amp;sortorder=0&amp;pagesize=19&amp;appliedpromotion=CASHBACK&amp;experiencevariant=cro-12-2",
+  "/lead?oid=1536612783&amp;channel=1&amp;index=4&amp;sortorder=0&amp;pagesize=19&amp;experiencevariant=cro-12-2",
+  "/lead?oid=1537276453&amp;channel=1&amp;index=0&amp;sortorder=0&amp;pagesize=19&amp;appliedpromotion=CASHBACK&amp;experiencevariant=cro-12-2",
+  "/lead?oid=1548700115&amp;channel=1&amp;index=5&amp;sortorder=0&amp;pagesize=19&amp;appliedpromotion=CASHBACK&amp;experiencevariant=cro-12-2",
+  "/lead?oid=1561098391&amp;channel=1&amp;index=2&amp;sortorder=0&amp;pagesize=19&amp;appliedpromotion=CASHBACK&amp;experiencevariant=cro-12-2",
+  "/lead?oid=1563005771",
+  "/lead?oid=1571384404&amp;channel=1&amp;index=3&amp;sortorder=0&amp;pagesize=19&amp;appliedpromotion=CASHBACK&amp;experiencevariant=cro-12-2"
  ],
  "ofertas": [],
  "links_saida": [
