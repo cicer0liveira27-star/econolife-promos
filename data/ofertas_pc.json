@@ -1,29 +1,53 @@
 {
- "atualizadoEm": "2026-11-06T16:46:28Z",
+ "atualizadoEm": "2026-11-06T19:56:36Z",
  "itens": {
   "geladeira": [
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S",
-    "preco": 2820,
-    "url": "https://www.amazon.com.br/Geladeira-Refrigerador-Electrolux-Duplex-IF44S/dp/B0GXX6YHK6/ref=sr_1_5?dib=eyJ2IjoiMSJ9.N9_id7CaebPhHAm61kYQ_ihb1dODAfPcfZE_rF7jnzAjzBpqcfaZZ5PMm6-IK0Jy8wjeyR49HF1-1i_9RGs-IKGblbF9SmND345BiAWPEraLOI_b8KRKh14mE8_4jmkIhugnd3Q1SEbES89xfqRuQbcKbKeq6t1w9iti-dtunbvvSwXBVc17-HHGdf5mogEDaVxXJ_-Vg7hB77_QRVhI5wOICZcYdqcsCTV0D0-u3u5lpLX-XUOyTp8LmG6xv41b.ch-gN52k6wxL2c-XFEcP5S1Yaa15Wr2SLA2QKShaPDM&dib_tag=se&keywords=electrolux+if44s&qid=1793983562&sr=8-5&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
-    "imagem": "https://m.media-amazon.com/images/I/31DRIQYOVIL._AC_UL320_.jpg",
+    "titulo": "Geladeira Electrolux Frost Free 400L AutoSense Inverter Duplex Inox Look (IF44S)",
+    "preco": 3098,
+    "url": "https://www.amazon.com.br/Geladeira-Electrolux-AutoSense-Inverter-IF44S/dp/B0GXX6MXLL/ref=sr_1_5?dib=eyJ2IjoiMSJ9.2FlNWpZpzPPHGbwjYbfOFSxuSRSwkRGFg2-yI_0CvbkjzBpqcfaZZ5PMm6-IK0Jy8wjeyR49HF1-1i_9RGs-ILSSJ4JeymVCWFbpgD48YFXX7hXPliipNdBIYUgb_i1PUZzRXz1rJ28pMtbUlVby3bcKbKeq6t1w9iti-dtunbsNVXsQW6B0ECdBiixnyIZk4OIemU5QGq4tW50tNkRsMp7TSYIkTR226O67EOWMlOplpLX-XUOyTp8LmG6xv41b.WEdrFIY7viQ9QClcwFbA_u879Qor9rnuwZAA318XvB8&dib_tag=se&keywords=electrolux+if44s&qid=1793994969&sr=8-5&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
+    "imagem": "https://m.media-amazon.com/images/I/41fALZ40D0L._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
    },
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Geladeira Electrolux Frost Free 400L AutoSense Inverter Duplex Inox Look (IF44S)",
-    "preco": 3134,
-    "url": "https://www.amazon.com.br/Geladeira-Electrolux-AutoSense-Inverter-IF44S/dp/B0GXX6MXLL/ref=sr_1_6?dib=eyJ2IjoiMSJ9.N9_id7CaebPhHAm61kYQ_ihb1dODAfPcfZE_rF7jnzAjzBpqcfaZZ5PMm6-IK0Jy8wjeyR49HF1-1i_9RGs-IKGblbF9SmND345BiAWPEraLOI_b8KRKh14mE8_4jmkIhugnd3Q1SEbES89xfqRuQbcKbKeq6t1w9iti-dtunbvvSwXBVc17-HHGdf5mogEDaVxXJ_-Vg7hB77_QRVhI5wOICZcYdqcsCTV0D0-u3u5lpLX-XUOyTp8LmG6xv41b.ch-gN52k6wxL2c-XFEcP5S1Yaa15Wr2SLA2QKShaPDM&dib_tag=se&keywords=electrolux+if44s&qid=1793983562&sr=8-6&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
-    "imagem": "https://m.media-amazon.com/images/I/41fALZ40D0L._AC_UL320_.jpg",
+    "titulo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S",
+    "preco": 3098,
+    "url": "https://www.amazon.com.br/Geladeira-Refrigerador-Electrolux-Duplex-IF44S/dp/B0GXX6YHK6/ref=sr_1_6?dib=eyJ2IjoiMSJ9.2FlNWpZpzPPHGbwjYbfOFSxuSRSwkRGFg2-yI_0CvbkjzBpqcfaZZ5PMm6-IK0Jy8wjeyR49HF1-1i_9RGs-ILSSJ4JeymVCWFbpgD48YFXX7hXPliipNdBIYUgb_i1PUZzRXz1rJ28pMtbUlVby3bcKbKeq6t1w9iti-dtunbsNVXsQW6B0ECdBiixnyIZk4OIemU5QGq4tW50tNkRsMp7TSYIkTR226O67EOWMlOplpLX-XUOyTp8LmG6xv41b.WEdrFIY7viQ9QClcwFbA_u879Qor9rnuwZAA318XvB8&dib_tag=se&keywords=electrolux+if44s&qid=1793994969&sr=8-6&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
+    "imagem": "https://m.media-amazon.com/images/I/31DRIQYOVIL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
+    "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
+   },
+   {
+    "loja": "Mercado Livre",
+    "vendedor": null,
+    "titulo": "Geladeira Electrolux Frost Free 400l Inverter Inox (if44s) Cinza",
+    "preco": 2699,
+    "url": "https://www.mercadolivre.com.br/geladeira-electrolux-frost-free-400l-inverter-inox-if44s-cinza/p/MLB65450433",
+    "imagem": null,
+    "observacao": "achado pelo robô do PC",
+    "verificado": true,
+    "encontradoEm": "2026-11-06T19:56:36Z",
+    "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
+   },
+   {
+    "loja": "Mercado Livre",
+    "vendedor": null,
+    "titulo": "Geladeira Electrolux Frost Free 400l Inverter Inox (if44s)",
+    "preco": 2999,
+    "url": "https://www.mercadolivre.com.br/geladeira-electrolux-frost-free-400l-inverter-inox-if44s/p/MLB65451315",
+    "imagem": null,
+    "observacao": "achado pelo robô do PC",
+    "verificado": true,
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
    },
    {
@@ -31,11 +55,11 @@
     "vendedor": null,
     "titulo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V",
     "preco": 3149,
-    "url": "https://www.amazon.com.br/Geladeira-Electrolux-Efficient-AutoSense-Duplex/dp/B0DN3RX4L8/ref=sr_1_2?dib=eyJ2IjoiMSJ9.CnP50fjVkcgbWeh9vCx5UcPxPCZIivR6Mn4ugB9H5XjxknSSAsd0A8xeSCGPtwP9LpvnqZkWp81amR_9MG2dAUY2AzskxSlemCY8SNMTPaaCQ0Hs3IAZeKh-XR5JmdGSGmueTRp2Dr8ZinlZH6Dxu1I3eohgDbzIdzNlVg88Il8r2uuRaz2dIiHGDUn4N6EO22nCsRC-1Umc8i5ALq53V_efhtDri_YwIx4INzxXOviAVUueUBz6YPrK29j4hWARoH-fgu41bQLAfe5iPRA7-M4u6IKnLir-Hoa1vwPYQjM.GDRoCn-6Kr4cEwflUOus_Scp4HhDvfniPQh6CAJ0G8o&dib_tag=se&keywords=electrolux+tf70s&qid=1793983597&sr=8-2&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
+    "url": "https://www.amazon.com.br/Geladeira-Electrolux-Efficient-AutoSense-Duplex/dp/B0DN3RX4L8/ref=sr_1_2?dib=eyJ2IjoiMSJ9.CnP50fjVkcgbWeh9vCx5UcPxPCZIivR6Mn4ugB9H5XjxknSSAsd0A8xeSCGPtwP9ZgSYd4EjLAFcJm0zNKLZ5F-J34k0VWpN0XHAAKddYzyk6SxH4di1PYalq2GMeLIPxYOQXTZ4MMTenKI9oNxKM8hVgojwIummCJrFaX-RVMMP3ay-7qZZ_QB1EasPjrgvb0WuAUSCq8947zuP5sXIogKPkXqllD3O2g--R0Cdy93OqK-ukexGd0Z159Vm0GaJz8xt7vgO1SkrGDNPVDZ9WZrnBzg0A-AwLTbGmS79R_E.8H0yM9mfDRjOovf5CzsuhdaOMBUFoXTeSHqK2Wrvfbg&dib_tag=se&keywords=electrolux+tf70s&qid=1793995006&sr=8-2&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
     "imagem": "https://m.media-amazon.com/images/I/41FhtTDaN0L._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
    },
    {
@@ -47,7 +71,7 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
    },
    {
@@ -59,19 +83,31 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
    },
    {
     "loja": "Amazon",
     "vendedor": null,
     "titulo": "Geladeira Electrolux Frost Free Inverter 480L Efficient com AutoSense SmartBivolt Duplex (IT70S) - Bivolt (inox)",
-    "preco": 3504,
-    "url": "https://www.amazon.com.br/Geladeira-Electrolux-Efficient-AutoSense-SmartBivolt/dp/B0D1YP2X5W/ref=sr_1_5?dib=eyJ2IjoiMSJ9.TASn0AbAFZIGMRd8CC2AaXIg9hAF-8wcRiinL09zLTmCnb609Hzbo_-ALNFKerwHnADSeq13VrzEiXi0f49iRfA-it8yDzrpWzxTu18CdHXleQNjsEQZjAqFiYoDakbvKPbey3GJlHM0jZSfcVJ8rIv62OgJddj1hza5xj_zsdLJpPWNPFIkqHOKcBQEV0ITtaDX9FWTke8HbeEsZ_5q5mLpZiJwg0Ss2XfakzQ7cVIxpr_Uod1qOcGKMbvqOCRa1nyUcS6bT0VI8OATnuR1gdiLIxX-wMwh4iiBzqAEg6M.aaPSkqQpe2RXZw8bCXYHP3R-Oktg7v25kxNQMrl5Ugs&dib_tag=se&keywords=electrolux+it70s&qid=1793983632&sr=8-5&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
+    "preco": 3284,
+    "url": "https://www.amazon.com.br/Geladeira-Electrolux-Efficient-AutoSense-SmartBivolt/dp/B0D1YP2X5W/ref=sr_1_5?dib=eyJ2IjoiMSJ9.TASn0AbAFZIGMRd8CC2AadgQj6CDhwlDNuJ0yQtQKLitAGjamIcBglcitgTGfcVoJnQOdX09pXuDURlBmmW7ubY2wlkpBocFbXk-LKPDozG4iEUQeN2nz67w3gTYjQ-3FkHCkmOfeMy7s7UHIEYHI4v62OgJddj1hza5xj_zsdJGYzc6pLB_KMxAfjfY5HNryeM6JDiq2aw2f9lo55YZb-scAoK9hLo38jVqjZB7J75R7worVOs5owee7fC9OfufQsmJ1m-UG2g1e1Gt69GFJQPPq6rbUL3HPZR6zgLf0P4.3z5YSpE5t7hl_kmImcRSio1Y0-Q66p34aME2c1wodyg&dib_tag=se&keywords=electrolux+it70s&qid=1793995019&sr=8-5&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
     "imagem": "https://m.media-amazon.com/images/I/41mIgqAG1tL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
+    "modelo": "Geladeira Electrolux Frost Free Inverter 480L Efficient com AutoSense SmartBivolt Duplex (IT70S) - Bivolt (inox)"
+   },
+   {
+    "loja": "Mercado Livre",
+    "vendedor": null,
+    "titulo": "Refrigerador Electrolux It70s 481 L 127/220v 480l",
+    "preco": 3714,
+    "url": "https://www.mercadolivre.com.br/refrigerador-electrolux-it70s-481-l-127220v-480l/up/MLBU5744050273",
+    "imagem": null,
+    "observacao": "achado pelo robô do PC",
+    "verificado": true,
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Geladeira Electrolux Frost Free Inverter 480L Efficient com AutoSense SmartBivolt Duplex (IT70S) - Bivolt (inox)"
    },
    {
@@ -83,19 +119,7 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
-    "modelo": "Geladeira Electrolux Frost Free Inverter 480L Efficient com AutoSense SmartBivolt Duplex (IT70S) - Bivolt (inox)"
-   },
-   {
-    "loja": "Mercado Livre",
-    "vendedor": null,
-    "titulo": "Refrigerador Electrolux 480l It70s Duplex Efficient Autosens",
-    "preco": 4690,
-    "url": "https://www.mercadolivre.com.br/refrigerador-electrolux-480l-it70s-duplex-efficient-autosens/up/MLBU3388646434",
-    "imagem": null,
-    "observacao": "achado pelo robô do PC",
-    "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Geladeira Electrolux Frost Free Inverter 480L Efficient com AutoSense SmartBivolt Duplex (IT70S) - Bivolt (inox)"
    }
   ],
@@ -105,11 +129,11 @@
     "vendedor": null,
     "titulo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V",
     "preco": 749,
-    "url": "https://www.amazon.com.br/Micro-Ondas-MI41S-Prata-220v-Electrolux/dp/B076XC1QX7/ref=sr_1_5?dib=eyJ2IjoiMSJ9.6A5-p_szmb43j_iZPiqKwhoSlX8JJJ4Zx4GAzym-UhUFzP3mrLzzUwEEgM2AOpk6xdPjDe3UK09yVxpve3LMtg3Z54xMGbokZQekQK6nuG_LRvpK-89MmfVwbedJXyz0fs3RACeUbrNG8gvfCIVChEgnbittrIFsac_-aYu-h4BWPgpvkgu9w-pwo3MbQRiJEbX6aTO3mrXwBG6v3RRJlz75x1uhR2hDSCywbY2VDDPWMlSxjl4ZUQLFQXHIcUDOtiZKRke5GvgFmfkWnSJvU3BE0jCWPBnhfgilOoNa4CE.SUdeJPNBBaoDGQZrThmHcLzjL3i05UPPtaZeydyIlck&dib_tag=se&keywords=electrolux+mi41s&qid=1793983668&sr=8-5&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
+    "url": "https://www.amazon.com.br/Micro-Ondas-MI41S-Prata-220v-Electrolux/dp/B076XC1QX7/ref=sr_1_5?dib=eyJ2IjoiMSJ9.6A5-p_szmb43j_iZPiqKwhYEywhD9SlD-rNXSx7FZA1jCgrbdiJnqhlEHE_YrsKe9aCQ1Y-Xx1k1Po_bBpUYkw3Z54xMGbokZQekQK6nuG_LRvpK-89MmfVwbedJXyz0JqWJLZR07XOG1ZUHQW0M9Eu62933hdvg3ZJyC9NxG8FZ1q-Jyo7BuDXfMIIJg-WbhR48-oprR8W6iFb2cNpKaf_hbfGcvov0wMSgrUYI5D3sgiUj0cBqiuKNvvgNK4dsn9Ku-pmUNQT19zm_V1uf6B9a-8DjLLAveDn1PBtNUdg.pnCbLpovTGlD_UrtKPZsHElYJxUEgBJX9gO33s0Rzvk&dib_tag=se&keywords=electrolux+mi41s&qid=1793995032&sr=8-5&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
     "imagem": "https://m.media-amazon.com/images/I/41KuuCLPAJL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
    }
   ],
@@ -119,11 +143,11 @@
     "vendedor": null,
     "titulo": "Samsung Smart TV 50\" Crystal UHD 4K U8600F 2025",
     "preco": 2006,
-    "url": "https://www.amazon.com.br/Samsung-Smart-Crystal-U8600F-2025/dp/B0F5X4LL89/ref=sr_1_6?dib=eyJ2IjoiMSJ9.O_Mf-Cag3jeDRfKv7u5AcUB9-HIxp3boJd_Bj8L6w_osFn0X048ELTAgYyji9RtbGT3Sv2sop7Bnf4ZNCoXr0R7JBl1TkEMwGfF226vyOM3nZOlaJ8fkBp-duMIFVr6BlG2ZhsFsfqTih1nx8tU24G1ah78QqL718Fm2ocvD6yzJ6nIF-tNOPuJvxamc9N0JGOMWYyaw1nLMozSCOINFJxQFG58Uivztrl0mYGgl1Irt3WUlSuk_Jet8PHaTrRzrcprCpIttLRJcuYAlzDY_uW3AP7bz30pSHi04cF9rx1I.NgB2a5D_Y_Pcu23rq9LU5slHE3e3t2Yi6Mj_8SZFN9Q&dib_tag=se&keywords=Smart+TV+Samsung+Crystal+UHD+50&qid=1793983702&sr=8-6&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
+    "url": "https://www.amazon.com.br/Samsung-Smart-Crystal-U8600F-2025/dp/B0F5X4LL89/ref=sr_1_6?dib=eyJ2IjoiMSJ9.O_Mf-Cag3jeDRfKv7u5AcUroB57-ltiGcEnleB8tNEYsFn0X048ELTAgYyji9RtbGT3Sv2sop7Bnf4ZNCoXr0dnJJzfSdQaY1mFWpfRtm_slLGYmkO4Ni4qGcd8GSFXdlG2ZhsFsfqTih1nx8tU24NpfmuTqQ65jirVJGToZ_YcKi-t0FBnTT_sM5R23YTnFwFSfQuLYGikwoJqZwzSNpJuy7pUOT-uwXKZnuopQP0PLC_bL32cY_KqyoEPOIvqGGz89C-7fDtDwbwfQfLT8QBbgFTGIasjF1tlB0X7T1ac.hLuV3MH8vF-EuJBLyVrtFq6yUVMdxFPpbgQLmGG-BGQ&dib_tag=se&keywords=Smart+TV+Samsung+Crystal+UHD+50&qid=1793995044&sr=8-6&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
     "imagem": "https://m.media-amazon.com/images/I/71iGUDQvOYL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -131,11 +155,11 @@
     "vendedor": null,
     "titulo": "Anúncio patrocinado – Samsung Smart TV 50\" Crystal UHD 4K U8000H 26/2027, Vision AI Companion, Modo Estádio, Xbox Cloud Ga...",
     "preco": 2419,
-    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTozMTIwMDM2NDg5MzExMzA2OjE3OTM5ODM3MDM6c3BfYXRmOjMwMTYyODk3NjU5MjIwMjo6MDo6&url=%2FSamsung-Crystal-U8000H-Companion-Est%25C3%25A1dio%2Fdp%2FB0HBYYN84S%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.O_Mf-Cag3jeDRfKv7u5AcUB9-HIxp3boJd_Bj8L6w_osFn0X048ELTAgYyji9RtbGT3Sv2sop7Bnf4ZNCoXr0R7JBl1TkEMwGfF226vyOM3nZOlaJ8fkBp-duMIFVr6BlG2ZhsFsfqTih1nx8tU24G1ah78QqL718Fm2ocvD6yzJ6nIF-tNOPuJvxamc9N0JGOMWYyaw1nLMozSCOINFJxQFG58Uivztrl0mYGgl1Irt3WUlSuk_Jet8PHaTrRzrcprCpIttLRJcuYAlzDY_uW3AP7bz30pSHi04cF9rx1I.NgB2a5D_Y_Pcu23rq9LU5slHE3e3t2Yi6Mj_8SZFN9Q%26dib_tag%3Dse%26keywords%3DSmart%2BTV%2BSamsung%2BCrystal%2BUHD%2B50%26qid%3D1793983702%26sr%3D8-1-spons%26ufe%3Dapp_do%253Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo3NTY2Mzc1MjMyMzQxMTY3OjE3OTM5OTUwNDQ6c3BfYXRmOjMwMTYyOTQzMTMwNTUwMjo6MDo6&url=%2FSamsung-Crystal-U8000H-Companion-Est%25C3%25A1dio%2Fdp%2FB0HBYYN84S%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.O_Mf-Cag3jeDRfKv7u5AcUroB57-ltiGcEnleB8tNEYsFn0X048ELTAgYyji9RtbGT3Sv2sop7Bnf4ZNCoXr0dnJJzfSdQaY1mFWpfRtm_slLGYmkO4Ni4qGcd8GSFXdlG2ZhsFsfqTih1nx8tU24NpfmuTqQ65jirVJGToZ_YcKi-t0FBnTT_sM5R23YTnFwFSfQuLYGikwoJqZwzSNpJuy7pUOT-uwXKZnuopQP0PLC_bL32cY_KqyoEPOIvqGGz89C-7fDtDwbwfQfLT8QBbgFTGIasjF1tlB0X7T1ac.hLuV3MH8vF-EuJBLyVrtFq6yUVMdxFPpbgQLmGG-BGQ%26dib_tag%3Dse%26keywords%3DSmart%2BTV%2BSamsung%2BCrystal%2BUHD%2B50%26qid%3D1793995044%26sr%3D8-1-spons%26ufe%3Dapp_do%253Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
     "imagem": "https://m.media-amazon.com/images/I/51Sg1BAA14L._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -147,7 +171,7 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -159,7 +183,7 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    }
   ],
@@ -167,26 +191,50 @@
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Electrolux Máquina de Lavar Frontal Cinza Ônix Inverter 85 x 60 x 65,9 cm 12 kg com Vapor Care, AutoSense e Painel Full To...",
-    "preco": 2991.55,
-    "url": "https://www.amazon.com.br/Electrolux-M%C3%A1quina-Frontal-Inverter-AutoSense/dp/B0GXWZPYPY/ref=sr_1_12?dib=eyJ2IjoiMSJ9.1CuEVdgMSY7qO_2oN2p4BycHBfC31X6D6RT0LXzO-KYDKU_-Rx7dYzVpKp931_OxYCiYyMIBwPiHE3WPcj5mprBKDOFAWnqFB8oEr2ND-r61d921rPdrV5R9adF0Ji-MXmoQbyZ3AVF90W5VHmUJlsXUHV8zvT2S4eDuliGaZEgGVt_IWKsLJXn6UefPvJtCsQSf3kn-HRGG77EtEahYrdfBS3-XaPwXK5bCjvPtKI6VDCWvGxalvBtfXa3RDcB-_J8Y7GWi67leGRV9rIM-TfIaWTTSad2u-vpo_DiPAIM.Amsdvcj8tGDSx5JhTh-5hnkw9ay6Q0pw6qyeJEktjVU&dib_tag=se&keywords=Lavadora+Frontal&qid=1793983739&sr=8-12",
-    "imagem": "https://m.media-amazon.com/images/I/518vRAEpn3L._AC_UL320_.jpg",
+    "titulo": "Anúncio patrocinado da ELECTROLUX. \"Máquina de Lavar Electrolux.\" Comprar ELECTROLUX.",
+    "preco": 1699,
+    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAF1kc1u00AUhdXyVyL-FKEWZUcksiidZOw4iV3JAo89IWnc_DiBpNlY43hiu3Vs1zNuQhd5B94ACYktErBgy1Ow5w14A5SChLrgrD7pnKure27O2fn889uP2_kHmjionoj1qgFhZ6wXt4T93TmNgpXdSirH1nQcZ8lFX-E-PtxdZuXTS1GTTwOnjfzxqir7i8Cz7kq1cq0sy2U43R4iZ0fDoxa22sP8Xu6OS9kZj5P8vdddC-u9V932FBuFd1u5nY1jEz7P3ycLchlH5Vm8KDtp4QlzQBYF84C6gFGSznyQEI8CoXgr4Tay9kXmAO7TBXXBLA5DOuNBHIG_i8CMpC4DCQkiTlMwiyNOIy4-RZbWNWy9Z5pYH7V73aE97GtWx8S2gYedUa9ffJnbgo8-fv3-69MXo7BHMh4DlpD0LKTAZwRwytOAFR9WIYT1Wl2CUG40YF28gSzz8OYbvX-8P80jA2l60myDlbdG53_kaWs04CN6AbXrWiNvjQZrpF2Bt0ZXduGx7uEVxsuT58nAax9lQstTVfHDdu79ts95wg4rleVyWb5WWoXxOKWssimqokiG0ajXJaBAiIAkYQNosNkAuIYbstjUq01DeXE1YKd0rg6RrUEoiaKoCOjkaGK0RmbP7ClAg1CQoSALdVOw-nhs1o77Rilx7dS1k9B3U5WXfEbsWWoHrgpLYWITFkRMRVBB8rjaGfQPNqiIysAwDxCUJUufdI8mm-R5RtO36oKcZ0FEnonwH4XkgqSbCAtjrv7nD6VAJQkrkc0BWlDNdNM5baW_Ab5f5gs&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fstores%2Fpage%2F94DD7664-900B-44ED-A0F7-E5E782FC3FD9%3Fstore_ref%3DSB_A00422291BYJXDHTLOLO9-A001801816L1RPEWL5MPD%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB09B8W3KQP%2CB09B929QDL%2CB084RCXNJX%26lp_query%3Dmaquina%2520maquina%2520lavar%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DAi3uCLbjHr&ref_=sbx_s_sparkle_sbtcd_bkgd&pd_rd_w=xTupM&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=CX1PFSJEZ558V55T45AR&pd_rd_wg=Hg7it&pd_rd_r=fdb6e901-05f3-41dc-a885-f68b9b8abafd",
+    "imagem": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/0b74afb7-c7ac-4f54-ae9c-5f00153422ef._CR0,0,400,400_AC_SX130_SY60_CB1169409_QL70_.png",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
-    "modelo": null
+    "encontradoEm": "2026-11-06T19:56:36Z",
+    "modelo": "Máquina de Lavar Smart"
    },
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Máquina de Lavar Frontal 12kg Ônix Inverter (LFC12) Electrolux",
-    "preco": 3009,
-    "url": "https://www.amazon.com.br/M%C3%A1quina-Lavar-Frontal-Inverter-Electrolux/dp/B0H2NLW4YJ/ref=sr_1_11?dib=eyJ2IjoiMSJ9.1CuEVdgMSY7qO_2oN2p4BycHBfC31X6D6RT0LXzO-KYDKU_-Rx7dYzVpKp931_OxYCiYyMIBwPiHE3WPcj5mprBKDOFAWnqFB8oEr2ND-r61d921rPdrV5R9adF0Ji-MXmoQbyZ3AVF90W5VHmUJlsXUHV8zvT2S4eDuliGaZEgGVt_IWKsLJXn6UefPvJtCsQSf3kn-HRGG77EtEahYrdfBS3-XaPwXK5bCjvPtKI6VDCWvGxalvBtfXa3RDcB-_J8Y7GWi67leGRV9rIM-TfIaWTTSad2u-vpo_DiPAIM.Amsdvcj8tGDSx5JhTh-5hnkw9ay6Q0pw6qyeJEktjVU&dib_tag=se&keywords=Lavadora+Frontal&qid=1793983739&sr=8-11&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
-    "imagem": "https://m.media-amazon.com/images/I/51jRdrYAQKL._AC_UL320_.jpg",
+    "titulo": "Máquina de Lavar Electrolux",
+    "preco": 1699,
+    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAF1kc1u00AUhdXyVyL-FKEWZUcksiidZOw4iV3JAo89IWnc_DiBpNlY43hiu3Vs1zNuQhd5B94ACYktErBgy1Ow5w14A5SChLrgrD7pnKure27O2fn889uP2_kHmjionoj1qgFhZ6wXt4T93TmNgpXdSirH1nQcZ8lFX-E-PtxdZuXTS1GTTwOnjfzxqir7i8Cz7kq1cq0sy2U43R4iZ0fDoxa22sP8Xu6OS9kZj5P8vdddC-u9V932FBuFd1u5nY1jEz7P3ycLchlH5Vm8KDtp4QlzQBYF84C6gFGSznyQEI8CoXgr4Tay9kXmAO7TBXXBLA5DOuNBHIG_i8CMpC4DCQkiTlMwiyNOIy4-RZbWNWy9Z5pYH7V73aE97GtWx8S2gYedUa9ffJnbgo8-fv3-69MXo7BHMh4DlpD0LKTAZwRwytOAFR9WIYT1Wl2CUG40YF28gSzz8OYbvX-8P80jA2l60myDlbdG53_kaWs04CN6AbXrWiNvjQZrpF2Bt0ZXduGx7uEVxsuT58nAax9lQstTVfHDdu79ts95wg4rleVyWb5WWoXxOKWssimqokiG0ajXJaBAiIAkYQNosNkAuIYbstjUq01DeXE1YKd0rg6RrUEoiaKoCOjkaGK0RmbP7ClAg1CQoSALdVOw-nhs1o77Rilx7dS1k9B3U5WXfEbsWWoHrgpLYWITFkRMRVBB8rjaGfQPNqiIysAwDxCUJUufdI8mm-R5RtO36oKcZ0FEnonwH4XkgqSbCAtjrv7nD6VAJQkrkc0BWlDNdNM5baW_Ab5f5gs&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fstores%2Fpage%2F94DD7664-900B-44ED-A0F7-E5E782FC3FD9%3Fstore_ref%3DSB_A00422291BYJXDHTLOLO9-A001801816L1RPEWL5MPD%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB09B8W3KQP%2CB09B929QDL%2CB084RCXNJX%26lp_query%3Dmaquina%2520maquina%2520lavar%26lp_slot%3Dauto-sparkle-hsa-tetris%26i%3Daps%26aref%3DAi3uCLbjHr&ref_=sbx_s_sparkle_sbtcd_hl&pd_rd_w=xTupM&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=CX1PFSJEZ558V55T45AR&pd_rd_wg=Hg7it&pd_rd_r=fdb6e901-05f3-41dc-a885-f68b9b8abafd",
+    "imagem": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/0b74afb7-c7ac-4f54-ae9c-5f00153422ef._CR0,0,400,400_AC_SX130_SY60_CB1169409_QL70_.png",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
-    "modelo": null
+    "encontradoEm": "2026-11-06T19:56:36Z",
+    "modelo": "Máquina de Lavar Smart"
+   },
+   {
+    "loja": "Mercado Livre",
+    "vendedor": null,
+    "titulo": "Máquina de Lavar Electrolux 13kg Cesto Inox LDA13 Branco",
+    "preco": 1659,
+    "url": "https://www.mercadolivre.com.br/maquina-de-lavar-electrolux-13kg-cesto-inox-lda13-branco/p/MLB52300325",
+    "imagem": null,
+    "observacao": "achado pelo robô do PC",
+    "verificado": true,
+    "encontradoEm": "2026-11-06T19:56:36Z",
+    "modelo": "Máquina de Lavar Smart"
+   },
+   {
+    "loja": "Mercado Livre",
+    "vendedor": null,
+    "titulo": "Máquina De Lavar Electrolux Efficient 13kg Auto Cesto Inox Branco",
+    "preco": 1731,
+    "url": "https://www.mercadolivre.com.br/maquina-de-lavar-electrolux-efficient-13kg-auto-cesto-inox-branco/p/MLB52701918",
+    "imagem": null,
+    "observacao": "achado pelo robô do PC",
+    "verificado": true,
+    "encontradoEm": "2026-11-06T19:56:36Z",
+    "modelo": "Máquina de Lavar Smart"
    }
   ],
   "lava-loucas": [
@@ -195,11 +243,11 @@
     "vendedor": null,
     "titulo": "Lava Louças 8 Serviços Branco Touch Plus Midea 127V",
     "preco": 1168.3,
-    "url": "https://www.amazon.com.br/Lou%C3%A7as-Servi%C3%A7os-Branco-Touch-Midea/dp/B0FRB2XJZ7/ref=sr_1_7?dib=eyJ2IjoiMSJ9.5juvUYeQesu_4uu8fhrPEvrYE31vkMGRrTNsSgLyGX9M7BsgK7-_wBY5Q-6iY-sq86XPPl_hb5EbivCWuUUHNYnaBHBhvDUPnz1Ml7W3bNHmdX7ljoum8lC5N7uyW22S_0Q04FGhoufM_k-ZbN1l8TQVNTGRfTbukutTDu448iDLyZw5Dvz3Vdo6sBnv8hMWpKmbP_UuESD2PzfhpotWjkYJsID6Yrb-_aq3_17IUPPVcsDh45JPKw8aa1zwqiLJfQqMt1mXebX9g10TZlg4QHUXLKl06HQh9WRUJ5fsj-M.SiYxLZr1NLKL4wx4umJKexc15JmjYOKhN5h9GsTN8B0&dib_tag=se&keywords=Lava-lou%C3%A7as&qid=1793983776&sr=8-7&ufe=app_do%3Aamzn1.fos.38059ce3-943c-48af-9fc9-22d85542b02c",
+    "url": "https://www.amazon.com.br/Lou%C3%A7as-Servi%C3%A7os-Branco-Touch-Midea/dp/B0FRB2XJZ7/ref=sr_1_6?dib=eyJ2IjoiMSJ9.KjjHsR5pzidfFfFbm2TMyxENIbV02GzaV6SRtvQG072lsgvRAF7ZGDXix79rElY5nQxeknB9sC5FKZqlaLqiqu9F6T-BDGuwoqCA2Xffv5UXtuPvYMPbvoZZWoUwBfjmIAWUbnPA-3P48XcLd7MR4CaVmvEVSBh-W-siRPTgk-WTjfAl6yg3P_lqtq1LwY7W5uuW6gl6aHxqIPT6P6mXtLG2wW-uWgrp-sbu8qavxkySGI3k3cGcdZ_5C1uJctMP4YCSghchqc1Iz7xlb4tBTnUXLKl06HQh9WRUJ5fsj-M.7HDHPq5zfS7hNhmSAJvOhEJla6u5kMCWATAuKmuaPr4&dib_tag=se&keywords=Lava-lou%C3%A7as&qid=1793995076&sr=8-6&ufe=app_do%3Aamzn1.fos.38059ce3-943c-48af-9fc9-22d85542b02c",
     "imagem": "https://m.media-amazon.com/images/I/412qJmd+ZlL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -207,35 +255,35 @@
     "vendedor": null,
     "titulo": "Anúncio patrocinado – Lava Louças 8 Serviços Brastemp Branca - BLF08BB 110V",
     "preco": 1598,
-    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo4MDkwNjkxNDYyNjUxNzM4OjE3OTM5ODM3NzY6c3BfYXRmOjMwMTY1MDEyMTAxNDAwMjo6MDo6&url=%2FLou%25C3%25A7as-Brastemp-Servi%25C3%25A7os-Branca-BLF08BB%2Fdp%2FB0BVRZL3ZJ%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.5juvUYeQesu_4uu8fhrPEvrYE31vkMGRrTNsSgLyGX9M7BsgK7-_wBY5Q-6iY-sq86XPPl_hb5EbivCWuUUHNYnaBHBhvDUPnz1Ml7W3bNHmdX7ljoum8lC5N7uyW22S_0Q04FGhoufM_k-ZbN1l8TQVNTGRfTbukutTDu448iDLyZw5Dvz3Vdo6sBnv8hMWpKmbP_UuESD2PzfhpotWjkYJsID6Yrb-_aq3_17IUPPVcsDh45JPKw8aa1zwqiLJfQqMt1mXebX9g10TZlg4QHUXLKl06HQh9WRUJ5fsj-M.SiYxLZr1NLKL4wx4umJKexc15JmjYOKhN5h9GsTN8B0%26dib_tag%3Dse%26keywords%3DLava-lou%25C3%25A7as%26qid%3D1793983776%26sr%3D8-2-spons%26ufe%3Dapp_do%253Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo0OTU4ODUxNDM1OTkzNjI6MTc5Mzk5NTA3NjpzcF9hdGY6MzAxMDA2NjAwNzM0NTAyOjowOjo&url=%2FLou%25C3%25A7as-Brastemp-Servi%25C3%25A7os-Branca-BLF08BB%2Fdp%2FB0BVRZL3ZJ%2Fref%3Dsr_1_3_sspa%3Fdib%3DeyJ2IjoiMSJ9.KjjHsR5pzidfFfFbm2TMyxENIbV02GzaV6SRtvQG072lsgvRAF7ZGDXix79rElY5nQxeknB9sC5FKZqlaLqiqu9F6T-BDGuwoqCA2Xffv5UXtuPvYMPbvoZZWoUwBfjmIAWUbnPA-3P48XcLd7MR4CaVmvEVSBh-W-siRPTgk-WTjfAl6yg3P_lqtq1LwY7W5uuW6gl6aHxqIPT6P6mXtLG2wW-uWgrp-sbu8qavxkySGI3k3cGcdZ_5C1uJctMP4YCSghchqc1Iz7xlb4tBTnUXLKl06HQh9WRUJ5fsj-M.7HDHPq5zfS7hNhmSAJvOhEJla6u5kMCWATAuKmuaPr4%26dib_tag%3Dse%26keywords%3DLava-lou%25C3%25A7as%26qid%3D1793995076%26sr%3D8-3-spons%26ufe%3Dapp_do%253Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
     "imagem": "https://m.media-amazon.com/images/I/31Jz3sKWx3L._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
     "loja": "Mercado Livre",
     "vendedor": null,
-    "titulo": "Lava-louã§as Brastemp 10 Serviã§os Blf10br Prata 220v, , 4.099",
-    "preco": 2029,
-    "url": "https://click1.mercadolivre.com.br/display/clicks/MLB/count?a=7iQTsiGcTDFEN89to8ax6xYfJx8oN7x13T86n7ePL7Rl7rupNL8m6mJm8pCOaEYOeLI_CPF2A3pgf85wb6AiAB7jkh_Ltb1E9jbWf-Q3KuwFgrcQVeAXwbyb9MVq1x0x9SQ9JD6OcMoeNEUxd16W_YvVLXOpVtGyievrBCJjG_1Yr0DDpgjNhhmNY212nPOocfg-9GTftdMrMRGjQJvL8-TLmAPdsC1JtYDNT3uN754KK1-gJbaXGiilD8qI4FltEEPHMcB3fawJcWpY-mfvjcEjQIGqkRNc6PmeETyJoxQXGyJ_zHAn920xGIsVZ5apuqL1gDi7qsQ1r_c3ZQDxCchygz6tN3jCcKWuUnQdA0U9IC16pRW3rcMveAxSCbRwHAX1zbz5-cpt47GaUYNiDQLGReNyLC1Pu8CQGGD70_LKxMIUBeiPbxweMYkQAQRufGT7PKmA8AVSNugFGq9vAte2jRCovygEUzczuRk2tqktxA_BXMGGIR794e5L601WbpBpdIjB0vkD7cUyF5MUuLlUdxZOvQr6zO7CLvWkJOcXa6xvUjS5ohAYAH246FttVDKLiyMj_LdqDgWjI44NoNDJ-rDTu6zEACrTpWUqRkbNeqyb9RO_9jhtVcqb3CTDOw_u_5jwKIg7tttk5X5titqkQxvthFuaguI-ibXdYqLM09Rei841nw0pbLSPqybN1Qs4JFb12yTQDDHI5kWrkGfx5_SocXg4DF1jbh_JgEpne6bHnNZ-34tirn6siyIC9rbURhItRQy7B9wsenlqTS2SE-3F3TK5z-IFpJ6sE5T3_zobYAk69H3QQQuCkAHiF65Zy72_5btc9t50qOd4q-U9gY_55EeqeG50vvflfIKw4SHJtD25ZMwbLoD74hhLjcCpgJVprbgRk2u6ZXzn2YoShowyLa3QiVPtmS7G2VnppH_H5ieUPqUKt65osgDbMAmLSW2NS7yBJSuFfIGGPFNoCyilkgc8hWKrRYzNGrxrhGDdC5w0b1yh9AtwXClPxqylsYVaukCOoEFcdYFltmAXKZ_NHTOhUzpYywO94CMu47iwCVHKZ827SGBVZ5p1166GxR0krVUKSn7kuMbFijtpSKmzLds0jSBD1tdRfbbS2QjDpFW3RjmBSbfp8M9LDoAEn1S56QsL-ARCCMd401KCy-zXp6lz3Fp511D-I72emdRZAPdB1P1RD6PvwpIe-alhUzWIFuE9sRdvMF8LHg95_GIRhC_1uS8Y3evxHa4-4sBMyKrSCtcyXZlNCUiY8CPkV7rvVy5ROCRLfD3x0TLCyctPsol6djHvqXtUbvK0OfYq2Y3UIRRTVa6aABV9he9zD0_sDLPbqjhHCOECXwIAI1OzAXi3FrOqbyvAC-vhrkxIwtnxw550W8JVpx6AtqwZG4tZL6uiBUPV6hq7oqMkKqV0NKkRT3ufM7Oaqegi5SFcbZJb7buuZYTqTgrFHA948WNuZt7c2pDvw1UhJKC5cjngXJIZ02rr-H9S29KR-H-6yTzny6zqtPXrzENe31sxbwgTdKpr3KGXSOzleHQImy9hZRSXQF7RBauthSPhf6gRpNC8h2pmF1qAyov9-Jll-MY8MwyyO5IZUQ9oy8J7ykRxnnFg0_e9Xm5j1E1d63cj5-NGzVKzQSbIMorV5zSEB86qbkuM8xtkhnm7zaEwBMr5c-UffWEwsaAflRU364M9Y2-marVPg7s0HHCosTeU9c59s0R-Q5mr0wADZfR-6srppLE1VxpGljzAsdzSgjojsUkOZ9kZ9BRN1m8m3pGFVOQt0Y7lQ1vfW6c91OK1EtHn81Mii_PqyYLeRQsbRuex4ztUshvzxMyPJx1kXMyuTBSOG76E5JUaKN-GXH-NH4kMUcwbpU7jy07wWH-PKwnOMmdKWH877d2EYOXvBmruEa15rz_HbOEgV_l-XytbvJke-NcZc3iNBN0Y4gsvaLO8Ghei1ClcMSd9C_B9Wn85NjRoWtjdo83_VnnS1l36c4zL1xRMnEIC5o117RRDpX_1fqPEVByvFbc73ww2hTzBC4_AbONJIwFSLpaDeQ&cipher=v2",
-    "imagem": "https://http2.mlstatic.com/D_NQ_2X_696726-MLA99958445677_112025-OO.webp",
+    "titulo": "Lava Louças 8 Serviços Branco Touch Plus Midea 220v, , 2.149",
+    "preco": 2149,
+    "url": "https://click1.mercadolivre.com.br/display/clicks/MLB/count?a=7iQTsiGcTDFEN89to8ax6xYfJx8oN7x13T86n7ePL7Rl7rupNL8m6mJm8pCOaEYOeLI_CPF2A3pgf85wb6AiAB7jkh_Ltb1E9jbWf-Q3KuwFgrcQVeAXwbyb9MVq1x0x9SQ9JD6OcMoeNEUxd16W_YvVLXOpVtGyievrBCJjG_1Yr0DDpgjNhhmNY212nPOocfg-9GTftdMrMRGjQJvL8-TLmAPdsC1JtYDNT3uN754KK1-gJbaXGiilD8qI4FltEEPHMcB3fawJcWpY-mfvjZPjcPqdtJB3asO4udQk-qRk1DYzPrOXBZdONQatow9VrpD80qwt-WjHKrh5I_sUQXWZoS_D9CknxKhgnFl3q9IjVkhMQQ53prdnZT1MlIxEuUvQZDAyG1eFpvV5Ef4jc__IzeD7yvwocUKaSBFesDiHYN3zGlurzvaIkT_Z_-Mf5XqrRorXYYWPza0v6iVdqONIjUsJ6DQ37YMNOWK6BvMgwfvSR49k73vVat0WmJgTY2NDKmbtlWw8j5bHNHNyhxGvzEdHeZ_q0Z8TJ93BxeHwvfD7pjj_ud7r7T0KKY_xT_o5h1OTbIHVzcP1snTjX8PpSj3dXIbufphKKEBmiMAP8LtpF9uFB7gbQF1jyKZhTHX4kX1dnwW0OADPUalqIO-rD6L9VpPWzzYvUn-FvjkYqDXNldSHcy7VWkgHby9nMdKDds9qgp5QfR_pVd0nOP4GO0R716PhGULjXHixJysB9oAp6Q7DcorizqsIeYW6xbzFyGH5CtOaDC7gTxN5uBKBm6XrRQC04wfUZUmZeZ57LUf6y2YBDmfcN2qIQl-rND3-OoDdh7oCExP0FbMoyfDQBGKBo4Rw10tGhEb0MsC79Z9Cs1tocW5hz__5gVwwDDwFD-MO5CWwFRj6qMmtKxJpCIViyhOnortDkBEme080zFCgADSKWsvTIcRlMHzKjjyq2s3X0vnsJlaAbaESpoObdwhyeZZK-fICJSBhn71-EUKLD0V4GVb6Ta_4BtosrsPHWtoBQu1OPKG_6gmqVGqYqHk78fsWiqXZqc0J8UflGoy_1e3LA9XlPQQg8YjKK3E_VrYy-g1gJYLHwwpiZgL2ENVwyMQxJcSqpihbnY0o8srakRgUkgkJP2w0hJGsFjy0xxqE7NYht9LOBqGR0cCKLnV693MV4e9tnPzSmnba6PV5VPjnXBzAnvIgJO_iCafa9oPhA6WqBI__gAYhwZQhgnLIKNsS_lNcoAQouqATT-C9LfTD9nlpoAtSUWdDFB8t7CUzd1EzyVOXh8NEn7toxRddRlqPgtuQul0gQb_GLCkbCMpaul9lnzPGgMQ8V6GNAQC5AUSKL7ChmJIxD35LTG6wZ71FBGivgRD2qOF_iLjqb4WLhXqj3gYFzyuTLYalZkZk_zOOhEoS1qtVeAMPnwZ9rXbY-FEk2af0HBBlZcFN4ha6cpBSTwsa3zcm1Qbvu9X42rDNlwdESOr3JFsCtZXGtcppfnIbbrlvsLn11_eC2G7_PnC-m7BeYowq6IU3EPn7MbCnqkCs1l-AhI8FtfhmXTcqw9gpGvdMxOmsLpm_8WoNRRjj3_SZWif7_FrFwoxsv1WrUtC4c4_ui99DOw0ZVef_OOg59BxSnem5ZOMc3JF9SDK1pGK7M76e6fMnPESO73ICpucUBuLcKlTD0WzP75EeR0kEgNOOX43OCFnNvM6UPy1ZIZ0MJxGpFBC0PuiVLZiCvhZTL2e-aeihgPO86Zh86TSejl9XkLH5XP807kRDovss3BhHAokIwegRM8diGwBaeLGx5oMYMD5P7mdQ2wAuz-39FdygIeIuqEOq0ehIU2toRh4w_HCrfTrF4Aq_YkB1t3Fgx5inIFc10Jh77OOikzSltlcxnPvXm1RdpNFNDqhYczko2a4c6AOhARq5trJyNggUV7GsUDHlpgo02dI-Sa7gYyfek2tfphZVlhBmMcw_OioTSZ5YcbO1Ut1uQ8OCRx1Xdv0iXPRI4Q2v_dfzeaID7NV3cQlPkqQMYetGjtNbhj7NNNSJToMBNsfW0908LDjTNu_7FKvY8PN1frS9EMu3b-EtEOM&cipher=v2",
+    "imagem": "https://http2.mlstatic.com/D_NQ_2X_694759-MLA92893844852_092025-OO.webp",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
     "loja": "Mercado Livre",
     "vendedor": null,
-    "titulo": "Lava-louças Brastemp De 8 Serviços Branca, Para Bancada Branco 220v, , 2.029",
-    "preco": 2029,
-    "url": "https://click1.mercadolivre.com.br/display/clicks/MLB/count?a=7iQTsiGcTDFEN89to8ax6xYfJx8oN7x13T86n7ePL7Rl7rupNL8m6mJm8pCOaEYOeLI_CPF2A3pgf85wb6AiAB7jkh_Ltb1E9jbWf-Q3KuwFgrcQVeAXwbyb9MVq1x0x9SQ9JD6OcMoeNEUxd16W_YvVLXOpVtGyievrBCJjG_1Yr0DDpgjNhhmNY212nPOocfg-9GTftdMrMRGjQJvL8-TLmAPdsC1JtYDNT3uN754KK1-gJbaXGiilD8qI4FltEEPHMcB3fawJcWpY-mfvjeTSRvv-H0E1jUF8_xdtL0EcbLEWAZJPcyGuat85VpZS7AP4Ne0VD1z2gbPm_zSUPASCTONJ6S4CyBA5_wucrJ8LQ57qKJXOLkgqQHmjfOFBvMqfhuFc8zKdL2GomIbKk8Trcxarc2_3zcOCnE-PvsWFF3Xbm6ZuVupGgFFD140chLQPKbG6VtEc2aM8obBQul5KDgtXg8nGSFDwhxT3Zlh1Z6zVfNC85E2A0gSz6Q236dTTxmwhSwc7urxOVclCvbpOm1MqEYQqBXH5lhk6CzOFJzF_OBxr_HtNKeWCBEAkuyi1cX0NDzCXJuG7cw3c5ByPvtQ90yhbV7_B50IP44bG_oQd5IFsDQX3Czq02aGX7OjKK-7aK6-2Hn2G93tCbyyMOZIBkIA9wKVB1GRBSH35tfahwKMi7QbREinBejg_DscHu9ckolMCx4aS4DEDfze09kyFnRRIkCdanQTwSLbBPR23Y4dFw9yGyUU8Lnent77tZwZMxQAXEf6auJ_gmKrqLWzyYWLfBgvXO54VvnlNpizKPxL2o7I-TnvuewyLYwfgWy-b_8seLu0lBRECyoI4vfc9cSguKmL6WRxo9yIIWRk92HBd1gIRBzr11gzUTRcCnrew47ZZ9tNx2ISOcbxJkjopanB-W4L5ddLn1bO6-Z-N3UAHPsRXTQnCgmV9qVjKOq97pnn7zbVUkgClIXJmPYytrryh79L_zdqV8VGHzs0kxEmmLcmusmeSoRpMCBdm4ZYuj19MdltOtZRC1vINMr8WyDAEGiHN0wtKLAQe_Q27JyC9kp7Ib8a1Ey1TMawVTmYrG_aH_VxeqFlMC8ZznhFw7dAc9KC3MXwyH0IsoZy-OiaMRkmKU9P3QrdLO9Fhel74SBsvvClICyFuSmaR15aEhwFrrWSjlzIl2V7727HPOtafqV-52Vv20pjk-N6AHQaLsV2hjxtBx_4Aoq6xbFxMVcU6SBWoFRd934Q-Mk_K90tHQZjzazOEsupbpuDytVIN4zlW0wcC97R6ps6Aperq_DRQ2NbUPPAbbwsaXVy_3oC-R_vBWBTUxXIjOJdCQNG3Vqc3uE9c5LWk-eecaqeYT5SKU614Z9Q5H31rYAk6tnCrxT240iNwmJfu2_ifxnQl2OcHXFeC0l8P_cIDO0Jfrs7vC-9wJ78-m6zHCi_RK5-yEu3wlJRx68o4_1WM5Zldg18F4mfTtO-GOdKRrYxwnenisGuCJ-8ofqDa8lwl0rmb1y4MfJHf2fJn_k7mwWKuPSPNTwILMWev6-8pPgh1IBeDBdXsrdnyL6CcOTjjFMoR_YpET-RJao_e9ArxBbq3Ocr-upxII4zO1kxEVtgZIqsF4w5HCMGM-ueYg0CIBcKLQIvcZn3KckucOYf8pWx6ZXihMa1Y4JWIoazT8PUxTPmG1xCmdYCLEpGWK0ssiHSa0duDxlUqHVqE4C2v0NcJC_X_4kU6p8d5Xv3mJ6vvOsSuXr9DCzzXbIOVj2qmMK6LP90SmjWM0AX6EKchSk59vlXON_As7hh3w4NQlUXAzkfWFjD6RkeDggYkp4p_D_iYEvAqrsBIXmwwMf443m3lby2E5DHu0bKk2n3F2Wrxhhml8DIKn4BTgGHQWmm8TadZn8SWEepxLBYeq0QHNtIvbFe1JBoCH4Gw34HfkCHAOMwN1-KyHXZtqXGtvDrWAuZcEl8TK9VZ5kTp70HhuHVRQHTpSZ10w-_fLv_Gd7DVKRzvT6NTHAM7yo0PEd5mYQWU15Wu9sCIN6QxLOXr1X--FNG414bR4qNK5A&cipher=v2",
-    "imagem": "https://http2.mlstatic.com/D_NQ_2X_940952-MLA99974683209_112025-OO.webp",
+    "titulo": "Lava-louça Electrolux 14 Serviços Inox Lava E Seca 50' Ls14e Prateado 127v, , 3.499",
+    "preco": 2149,
+    "url": "https://click1.mercadolivre.com.br/display/clicks/MLB/count?a=7iQTsiGcTDFEN89to8ax6xYfJx8oN7x13T86n7ePL7Rl7rupNL8m6mJm8pCOaEYOeLI_CPF2A3pgf85wb6AiAB7jkh_Ltb1E9jbWf-Q3KuwFgrcQVeAXwbyb9MVq1x0x9SQ9JD6OcMoeNEUxd16W_YvVLXOpVtGyievrBCJjG_1Yr0DDpgjNhhmNY212nPOocfg-9GTftdMrMRGjQJvL8-TLmAPdsC1JtYDNT3uN754KK1-gJbaXGiilD8qI4FltEEPHMcB3fawJcWpY-mfvjaGKkQVi_QvdP-4RPtL-SkHsOcTvgDhgVBdy3h-4guWcy860vY7hda0VPaOVrmKll2XGkBTNJ3I4DobIXTZ8dNDVpUMiashTN9J9vg9zurSTXfUwsKrRpPCgTXWcnYnIDUqhbFK5632L8fW-qf8Y41Adb1-pQaZ2j79hxVxEwGNjV5X4p9zWLfHlelZoxicmABU6IouxcQVjeJnCgJipaROnhqNQVpBo5GsEBQsdT4WRTc1273ruuRvnW9mO642iWJQ2LOZp8LGsGcGi9j8iKYekDRkA8NSCMgx7bbAB48Lpku77kcpNttcfV027EVK0k_Gjd_FTvK3V_4h1ZMINHD9OLYPUGwOMAPI72p81IqZXfuzXayP2RLSkloYx8Ycx25BksJXuKZvpEpSg80u9-uZ23Ma1AfUlQmjsJc2AMP9gUuaBaQz3p8uklHJxXkbB5BGR93h6dwEbdLQeLVIjQQogxSBFEx6_43APStMyDY75oaI_Q5d7YzZ6dMIuJR--hMqIjHZJeck4T5fUu8zUGyxNsmAYK_x3ZQ6wX93OGBTVmx6QCnXRHE19wVmNTPw7mBb6by3s52ZBUGh8tavaCCWlE6A7-xYfNvcP-GjJJOs4DQUQZjYGhGXJsQd6rDmiLB0zIe7tVSYnqI8HBDunvHghENFgjz6gfoib19Y-rL7wZA3ahrQeAqWhUiV3dTC9jtoKCU7exB8RM3as_xwY8Z1FlX6qBCem_Az1ePWM-YCJ-4Ue-kMnM0bsLEavSfb2Hcbk7JdYAh8Pw1HTNwHaqiAw8mazaOuZklX3WQoMtsf9qs4Fr1mhv8sI4OzHeFWl_x5fCRSFoQLf_i1Azhu3ZdmhXHetv9YyySab7DgpFSqOqaZ5IQxVXq9pxzxjQK3EQ7rXGanIPWck8q7auf376rbrWXg7ouvlQpxUlsFFUXU9NsPgY36zNHAajeR3MtkkjYfXsYpboH40C864DKtlgLELVxTwo4x7iQxBBDwOd4OAhXvs8XmfK-xYAH_Ki0HU0QNm1gFzWi6OZj1LtEMdrCkpfd_yjLrie2KzrLx-sv4aGr4_PIi-lA18zzzZTNxDv0fHkYD06_GFpRZOgb29PDYoBkq-9LEoUQuQ_aSQuPvprprn0RU40YnHfZqG7Ztoxp4OpJS3W7QlEmzs8eYxz5Uhl-dR7U533oj5LPvxzabRB7zJdEK5xsTUZuMD08vbW-7qGzOQrGr4UArGRPTEnLxaFI53prAeHaUEaoW4DppMe6fZkHsCwxTEGs1jYQvPP4n75MEFaB_ckh9MOP2tzUpxVO5Y2kSJFurq7xTRxmquCZp_tKuXWc_OwZ-LLveeNgSMLdoGg-l-W1mkvq1OQuwqf-dTUYUpS1mNeZMCdJ0Q8h3DWRdmVhQ1BX-WU77WMwkGpFxwBP1vM1VP-WRGe5TWFzR4RiUqV5aNJWbbnrCQHweu1DbcwCoFqf4UaumKKU0oSTqgu1GuNnBCMKK--3hPaeOVVp0al0d0Ge898rrzJiwdKsb8Jq_T-13bSos_cHp2ILaIi0ddzmSXsqvB6rhvT73JUVZ05wSSrGlVyjAPsRm0wcc7rz2I_X-6TjC6EMOFVyDXRPyM4Vv09wET1vlcfpVAeS9xydcVSNuTJEcKWJQkysbHU7otJhA4bUjwc3vbISG-zw-wB9BnXcUXo8j7zbKVJ5Vq7rSMFm6qLY-tlM5l9K_5POZqsW_6AcgmQrHMkzIYnhhBn_cs7HfnRI0XMajDohE37MAkaFJFlqt4eWKQOEq8uxW4ffwFI5e6KnMlo4xt33dfXIBnI2WNbfg&cipher=v2",
+    "imagem": "https://http2.mlstatic.com/D_NQ_2X_768019-MLB118063647939_092026-OO.webp",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    }
   ],
@@ -245,23 +293,11 @@
     "vendedor": null,
     "titulo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V",
     "preco": 104.9,
-    "url": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT301-Tecnologia-Force/dp/B0CHC9NDN2/ref=sr_1_2?dib=eyJ2IjoiMSJ9.5Usi5MgsR_jC8-qgc5f0zfGs2VqxNAZUzXeCbE0KHDdhl1Yi11Xtw2LCJW8g2R0U5QGDvKd0_2rGT6ybUVZg-HAkQVjfL1EyJ4w5i-SP4b7ZXjUsPtKyf7sdnLue61F_CXxK3kI7sGetK0huZyj9j-hGNWhSAlYAwH6h2-usgL9kTpADHsIosi508x_3iU-G-uztk_FU1gdM-ytzIyH7-4Pgl-2oS41E6azb0GWkWwb4V3xN3V-QJk1iXSSPJF5Earf-XlO_nOiIgztUmVB5lsUlf4CTG5pCIMWNiRJP_6c.8Z17ddyShxR7Vc69fBh11k1BB2jbJ5qClyfO3NTTp-4&dib_tag=se&keywords=britania+bvt301&qid=1793983813&sr=8-2&ufe=app_do%3Aamzn1.fos.88ac1f0f-cd00-42df-b2ac-542b26a29c3a",
+    "url": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT301-Tecnologia-Force/dp/B0CHC9NDN2/ref=sr_1_2?dib=eyJ2IjoiMSJ9.5Usi5MgsR_jC8-qgc5f0zRNAR-rwHuuO7pUmhGNxqj5ZJ3KDcW6XufzTFGW-vJ4myK-YBiGjSCXUXQ8BTPWzwf-v71R8EbZuENNiOS9pLiYMgmoAeA0ZLh6zGhuTDp2-_A6DEzsKtD_5aKvF-VJFKehGNWhSAlYAwH6h2-usgL_CNtoUlYHh5OpHFNiv-fby-uztk_FU1gdM-ytzIyH7-4Pgl-2oS41E6azb0GWkWwZDlk8YUPTcmnDQoAly2XZgCBurvadARwcZduxtD8ZPj5E-7dpuuDQzgoQ-TGs8y60.k0wsRAylXdgp1NGKl53zW1MMIitmIIInmVsu0tNfV2U&dib_tag=se&keywords=britania+bvt301&qid=1793995092&sr=8-2&ufe=app_do%3Aamzn1.fos.88ac1f0f-cd00-42df-b2ac-542b26a29c3a",
     "imagem": "https://m.media-amazon.com/images/I/71do9EiS4KL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
-    "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
-   },
-   {
-    "loja": "Mercado Livre",
-    "vendedor": null,
-    "titulo": "Ventilador De Mesa Britânia Maxx Force 30cm BVT301",
-    "preco": 103,
-    "url": "https://www.mercadolivre.com.br/ventilador-de-mesa-britania-maxx-force-30cm-bvt301/p/MLB27063130",
-    "imagem": null,
-    "observacao": "achado pelo robô do PC",
-    "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
    },
    {
@@ -273,7 +309,7 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
    },
    {
@@ -285,7 +321,7 @@
     "imagem": null,
     "observacao": "seu link",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT301-Tecnologia-Force/dp/B0CHC9NDN2/ref=asc_df_B0CHC9NDN2?mcid=d4505aebf0603d56bf22c4eee671574a&tag=googleshopp00-20&linkCode=df0&hvadid=710048990096&hvpos=&hvnetw=g&hvrand=6706783442840537618&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2438870345432&psc=1&hvocijid=6706783442840537618-B0CHC9NDN2-&hvexpln=0&language=pt_BR"
    }
   ],
@@ -295,11 +331,11 @@
     "vendedor": null,
     "titulo": "Liquidificador Oster 1100 Full 3,2L Cinza OLIQ606-127",
     "preco": 119,
-    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAFVkLuO00AARRVWwBLxUoR2UTpSpAgaxzNO_IhkrTy2s5sHeTiBVdJYE3v82E1sxzNWAkU-gI4KiS-hpqRESJTUlPwBYqHZU13pFEe65dXx7_eff9yrPDbQVFogWbJEcXBp1kqwcRLQJN67sOgXhRhtet52Xwztt52TQFksrzQlvkLb3SttOioW6pto6jxotYW2oKqCuLwzw6tjw55f2E5vVjkt3_cpu-ZpVnn4euTY5vh81FvaVvVDqXz817iEB5VHZEPepYngpRthlVefsxUokjiIqQ8YJbkXgYyEFMDa3Yy72GkgtgI8ohvqAy9dr6nH4zQB_0PAI7nPQEbihNMceGnCacLRC-wYI8s1x8Ohbc5749HMnU0MZzC0XcueDebjSe2sXBKffvv568v3r1b1lBQ8BSwj-fWagogRwCnPY1Z7gkQRyrIEkQw1pEB0hJ1h58icmI1lBVvYMLNuD-zDA97-IzQOeMrn1jI0bnPA4QFPD9i4GeEB3-jqMzO097a9W7zMpmGvH8OLUNfRp1L5YyniPGOdZnO32wm3PmuGWZPsmn4Tiybqd8-7A-0s893cd7N15Oc6r0eMuF7uxr4u1rexr0NFkzRVUttKneU6BAgE1BMlKLaAHEAIWqiFgBooGoDtgFCkanIgy_VYJxmrk5wGOlW6Eou6EWv9AXV7t_M&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB0C2JFGFK9%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1793983857%26sr%3D1-2-fec03104-6f11-4242-8f79-15fae2896f66%26i%3Daps%26aref%3De7F3shFhs4&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=D5h8h&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=B9F7JF52VVA4SNDDP6HR&pd_rd_wg=E0zBq&pd_rd_r=c310f102-aa56-46ae-bb94-088ff10adccf",
+    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAFVkD1v00AAhhUqoER8KUItykaGDEUX-y6OE0eyKp8_WjchaZzwkSzWxT5_UMe--i4kMOQ_MCHxS5gZGRESIxIbEj8CUVj6TK_0DI_0Vpf7v39--n6rdt9Ak_YcqW1LlgcvzUYFHh1ENE-3vrvOSGbKr7qTxew1k170D5xn1mh-ybbyWy8bvmHA2a6CnuHdUTqtTqvXa8mLG1O83Dfs2antudPaYfV2SPmFKFjt7vORZ5vjk5G7sK36-0p1_6_xiYhq98iKvCvyVlCsWsuy_pgvwTpPo5SGgFNSBglgJKYANm4y4WPvCPElEAld0RAERZbRQKRFDv6HQEDKkANG0lzQEgRFLmgu0BPsGSPLN8fDoW3O3PFo6k_PDW8wtH3Lng5m4_PGcbUiP_z649fnb1-s-iFZiwJwRsqLjIKEEyCoKFPeeIBkGapqGyIVaqgL0R72hv0989w8WtSwhQ2TOS7Yxjt8-Y_Y2OGJmFFFMa6zw_EOT3bYuBrxDl_p-iMztre2vZk_ZZPYPVvD01jX0cdK9UMlEYLxviRtNpvWtc-kmElkI4USlk105pw4A-2YhX4Z-ixLwlIXzYQTPyj9NNTl5mUa6rCrtTWtA6Ha5KUOAQIRDeQ2lBWgRhACBSkI9KKuBmAnIhT1NDVS1WaqE8abpKSRTrtOmydOwpU_aWy3yA&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB0C2JFGFK9%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1793995116%26sr%3D1-2-fec03104-6f11-4242-8f79-15fae2896f66%26i%3Daps%26aref%3De7F3shFhs4&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=2BEQB&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=F63G7YKPKB3SW4WJCBBM&pd_rd_wg=9XQxa&pd_rd_r=a212fbb5-2fde-40b2-a614-2ee01f97ccfd",
     "imagem": "https://m.media-amazon.com/images/I/61tP626zBVL._AC_SX208_CB1169409_QL70_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -307,11 +343,11 @@
     "vendedor": null,
     "titulo": "Liquidificador Oster 1100 Full 3,2L Cinza OLIQ606-127",
     "preco": 119,
-    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAFVkLuO00AARRVWwBLxUoR2UTpSpAgaxzNO_IhkrTy2s5sHeTiBVdJYE3v82E1sxzNWAkU-gI4KiS-hpqRESJTUlPwBYqHZU13pFEe65dXx7_eff9yrPDbQVFogWbJEcXBp1kqwcRLQJN67sOgXhRhtet52Xwztt52TQFksrzQlvkLb3SttOioW6pto6jxotYW2oKqCuLwzw6tjw55f2E5vVjkt3_cpu-ZpVnn4euTY5vh81FvaVvVDqXz817iEB5VHZEPepYngpRthlVefsxUokjiIqQ8YJbkXgYyEFMDa3Yy72GkgtgI8ohvqAy9dr6nH4zQB_0PAI7nPQEbihNMceGnCacLRC-wYI8s1x8Ohbc5749HMnU0MZzC0XcueDebjSe2sXBKffvv568v3r1b1lBQ8BSwj-fWagogRwCnPY1Z7gkQRyrIEkQw1pEB0hJ1h58icmI1lBVvYMLNuD-zDA97-IzQOeMrn1jI0bnPA4QFPD9i4GeEB3-jqMzO097a9W7zMpmGvH8OLUNfRp1L5YyniPGOdZnO32wm3PmuGWZPsmn4Tiybqd8-7A-0s893cd7N15Oc6r0eMuF7uxr4u1rexr0NFkzRVUttKneU6BAgE1BMlKLaAHEAIWqiFgBooGoDtgFCkanIgy_VYJxmrk5wGOlW6Eou6EWv9AXV7t_M&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB0C2JFGFK9%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1793983857%26sr%3D1-2-fec03104-6f11-4242-8f79-15fae2896f66%26i%3Daps%26aref%3De7F3shFhs4&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=D5h8h&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=B9F7JF52VVA4SNDDP6HR&pd_rd_wg=E0zBq&pd_rd_r=c310f102-aa56-46ae-bb94-088ff10adccf",
+    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAFVkD1v00AAhhUqoER8KUItykaGDEUX-y6OE0eyKp8_WjchaZzwkSzWxT5_UMe--i4kMOQ_MCHxS5gZGRESIxIbEj8CUVj6TK_0DI_0Vpf7v39--n6rdt9Ak_YcqW1LlgcvzUYFHh1ENE-3vrvOSGbKr7qTxew1k170D5xn1mh-ybbyWy8bvmHA2a6CnuHdUTqtTqvXa8mLG1O83Dfs2antudPaYfV2SPmFKFjt7vORZ5vjk5G7sK36-0p1_6_xiYhq98iKvCvyVlCsWsuy_pgvwTpPo5SGgFNSBglgJKYANm4y4WPvCPElEAld0RAERZbRQKRFDv6HQEDKkANG0lzQEgRFLmgu0BPsGSPLN8fDoW3O3PFo6k_PDW8wtH3Lng5m4_PGcbUiP_z649fnb1-s-iFZiwJwRsqLjIKEEyCoKFPeeIBkGapqGyIVaqgL0R72hv0989w8WtSwhQ2TOS7Yxjt8-Y_Y2OGJmFFFMa6zw_EOT3bYuBrxDl_p-iMztre2vZk_ZZPYPVvD01jX0cdK9UMlEYLxviRtNpvWtc-kmElkI4USlk105pw4A-2YhX4Z-ixLwlIXzYQTPyj9NNTl5mUa6rCrtTWtA6Ha5KUOAQIRDeQ2lBWgRhACBSkI9KKuBmAnIhT1NDVS1WaqE8abpKSRTrtOmydOwpU_aWy3yA&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB0C2JFGFK9%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1793995116%26sr%3D1-2-fec03104-6f11-4242-8f79-15fae2896f66%26i%3Daps%26aref%3De7F3shFhs4&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=2BEQB&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=F63G7YKPKB3SW4WJCBBM&pd_rd_wg=9XQxa&pd_rd_r=a212fbb5-2fde-40b2-a614-2ee01f97ccfd",
     "imagem": "https://m.media-amazon.com/images/I/61tP626zBVL._AC_SX208_CB1169409_QL70_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -323,7 +359,7 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -335,7 +371,7 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    }
   ],
@@ -345,11 +381,11 @@
     "vendedor": null,
     "titulo": "Apple iPhone 16 (128 GB) – Branco",
     "preco": 5054,
-    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAFVkMuO0lAAhoMTFYm3EDNj2MmCBeZAL1BakmbS0xYpYIGCjrBpDu3pJUB76DmTEhZ9AZNJXGl8Ere-gFtXvokL4-hmvtWffIsv-Sub8peP334-qD7VhLm4EiTR4LjxlV4v8c3zACfx0eXfsu5opTlrS7a0QNr3z0kcKYf3KyWg-2F62kp2ZgsnzXnU6ba6LVlucet7C7gpa-ZyaDrWonpReehjumUpqT5-ZzumPn1jW2vTqH0qVcp_jYtYUH2C9uiUJi0v3bc2We0l3YDrJA5i7AOKUeZFgKAQA75-nzAXOk2BbgCL8B77wEt3O-yxOE3A_xDwUOZTQFCcMJwBL00YTpjwCjqabbj6dDIx9aU1tRfuYqY544npGuZivJzO6peVEvf85tfN7x_fjdoFumYpoARl2x0GEUWAYZbFtP5M4DhOlmRZ6cqc3OOFM-hM-mf6TG-uq9CAmk4GFjiGBTz8I9QKOGdLI8i1uxQwLOC8gNrtCAt4q2sv9NA8mma-ek3moTWK-WGoqsLXUuVzKWKM0H67ned5685n7ZC0Ud7225AzRoOlPrbtS-K7me-SXeRnKmtEFLle5sa-yjUOsa_yPUVUZFFWpAbNVB7wIMAeJ_JcB0gBz4OO0BGAHPQUwHcDhAVZkQJJasQqIrSBMhyoU1EYeOSDt7H-ACbitvE&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB0DJFTCKNN%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1793983896%26sr%3D1-1-fec03104-6f11-4242-8f79-15fae2896f66%26i%3Daps%26aref%3DO32FcpXcbI&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=QlITS&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=DT5VXB6H02VMF9CA9ECW&pd_rd_wg=9cp5M&pd_rd_r=878b15bb-0e55-43f8-947c-55a404894f5f",
+    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAFVkMuO0lAAhoMTFYm3EDNj2MmCBeaU0xZKIWkmPW1xCsilMA6waU7b04tAe2gPKeOChQ8wiSsTn8StL-DWlStfw4VxdDPf6k--xZf8Jaf48dfXHw_KT1VhKi4FSdQhHFxp1QJfP_VJHB1sb9ceLtf0YDniddTOafd0yOXv-tx1GhwMOFgsmury_VtPtR41W1yLk2UOru7NkFNUjfmFYZmz8lnpoUeyNUto-fHlyDK08ZuRuTL0yqdCqfjX2Jj55Sd4iz8kMecmW85JKy8zB-zjyI-IBzKCUzcEFAcE8NX7lNnIqguZA1hItsQDbrLZEJdFSQz-h4CLUy8DFEcxIylwk5iRmAmvkKWOdFsbD4eGNjfHo5k9m6jWYGjYujEbzMeT6nmpAJ_f_Lz5_f2bXjnDe5aAjOJ0vSEgzDBghKVRVn0mQAhlSZY7LRnKbV44Qdawe6JNtPqqjHSkarRngkNwRLt_BOoRTdmcyJfqXY4oOKLpEam3IziiW115oQXGwTDy5Ws6Dcz-nr8IFEX4Uih9LoSM0azbaOR5zt35rBHQBs4bXgNBvd-ba4PR6Jx6durZdBN6qcJqYYZtN7UjT4G1XeQpfLsjdjotXpRrWarwgAc-caHIwyaQfJ4HTaEpANlvdwDf8jER5I7kS1ItUjDNajglvjIWhZ5LF65j_gFuzrdl&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB0DJFTCKNN%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1793995138%26sr%3D1-1-fec03104-6f11-4242-8f79-15fae2896f66%26i%3Daps%26aref%3DO32FcpXcbI&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=VPdNy&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=93MSXXBTQ83ZWK9VY5EF&pd_rd_wg=GCBtk&pd_rd_r=53938111-ff6c-4b45-ba12-bcf36b504ce6",
     "imagem": "https://m.media-amazon.com/images/I/61ctYsUobKL._AC_SX208_CB1169409_QL70_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -357,11 +393,11 @@
     "vendedor": null,
     "titulo": "Apple iPhone 16 (128 GB) – Branco",
     "preco": 5054,
-    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAFVkMuO0lAAhoMTFYm3EDNj2MmCBeZAL1BakmbS0xYpYIGCjrBpDu3pJUB76DmTEhZ9AZNJXGl8Ere-gFtXvokL4-hmvtWffIsv-Sub8peP334-qD7VhLm4EiTR4LjxlV4v8c3zACfx0eXfsu5opTlrS7a0QNr3z0kcKYf3KyWg-2F62kp2ZgsnzXnU6ba6LVlucet7C7gpa-ZyaDrWonpReehjumUpqT5-ZzumPn1jW2vTqH0qVcp_jYtYUH2C9uiUJi0v3bc2We0l3YDrJA5i7AOKUeZFgKAQA75-nzAXOk2BbgCL8B77wEt3O-yxOE3A_xDwUOZTQFCcMJwBL00YTpjwCjqabbj6dDIx9aU1tRfuYqY544npGuZivJzO6peVEvf85tfN7x_fjdoFumYpoARl2x0GEUWAYZbFtP5M4DhOlmRZ6cqc3OOFM-hM-mf6TG-uq9CAmk4GFjiGBTz8I9QKOGdLI8i1uxQwLOC8gNrtCAt4q2sv9NA8mma-ek3moTWK-WGoqsLXUuVzKWKM0H67ned5685n7ZC0Ud7225AzRoOlPrbtS-K7me-SXeRnKmtEFLle5sa-yjUOsa_yPUVUZFFWpAbNVB7wIMAeJ_JcB0gBz4OO0BGAHPQUwHcDhAVZkQJJasQqIrSBMhyoU1EYeOSDt7H-ACbitvE&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB0DJFTCKNN%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1793983896%26sr%3D1-1-fec03104-6f11-4242-8f79-15fae2896f66%26i%3Daps%26aref%3DO32FcpXcbI&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=QlITS&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=DT5VXB6H02VMF9CA9ECW&pd_rd_wg=9cp5M&pd_rd_r=878b15bb-0e55-43f8-947c-55a404894f5f",
+    "url": "https://sponsored-ads.amazon.com.br/clk/?_encoding=UTF8&p=eAFVkMuO0lAAhoMTFYm3EDNj2MmCBeaU0xZKIWkmPW1xCsilMA6waU7b04tAe2gPKeOChQ8wiSsTn8StL-DWlStfw4VxdDPf6k--xZf8Jaf48dfXHw_KT1VhKi4FSdQhHFxp1QJfP_VJHB1sb9ceLtf0YDniddTOafd0yOXv-tx1GhwMOFgsmury_VtPtR41W1yLk2UOru7NkFNUjfmFYZmz8lnpoUeyNUto-fHlyDK08ZuRuTL0yqdCqfjX2Jj55Sd4iz8kMecmW85JKy8zB-zjyI-IBzKCUzcEFAcE8NX7lNnIqguZA1hItsQDbrLZEJdFSQz-h4CLUy8DFEcxIylwk5iRmAmvkKWOdFsbD4eGNjfHo5k9m6jWYGjYujEbzMeT6nmpAJ_f_Lz5_f2bXjnDe5aAjOJ0vSEgzDBghKVRVn0mQAhlSZY7LRnKbV44Qdawe6JNtPqqjHSkarRngkNwRLt_BOoRTdmcyJfqXY4oOKLpEam3IziiW115oQXGwTDy5Ws6Dcz-nr8IFEX4Uih9LoSM0azbaOR5zt35rBHQBs4bXgNBvd-ba4PR6Jx6durZdBN6qcJqYYZtN7UjT4G1XeQpfLsjdjotXpRrWarwgAc-caHIwyaQfJ4HTaEpANlvdwDf8jER5I7kS1ItUjDNajglvjIWhZ5LF65j_gFuzrdl&v=c1&r=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB0DJFTCKNN%3Fpd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26qid%3D1793995138%26sr%3D1-1-fec03104-6f11-4242-8f79-15fae2896f66%26i%3Daps%26aref%3DO32FcpXcbI&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=VPdNy&content-id=amzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4%3Aamzn1.sym.6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_p=6cdfbb79-51ae-4c0d-8769-7c90679f83e4&pf_rd_r=93MSXXBTQ83ZWK9VY5EF&pd_rd_wg=GCBtk&pd_rd_r=53938111-ff6c-4b45-ba12-bcf36b504ce6",
     "imagem": "https://m.media-amazon.com/images/I/61ctYsUobKL._AC_SX208_CB1169409_QL70_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -369,11 +405,11 @@
     "vendedor": null,
     "titulo": "Apple iPhone 16 (128 Gb) - Rosa - Distribuidor Autorizado, 35% OFF, 5.054, 4.9 stars, +10000 vendidos",
     "preco": 5054,
-    "url": "https://click1.mercadolivre.com.br/display/clicks/MLB/count?a=kA0xwjHUXEYH3m_uqI8eokeEuLaq7e-UrcQxvpTffuP8naxrneAI5Ev0k3yspFEoF9lgVdmOwQI-0deYcype9n-okM3roXyhxL6FdwufD7P_oMxD9O12SqCQ3mUV5NdAJxwYJlvSF12oegRrnFqipKBr7bvAQeGeWTcfpwzxcBqwove9x2ZgJvAhwAgmn1o9GCYcKQU-zST6NM3yHDZUK2Z2il7Y-kj_j8JXZ9PwgNRPpZjYgJED7xY6goS4z4vapud15JTGehWrlBok8PQ2rmkdXTFbU_N_6Kp9K4wXqdA5PCJUyBkK3KgLdd9OrkhWvW574SygcLoZ9tc8_7if7UmXwykYpdF-CkwomSLOvERcNhTpjrMgKdSEnd5L0SoFYYnp75iwKlZ4BxAigDkULVgZwhvQ8M6vFnNBl7KKzaoP5R1-BfTkELPXidohIpJI_jOjxGfT90ZY2-lEyKP_nAjJVXTdN6r_k9ZAtnLMRFpMDqiqKQNlR5c8gPUDr3eoLlju2zT32dw72Z1p9_BG_tndehSos0kMpC7ldO25Jt8jYIhpeDqoIf0RViE5sl9FZ964G_sJmqChn-0TRKS5uUnSlALN-tlN1uyVvNogOtpfdOUvlOlcROF4Z2JjK9Aw9LI9FPubOvifMJQlsQL_QiHqKT7YcSHrMQydM35ze1r-BcJkh8bZfHcSa_QH9ZeXfBhgD7GQvOlkLVzWVasDiPBB_xYtSEzz67tqEsgsIXIBWAzbwH45kjyKa2GN8CbXV96l6NlETlfInydmYmSEFJqt2tEMf1pkTJQPLvTC3EFELq3YnfnrzWN7CzYyM8DoMZQt1j4uCIE5uwT1awQXIzHybFuEdkJaUgwjCRTTox3YmHfxzHOPD_2r-454TBPYom3yWXP0PHpCBH36A5Su2inutKJr9x_WXLRbmb3u9KcsyS43-40wBAX-iCSl0FAa4EnbqiLoufoDdCwJ2ADlcPdVfZCkUfdAs_-sssq07sSofSb9EUOp59hPMQq6O3NX9ALpvSCw6mBOR_8yAylOIXhIzDE46Qn5gPR5EU8Hno5iIQ00dxDp950nUfrRpOpNlH-GZJxtl66oAkDDSljG_ylt9ntKvzaSv6W8Uz0Yy1OCAShfXzucfZvHmItG1E-STvx4o5HuNxKMePVIc-dFeVboQLGga6-rbIlUcLG3ULCXYKhmR9HIm8SFbuETjBWnyB7jXwaUbnsizQBPrFP4M5n9XWUs_8aGW73Gwm3h0mPYXGsjHD7avp7Y3CFZYnHCKNaheaal_Gr44wgIuge3AuSeDT21v4zVRjy5Eunb1od4aWwkTX0TO3F3ytJG-M2zndhdRP2u1yD8sUz1nEL7ibbTpUf5xS7miTMaMP9bDc9_gYcMEj5hZeiPSk551a32krecy7a5cLwcNkm2wBPMURUgiI_TvXuagugyls5JvE1NIgYbB-VKr-DB9O2THL38jntU4WTaS-jmHSTMGHgXRLGy_agbk9RnkPVIoHCFqHtvhjOHLYcjgY4NeEfXlRSkvRlMj6u1O0fXVk-n08oqavHLR8sBFny2C0JWsQ1HjfnQpd0z2wg3W5xrxCPEE1ptfIXUcaKquAjTv5H8j0IZxemUEi0yt0nkAEuZ-2LOz-R3qTMTYly-bh3sc5dC7P9_Y3TFLjtiWX9zoMRHNcseBSdwh8KgTjdYnDKOp2cfHaV0iiFhM9TyffCEJfXZTZRx6d3gp567pv9OQVyRHOdfyHMquwRUGkoKanPVBdDzV_SustWfkOk6rHVpnjpbDgMLsDNjGcUEqPTld6u1X1-kog-gi-bTtsxklgh4V-RbfSsZ_SOoqbPMzP2FGtq7hYDMnxVfBsUo95I9pClrFx-wxZqVPOQMD4C8j6ix49WdS9DxP06fFggwh-gFLPdYr-kbX63x3WQ27hTn1W7Wk6lw4nPm4d-_HMhrF2CHoiw2dfbQhJsNZR6jM0FUhiJTqQN-UcldCWrZ1-9QB-oN6fTSReMBb55MCpsyncfkfiR665etlPNPsQconoit9ZvH1OfRkDRGP9vvn6k8dz6Mm5DcXyERfwfmueOSSl3qdOjqlJbaOw3WbEp_MDIrNqkEf88EmnZYv1AxT3SnuirjU33ceBXpbFw756L8EtmLeIvnWe6ybFi8ULHbz6tO2lO_iUrI&cipher=v2",
+    "url": "https://click1.mercadolivre.com.br/display/clicks/MLB/count?a=kA0xwjHUXEYH3m_uqI8eokeEuLaq7e-UrcQxvpTffuP8naxrneAI5Ev0k3yspFEoF9lgVdmOwQI-0deYcype9n-okM3roXyhxL6FdwufD7P_oMxD9O12SqCQ3mUV5NdAJxwYJlvSF12oegRrnFqipKBr7bvAQeGeWTcfpwzxcBqwove9x2ZgJvAhwAgmn1o9GCYcKQU-zST6NM3yHDZUK2Z2il7Y-kj_j8JXZ9PwgNRPpZjYgJED7xY6goS4z4vapud15JTGehWrlBok8PQ2rmkdXTFbU_N_6Kp9K4wXqdA5PCJUyBkK3KgLdd9OrkhWvW574SygcLoZ9tc8_7if7UmXwykYpdF-CkwomSLOvERcNhTpjrMgKdSEnd5L0SoFYYnp75iwKlZ4BxAigDkULVgZwhvQ8M6vFnNBl7KKzaoP5R1-BfTkELPXidohIpJI_jOjxGfT90ZY2-lEyKP_nAjJVXTdN6r_k9ZAtnLMRFpMDqiqKQNlR5c8gPUDr3eoLlju2zT32dw72Z1p9_BG_tndehSos0kMpC7ldO25Jt8jYIhpeDqoIf0RViE5sl9FZ964G_sJmqChn-0TRKS5uUnSlALN-tlN1uyVvNogOtpfdOUvlOlcROF4Z2JjK9Aw9LI9FPubOvifMJQlsQL_QiHqKT7YcSHrMQydM35ze1r-BcJkh8bZfHcSa_QH9ZeXfBhgD7GQvOlkLVzWVasDiPBB_xYtSEzz67tqEsgsIXIBWAzbwH45kjyKa2GN8CbXV96l6NlETlfInydmYmSEFJqt2tEMf1pkTJQPLvTC3EFELq3YnfnrzWN7CzYyM8DoMZQt1j4uCIE5uwT1awQXIzHybFuEdkJaUgwjCRTTox3YmHfxzHOPD_2r-454TBPYom3yWXP0PHpCBH36A5Su2inutKJr9x_WXLRbmb3u9KcsyS43-40wBAX-iCSl0FAa1XuKRJA7qyJSBiEy99iwiEkDXUyhNzGGemygx7IwSbTmdWAujNBzVdPXRRFXHXjoDHkiQAnwTIFFCieGVILly1HORA_kYjfcJQFb-Ro4_6yCSVay-2MVmiy9kCS8VK1yZcSlDDjyzDXF0ThEHimgAhJe9CyiyJ65Aon_cOu894tELctLH0CeAgzzNKVSGaqysZ6jqPWgAwKYl6M6goh4A2PpkjMjPHlNIiAs12pB1nn73GIyPvxMY8WvzKNuD56P1ETtPb4hHQPRf1ochae0DSFHGo7GuwmTRlvyVgYPKVsZpHYCacEkSjyKPAs3NcZc0AMyn3xCjqDBW4LW4LNrWCkSXm0Caw15eQgRlUiNMwP4NXq9jpjWvfhABuCybYBj_ESdddH9ULWdAGlPfmBObFXuQT-LZyzfPMfNyFE3tsPXhmbWmQULmrC09Dgd2UIfIDUwL2dEhKChQMbviKCSnxt_ZVCojGiBcD1BBoIPNLpk23iN7VgpvG-IVDRM-IZMvyln3AWSnKBzF9BQv8Y5fhX9HuJwxw27yZkenqoE-V4USNuOOW3zAq2YWXq_DOsRrkNb-iybwbfaZYH1F50OPeHGaFfrbc0fSXVCPp4JVGQLJ4odl9jvRjnDVQ_xledsSzqVUfWyJjIyGE08J4XXDgDAXjC5zyX0gKND7Y0YLUouMT1LSMxy2JyJDfZ-wFVQmFYAzepf5lZoXx2EyurGxnpVPT57QvUx4906Ka6nBg0dsgmjOJz2cDu7GRSvRNwmD4yB7MKGOOZ_r5r8N07Uzh6eoD_XCnPWc8VgFWdnauHBqzPY-oOiqHLDukpkI3DruoZ8Xqfya1inrj7fiacuvrLaHtSuumYqMzlUxwRYlBw8jrM-ZzwOSDPq_gZPHSm59ByIhvkF7NSOZwLyCg_fu9FF_7DibrLj2oKo7obKo2khy0cHg5l1GCZIEvPZ90Bzi6ZbwRwYqSgQC82dfJ1jbYQt9n_MdzUtvsLr0kiiriwAgwqGgRtLisFa56H3jiRKcDqlgHEZpa0f8E3MKeU-mF6DLawQQQ5b1mIka3sCFUdpd0v4xnJqBH5WlW8SrDc8xauPhpBLiSqlmPhI9Mj6YlpF4pNLmOiF2mrKVRXORux8LTf-3qCkux6Cm__ouYlGSMA-GyG2iuvw9f1o6WFwozTRVX7tuPFLTtr84ypTKV_j9xH-MXkfTyc5fEBkEl4HvLwEWJRG048wObt11Oqa5B9rqQtJ2yp6RYpJ0j7E9oQ&cipher=v2",
     "imagem": "https://http2.mlstatic.com/D_NQ_2X_814556-MLA95640549800_102025-OO.webp",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    }
   ],
@@ -383,11 +419,11 @@
     "vendedor": null,
     "titulo": "Cooktpo Electrolux 4 bocas Efficient Preto com Mesa de Vidro (KE4GR)",
     "preco": 491,
-    "url": "https://www.amazon.com.br/Electrolux-Cooktop-Efficient-KE4GR-Bivolt/dp/B0FCYXMJMQ/ref=sr_1_2?dib=eyJ2IjoiMSJ9.oED1AcRKb3lyWLYaM-WeDXGjAlJyDPAvxf8LuhV7ay96IxO8UoE59P8pXodhGLE9g6IUegDb9uRhF656K6niOt2wycwP_SNaIw5eVm9jG9JutfuKbgoa4XYSC5RB7RA-PoJFmjqOdiOArS2FFrD1NeyMbQT_eRrSc9u6ioPaiLhTGxvtyL7PpGPQjeZLag_f-fiAsWH77dorl8kntoTdP29q-BFnfRIj4ob_5iA91NU98FoRV8eJk_wlYG2kihWPk6l-FONxclkIeSlcQEVzGFUdratpt3GT_sIsPREUlSk.YWRrGaP469o-0_tiVMdd52zQuvu6y148LiFZAiJibWY&dib_tag=se&keywords=electrolux+ke4gr&qid=1793983933&sr=8-2&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147",
+    "url": "https://www.amazon.com.br/Electrolux-Cooktop-Efficient-KE4GR-Bivolt/dp/B0FCYXMJMQ/ref=sr_1_2?dib=eyJ2IjoiMSJ9.o9iBx6hqXXzBvrUjnauMJN5PhbTE7oeVQb_xtKFhbI96IxO8UoE59P8pXodhGLE9fRd3dL4jGjz8zJBNfyBQ8E0L7TRaBd03ztrIk2_9_e2eAqR-s7jZ4CB2Or296imfcUbJAQePbA3h1JuzgprTav3advXMBrNSUQozZzbJdBwlKM-BtcLDl3baOddkUhgepXw9rR3Xd5dxqKHtlukRmkC3MLXPE_5bTas7gNRT20w98FoRV8eJk_wlYG2kihWPk6l-FONxclkIeSlcQEVzGFUdratpt3GT_sIsPREUlSk.ylDXrWOMDVYxfnEP7s3-QxwyYdmL5DijuQB8KsLuKQY&dib_tag=se&keywords=electrolux+ke4gr&qid=1793995156&sr=8-2&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147",
     "imagem": "https://m.media-amazon.com/images/I/51PFoyDjM+L._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
    },
    {
@@ -399,7 +435,7 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
    },
    {
@@ -411,44 +447,8 @@
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
-   },
-   {
-    "loja": "Amazon",
-    "vendedor": null,
-    "titulo": "Cooktop 4 Bocas a Gás Dako Pratiko com Acendimento Automático e Mega Chama Preto Bivolt",
-    "preco": 379,
-    "url": "https://www.amazon.com.br/Cooktop-Dako-Pratiko-Acendimento-Autom%C3%A1tico/dp/B0G1CR9S5P/ref=sr_1_6?dib=eyJ2IjoiMSJ9.5j0-P9C9vJj-cywPfu2AJX-ZepxTnEPJrA048ZI3o_fuVOYRDSGyMW6rPXOL_jpoIXZZMJmV531bvkYu-NnpxhoqHUseWMrdBHmxIOBaHDzPutXVQmNEy4xBTBaBxSKdp-kr4w9H4rMX00CanZWIC_aE2vmzuEnh0MvgjN5oFMFQr7pfcW1ijB91B5k1QgFt0P9U-CbkxbzksU39GXSk4Rn5xpG111XlGt2qwBUUvm4UCXmQbEnfSMnzdjpW8a7bOtqGyQBz_WNwmpcewf410alPHbug_9hi-WCla6zhLiI.0uzwD-2_G4DYNYK7kF8zPXKx70Gm-HTcPv_6ZrGB9sI&dib_tag=se&keywords=cooktop+dako+pratiko&qid=1793983967&sr=8-6&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6",
-    "imagem": "https://m.media-amazon.com/images/I/41WDqsY9p4L._AC_UL320_.jpg",
-    "observacao": "achado pelo robô do PC",
-    "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
-    "modelo": "Cooktop 4 Bocas a Gás Dako Pratiko com Acendimento Automático e Mega Chama Preto Bivolt"
-   },
-   {
-    "loja": "Mercado Livre",
-    "vendedor": null,
-    "titulo": "Cooktop 4 Bocas Dako Pratiko Mesa de Vidro e Acendimento Super Automático A Gás Preto Bivolt",
-    "preco": 421,
-    "url": "https://www.mercadolivre.com.br/cooktop-4-bocas-dako-pratiko-mesa-de-vidro-e-acendimento-super-automatico-a-gas-preto-bivolt/p/MLB65017086",
-    "imagem": null,
-    "observacao": "achado pelo robô do PC",
-    "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
-    "modelo": "Cooktop 4 Bocas a Gás Dako Pratiko com Acendimento Automático e Mega Chama Preto Bivolt"
-   },
-   {
-    "loja": "Mercado Livre",
-    "vendedor": null,
-    "titulo": "Cooktop 4 Bocas Dako Pratiko Mesa de Vidro e Acendimento Super Automático A Gás Preto Bivolt",
-    "preco": 423,
-    "url": "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=zI4N0EWov8p0KwyAqqbO4GWePsiJBrlHHy62G8DdcnaxsInuJuLpf3m274DNRCvXEZl%2BzEaynecrrfqXty3MC7YUbR3O6T8pmoMvKTjhRrEv3TmS34V2Cd8DZb3eVUnYnKH54Sj%2B1Jsff80MuYJEu3DUYegHjd9UNcLyKzLP7pPUIxSgweI%2BzZ%2FL0hm%2Be9xIePkBXbQZJ0kcqkIkDZ66oLd5tHvkQW7sfQdPqxjoVKifBGCDFjDofxbIutu7SqVhWY5KiSOVWT0tc%2BMXClifibC1ILxngyAixTvo%2BvpSXGgIFDl3xOm73EtJEErul9ZuQ%2BHV5mzQp%2FsdGmCwVNgy5o9VkQTZ6QeF4paFNrHPnaIlctBJn4BOZkDc0qThOCStpwvEDlQMx8579WUgqllbWyna%2FcRr%2Fh0YXHs8jgtIZC%2F0z8edWo2J2X8gm9rqquN1khLKdshQNI3vYzaup8CDerwUhceQNOwvwvLKtzdtHC19pTjKLZFyxU40eujShzATJ7YrZHLChzrcEP9txn%2BXkkG3DOpUF0l53tnoLtTJLFHinNLjlwA6qC%2F56TzU3pTwlvFFuggBtL1zfadkVBPxpmVqeCtN55rZlgpWerjJrg6MY0iu3DSN5kicBiUfOUBmOIAfY97v%2Bku%2F1tTVsqAxG1E1nut8mxacsCiNgEXxw4uqjOFhqcQBBT4K50gBPKD6KfD5CnMFfpbX8Rx92VQC35BpPNuSNsdfQxEQoJ8xzp3uw2hwccT%2Bkkcy2XdUm1%2FUh3DKWyeoiEd22%2FwJmFAO7xMT%2BYK2V6eAvFovQYSVLwdjhu6dDj%2BDUfOz0UU3OOMGT2CYrAUeD70QBUKOlyh5ZMXWzJd6mYUDITrYmfkLttHtnY1kLtIMBi8zPDFB%2Fj%2FaMJRdXDZdlLgvJVI9WiUPcuSMnvoKAUHrF%2F58QIxAJci3etwIW4wewQ%2FuZtRVc1%2Fq%2B7bHGY2UUoR3YfZJVwD07EYF%2FKsKc1F38jZrG8cOHDvNs3Ta5Q7sWbg8X6ga5QC36HQI9s0v&pdp_filters=item_id%3AMLB6284191850",
-    "imagem": null,
-    "observacao": "achado pelo robô do PC",
-    "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
-    "modelo": "Cooktop 4 Bocas a Gás Dako Pratiko com Acendimento Automático e Mega Chama Preto Bivolt"
    },
    {
     "loja": "Amazon",
@@ -459,7 +459,7 @@
     "imagem": null,
     "observacao": "seu link",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "https://www.amazon.com.br/Cooktop-Dako-Pratiko-Acendimento-Autom%C3%A1tico/dp/B0G1CR9S5P/ref=asc_df_B0G1CR9S5P?mcid=e13fac0243383cfc9552b3e576e8a7e2&tag=googleshopp00-20&linkCode=df0&hvadid=709884460996&hvpos=&hvnetw=g&hvrand=9827606470823910892&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2673443684352&psc=1&hvocijid=9827606470823910892-B0G1CR9S5P-&hvexpln=0&language=pt_BR"
    },
    {
@@ -471,7 +471,7 @@
     "imagem": null,
     "observacao": "seu link",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "https://www.amazon.com.br/Electrolux-Cooktop-Efficient-KE4GR-Bivolt/dp/B0FCYXMJMQ/ref=asc_df_B0FCYXMJMQ?mcid=ab9f0777f2a73d558ba6ba3e868b3d8c&tag=googleshopp00-20&linkCode=df0&hvadid=709884460996&hvpos=&hvnetw=g&hvrand=9827606470823910892&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2442108841135&psc=1&hvocijid=9827606470823910892-B0FCYXMJMQ-&hvexpln=0&language=pt_BR"
    }
   ],
@@ -479,25 +479,25 @@
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Anúncio patrocinado – Forno de Embutir Elétrico Electrolux 80L Experience Air fryer, PerfectCook360 e Painel Touch (OE8EA)",
-    "preco": 1766,
-    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo3NzM4NTc0MjM5NDk3Njk6MTc5Mzk4NDAxOTpzcF9hdGY6MzAxNTY1MDUwMDk4OTAyOjowOjo&url=%2FElectrolux-El%25C3%25A9trico-Experience-PerfectCook360-OE8EA%2Fdp%2FB0FRCM6QZS%2Fref%3Dsr_1_3_sspa%3Fdib%3DeyJ2IjoiMSJ9.SSq9KY7pCDU3f9lP01r0XuHNIjYzRfEIdVgGXpi6mjLp6eq2m695JtKlL7EHzTfUEQ3Y1te1H-zw1Ry7guju1xaQeDd2-0bym_YzzrtlUET-0MjPaMnc69f0DgLeJKYt8pRPIHfFL-ShEKtcRcbMljE5UfXTdcuSqPn95j8AzNcBHh56ltx8kxB5eynNjpgxVwoFQFFgIhd9sUAR8MO3iyfN9wn8N18OwyxoHl2cU-DZyI3LiE9J2R2dj10f9Y0nTusxMhjF_F_9p56EdN_9qsR5_wLNofe-qg82uMKo3Z4.ljWQcUhCvw2GYwfcPpdi7c_ofL1vz6fm7r1pbKHhTqg%26dib_tag%3Dse%26keywords%3DForno%2Bde%2BEmbutir%2BEl%25C3%25A9trico%26qid%3D1793984019%26sr%3D8-3-spons%26ufe%3Dapp_do%253Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
-    "imagem": "https://m.media-amazon.com/images/I/51KrDPasvRL._AC_UL320_.jpg",
+    "titulo": "Forno de Embutir Elétrico Dako Supreme 80 L Digital Preto - 220V",
+    "preco": 1195,
+    "url": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Digital/dp/B0FQS84JXW/ref=sr_1_11?dib=eyJ2IjoiMSJ9.NJWz_77PXmL_XBxboJ55smeJOPr9kuEEb_Hjj_QZM_Pp6eq2m695JtKlL7EHzTfUsxCO3-5e55-Q9im3kx8PLYRSZ_B7sz74xLT1tYVTCL1LDUrEVjQUVDKm90uDM1DNzLSs9yZhcuguWcOPTBIEAff3_pT2bCsZfRSIYt3eG0CsLh6KysZMLkKJqfsW761yLOH_at-K4Ms78W_eKTi49RtPI1SgIT0Qgo3ih-nXfud95Do68e3VkWtOo0PyjexznOhTETkt091EhoqRpVqQMXDY-_t-2mgy_DMzuVS7AlM.Nbreh4Hi2ZdkmCcntfcHPy7BklIIpKoR78FJrocbwMs&dib_tag=se&keywords=Forno+de+Embutir+El%C3%A9trico&qid=1793995207&sr=8-11&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
+    "imagem": "https://m.media-amazon.com/images/I/51KiB3mooHL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Forno de Embutir Elétrico Electrolux 80L Experience Air fryer, PerfectCook360 e Painel Touch (OE8EA)",
-    "preco": 1766,
-    "url": "https://www.amazon.com.br/Electrolux-El%C3%A9trico-Experience-PerfectCook360-OE8EA/dp/B0FRCM6QZS/ref=sr_1_7?dib=eyJ2IjoiMSJ9.SSq9KY7pCDU3f9lP01r0XuHNIjYzRfEIdVgGXpi6mjLp6eq2m695JtKlL7EHzTfUEQ3Y1te1H-zw1Ry7guju1xaQeDd2-0bym_YzzrtlUET-0MjPaMnc69f0DgLeJKYt8pRPIHfFL-ShEKtcRcbMljE5UfXTdcuSqPn95j8AzNcBHh56ltx8kxB5eynNjpgxVwoFQFFgIhd9sUAR8MO3iyfN9wn8N18OwyxoHl2cU-DZyI3LiE9J2R2dj10f9Y0nTusxMhjF_F_9p56EdN_9qsR5_wLNofe-qg82uMKo3Z4.ljWQcUhCvw2GYwfcPpdi7c_ofL1vz6fm7r1pbKHhTqg&dib_tag=se&keywords=Forno+de+Embutir+El%C3%A9trico&qid=1793984019&sr=8-7&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
-    "imagem": "https://m.media-amazon.com/images/I/51KrDPasvRL._AC_UL320_.jpg",
+    "titulo": "Forno Elétrico de Embutir Electrolux Multifuncional 50L Preto Experience OE5EA",
+    "preco": 1449,
+    "url": "https://www.amazon.com.br/Electrolux-El%C3%A9trico-Experience-PerfectCook360-OE5EA/dp/B0FRCKM88C/ref=sr_1_13?dib=eyJ2IjoiMSJ9.NJWz_77PXmL_XBxboJ55smeJOPr9kuEEb_Hjj_QZM_Pp6eq2m695JtKlL7EHzTfUsxCO3-5e55-Q9im3kx8PLYRSZ_B7sz74xLT1tYVTCL1LDUrEVjQUVDKm90uDM1DNzLSs9yZhcuguWcOPTBIEAff3_pT2bCsZfRSIYt3eG0CsLh6KysZMLkKJqfsW761yLOH_at-K4Ms78W_eKTi49RtPI1SgIT0Qgo3ih-nXfud95Do68e3VkWtOo0PyjexznOhTETkt091EhoqRpVqQMXDY-_t-2mgy_DMzuVS7AlM.Nbreh4Hi2ZdkmCcntfcHPy7BklIIpKoR78FJrocbwMs&dib_tag=se&keywords=Forno+de+Embutir+El%C3%A9trico&qid=1793995207&sr=8-13&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
+    "imagem": "https://m.media-amazon.com/images/I/51LFP3QQd3L._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
@@ -509,7 +509,7 @@
     "imagem": null,
     "observacao": "seu link",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
    }
   ],
@@ -517,49 +517,49 @@
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Anúncio patrocinado – Jarra Original Cafeteira PHILCO PH14 / PH14 INOX",
-    "preco": 35,
-    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo2Njk0NDU4MDIyNjgwMzA0OjE3OTM5ODQwNjI6c3BfbXRmOjMwMTM1MDg0ODMyNDQwMjo6MDo6&url=%2FJarra-Original-Cafeteira-PHILCO-PH14%2Fdp%2FB0DWGZFKXC%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.KALIyhUuEmimpFgFZ9IYZGWsUq06StgwebtF_chOJbscZWAANEydvNPdTRCRo8nHGUJeULiNXqfXgD5I39xTvl3zZIwTcSsuIk69VHKMk3AtbSfxeGBLSNs8_FjViO4XvUEUts96hEKoltgLdg9_M6nBr2Oc8Z_FbdRNaQzpHfbnjvPDdXwd-aRFIcvrQrtN6Gym9y-aYnIRKUnovkutMOvv7AbUbnZEgNZIo1SYWBHc66Ek_FQMtfvOQk-e32iKyw8Dc79BBzDckWUJw5eS9Qj_J8H9dR7xNdMM7YMMx14.h73yvJcJhCsuLvnntQ8HkUsrLeDXE75iW5WEiJYw4u0%26dib_tag%3Dse%26keywords%3DCafeteira%2Bphilco%26qid%3D1793984062%26sr%3D8-21-spons%26ufe%3Dapp_do%253Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
-    "imagem": "https://m.media-amazon.com/images/I/51KH1IVBvBL._AC_UL320_.jpg",
+    "titulo": "Cafeteira Philco PCF20A 720ml 20 Cafezinhos 650W 220V",
+    "preco": 103,
+    "url": "https://www.amazon.com.br/Cafeteira-Philco-PCF20A-720ml-Cafezinhos/dp/B0CZ4C4SJT/ref=sr_1_12?dib=eyJ2IjoiMSJ9.R63s8nZ6Nwre-BNvq8pMVvQwypWKArzo90ktRYmTCBIcZWAANEydvNPdTRCRo8nHGUJeULiNXqfXgD5I39xTvvMuJQCsXah6g4M1lwKKqb3l3Ki7ndHZQoY6-T85K3SWJQ987IOFoOqTLvFEv4jATsUOyVGZcRMWg2RhUdYgep2Bybby5HwJ7h2RevXsbtkPKuOoQmxniMXanEPVLjzwsE-YUm91kpH4ov0DaZCqYcL0_eu-O33qWIungRvbOs_sWnoLixoij97trbP2LUtgi-tIGA1MBSRIWfz0GREIOE8.aYFAnc-4bncfnBP0AJ3gQccg-ONVhesm91TTeRdZXX4&dib_tag=se&keywords=Cafeteira+philco&qid=1793995232&sr=8-12&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
+    "imagem": "https://m.media-amazon.com/images/I/51aGsf9165L._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Anúncio patrocinado – Cafeteira Philco PCF20A 720ml 20 Cafezinhos 650W 220V",
-    "preco": 103,
-    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo2Njk0NDU4MDIyNjgwMzA0OjE3OTM5ODQwNjI6c3BfYXRmOjMwMTU4MjkwODA5MjAwMjo6MDo6&url=%2FCafeteira-Philco-PCF20A-720ml-Cafezinhos%2Fdp%2FB0CZ4C4SJT%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.KALIyhUuEmimpFgFZ9IYZGWsUq06StgwebtF_chOJbscZWAANEydvNPdTRCRo8nHGUJeULiNXqfXgD5I39xTvl3zZIwTcSsuIk69VHKMk3AtbSfxeGBLSNs8_FjViO4XvUEUts96hEKoltgLdg9_M6nBr2Oc8Z_FbdRNaQzpHfbnjvPDdXwd-aRFIcvrQrtN6Gym9y-aYnIRKUnovkutMOvv7AbUbnZEgNZIo1SYWBHc66Ek_FQMtfvOQk-e32iKyw8Dc79BBzDckWUJw5eS9Qj_J8H9dR7xNdMM7YMMx14.h73yvJcJhCsuLvnntQ8HkUsrLeDXE75iW5WEiJYw4u0%26dib_tag%3Dse%26keywords%3DCafeteira%2Bphilco%26qid%3D1793984062%26sr%3D8-1-spons%26ufe%3Dapp_do%253Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
-    "imagem": "https://m.media-amazon.com/images/I/51aGsf9165L._AC_UL320_.jpg",
+    "titulo": "Philco Cafeteira Britânia 18 Cafézinhos Jarra de Inox BCF19B 550W Preto 127V",
+    "preco": 103.79,
+    "url": "https://www.amazon.com.br/Cafeteira-Brit%C3%A2nia-Caf%C3%A9zinhos-Jarra-BCF19B/dp/B0D79MP2PX/ref=sr_1_9?dib=eyJ2IjoiMSJ9.R63s8nZ6Nwre-BNvq8pMVvQwypWKArzo90ktRYmTCBIcZWAANEydvNPdTRCRo8nHGUJeULiNXqfXgD5I39xTvvMuJQCsXah6g4M1lwKKqb3l3Ki7ndHZQoY6-T85K3SWJQ987IOFoOqTLvFEv4jATsUOyVGZcRMWg2RhUdYgep2Bybby5HwJ7h2RevXsbtkPKuOoQmxniMXanEPVLjzwsE-YUm91kpH4ov0DaZCqYcL0_eu-O33qWIungRvbOs_sWnoLixoij97trbP2LUtgi-tIGA1MBSRIWfz0GREIOE8.aYFAnc-4bncfnBP0AJ3gQccg-ONVhesm91TTeRdZXX4&dib_tag=se&keywords=Cafeteira+philco&qid=1793995232&sr=8-9&ufe=app_do%3Aamzn1.fos.45d70dca-64c9-4dda-a33f-ade433aacd08",
+    "imagem": "https://m.media-amazon.com/images/I/51sleFyZfvL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
     "loja": "Mercado Livre",
     "vendedor": null,
-    "titulo": "cafeteira philco expresso",
-    "preco": 250,
-    "url": "https://lista.mercadolivre.com.br/cafeteira-philco-expresso",
+    "titulo": "Cafeteira Com Painel Digital PCF40B 40 cafezinhos 1000W Philco",
+    "preco": 230,
+    "url": "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=t713c0Rrj7MO%2BCwfixAwSlgXLAc5CsvrPLbNBocBKMOuyXwFd37Ph5MnI44J9A4dbYcVGJ67or%2FmfvJDXc8bfCkzrZTjwxhhn%2FRYi69tVvTCrbOWWic0s9fVDtII17Ti%2F5Xi3iR1tAZigwOd9JXFzUldi8aTatCFokhv4%2BoLvfUr5DE7QUEek%2Bm4LKyTkUD5Fn0nHRWpNNpjLeQxtW3bXX%2BvTHOXcdGCR5jp4mdmpHeCBuyZ4d7xG0S79oU%2BwEp0UYvO4MRGUf%2BbUqQc1ptNr2xvf9rb487JH%2FirX4y5N5h5vQsYTNflkVKYCoIZGKl6%2F9xl1X48xRf6Ff8BRdRANk44VPYbgDXrdBni9SX%2FtCgm6Cg%2B3dEmvWAeURlDc%2BhB%2F2Spt%2BafRvrKFnyTiiRIJ%2BSd4hxyc0Q72myztzvobyL7evHTunkHv1pdBt9EukvzKxMj3LB7%2FecgjPG3qABkJHXniweLUvW2D9hiW%2FPkb70Gq8Yj8EBbFzEBj7HxSxa%2BmO1Esx5Sx4fb4nz%2BtaB3Sd1J64sGHTevt2NEPdWi2qzM%2FL0BnKboBnzWy7Y%2BmzHGa0k0HhwUnElBBl9iHipZAf6ie6%2B7ARJuvj4WpzKkEFSACAtT9Tn7C%2FZAQr4yVajhtampRSYelP2rykZh3eay%2B1fXUVQiePkjqcxCYqcnXPo1y9LtZX9xakVH8OLLDIw10nTDok9ceFkwYU2aK6PE4TnvK1vpTqAFIrdAFgcGZMblcESJHDyyRliLAvfh5JbVN3%2BlPRdY0YV3UTt0NOXXw%2FsM%2FZs3kzKEPMT%2BtLyg%2Fq0fbySSdEo2ovV2P7Wd71gS9xUIEZcmJC5zuu%2B4wQxQGaiL9u0CVNp4W1bK2TkHHZrV2uI9cKobcMQymURLFzKMnIqndjiybEGb8wJlvym6tFiHpAB57L3b94H7e%2BosYfB18vbuphE9uSpDj9W%2FIJandXSFGU4Fs1LD2v8f4HPp6%2FI3jNco%2FFVPa3DS&pdp_filters=item_id%3AMLB6428672800",
     "imagem": null,
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
     "loja": "Mercado Livre",
     "vendedor": null,
-    "titulo": "jarra cafeteira philco",
-    "preco": 250,
-    "url": "https://lista.mercadolivre.com.br/jarra-cafeteira-philco",
-    "imagem": null,
+    "titulo": "Cafeteira Com Painel Digital PCF40B 40 cafezinhos 1000W Philco",
+    "preco": 230,
+    "url": "https://publicidade.mercadolivre.com.br/",
+    "imagem": "https://http2.mlstatic.com/D_Q_NP_2X_931613-MLA99464308346_112025-E.webp",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    }
   ],
@@ -567,25 +567,25 @@
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "Air Fryer Philco 6,5L Visor Glass 1700W PAF65 127V",
-    "preco": 226.26,
-    "url": "https://www.amazon.com.br/Fryer-Philco-Visor-Glass-PAF65/dp/B0F99ZSRXH/ref=sr_1_14?dib=eyJ2IjoiMSJ9.P3uhD6QC2PiUimZUAat71Wd1s4h9MqlhiWDJoylToIPD6dQObZshLkjT0Y2HNtBLhhaD5fCA9uPnlflseKjHqkOoRXYedRsGsCL5RYMl5LyBh2TESpRj0d4RxHG1Cxte4UL-F_KsCqi6kKpQfTRufJijai4tUC962f5cqVr71CZZXNnqXuvOjdYBwCzTuqYhpUKn21jx2csl8ibYJu9RQ5JhaoXuK9OC2_IaHLOdopnlrNxkXeobyeb7AH2GlL7OZC7k4UkY2gEq5gSxO57YAD9iE1gIKIqDIHNu9o5f7Os.Pi2pVQ2-6DVJpwAati2oRrvR34XJoAPJiKB5xSlnDEU&dib_tag=se&keywords=Air+Fryer&qid=1793984098&sr=8-14&ufe=app_do%3Aamzn1.fos.2ada4a8c-e63f-41f5-a7dc-995382683613",
-    "imagem": "https://m.media-amazon.com/images/I/51DfYaqamUL._AC_UL320_.jpg",
+    "titulo": "Anúncio patrocinado – Fritadeira Philco Airfry Titanium Inox 4.6L PFR18TI 127V",
+    "preco": 245,
+    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo1ODY0NDU0MzQxMTI5MjI3OjE3OTM5OTUyNTA6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMTI1OTI0NzM3NzUwMjo6Mjo6&url=%2FFritadeira-Philco-Airfry-Titanium-PFR18TI%2Fdp%2FB0B69L3MSN%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.31f7e9c0-6409-440c-8b4f-5a95ecd40cab%253Aamzn1.sym.31f7e9c0-6409-440c-8b4f-5a95ecd40cab%26cv_ct_cx%3DAir%2BFryer%26keywords%3DAir%2BFryer%26pd_rd_i%3DB0B69L3MSN%26pd_rd_r%3Dcce5da1a-fa0d-42d5-956f-92b48e3274ad%26pd_rd_w%3D1yXue%26pd_rd_wg%3DbCvjg%26pf_rd_p%3D31f7e9c0-6409-440c-8b4f-5a95ecd40cab%26pf_rd_r%3DVM06KAXKY0NQ4X92246E%26qid%3D1793995250%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-3-fc613efb-89a5-4ecc-a266-4feb7aba5db9-spons%26ufe%3Dapp_do%253Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678%26aref%3D15Z0nnwYXZ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=15Z0nnwYXZ",
+    "imagem": "https://m.media-amazon.com/images/I/51U229vanZL._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    },
    {
     "loja": "Amazon",
     "vendedor": null,
-    "titulo": "MONDIAL Fritadeira Sem Óleo Air Fryer 4L, Preto/Inox, 1500W, 110V - AFN-40-BI",
-    "preco": 249,
-    "url": "https://www.amazon.com.br/Fritadeira-Fryer-Litros-AFN-40-BI-Mondial/dp/B093MK3Z12/ref=sr_1_15?dib=eyJ2IjoiMSJ9.P3uhD6QC2PiUimZUAat71Wd1s4h9MqlhiWDJoylToIPD6dQObZshLkjT0Y2HNtBLhhaD5fCA9uPnlflseKjHqkOoRXYedRsGsCL5RYMl5LyBh2TESpRj0d4RxHG1Cxte4UL-F_KsCqi6kKpQfTRufJijai4tUC962f5cqVr71CZZXNnqXuvOjdYBwCzTuqYhpUKn21jx2csl8ibYJu9RQ5JhaoXuK9OC2_IaHLOdopnlrNxkXeobyeb7AH2GlL7OZC7k4UkY2gEq5gSxO57YAD9iE1gIKIqDIHNu9o5f7Os.Pi2pVQ2-6DVJpwAati2oRrvR34XJoAPJiKB5xSlnDEU&dib_tag=se&keywords=Air+Fryer&qid=1793984098&sr=8-15&ufe=app_do%3Aamzn1.fos.039ad06c-756b-42cf-b2ab-dcc42e7aa5c9",
-    "imagem": "https://m.media-amazon.com/images/I/51QUCHOZtGL._AC_UL320_.jpg",
+    "titulo": "Anúncio patrocinado – Fritadeira Sem Óleo Air Fryer 4L, Mondial, Preto/Inox, 1500W, 220V - AFN-40-TBI",
+    "preco": 255,
+    "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo1ODY0NDU0MzQxMTI5MjI3OjE3OTM5OTUyNTA6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMTM1MjYzNDg3ODMwMjo6MDo6&url=%2FFritadeira-El%25C3%25A9trica-Family-Mondial-AFN-40-TBI%2Fdp%2FB09NL4YQ7S%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.31f7e9c0-6409-440c-8b4f-5a95ecd40cab%253Aamzn1.sym.31f7e9c0-6409-440c-8b4f-5a95ecd40cab%26cv_ct_cx%3DAir%2BFryer%26keywords%3DAir%2BFryer%26pd_rd_i%3DB09NL4YQ7S%26pd_rd_r%3Dcce5da1a-fa0d-42d5-956f-92b48e3274ad%26pd_rd_w%3D1yXue%26pd_rd_wg%3DbCvjg%26pf_rd_p%3D31f7e9c0-6409-440c-8b4f-5a95ecd40cab%26pf_rd_r%3DVM06KAXKY0NQ4X92246E%26qid%3D1793995250%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-1-fc613efb-89a5-4ecc-a266-4feb7aba5db9-spons%26ufe%3Dapp_do%253Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678%26aref%3DAaNerB4xRD%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=AaNerB4xRD",
+    "imagem": "https://m.media-amazon.com/images/I/51MFNq3409L._AC_UL320_.jpg",
     "observacao": "achado pelo robô do PC",
     "verificado": true,
-    "encontradoEm": "2026-11-06T16:46:28Z",
+    "encontradoEm": "2026-11-06T19:56:36Z",
     "modelo": null
    }
   ]
