@@ -1,4 +1,14 @@
 {
  "notificacoes": true,
- "telegramChatId": -5526256066
+ "telegramChatId": -5526256066,
+ "canais": [
+  "pelandobr",
+  "cupons_desconto",
+  "promotop",
+  "boletando",
+  "achadosdotb",
+  "pegueidescontos",
+  "fadadoscupons",
+  "ofertasdodia"
+ ]
 }
