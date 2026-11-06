@@ -346,9 +346,23 @@ def marca_no_titulo(marca, titulo):
     return any(SequenceMatcher(None, m, w).ratio() >= 0.8 for w in tokens(titulo))  # aceita "Eletrolux" ~ "Electrolux"
 
 
+SINONIMOS = {"geladeira": ["refrigerador"], "refrigerador": ["geladeira"], "micro": ["microondas", "micro-ondas"],
+             "microondas": ["micro"], "lavadora": ["maquina de lavar", "lava e seca"], "maquina": ["lavadora", "lava e seca"],
+             "purificador": ["gelagua", "bebedouro"], "gelagua": ["purificador"], "smart": ["tv"], "tv": ["smart", "televis"],
+             "iphone": ["iphone"], "cooktop": ["cooktop", "fogao de mesa"], "forno": ["forno"]}
+
+
 def guarda(p, titulo):
-    """Trava final: marca pedida, números do nome (ex.: 4 bocas) e nada de acessório."""
+    """Trava final: categoria e marca pedidas, números do nome (ex.: 4 bocas) e nada de acessório."""
+    titulo = re.sub(r"(?i)an[uú]ncio patrocinado\s*[–-]?\s*", "", titulo or "")
     t = sa(titulo)
+    cat = (tokens(p["nome"]) or [""])[0]
+    if cat and len(cat) > 2 and not p.get("modelos") and cat not in t and not any(s in t for s in SINONIMOS.get(cat, [])):
+        return False
+    nome_sa = sa(p["nome"])
+    for ac in ("refis", "refil", "filtro", "filtros", "kit ", "capa", "pelicula", "suporte", "controle remoto", "cabo ", "peca", "pecas", "resistencia"):
+        if ac in t + " " and ac.strip() not in nome_sa:
+            return False
     ms = marcas(p)
     if ms and not any(marca_no_titulo(m, titulo) for m in ms):
         return False
@@ -486,9 +500,14 @@ def main():
         it = itens.setdefault(p["id"], {"ofertas": [], "historico": []})
         antes = min((o["preco"] for o in it.get("ofertas", []) if o.get("preco")), default=None)
         ofertas, fonte = coletar(p)
-        do_pc = [o for o in pc.get(p["id"], []) if isinstance(o.get("preco"), (int, float)) and guarda(p, o.get("titulo", ""))]
+        do_pc = [dict(o, titulo=re.sub(r"(?i)an[uú]ncio patrocinado\s*[–-]?\s*", "", o.get("titulo", "")))
+                 for o in pc.get(p["id"], []) if isinstance(o.get("preco"), (int, float)) and guarda(p, o.get("titulo", ""))]
         if do_pc:
             ofertas = (ofertas or []) + do_pc
+        if ofertas and (p.get("detalhes") or "").strip() and not p.get("modelos"):
+            com_detalhe = [o for o in ofertas if nota_detalhe(p, o["titulo"]) > 0]
+            if com_detalhe:
+                ofertas = com_detalhe
         log["fonte"] = log["fonte"] or fonte
         it["ultimaBusca"] = ISO
         if ofertas is None:          # fonte fora do ar: mantém o que já tinha
