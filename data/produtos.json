@@ -145,6 +145,19 @@
    "ativo": true,
    "criadoEm": "2026-11-06T12:56:36.693Z",
    "id": "philco-cafeteira"
+  },
+  {
+   "nome": "Air Fryer",
+   "categoria": "Eletrodomésticos",
+   "precoAlvo": 150,
+   "marcas": "Philco, Mondial, Eletrolux",
+   "detalhes": "",
+   "unidade": "",
+   "modelos": [],
+   "links": [],
+   "ativo": true,
+   "criadoEm": "2026-11-06T16:08:32.413Z",
+   "id": "air-fryer"
   }
  ]
 }
