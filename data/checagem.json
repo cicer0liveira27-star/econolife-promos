@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-06T12:45:15Z",
+ "quando": "2026-11-06T12:56:14Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 52,
- "paginas": 47,
- "ofertas": 42,
- "fotos": 33,
- "alertas": 0,
+ "buscas": 54,
+ "paginas": 57,
+ "ofertas": 44,
+ "fotos": 35,
+ "alertas": 1,
  "semResultado": [],
  "falhas": [
   {
@@ -24,7 +24,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 5
+   "ofertas": 6
   },
   "tv": {
    "hits": 0,
@@ -32,14 +32,14 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 28,
+   "hits": 29,
    "combinam": 2,
    "ofertas": 5
   },
   "lava-loucas": {
-   "hits": 40,
+   "hits": 39,
    "combinam": 17,
-   "ofertas": 19
+   "ofertas": 17
   },
   "ventilador": {
    "modelos": 1,
@@ -68,6 +68,12 @@
    "hits": 34,
    "combinam": 1,
    "ofertas": 5
+  },
+  "philco-cafeteira": {
+   "hits": 28,
+   "combinam": 12,
+   "ofertas": 14,
+   "barradasNaTrava": 2
   }
  },
  "pc": {
