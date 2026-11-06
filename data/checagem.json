@@ -1,14 +1,13 @@
 {
- "quando": "2026-11-06T11:34:54Z",
+ "quando": "2026-11-06T11:45:16Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 62,
- "paginas": 49,
+ "buscas": 52,
+ "paginas": 50,
  "ofertas": 30,
  "fotos": 30,
  "alertas": 0,
  "semResultado": [
-  "tv",
-  "play-station-5-slim"
+  "tv"
  ],
  "falhas": [
   {
@@ -22,7 +21,7 @@
    "modelos": 3,
    "modelosAchados": 3,
    "ofertas": 18,
-   "barradasNaTrava": 6
+   "barradasNaTrava": 4
   },
   "microondas": {
    "modelos": 1,
@@ -35,12 +34,12 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 28,
+   "hits": 29,
    "combinam": 2,
    "ofertas": 5
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 17,
    "ofertas": 19
   },
@@ -66,16 +65,6 @@
    "modelosAchados": 1,
    "ofertas": 5,
    "barradasNaTrava": 9
-  },
-  "play-station-5-slim": {
-   "hits": 18,
-   "combinam": 0,
-   "exemplos": [
-    "Console Playstation Classic Sony",
-    " PlayStation 5 825GB",
-    "Playstation 5 Pro 2TB",
-    "Sony Playstation 4 500Gb - Hdmi - 3D - Bluray"
-   ]
   },
   "tenis-x-ray-3-unissex": {
    "hits": 34,
