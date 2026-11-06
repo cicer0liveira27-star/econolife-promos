@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-06T20:30:21Z",
+ "quando": "2026-11-06T20:45:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 50,
- "paginas": 60,
- "ofertas": 45,
- "fotos": 36,
+ "paginas": 58,
+ "ofertas": 44,
+ "fotos": 35,
  "alertas": 0,
  "semResultado": [],
  "falhas": [
@@ -24,7 +24,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 5
   },
   "tv": {
    "hits": 0,
@@ -71,7 +71,7 @@
    "barradasNaTrava": 2
   },
   "air-fryer": {
-   "hits": 87,
+   "hits": 88,
    "combinam": 66,
    "ofertas": 20
   }
