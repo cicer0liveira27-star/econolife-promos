@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-06T01:00:59Z",
+ "quando": "2026-11-06T01:07:14Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 50,
  "paginas": 48,
- "ofertas": 38,
- "fotos": 31,
+ "ofertas": 34,
+ "fotos": 29,
  "alertas": 0,
  "semResultado": [],
  "falhas": [
@@ -18,7 +18,8 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 18
+   "ofertas": 18,
+   "barradasNaTrava": 2
   },
   "microondas": {
    "modelos": 1,
@@ -31,19 +32,20 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 69,
+   "hits": 30,
    "combinam": 2,
    "ofertas": 5
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 38,
    "combinam": 17,
    "ofertas": 22
   },
   "ventilador": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 2
+   "ofertas": 2,
+   "barradasNaTrava": 3
   },
   "liquidificador": {
    "hits": 22,
@@ -59,7 +61,8 @@
   "cooktop-4-bocas-a-gas": {
    "modelos": 2,
    "modelosAchados": 1,
-   "ofertas": 5
+   "ofertas": 5,
+   "barradasNaTrava": 9
   }
  },
  "pc": {
