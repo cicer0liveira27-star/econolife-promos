@@ -418,7 +418,7 @@ footer{color:var(--dim);font-size:12px;padding-block:28px 40px;text-align:center
       +'<div><div class="cat">'+esc(p.categoria||'Outros')+'</div><h3>'+esc(p.nome)+'</h3>'+(spec?'<div class="spec">'+esc(spec)+'</div>':'')+(b&&b.titulo?'<div class="ptitle">'+esc(b.titulo)+'</div>':'')+'</div>'
       +'<div class="priceline"><div class="now"><div class="v'+(hit?' hit':'')+'">'+(b?money(b.preco):'—')+'</div><div class="s">'+(b?'na '+esc(b.loja):'aguardando o robô')+'</div></div><div class="goal">Alvo<b>'+(alvo!=null?money(alvo):'—')+'</b>'+(hit?'<span class="save">economia '+money(alvo-b.preco)+'</span>':(b&&alvo?'faltam '+money(b.preco-alvo):''))+'</div></div>'
       +(b&&alvo?'<div class="bar" aria-hidden="true"><i class="'+(hit?'hit':'')+'" style="width:'+pct+'%"></i></div>':'')
-      +spark(p)+(oh?'<div class="sec-t"><span class="dot"></span>Achadas pelo robô · avisa sozinho</div>'+oh:'')+manualHTML(p)+actions+'<div class="meta">'+(lb?'Atualizado '+ago(lb):'Ainda não buscado')+'</div></div></article>';
+      +spark(p)+(oh?'<div class="sec-t"><span class="dot"></span>Achadas pelo robô · avisa sozinho</div>'+oh:'')+actions+'<div class="meta">'+(lb?'Atualizado '+ago(lb):'Ainda não buscado')+'</div></div></article>';
   }
   function render(){
     if(!S.loaded)return;
