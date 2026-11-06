@@ -1,12 +1,15 @@
 {
- "quando": "2026-11-06T21:15:16Z",
+ "quando": "2026-11-06T21:30:21Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 50,
  "paginas": 57,
- "ofertas": 44,
- "fotos": 35,
+ "ofertas": 32,
+ "fotos": 32,
  "alertas": 0,
- "semResultado": [],
+ "semResultado": [
+  "tv",
+  "lavadora"
+ ],
  "falhas": [
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -24,7 +27,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 5
+   "ofertas": 6
   },
   "tv": {
    "hits": 0,
@@ -71,13 +74,13 @@
    "barradasNaTrava": 2
   },
   "air-fryer": {
-   "hits": 90,
+   "hits": 87,
    "combinam": 66,
    "ofertas": 20
   }
  },
  "pc": {
   "atualizadoEm": "2026-11-06T19:56:36Z",
-  "usado": true
+  "usado": false
  }
 }
