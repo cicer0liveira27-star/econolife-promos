@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-06T17:30:19Z",
+ "quando": "2026-11-06T17:45:17Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 58,
- "paginas": 62,
- "ofertas": 47,
- "fotos": 40,
+ "paginas": 61,
+ "ofertas": 46,
+ "fotos": 39,
  "alertas": 0,
  "semResultado": [],
  "falhas": [
@@ -24,7 +24,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 5
   },
   "tv": {
    "hits": 0,
