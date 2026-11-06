@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-06T00:46:51Z",
+ "quando": "2026-11-06T00:55:03Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 50,
- "paginas": 59,
- "ofertas": 43,
- "fotos": 36,
- "alertas": 6,
+ "buscas": 48,
+ "paginas": 56,
+ "ofertas": 42,
+ "fotos": 35,
+ "alertas": 0,
  "semResultado": [],
  "falhas": [
   {
@@ -19,11 +19,6 @@
    "modelos": 3,
    "modelosAchados": 3,
    "ofertas": 18
-  },
-  "gelagua": {
-   "hits": 29,
-   "combinam": 3,
-   "ofertas": 1
   },
   "microondas": {
    "modelos": 1,

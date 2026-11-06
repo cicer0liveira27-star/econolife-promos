@@ -1,9 +1,9 @@
 {
- "atualizadoEm": "2026-11-06T00:46:51Z",
+ "atualizadoEm": "2026-11-06T00:55:03Z",
  "status": {
-  "resumo": "43 ofertas de lojas confiáveis via Buscapé e Zoom",
-  "produtosVerificados": 11,
-  "alertas": 6
+  "resumo": "42 ofertas de lojas confiáveis via Buscapé e Zoom",
+  "produtosVerificados": 10,
+  "alertas": 0
  },
  "itens": {
   "geladeira": {
@@ -30,7 +30,7 @@
      "imagem": "https://image.zst.com.br/0E93A06570F2AE8EF87E141DB29ABB42_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     },
     {
@@ -43,7 +43,7 @@
      "imagem": "https://image.zst.com.br/31723D362B4A6F895D79CEE75C5EEFCF_235_235.jpg",
      "observacao": "ou 8x de R$ 339,13",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     },
     {
@@ -56,7 +56,7 @@
      "imagem": "https://image.zst.com.br/5C087F20E580B2952D1EC90E175DB00E_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     },
     {
@@ -69,7 +69,7 @@
      "imagem": "https://image.zst.com.br/E27683F2C31D9E7B5F22C71DC10BF551_235_235.jpg",
      "observacao": "ou 12x de R$ 241,58",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     }
    ],
@@ -80,31 +80,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
-  },
-  "gelagua": {
-   "ofertas": [
-    {
-     "loja": "Amazon",
-     "vendedor": null,
-     "titulo": "Grade Cinza-Claro da Pingadeira Branca Original Electrolux Para Bebedouro BC01B e Purificador PC01B",
-     "preco": 35.0,
-     "url": "https://www.buscape.com.br/lead?oid=1494927212&channel=1",
-     "pagina": "https://www.buscape.com.br/bebedouro/bebedouro-mesa-compressor-gas-electrolux-bc01b",
-     "imagem": "https://image.zst.com.br/28E25DE5DDA16DC8B1A6A1BD8EF72FA6_235_235.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
-    }
-   ],
-   "historico": [
-    {
-     "d": "2026-11-05",
-     "p": 35.0,
-     "loja": "Amazon"
-    }
-   ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "lava-loucas": {
    "ofertas": [
@@ -118,7 +94,7 @@
      "imagem": "https://image.zst.com.br/24FD142E3F06DF62688F7987FE5C3B3C_235_235.jpg",
      "observacao": "ou 8x de R$ 208,25",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Americanas",
@@ -130,7 +106,7 @@
      "imagem": "https://image.zst.com.br/E34CD54A81611FC5523DC740FC985483_235_235.jpg",
      "observacao": "ou 8x de R$ 251,56",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Mercado Livre",
@@ -154,7 +130,7 @@
      "imagem": "https://image.zst.com.br/CD59F59AC9D990BCBDF6E0116E2256BF_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -166,7 +142,7 @@
      "imagem": "https://image.zst.com.br/409B8925D34AB71B4BB4B5A2C4B879EE_235_235.jpg",
      "observacao": "ou 10x de R$ 218,90",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     }
    ],
    "historico": [
@@ -176,7 +152,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "lavadora": {
    "ofertas": [
@@ -190,7 +166,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/3/37/-1735134564.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Webcontinental",
@@ -202,7 +178,7 @@
      "imagem": "https://image.zst.com.br/D835489F63799FE2408DE9FA79B6783C_235_235.jpg",
      "observacao": "ou 8x de R$ 318,89",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -214,7 +190,7 @@
      "imagem": "https://image.zst.com.br/D5A4D7DC1D90B20E74E191D4B296F026_235_235.jpg",
      "observacao": "ou 10x de R$ 273,50",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     }
    ],
    "historico": [
@@ -224,7 +200,7 @@
      "loja": "Brastemp"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "microondas": {
    "ofertas": [
@@ -250,20 +226,20 @@
      "imagem": "https://image.zst.com.br/2EC29255A1876F447F0FAF812F735238_235_235.jpg",
      "observacao": "ou 6x de R$ 123,17",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
-     "loja": "Americanas",
+     "loja": "Electrolux",
      "vendedor": null,
-     "titulo": "Micro-ondas de Bancada Electrolux MI41S 31L 1500W Inox com Painel Integrado",
+     "titulo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S)",
      "preco": 749.0,
-     "url": "https://www.buscape.com.br/lead?oid=1470617211&channel=1",
+     "url": "https://www.buscape.com.br/lead?oid=294567180&channel=1",
      "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-31-litros-mi41s",
-     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
-     "observacao": "ou 8x de R$ 93,62",
+     "imagem": "https://image.zst.com.br/BA6B2639BDFD6D1174D690B15EBED6A8_235_235.jpg",
+     "observacao": "ou 13x de R$ 57,61",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -276,7 +252,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/d/37/-1745139406.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     }
    ],
@@ -287,7 +263,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "tv": {
    "ofertas": [
@@ -325,7 +301,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/a/15/-1694457784.jpg",
      "observacao": "ou 8x de R$ 299,87",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -337,7 +313,7 @@
      "imagem": "https://image.zst.com.br/24B7FC4CC09A3FE522897CFCCDD7EF6F_235_235.jpg",
      "observacao": "ou 10x de R$ 284,00",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Fast Shop",
@@ -349,7 +325,7 @@
      "imagem": "https://image.zst.com.br/0D217994A51C476AF5637A235A12FE94_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     }
    ],
    "historico": [
@@ -359,7 +335,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "ventilador": {
    "ofertas": [
@@ -397,7 +373,7 @@
      "imagem": "https://image.zst.com.br/6DC9A3E977C4290F3A958AEED51A441B_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
     },
     {
@@ -410,7 +386,7 @@
      "imagem": "https://image.zst.com.br/19AF806CE7991C409A79FBCC9C575622_235_235.jpg",
      "observacao": "ou 2x de R$ 67,90",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
     }
    ],
@@ -421,7 +397,7 @@
      "loja": "Mercado Livre"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "liquidificador": {
    "ofertas": [
@@ -435,7 +411,7 @@
      "imagem": "https://image.zst.com.br/79AC748A33355422B5693984D3AD3FD8_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Americanas",
@@ -447,7 +423,7 @@
      "imagem": "https://image.zst.com.br/EF4CFDA4E155CA6992FE79DADA114682_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -459,7 +435,7 @@
      "imagem": "https://image.zst.com.br/E54C6126BD2585D06C97E6CC3678A8A1_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Mercado Livre",
@@ -481,7 +457,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "iphone-16-lacrado": {
    "ofertas": [
@@ -495,7 +471,7 @@
      "imagem": "https://image.zst.com.br/87945D666188C4A3627EE32C2FD35305_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "Mercado Livre",
@@ -519,7 +495,7 @@
      "imagem": "https://image.zst.com.br/F23B0D818FA68600F59C06A6298E56A7_235_235.jpg",
      "observacao": "ou 10x de R$ 550,00",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     },
     {
      "loja": "KaBuM",
@@ -531,7 +507,7 @@
      "imagem": "https://image.zst.com.br/A85C0CDA4C3D68545A24E7A2F7E14E9C_235_235.jpg",
      "observacao": "ou 10x de R$ 599,90",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z"
+     "encontradoEm": "2026-11-06T00:55:03Z"
     }
    ],
    "historico": [
@@ -541,7 +517,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "cooktop-4-bocas-a-gas": {
    "ofertas": [
@@ -567,7 +543,7 @@
      "imagem": "https://image.zst.com.br/A20B54E4BB7A85A529962241F3C0FD02_235_235.jpg",
      "observacao": "ou 6x de R$ 84,18",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     },
     {
@@ -592,7 +568,7 @@
      "imagem": "https://image.zst.com.br/9079B23BFBB1EB2F8AAF73A2FC9B8B12_235_235.jpg",
      "observacao": "ou 4x de R$ 138,61",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     },
     {
@@ -605,7 +581,7 @@
      "imagem": "https://image.zst.com.br/C6DD6030EE81B34586DF940987742531_235_235.jpg",
      "observacao": "ou 9x de R$ 61,00",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     }
    ],
@@ -616,7 +592,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   },
   "forno-de-embutir-eletrico": {
    "ofertas": [
@@ -642,7 +618,7 @@
      "imagem": "https://image.zst.com.br/1AFCB70578B50AF26600860926A4739D_235_235.jpg",
      "observacao": "ou 8x de R$ 133,11",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
     },
     {
@@ -655,7 +631,7 @@
      "imagem": "https://image.zst.com.br/4D40E3B8B0C6D7C5485F07CFBE333A57_235_235.jpg",
      "observacao": "ou 8x de R$ 133,11",
      "verificado": true,
-     "encontradoEm": "2026-11-06T00:46:51Z",
+     "encontradoEm": "2026-11-06T00:55:03Z",
      "modelo": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
     }
    ],
@@ -666,7 +642,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T00:46:51Z"
+   "ultimaBusca": "2026-11-06T00:55:03Z"
   }
  },
  "alertas": [
