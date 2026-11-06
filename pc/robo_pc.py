@@ -176,23 +176,44 @@ def aceita(p, modelo, titulo):
     return rb.combina(p, titulo) and rb.guarda(p, titulo)
 
 
+def bloqueada(pagina):
+    t = (pagina.title() or "").lower()
+    u = pagina.url.lower()
+    return (not t) or "não é possível acessar" in t or "nao e possivel acessar" in t or "access denied" in t \
+        or "account-verification" in u or "captcha" in u or "verifica" in t
+
+
 def rodar(pagina, produtos):
     resultado = {}
+    fora = set()  # lojas que bloquearam nesta rodada: não insiste nelas
     for p in produtos:
         if p.get("ativo") is False:
             continue
         achadas = []
         for modelo, q in termos(p):
             for loja, url_busca in LOJAS:
+                if loja in fora:
+                    continue
                 try:
                     pagina.goto(url_busca(q), wait_until="domcontentloaded", timeout=45000)
+                    try:
+                        pagina.wait_for_load_state("load", timeout=15000)  # espera redirecionamentos (Mercado Livre)
+                    except Exception:  # noqa: BLE001
+                        pass
                     cartoes = []
                     for _ in range(4):  # páginas que carregam os produtos aos poucos
                         pagina.wait_for_timeout(2000)
-                        pagina.mouse.wheel(0, 1200)
-                        cartoes = pagina.evaluate(EXTRATOR)
+                        try:
+                            pagina.mouse.wheel(0, 1200)
+                            cartoes = pagina.evaluate(EXTRATOR)
+                        except Exception:  # noqa: BLE001  (página trocou no meio: tenta de novo)
+                            continue
                         if len(cartoes) >= 8:
                             break
+                    if not cartoes and bloqueada(pagina):
+                        fora.add(loja)
+                        registrar(f"  {loja}: bloqueou o robô nesta rodada (título: {pagina.title()[:50]!r}); pulando")
+                        continue
                     if not cartoes:
                         registrar(f"  {loja}: página sem produtos (título: {pagina.title()[:60]!r})")
                 except Exception as e:  # noqa: BLE001
