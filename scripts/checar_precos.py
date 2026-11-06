@@ -573,7 +573,9 @@ def main():
             extra = f" ({avisos.brl(alvo - agora)} abaixo do alvo)" if alvo and agora <= alvo else f" (caiu {round((1 - agora / antes) * 100)}%)"
             a = {"id": f"{p['id']}-{AGORA.strftime('%Y%m%d%H%M')}", "produtoId": p["id"], "produtoNome": p["nome"],
                  "texto": f"{p['nome']}: {b['titulo'][:70]} por {avisos.brl(agora)} na {b['loja']}{extra}",
-                 "preco": agora, "loja": b["loja"], "url": b["url"], "criadoEm": ISO, "modelo": b.get("modelo")}
+                 "preco": agora, "loja": b["loja"], "url": b["url"], "criadoEm": ISO, "modelo": b.get("modelo"),
+                 "titulo": b["titulo"], "imagem": b.get("imagem") or next((o.get("imagem") for o in it["ofertas"] if o.get("imagem")), None),
+                 "de": antes if antes and antes > agora else None, "alvo": alvo}
             alertas.append(a)
             novos.append(a)
         time.sleep(1)
@@ -594,16 +596,12 @@ def main():
     except Exception:  # noqa: BLE001
         pass
     porid = {p["id"]: p for p in prods}
-    if novos and cfg.get("notificacoes") is not False:
-        partes = []
-        for a in novos[:6]:
-            p = porid.get(a["produtoId"], {"nome": a["produtoNome"], "marcas": ""})
-            mod = a.get("modelo") if a.get("modelo") in (p.get("modelos") or []) else None
-            partes.append(f"🔥 <b>{esc_html(a['texto'])}</b>\n👉 <a href=\"{esc_html(a['url'])}\">Abrir oferta na {esc_html(a['loja'])}</a>\n"
-                          f"🔎 Conferir você mesmo: {bloco_links(p, mod)}")
-        extra = f"\n\n+{len(novos) - 6} outros no app" if len(novos) > 6 else ""
-        avisos.enviar_telegram("🛒 <b>Econolife Promos</b>\n\n" + "\n\n".join(partes) + extra +
-                               f"\n\n<a href=\"{esc_html(avisos.SITE)}\">Abrir o app</a>", html_mode=True)
+    if novos and cfg.get("notificacoes") is not False and avisos.TG_TOKEN:
+        for a in novos[:8]:  # uma mensagem por oferta, com foto
+            avisos.enviar_oferta(a)
+            time.sleep(1.5)
+        if len(novos) > 8:
+            avisos.enviar_telegram(f"➕ Mais {len(novos) - 8} ofertas no app: <a href=\"{esc_html(avisos.SITE)}\">abrir</a>", html_mode=True)
 
     # resumo diário (uma vez por dia, a partir das 9h de Brasília) com os links para conferir à mão
     hora_br = (AGORA - timedelta(hours=3)).hour

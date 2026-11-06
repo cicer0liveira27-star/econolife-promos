@@ -97,6 +97,72 @@ def enviar_telegram(texto, html_mode=False):
         return False
 
 
+# ---------- alerta no formato "oferta" (foto + De/Por + Compre aqui) ----------
+EMOJI_CAT = {"geladeira": "🧊", "refrigerador": "🧊", "cooktop": "🔥", "fogao": "🔥", "forno": "🍞", "micro": "📡",
+             "tv": "📺", "smart": "📺", "lavadora": "🧺", "lava": "🧺", "maquina": "🧺", "ventilador": "🌀",
+             "liquidificador": "🥤", "purificador": "💧", "gelagua": "💧", "bebedouro": "💧", "iphone": "📱",
+             "porcelanato": "🧱", "piso": "🧱", "ceramica": "🧱", "luminaria": "💡", "spot": "💡", "led": "💡"}
+
+
+def _sa(s):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", (s or "").lower()) if unicodedata.category(c) != "Mn")
+
+
+def _h(s):
+    import html as _html
+    return _html.escape(str(s or ""), quote=True)
+
+
+def legenda_oferta(a):
+    """Texto do alerta no estilo dos grupos de promoção."""
+    nome = _sa(a.get("produtoNome") or a.get("titulo") or "")
+    emoji = next((e for k, e in EMOJI_CAT.items() if k in nome), "💥")
+    titulo = (a.get("titulo") or a.get("produtoNome") or "").strip()
+    titulo = titulo[:110] + ("…" if len(titulo) > 110 else "")
+    linhas = [f"{emoji} <b>{_h(titulo)}</b>", ""]
+    de = a.get("de")
+    if isinstance(de, (int, float)) and de > a["preco"] * 1.01:
+        linhas.append(f"De: <s>{_h(brl(de))}</s> ❌")
+    linhas.append(f"💸 <b>Por: {_h(brl(a['preco']))}</b> 🔥")
+    alvo = a.get("alvo")
+    if isinstance(alvo, (int, float)) and a["preco"] <= alvo:
+        linhas.append(f"✅ {_h(brl(alvo - a['preco']))} abaixo do seu alvo")
+    elif isinstance(de, (int, float)) and de > a["preco"]:
+        linhas.append(f"📉 Caiu {round((1 - a['preco'] / de) * 100)}%")
+    linhas += ["", f"🏬 {_h(a.get('loja') or 'Loja')}", f"🔗 Compre aqui: <a href=\"{_h(a['url'])}\">{_h(a['url'][:60] + ('…' if len(a['url']) > 60 else ''))}</a>"]
+    return "\n".join(linhas)
+
+
+def enviar_oferta(a):
+    """Manda 1 alerta: com foto (sendPhoto) quando houver, senão texto com prévia do link."""
+    if not TG_TOKEN:
+        return False
+    chat = chat_telegram()
+    if not chat:
+        return False
+    texto = legenda_oferta(a)
+    img = a.get("imagem")
+    if isinstance(img, str) and img.startswith("https://"):
+        try:
+            r = http_json(f"https://api.telegram.org/bot{TG_TOKEN}/sendPhoto",
+                          {"chat_id": chat, "photo": img, "caption": texto[:1024], "parse_mode": "HTML"})
+            if r.get("ok"):
+                print("Telegram: oferta com foto enviada")
+                return True
+        except Exception as e:  # noqa: BLE001
+            print("Telegram: foto falhou, mandando sem foto: " + str(e)[:60])
+    try:
+        prev = json.dumps({"url": a["url"], "show_above_text": True, "prefer_small_media": True})
+        r = http_json(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
+                      {"chat_id": chat, "text": texto, "parse_mode": "HTML", "link_preview_options": prev})
+        print("Telegram: oferta " + ("enviada" if r.get("ok") else "com resposta inesperada"))
+        return bool(r.get("ok"))
+    except Exception as e:  # noqa: BLE001
+        print("Telegram: falha ao enviar oferta: " + str(e)[:80])
+        return False
+
+
 # ---------- WhatsApp (CallMeBot, opcional) ----------
 def enviar_whatsapp(texto):
     for i in ("1", "2"):
@@ -140,6 +206,10 @@ def main():
     cfg = carregar("data/config.json") or {}
     if MODO == "teste":
         enviar("✅ Econolife Promos conectado! Os alertas de preço vão chegar por aqui.\n" + SITE)
+        ult = sorted((carregar("data/ofertas.json") or {}).get("alertas") or [], key=lambda x: x.get("criadoEm", ""))
+        if ult:
+            time.sleep(2)
+            enviar_oferta(ult[-1])
         return
     if cfg.get("notificacoes") is False and MODO == "novos":
         print("Alertas desligados no app. Nada enviado.")
