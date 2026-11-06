@@ -360,9 +360,27 @@ def guarda(p, titulo):
     if cat and len(cat) > 2 and not p.get("modelos") and cat not in t and not any(s in t for s in SINONIMOS.get(cat, [])):
         return False
     nome_sa = sa(p["nome"])
-    for ac in ("refis", "refil", "filtro", "filtros", "kit ", "capa", "pelicula", "suporte", "controle remoto", "cabo ", "peca", "pecas", "resistencia"):
-        if ac in t + " " and ac.strip() not in nome_sa:
+    for ac in ("refis", "refil", "filtro", "filtros", "kit ", "capa", "pelicula", "suporte", "controle remoto", "cabo ", "peca", "pecas",
+               "resistencia", "helice", "grade ", "pingadeira", "tampa", "botao", "puxador", "borracha", "vedacao", "mangueira",
+               "placa ", "termostato", "reposicao", "compativel", "acessorio"):
+        if re.search(r"\b" + re.escape(ac.strip()) + r"\b", t) and ac.strip() not in nome_sa:
             return False
+    # "... para ventilador", "... para bebedouro": é acessório do produto, não o produto
+    if cat and re.search(r"\bpara (o |a )?(" + "|".join([re.escape(cat)] + [re.escape(x) for x in SINONIMOS.get(cat, [])]) + r")\b", t):
+        return False
+    # voltagem: pediu 220V, não aceita 110V/127V (bivolt passa)
+    pedido = sa(" ".join([p["nome"], p.get("detalhes") or ""] + list(p.get("modelos") or [])))
+    if re.search(r"\b220\s?v\b", pedido) and re.search(r"\b(110|127)\s?v\b", t) and "bivolt" not in t:
+        return False
+    if re.search(r"\b(110|127)\s?v\b", pedido) and re.search(r"\b220\s?v\b", t) and "bivolt" not in t:
+        return False
+    # nome detalhado (4+ palavras): exige quase todas no título (ex.: "Crystal UHD")
+    if not p.get("modelos"):
+        palavras = [w for w in tokens(p["nome"]) if len(w) > 2 and not w.isdigit()]
+        if len(palavras) >= 4:
+            presentes = sum(1 for w in palavras if w in t or any(s in t for s in SINONIMOS.get(w, [])))
+            if presentes < len(palavras) - (len(palavras) // 5):
+                return False
     ms = marcas(p)
     if ms and not any(marca_no_titulo(m, titulo) for m in ms):
         return False
@@ -504,6 +522,10 @@ def main():
                  for o in pc.get(p["id"], []) if isinstance(o.get("preco"), (int, float)) and guarda(p, o.get("titulo", ""))]
         if do_pc:
             ofertas = (ofertas or []) + do_pc
+        if ofertas and len(ofertas) >= 3:
+            ps = sorted(o["preco"] for o in ofertas)
+            mediana = ps[len(ps) // 2]
+            ofertas = [o for o in ofertas if o["preco"] >= mediana * 0.4]
         if ofertas and (p.get("detalhes") or "").strip() and not p.get("modelos"):
             com_detalhe = [o for o in ofertas if nota_detalhe(p, o["titulo"]) > 0]
             if com_detalhe:
