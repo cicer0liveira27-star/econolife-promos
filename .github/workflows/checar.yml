@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['data/produtos.json', 'scripts/checar_precos.py']
+    paths: ['data/produtos.json', 'data/ofertas_pc.json', 'scripts/checar_precos.py']
 
 permissions:
   contents: write

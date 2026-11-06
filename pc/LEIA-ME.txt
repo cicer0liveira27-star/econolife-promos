@@ -1,0 +1,24 @@
+ECONOLIFE PROMOS - ROBÔ DO PC (Windows)
+
+O que ele faz
+  A cada 15 minutos, com o PC ligado, abre um navegador escondido e consulta
+  Amazon, Mercado Livre, Magazine Luiza, Casas Bahia e os links que você vinculou
+  aos produtos no app. Envia os preços para o seu repositório; o robô do GitHub
+  junta com o Buscapé/Zoom e manda as promoções no Telegram.
+
+Instalar (uma vez só)
+  1. Se ainda não tiver, instale o Python: https://www.python.org/downloads/
+     (na primeira tela, marque "Add python.exe to PATH").
+  2. Extraia esta pasta para um lugar fixo, ex.: C:\Econolife
+  3. Dê dois cliques em instalar.bat
+  4. Quando pedir, cole a sua chave do GitHub (a mesma do app) e aperte Enter.
+     Ele faz uma rodada de teste e agenda as próximas.
+
+Outros arquivos
+  rodar_agora.bat   roda uma vez na hora, mostrando o que encontrou
+  desinstalar.bat   para o robô do PC
+  robo_pc.log       histórico das rodadas
+
+Observações
+  - Só funciona com o computador ligado e com internet.
+  - Não mova a pasta depois de instalar (se mover, rode instalar.bat de novo).

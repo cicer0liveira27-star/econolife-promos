@@ -469,12 +469,26 @@ def main():
             del itens[k]
     novos = []
 
+    # ofertas do robô do PC (Amazon, Mercado Livre, Magalu, Casas Bahia e links colados), se forem recentes
+    pc = {}
+    try:
+        pcd = json.load(open("data/ofertas_pc.json", encoding="utf-8"))
+        idade = (AGORA - datetime.fromisoformat(pcd["atualizadoEm"].replace("Z", "+00:00"))).total_seconds()
+        if idade <= 90 * 60:
+            pc = pcd.get("itens") or {}
+        log["pc"] = {"atualizadoEm": pcd.get("atualizadoEm"), "usado": bool(pc)}
+    except Exception:  # noqa: BLE001
+        log["pc"] = {"usado": False}
+
     for p in prods:
         if p.get("ativo") is False:
             continue
         it = itens.setdefault(p["id"], {"ofertas": [], "historico": []})
         antes = min((o["preco"] for o in it.get("ofertas", []) if o.get("preco")), default=None)
         ofertas, fonte = coletar(p)
+        do_pc = [o for o in pc.get(p["id"], []) if isinstance(o.get("preco"), (int, float)) and guarda(p, o.get("titulo", ""))]
+        if do_pc:
+            ofertas = (ofertas or []) + do_pc
         log["fonte"] = log["fonte"] or fonte
         it["ultimaBusca"] = ISO
         if ofertas is None:          # fonte fora do ar: mantém o que já tinha

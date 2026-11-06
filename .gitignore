@@ -1,0 +1,4 @@
+pc/config_pc.json
+pc/robo_pc.log*
+pc/__pycache__/
+scripts/__pycache__/
