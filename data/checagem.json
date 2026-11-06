@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-05T23:36:07Z",
+ "quando": "2026-11-06T00:46:51Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 57,
- "paginas": 62,
- "ofertas": 44,
- "fotos": 44,
- "alertas": 1,
+ "buscas": 50,
+ "paginas": 59,
+ "ofertas": 43,
+ "fotos": 36,
+ "alertas": 6,
  "semResultado": [],
  "falhas": [
   {
@@ -21,9 +21,9 @@
    "ofertas": 18
   },
   "gelagua": {
-   "hits": 30,
-   "combinam": 14,
-   "ofertas": 6
+   "hits": 29,
+   "combinam": 3,
+   "ofertas": 1
   },
   "microondas": {
    "modelos": 1,
@@ -41,7 +41,7 @@
    "ofertas": 5
   },
   "lava-loucas": {
-   "hits": 38,
+   "hits": 39,
    "combinam": 17,
    "ofertas": 22
   },
@@ -53,7 +53,8 @@
   "liquidificador": {
    "hits": 22,
    "combinam": 22,
-   "ofertas": 24
+   "ofertas": 24,
+   "barradasNaTrava": 2
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -64,11 +65,10 @@
    "modelos": 2,
    "modelosAchados": 1,
    "ofertas": 5
-  },
-  "forno-de-embutir-eletrico": {
-   "hits": 26,
-   "combinam": 1,
-   "ofertas": 4
   }
+ },
+ "pc": {
+  "atualizadoEm": "2026-11-06T00:23:10Z",
+  "usado": true
  }
 }
