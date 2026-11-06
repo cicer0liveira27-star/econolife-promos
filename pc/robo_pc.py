@@ -185,11 +185,16 @@ def rodar(pagina, produtos):
         for modelo, q in termos(p):
             for loja, url_busca in LOJAS:
                 try:
-                    pagina.goto(url_busca(q), wait_until="domcontentloaded", timeout=35000)
-                    pagina.wait_for_timeout(2500)
-                    pagina.mouse.wheel(0, 1500)
-                    pagina.wait_for_timeout(800)
-                    cartoes = pagina.evaluate(EXTRATOR)
+                    pagina.goto(url_busca(q), wait_until="domcontentloaded", timeout=45000)
+                    cartoes = []
+                    for _ in range(4):  # páginas que carregam os produtos aos poucos
+                        pagina.wait_for_timeout(2000)
+                        pagina.mouse.wheel(0, 1200)
+                        cartoes = pagina.evaluate(EXTRATOR)
+                        if len(cartoes) >= 8:
+                            break
+                    if not cartoes:
+                        registrar(f"  {loja}: página sem produtos (título: {pagina.title()[:60]!r})")
                 except Exception as e:  # noqa: BLE001
                     registrar(f"  {loja}: falhou ({str(e)[:60]})")
                     continue
@@ -236,6 +241,15 @@ def main():
         print("Chave salva. Fazendo uma rodada de teste (pode levar alguns minutos)...")
     token = cfg["token"]
     # mantém os filtros iguais aos do robô do GitHub: baixa a versão mais nova dos scripts
+    for nome, caminho in (("robo_pc.py", "pc/robo_pc.py"),):
+        try:
+            j = gh("GET", caminho, token)
+            novo = base64.b64decode(j["content"]) if j else None
+            if novo and novo != open(os.path.abspath(__file__), "rb").read():
+                open(os.path.abspath(__file__), "wb").write(novo)
+                registrar("Robô do PC atualizado para a versão nova (vale a partir da próxima rodada)")
+        except Exception as e:  # noqa: BLE001
+            registrar(f"Não atualizei o robô: {str(e)[:60]}")
     for nome in ("checar_precos.py", "enviar_whatsapp.py"):
         try:
             j = gh("GET", "scripts/" + nome, token)
@@ -254,13 +268,20 @@ def main():
     produtos = (dados or {}).get("produtos", [])
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:
-        nav = pw.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-        ctx = nav.new_context(locale="pt-BR", viewport={"width": 1366, "height": 900},
-                              user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
-        pagina = ctx.new_page()
+        args = ["--disable-blink-features=AutomationControlled", "--window-position=-32000,-32000", "--window-size=1366,900"]
+        perfil = os.path.join(AQUI, "perfil_navegador")
+        try:  # Edge de verdade (vem com o Windows), com perfil próprio: as lojas tratam como pessoa navegando
+            ctx = pw.chromium.launch_persistent_context(perfil, channel="msedge", headless=False, args=args, locale="pt-BR",
+                                                        viewport={"width": 1366, "height": 900})
+        except Exception as e:  # noqa: BLE001
+            registrar(f"Edge indisponível ({str(e)[:50]}), usando Chromium")
+            ctx = pw.chromium.launch_persistent_context(perfil, headless=False, args=args, locale="pt-BR",
+                                                        viewport={"width": 1366, "height": 900})
+        ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        pagina = ctx.pages[0] if ctx.pages else ctx.new_page()
         registrar("Rodada do robô do PC começou")
         itens = rodar(pagina, produtos)
-        nav.close()
+        ctx.close()
     total = sum(len(v) for v in itens.values())
     ok = gravar_json_repo("data/ofertas_pc.json", {"atualizadoEm": ISO, "itens": itens}, token,
                           f"Robô do PC: {total} ofertas")
