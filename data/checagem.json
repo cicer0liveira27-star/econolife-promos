@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-06T02:19:36Z",
+ "quando": "2026-11-06T02:30:20Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 45,
+ "paginas": 48,
  "ofertas": 27,
  "fotos": 27,
  "alertas": 0,
@@ -68,9 +68,14 @@
    "barradasNaTrava": 9
   },
   "play-station-5-slim": {
-   "hits": 0,
+   "hits": 18,
    "combinam": 0,
-   "exemplos": []
+   "exemplos": [
+    "Console Playstation Classic Sony",
+    " PlayStation 5 825GB",
+    "Sony Playstation 4 500Gb - Hdmi - 3D - Bluray",
+    "Playstation 5 Pro 2TB"
+   ]
   }
  },
  "pc": {
