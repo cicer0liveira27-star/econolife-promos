@@ -1,12 +1,13 @@
 {
- "quando": "2026-11-06T01:45:11Z",
+ "quando": "2026-11-06T02:00:25Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 48,
- "ofertas": 34,
- "fotos": 29,
+ "paginas": 44,
+ "ofertas": 28,
+ "fotos": 28,
  "alertas": 0,
  "semResultado": [
+  "tv",
   "play-station-5-slim"
  ],
  "falhas": [
@@ -39,7 +40,7 @@
    "ofertas": 5
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 38,
    "combinam": 17,
    "ofertas": 22
   },
@@ -74,6 +75,6 @@
  },
  "pc": {
   "atualizadoEm": "2026-11-06T00:23:10Z",
-  "usado": true
+  "usado": false
  }
 }
