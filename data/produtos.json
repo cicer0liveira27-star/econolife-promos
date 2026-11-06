@@ -43,14 +43,17 @@
   },
   {
    "id": "lavadora",
-   "nome": "Lavadora Frontal",
+   "nome": "Máquina de Lavar Smart",
    "categoria": "Eletrodomésticos",
    "precoAlvo": 2800,
    "marcas": "Brastemp, Electrolux ou Midea",
    "detalhes": "cinza ou inox",
    "unidade": "",
    "ativo": true,
-   "criadoEm": "2026-11-05T15:10:06Z"
+   "criadoEm": "2026-11-05T15:10:06Z",
+   "modelos": [
+    "Máquina de Lavar Smart"
+   ]
   },
   {
    "id": "lava-loucas",
