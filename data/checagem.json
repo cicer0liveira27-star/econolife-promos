@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-06T01:30:20Z",
+ "quando": "2026-11-06T01:36:51Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 50,
- "paginas": 44,
+ "paginas": 45,
  "ofertas": 34,
  "fotos": 29,
  "alertas": 0,
@@ -32,7 +32,7 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 30,
+   "hits": 26,
    "combinam": 2,
    "ofertas": 5
   },
