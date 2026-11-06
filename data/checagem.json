@@ -1,14 +1,12 @@
 {
- "quando": "2026-11-06T12:00:25Z",
+ "quando": "2026-11-06T12:15:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 52,
- "paginas": 48,
- "ofertas": 29,
- "fotos": 29,
- "alertas": 0,
- "semResultado": [
-  "tv"
- ],
+ "paginas": 50,
+ "ofertas": 42,
+ "fotos": 33,
+ "alertas": 6,
+ "semResultado": [],
  "falhas": [
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -26,7 +24,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 5
+   "ofertas": 6
   },
   "tv": {
    "hits": 0,
@@ -53,7 +51,7 @@
    "hits": 22,
    "combinam": 22,
    "ofertas": 24,
-   "barradasNaTrava": 4
+   "barradasNaTrava": 8
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -73,7 +71,7 @@
   }
  },
  "pc": {
-  "atualizadoEm": "2026-11-06T00:23:10Z",
-  "usado": false
+  "atualizadoEm": "2026-11-06T11:49:38Z",
+  "usado": true
  }
 }
