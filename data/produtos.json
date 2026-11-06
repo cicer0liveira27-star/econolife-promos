@@ -17,17 +17,6 @@
    ]
   },
   {
-   "id": "gelagua",
-   "nome": "Bebedouro",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 450,
-   "marcas": "Electrolux",
-   "detalhes": "cinza",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T15:10:03Z"
-  },
-  {
    "id": "microondas",
    "nome": "Micro-ondas Electrolux 31L",
    "categoria": "Eletrodomésticos",
