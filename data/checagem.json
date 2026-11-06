@@ -1,16 +1,21 @@
 {
- "quando": "2026-11-06T09:30:19Z",
+ "quando": "2026-11-06T09:45:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 44,
- "ofertas": 29,
- "fotos": 29,
+ "paginas": 43,
+ "ofertas": 28,
+ "fotos": 28,
  "alertas": 0,
  "semResultado": [
   "tv",
   "play-station-5-slim"
  ],
  "falhas": [
+  {
+   "produto": "lava-loucas",
+   "onde": "/lava-loucas/lava-loucas-10-servicos-electrolux-ls10e-inox-c",
+   "motivo": "HTTP Error 500: Internal Server Error"
+  },
   {
    "produto": "cooktop-4-bocas-a-gas",
    "onde": "amazon.com.br",
@@ -27,7 +32,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 5
   },
   "tv": {
    "hits": 0,
@@ -40,7 +45,7 @@
    "ofertas": 5
   },
   "lava-loucas": {
-   "hits": 40,
+   "hits": 41,
    "combinam": 18,
    "ofertas": 20
   },
