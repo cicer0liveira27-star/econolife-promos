@@ -121,16 +121,21 @@ def legenda_oferta(a):
     titulo = (a.get("titulo") or a.get("produtoNome") or "").strip()
     titulo = titulo[:110] + ("…" if len(titulo) > 110 else "")
     linhas = [f"{emoji} <b>{_h(titulo)}</b>", ""]
-    de = a.get("de")
-    if isinstance(de, (int, float)) and de > a["preco"] * 1.01:
-        linhas.append(f"De: <s>{_h(brl(de))}</s> ❌")
-    linhas.append(f"💸 <b>Por: {_h(brl(a['preco']))}</b> 🔥")
-    alvo = a.get("alvo")
-    if isinstance(alvo, (int, float)) and a["preco"] <= alvo:
-        linhas.append(f"✅ {_h(brl(alvo - a['preco']))} abaixo do seu alvo")
-    elif isinstance(de, (int, float)) and de > a["preco"]:
-        linhas.append(f"📉 Caiu {round((1 - a['preco'] / de) * 100)}%")
+    de, preco = a.get("de"), a.get("preco")
+    if isinstance(preco, (int, float)) and preco > 0:
+        if isinstance(de, (int, float)) and de > preco * 1.01:
+            linhas.append(f"De: <s>{_h(brl(de))}</s> ❌")
+        linhas.append(f"💸 <b>Por: {_h(brl(preco))}</b> 🔥")
+        alvo = a.get("alvo")
+        if isinstance(alvo, (int, float)) and preco <= alvo:
+            linhas.append(f"✅ {_h(brl(alvo - preco))} abaixo do seu alvo")
+        elif isinstance(de, (int, float)) and de > preco:
+            linhas.append(f"📉 Caiu {round((1 - preco / de) * 100)}%")
+    else:
+        linhas.append("💸 <b>Preço no link</b> 🔥")
     linhas += ["", f"🏬 {_h(a.get('loja') or 'Loja')}", f"🔗 Compre aqui: <a href=\"{_h(a['url'])}\">{_h(a['url'][:60] + ('…' if len(a['url']) > 60 else ''))}</a>"]
+    if a.get("post"):
+        linhas.append(f"📣 <a href=\"{_h(a['post'])}\">Ver post original</a>")
     return "\n".join(linhas)
 
 
