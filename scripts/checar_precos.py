@@ -460,12 +460,12 @@ def links_manuais(p, modelo=None):
     return [(n, u.format(q=urllib.parse.quote_plus(q), d=urllib.parse.quote("-".join(q.split())))) for n, u in lojas]
 
 
-def h(s):
+def esc_html(s):
     return html.escape(str(s or ""), quote=True)
 
 
 def bloco_links(p, modelo=None):
-    return " · ".join(f'<a href="{h(u)}">{h(n)}</a>' for n, u in links_manuais(p, modelo))
+    return " · ".join(f'<a href="{esc_html(u)}">{esc_html(n)}</a>' for n, u in links_manuais(p, modelo))
 
 
 # ---------------- principal ----------------
@@ -577,11 +577,11 @@ def main():
         for a in novos[:6]:
             p = porid.get(a["produtoId"], {"nome": a["produtoNome"], "marcas": ""})
             mod = a.get("modelo") if a.get("modelo") in (p.get("modelos") or []) else None
-            partes.append(f"🔥 <b>{h(a['texto'])}</b>\n👉 <a href=\"{h(a['url'])}\">Abrir oferta na {h(a['loja'])}</a>\n"
+            partes.append(f"🔥 <b>{esc_html(a['texto'])}</b>\n👉 <a href=\"{esc_html(a['url'])}\">Abrir oferta na {esc_html(a['loja'])}</a>\n"
                           f"🔎 Conferir você mesmo: {bloco_links(p, mod)}")
         extra = f"\n\n+{len(novos) - 6} outros no app" if len(novos) > 6 else ""
         avisos.enviar_telegram("🛒 <b>Econolife Promos</b>\n\n" + "\n\n".join(partes) + extra +
-                               f"\n\n<a href=\"{h(avisos.SITE)}\">Abrir o app</a>", html_mode=True)
+                               f"\n\n<a href=\"{esc_html(avisos.SITE)}\">Abrir o app</a>", html_mode=True)
 
     # resumo diário (uma vez por dia, a partir das 9h de Brasília) com os links para conferir à mão
     hora_br = (AGORA - timedelta(hours=3)).hour
@@ -592,19 +592,19 @@ def main():
                 continue
             of = (itens.get(p["id"]) or {}).get("ofertas") or []
             b = of[0] if of else None
-            linha = f"<b>{h(p['nome'])}</b>"
+            linha = f"<b>{esc_html(p['nome'])}</b>"
             if b:
                 alvo = p.get("precoAlvo")
                 marca = " ✅" if alvo and b["preco"] <= alvo else ""
-                linha += f"\n🤖 Robô achou: <a href=\"{h(b['url'])}\">{h(avisos.brl(b['preco']))} na {h(b['loja'])}</a>{marca}"
+                linha += f"\n🤖 Robô achou: <a href=\"{esc_html(b['url'])}\">{esc_html(avisos.brl(b['preco']))} na {esc_html(b['loja'])}</a>{marca}"
                 if alvo:
-                    linha += f" · alvo {h(avisos.brl(alvo))}"
+                    linha += f" · alvo {esc_html(avisos.brl(alvo))}"
             else:
                 linha += "\n🤖 Robô ainda não achou"
             mods = p.get("modelos") or [None]
             for m in mods[:3]:
                 rot = (codigo_modelo(m) or "").upper() if m else ""
-                linha += f"\n🔎 {h(rot + ': ') if rot else ''}{bloco_links(p, m)}"
+                linha += f"\n🔎 {esc_html(rot + ': ') if rot else ''}{bloco_links(p, m)}"
             blocos.append(linha)
         for i in range(0, len(blocos), 5):
             cab = "📋 <b>Resumo do dia — Econolife Promos</b>\n\n" if i == 0 else ""
