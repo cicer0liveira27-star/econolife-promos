@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-06T21:30:21Z",
+ "quando": "2026-11-06T21:45:15Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 50,
  "paginas": 57,
- "ofertas": 32,
- "fotos": 32,
+ "ofertas": 31,
+ "fotos": 31,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -27,7 +27,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 5
   },
   "tv": {
    "hits": 0,
@@ -42,7 +42,7 @@
   "lava-loucas": {
    "hits": 40,
    "combinam": 17,
-   "ofertas": 18
+   "ofertas": 19
   },
   "ventilador": {
    "modelos": 1,
