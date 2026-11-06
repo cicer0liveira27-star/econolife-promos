@@ -1,7 +1,7 @@
 {
- "atualizadoEm": "2026-11-06T18:15:16Z",
+ "atualizadoEm": "2026-11-06T18:30:21Z",
  "status": {
-  "resumo": "43 ofertas de lojas confiáveis via Buscapé e Zoom",
+  "resumo": "31 ofertas de lojas confiáveis via Buscapé e Zoom",
   "produtosVerificados": 12,
   "alertas": 0
  },
@@ -18,19 +18,7 @@
      "imagem": "https://image.zst.com.br/D4604038172992FE7673A10A9C0197CA_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
-     "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
-    },
-    {
-     "loja": "Mercado Livre",
-     "vendedor": null,
-     "titulo": "Geladeira Electrolux Frost Free 431l Autosense Inox (tf70s)",
-     "preco": 2619,
-     "url": "https://www.mercadolivre.com.br/geladeira-electrolux-frost-free-431l-autosense-inox-tf70s/up/MLBU5637143139",
-     "imagem": null,
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     },
     {
@@ -43,7 +31,7 @@
      "imagem": "https://image.zst.com.br/5C087F20E580B2952D1EC90E175DB00E_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     },
     {
@@ -56,7 +44,7 @@
      "imagem": "https://image.zst.com.br/E27683F2C31D9E7B5F22C71DC10BF551_235_235.jpg",
      "observacao": "ou 12x de R$ 241,58",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     },
     {
@@ -69,8 +57,21 @@
      "imagem": "https://image.zst.com.br/17F50FBA99E696543979B69016057BF9_235_235.jpg",
      "observacao": "ou 8x de R$ 362,37",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
+    },
+    {
+     "loja": "Magazine Luiza",
+     "vendedor": null,
+     "titulo": "Geladeira IF44S 400L Frost Free AutoSense Inverter Electrolux, Inox, 2",
+     "preco": 3115.05,
+     "url": "https://www.buscape.com.br/lead?oid=1576420221&channel=1",
+     "pagina": "https://www.buscape.com.br/geladeira/geladeira-electrolux-if44s-frost-free-duplex-400-litros-inox",
+     "imagem": "https://image.zst.com.br/499D1D90F77A401205BDD286FF853007_235_235.jpg",
+     "observacao": "ou 10x de R$ 327,90",
+     "verificado": true,
+     "encontradoEm": "2026-11-06T18:30:21Z",
+     "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     }
    ],
    "historico": [
@@ -85,7 +86,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "lava-loucas": {
    "ofertas": [
@@ -99,7 +100,7 @@
      "imagem": "https://image.zst.com.br/24FD142E3F06DF62688F7987FE5C3B3C_235_235.jpg",
      "observacao": "ou 8x de R$ 208,25",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -111,7 +112,7 @@
      "imagem": "https://image.zst.com.br/21BC92E22D914BAD159F446E7D6E4BBA_235_235.jpg",
      "observacao": "ou 10x de R$ 209,99",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Fast Shop",
@@ -123,7 +124,7 @@
      "imagem": "https://image.zst.com.br/7FF8492619113FDC0CA977AFB913049C_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Electrolux",
@@ -135,7 +136,7 @@
      "imagem": "https://image.zst.com.br/875E8BB7A4660BBE4668F780990859A3_235_235.jpg",
      "observacao": "ou 14x de R$ 149,92",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Amazon",
@@ -147,7 +148,7 @@
      "imagem": "https://image.zst.com.br/900AAA648AEB38B710DB03EC0558EFDF_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     }
    ],
    "historico": [
@@ -162,23 +163,10 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "lavadora": {
-   "ofertas": [
-    {
-     "loja": "Amazon",
-     "vendedor": null,
-     "titulo": "Electrolux Máquina de Lavar Frontal Cinza Ônix Inverter 85 x 60 x 65,9 cm 12 kg com Vapor Care, AutoSense e Painel Full To...",
-     "preco": 2991.55,
-     "url": "https://www.amazon.com.br/Electrolux-M%C3%A1quina-Frontal-Inverter-AutoSense/dp/B0GXWZPYPY/ref=sr_1_12?dib=eyJ2IjoiMSJ9.1CuEVdgMSY7qO_2oN2p4BycHBfC31X6D6RT0LXzO-KYDKU_-Rx7dYzVpKp931_OxYCiYyMIBwPiHE3WPcj5mprBKDOFAWnqFB8oEr2ND-r61d921rPdrV5R9adF0Ji-MXmoQbyZ3AVF90W5VHmUJlsXUHV8zvT2S4eDuliGaZEgGVt_IWKsLJXn6UefPvJtCsQSf3kn-HRGG77EtEahYrdfBS3-XaPwXK5bCjvPtKI6VDCWvGxalvBtfXa3RDcB-_J8Y7GWi67leGRV9rIM-TfIaWTTSad2u-vpo_DiPAIM.Amsdvcj8tGDSx5JhTh-5hnkw9ay6Q0pw6qyeJEktjVU&dib_tag=se&keywords=Lavadora+Frontal&qid=1793983739&sr=8-12",
-     "imagem": "https://m.media-amazon.com/images/I/518vRAEpn3L._AC_UL320_.jpg",
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": null
-    }
-   ],
+   "ofertas": [],
    "historico": [
     {
      "d": "2026-11-05",
@@ -191,7 +179,7 @@
      "loja": "Fast Shop"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "microondas": {
    "ofertas": [
@@ -205,7 +193,7 @@
      "imagem": "https://image.zst.com.br/2EC29255A1876F447F0FAF812F735238_235_235.jpg",
      "observacao": "ou 6x de R$ 123,17",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -218,7 +206,7 @@
      "imagem": "https://image.zst.com.br/BA6B2639BDFD6D1174D690B15EBED6A8_235_235.jpg",
      "observacao": "ou 13x de R$ 57,61",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -231,19 +219,7 @@
      "imagem": "https://image.zst.com.br/4EC1979B6A05F6835DA06B8391AF45D5_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
-     "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
-    },
-    {
-     "loja": "Amazon",
-     "vendedor": null,
-     "titulo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V",
-     "preco": 749,
-     "url": "https://www.amazon.com.br/Micro-Ondas-MI41S-Prata-220v-Electrolux/dp/B076XC1QX7/ref=sr_1_5?dib=eyJ2IjoiMSJ9.6A5-p_szmb43j_iZPiqKwhoSlX8JJJ4Zx4GAzym-UhUFzP3mrLzzUwEEgM2AOpk6xdPjDe3UK09yVxpve3LMtg3Z54xMGbokZQekQK6nuG_LRvpK-89MmfVwbedJXyz0fs3RACeUbrNG8gvfCIVChEgnbittrIFsac_-aYu-h4BWPgpvkgu9w-pwo3MbQRiJEbX6aTO3mrXwBG6v3RRJlz75x1uhR2hDSCywbY2VDDPWMlSxjl4ZUQLFQXHIcUDOtiZKRke5GvgFmfkWnSJvU3BE0jCWPBnhfgilOoNa4CE.SUdeJPNBBaoDGQZrThmHcLzjL3i05UPPtaZeydyIlck&dib_tag=se&keywords=electrolux+mi41s&qid=1793983668&sr=8-5&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751",
-     "imagem": "https://m.media-amazon.com/images/I/41KuuCLPAJL._AC_UL320_.jpg",
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     }
    ],
@@ -259,7 +235,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "tv": {
    "ofertas": [
@@ -300,34 +276,10 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "ventilador": {
    "ofertas": [
-    {
-     "loja": "Mercado Livre",
-     "vendedor": null,
-     "titulo": "Ventilador De Mesa Britânia Maxx Force 30cm BVT301",
-     "preco": 103,
-     "url": "https://www.mercadolivre.com.br/ventilador-de-mesa-britania-maxx-force-30cm-bvt301/p/MLB27063130",
-     "imagem": null,
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
-    },
-    {
-     "loja": "Amazon",
-     "vendedor": null,
-     "titulo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V",
-     "preco": 104.9,
-     "url": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT301-Tecnologia-Force/dp/B0CHC9NDN2/ref=sr_1_2?dib=eyJ2IjoiMSJ9.5Usi5MgsR_jC8-qgc5f0zfGs2VqxNAZUzXeCbE0KHDdhl1Yi11Xtw2LCJW8g2R0U5QGDvKd0_2rGT6ybUVZg-HAkQVjfL1EyJ4w5i-SP4b7ZXjUsPtKyf7sdnLue61F_CXxK3kI7sGetK0huZyj9j-hGNWhSAlYAwH6h2-usgL9kTpADHsIosi508x_3iU-G-uztk_FU1gdM-ytzIyH7-4Pgl-2oS41E6azb0GWkWwb4V3xN3V-QJk1iXSSPJF5Earf-XlO_nOiIgztUmVB5lsUlf4CTG5pCIMWNiRJP_6c.8Z17ddyShxR7Vc69fBh11k1BB2jbJ5qClyfO3NTTp-4&dib_tag=se&keywords=britania+bvt301&qid=1793983813&sr=8-2&ufe=app_do%3Aamzn1.fos.88ac1f0f-cd00-42df-b2ac-542b26a29c3a",
-     "imagem": "https://m.media-amazon.com/images/I/71do9EiS4KL._AC_UL320_.jpg",
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
-    },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
@@ -338,7 +290,7 @@
      "imagem": "https://image.zst.com.br/19AF806CE7991C409A79FBCC9C575622_235_235.jpg",
      "observacao": "ou 2x de R$ 67,90",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 220V"
     }
    ],
@@ -354,7 +306,7 @@
      "loja": "Mercado Livre"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "liquidificador": {
    "ofertas": [
@@ -368,7 +320,7 @@
      "imagem": "https://image.zst.com.br/EF4CFDA4E155CA6992FE79DADA114682_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Amazon",
@@ -380,7 +332,7 @@
      "imagem": "https://image.zst.com.br/1484CE87BDA37AA58979BB23317D77B6_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -392,19 +344,7 @@
      "imagem": "https://image.zst.com.br/E54C6126BD2585D06C97E6CC3678A8A1_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
-    },
-    {
-     "loja": "Mercado Livre",
-     "vendedor": null,
-     "titulo": "Liquidificadores",
-     "preco": 150,
-     "url": "https://lista.mercadolivre.com.br/eletrodomesticos/pequenos-eletrodomesticos/cozinha/preparacao-bebidas/liquidificadores/",
-     "imagem": null,
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": null
+     "encontradoEm": "2026-11-06T18:30:21Z"
     }
    ],
    "historico": [
@@ -419,7 +359,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "iphone-16-lacrado": {
    "ofertas": [
@@ -433,7 +373,7 @@
      "imagem": "https://image.zst.com.br/87945D666188C4A3627EE32C2FD35305_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -445,19 +385,7 @@
      "imagem": "https://image.zst.com.br/F23B0D818FA68600F59C06A6298E56A7_235_235.jpg",
      "observacao": "ou 10x de R$ 543,10",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
-    },
-    {
-     "loja": "Mercado Livre",
-     "vendedor": null,
-     "titulo": "Apple iPhone 16 (128 Gb) - Rosa - Distribuidor Autorizado, 35% OFF, 5.054, 4.9 stars, +10000 vendidos",
-     "preco": 5054,
-     "url": "https://click1.mercadolivre.com.br/display/clicks/MLB/count?a=kA0xwjHUXEYH3m_uqI8eokeEuLaq7e-UrcQxvpTffuP8naxrneAI5Ev0k3yspFEoF9lgVdmOwQI-0deYcype9n-okM3roXyhxL6FdwufD7P_oMxD9O12SqCQ3mUV5NdAJxwYJlvSF12oegRrnFqipKBr7bvAQeGeWTcfpwzxcBqwove9x2ZgJvAhwAgmn1o9GCYcKQU-zST6NM3yHDZUK2Z2il7Y-kj_j8JXZ9PwgNRPpZjYgJED7xY6goS4z4vapud15JTGehWrlBok8PQ2rmkdXTFbU_N_6Kp9K4wXqdA5PCJUyBkK3KgLdd9OrkhWvW574SygcLoZ9tc8_7if7UmXwykYpdF-CkwomSLOvERcNhTpjrMgKdSEnd5L0SoFYYnp75iwKlZ4BxAigDkULVgZwhvQ8M6vFnNBl7KKzaoP5R1-BfTkELPXidohIpJI_jOjxGfT90ZY2-lEyKP_nAjJVXTdN6r_k9ZAtnLMRFpMDqiqKQNlR5c8gPUDr3eoLlju2zT32dw72Z1p9_BG_tndehSos0kMpC7ldO25Jt8jYIhpeDqoIf0RViE5sl9FZ964G_sJmqChn-0TRKS5uUnSlALN-tlN1uyVvNogOtpfdOUvlOlcROF4Z2JjK9Aw9LI9FPubOvifMJQlsQL_QiHqKT7YcSHrMQydM35ze1r-BcJkh8bZfHcSa_QH9ZeXfBhgD7GQvOlkLVzWVasDiPBB_xYtSEzz67tqEsgsIXIBWAzbwH45kjyKa2GN8CbXV96l6NlETlfInydmYmSEFJqt2tEMf1pkTJQPLvTC3EFELq3YnfnrzWN7CzYyM8DoMZQt1j4uCIE5uwT1awQXIzHybFuEdkJaUgwjCRTTox3YmHfxzHOPD_2r-454TBPYom3yWXP0PHpCBH36A5Su2inutKJr9x_WXLRbmb3u9KcsyS43-40wBAX-iCSl0FAa4EnbqiLoufoDdCwJ2ADlcPdVfZCkUfdAs_-sssq07sSofSb9EUOp59hPMQq6O3NX9ALpvSCw6mBOR_8yAylOIXhIzDE46Qn5gPR5EU8Hno5iIQ00dxDp950nUfrRpOpNlH-GZJxtl66oAkDDSljG_ylt9ntKvzaSv6W8Uz0Yy1OCAShfXzucfZvHmItG1E-STvx4o5HuNxKMePVIc-dFeVboQLGga6-rbIlUcLG3ULCXYKhmR9HIm8SFbuETjBWnyB7jXwaUbnsizQBPrFP4M5n9XWUs_8aGW73Gwm3h0mPYXGsjHD7avp7Y3CFZYnHCKNaheaal_Gr44wgIuge3AuSeDT21v4zVRjy5Eunb1od4aWwkTX0TO3F3ytJG-M2zndhdRP2u1yD8sUz1nEL7ibbTpUf5xS7miTMaMP9bDc9_gYcMEj5hZeiPSk551a32krecy7a5cLwcNkm2wBPMURUgiI_TvXuagugyls5JvE1NIgYbB-VKr-DB9O2THL38jntU4WTaS-jmHSTMGHgXRLGy_agbk9RnkPVIoHCFqHtvhjOHLYcjgY4NeEfXlRSkvRlMj6u1O0fXVk-n08oqavHLR8sBFny2C0JWsQ1HjfnQpd0z2wg3W5xrxCPEE1ptfIXUcaKquAjTv5H8j0IZxemUEi0yt0nkAEuZ-2LOz-R3qTMTYly-bh3sc5dC7P9_Y3TFLjtiWX9zoMRHNcseBSdwh8KgTjdYnDKOp2cfHaV0iiFhM9TyffCEJfXZTZRx6d3gp567pv9OQVyRHOdfyHMquwRUGkoKanPVBdDzV_SustWfkOk6rHVpnjpbDgMLsDNjGcUEqPTld6u1X1-kog-gi-bTtsxklgh4V-RbfSsZ_SOoqbPMzP2FGtq7hYDMnxVfBsUo95I9pClrFx-wxZqVPOQMD4C8j6ix49WdS9DxP06fFggwh-gFLPdYr-kbX63x3WQ27hTn1W7Wk6lw4nPm4d-_HMhrF2CHoiw2dfbQhJsNZR6jM0FUhiJTqQN-UcldCWrZ1-9QB-oN6fTSReMBb55MCpsyncfkfiR665etlPNPsQconoit9ZvH1OfRkDRGP9vvn6k8dz6Mm5DcXyERfwfmueOSSl3qdOjqlJbaOw3WbEp_MDIrNqkEf88EmnZYv1AxT3SnuirjU33ceBXpbFw756L8EtmLeIvnWe6ybFi8ULHbz6tO2lO_iUrI&cipher=v2",
-     "imagem": "https://http2.mlstatic.com/D_NQ_2X_814556-MLA95640549800_102025-OO.webp",
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": null
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "KaBuM",
@@ -469,7 +397,7 @@
      "imagem": "https://image.zst.com.br/A85C0CDA4C3D68545A24E7A2F7E14E9C_235_235.jpg",
      "observacao": "ou 10x de R$ 599,90",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     }
    ],
    "historico": [
@@ -484,34 +412,10 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "cooktop-4-bocas-a-gas": {
    "ofertas": [
-    {
-     "loja": "Amazon",
-     "vendedor": null,
-     "titulo": "Cooktop 4 Bocas a Gás Dako Pratiko com Acendimento Automático e Mega Chama Preto Bivolt",
-     "preco": 379,
-     "url": "https://www.amazon.com.br/Cooktop-Dako-Pratiko-Acendimento-Autom%C3%A1tico/dp/B0G1CR9S5P/ref=sr_1_6?dib=eyJ2IjoiMSJ9.5j0-P9C9vJj-cywPfu2AJX-ZepxTnEPJrA048ZI3o_fuVOYRDSGyMW6rPXOL_jpoIXZZMJmV531bvkYu-NnpxhoqHUseWMrdBHmxIOBaHDzPutXVQmNEy4xBTBaBxSKdp-kr4w9H4rMX00CanZWIC_aE2vmzuEnh0MvgjN5oFMFQr7pfcW1ijB91B5k1QgFt0P9U-CbkxbzksU39GXSk4Rn5xpG111XlGt2qwBUUvm4UCXmQbEnfSMnzdjpW8a7bOtqGyQBz_WNwmpcewf410alPHbug_9hi-WCla6zhLiI.0uzwD-2_G4DYNYK7kF8zPXKx70Gm-HTcPv_6ZrGB9sI&dib_tag=se&keywords=cooktop+dako+pratiko&qid=1793983967&sr=8-6&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6",
-     "imagem": "https://m.media-amazon.com/images/I/41WDqsY9p4L._AC_UL320_.jpg",
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": "Cooktop 4 Bocas a Gás Dako Pratiko com Acendimento Automático e Mega Chama Preto Bivolt"
-    },
-    {
-     "loja": "Mercado Livre",
-     "vendedor": null,
-     "titulo": "Cooktop 4 Bocas Dako Pratiko Mesa de Vidro e Acendimento Super Automático A Gás Preto Bivolt",
-     "preco": 421,
-     "url": "https://www.mercadolivre.com.br/cooktop-4-bocas-dako-pratiko-mesa-de-vidro-e-acendimento-super-automatico-a-gas-preto-bivolt/p/MLB65017086",
-     "imagem": null,
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": "Cooktop 4 Bocas a Gás Dako Pratiko com Acendimento Automático e Mega Chama Preto Bivolt"
-    },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
@@ -522,7 +426,7 @@
      "imagem": "https://image.zst.com.br/9079B23BFBB1EB2F8AAF73A2FC9B8B12_235_235.jpg",
      "observacao": "ou 4x de R$ 138,61",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     },
     {
@@ -535,7 +439,7 @@
      "imagem": "https://image.zst.com.br/C9BE1792FC63CFDE224E2DD7137024C8_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     }
    ],
@@ -551,22 +455,10 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "forno-de-embutir-eletrico": {
    "ofertas": [
-    {
-     "loja": "Amazon",
-     "vendedor": null,
-     "titulo": "Forno de Embutir Elétrico Dako Supreme 52 L Analógico Preto - 220V : Amazon.com.br: Eletrodomésticos",
-     "preco": 820.7,
-     "url": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR",
-     "imagem": null,
-     "observacao": "seu link",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
-    },
     {
      "loja": "Magazine Luiza",
      "vendedor": null,
@@ -577,7 +469,7 @@
      "imagem": "https://image.zst.com.br/1AFCB70578B50AF26600860926A4739D_235_235.jpg",
      "observacao": "ou 8x de R$ 133,11",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
     },
     {
@@ -590,7 +482,7 @@
      "imagem": "https://image.zst.com.br/4D40E3B8B0C6D7C5485F07CFBE333A57_235_235.jpg",
      "observacao": "ou 8x de R$ 133,11",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z",
+     "encontradoEm": "2026-11-06T18:30:21Z",
      "modelo": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
     }
    ],
@@ -606,7 +498,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "philco-cafeteira": {
    "ofertas": [
@@ -620,31 +512,19 @@
      "imagem": "https://image.zst.com.br/AC3B2C59FCB579B58F80C392B87F9361_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Amazon",
      "vendedor": null,
-     "titulo": "Cafeteira Philco PCF20A 720ml 20 Cafezinhos 650W 220V",
-     "preco": 103,
-     "url": "https://www.amazon.com.br/sspa/click?ie=UTF8&spc=MTo2Njk0NDU4MDIyNjgwMzA0OjE3OTM5ODQwNjI6c3BfYXRmOjMwMTU4MjkwODA5MjAwMjo6MDo6&url=%2FCafeteira-Philco-PCF20A-720ml-Cafezinhos%2Fdp%2FB0CZ4C4SJT%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.KALIyhUuEmimpFgFZ9IYZGWsUq06StgwebtF_chOJbscZWAANEydvNPdTRCRo8nHGUJeULiNXqfXgD5I39xTvl3zZIwTcSsuIk69VHKMk3AtbSfxeGBLSNs8_FjViO4XvUEUts96hEKoltgLdg9_M6nBr2Oc8Z_FbdRNaQzpHfbnjvPDdXwd-aRFIcvrQrtN6Gym9y-aYnIRKUnovkutMOvv7AbUbnZEgNZIo1SYWBHc66Ek_FQMtfvOQk-e32iKyw8Dc79BBzDckWUJw5eS9Qj_J8H9dR7xNdMM7YMMx14.h73yvJcJhCsuLvnntQ8HkUsrLeDXE75iW5WEiJYw4u0%26dib_tag%3Dse%26keywords%3DCafeteira%2Bphilco%26qid%3D1793984062%26sr%3D8-1-spons%26ufe%3Dapp_do%253Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
-     "imagem": "https://m.media-amazon.com/images/I/51aGsf9165L._AC_UL320_.jpg",
-     "observacao": "achado pelo robô do PC",
+     "titulo": "Cafeteira Philco PCF20A 720ml 20 Cafezinhos 650W 127V",
+     "preco": 108.89,
+     "url": "https://www.buscape.com.br/lead?oid=1317997216&channel=1",
+     "pagina": "https://www.buscape.com.br/cafeteira-eletrica/cafeteira-eletrica-20-xicaras-philco-pcf20a",
+     "imagem": "https://image.zst.com.br/4DAE29814ECAABD2B6185653F21807D8_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": null
-    },
-    {
-     "loja": "Mercado Livre",
-     "vendedor": null,
-     "titulo": "cafeteira philco expresso",
-     "preco": 250,
-     "url": "https://lista.mercadolivre.com.br/cafeteira-philco-expresso",
-     "imagem": null,
-     "observacao": "achado pelo robô do PC",
-     "verificado": true,
-     "encontradoEm": "2026-11-06T16:46:28Z",
-     "modelo": null
+     "encontradoEm": "2026-11-06T18:30:21Z"
     }
    ],
    "historico": [
@@ -654,7 +534,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   },
   "air-fryer": {
    "ofertas": [
@@ -668,7 +548,7 @@
      "imagem": "https://image.zst.com.br/021B2AC0BB76157B68A22E0120F7312B_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -680,7 +560,7 @@
      "imagem": "https://image.zst.com.br/8A33A038AB63309E5C1A3C2B5ACDF362_235_235.jpg",
      "observacao": "ou 2x de R$ 99,95",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Americanas",
@@ -692,7 +572,7 @@
      "imagem": "https://image.zst.com.br/F0033D6A7A1A6F76968DFC00D36784AA_235_235.jpg",
      "observacao": "ou 4x de R$ 57,49",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Fast Shop",
@@ -704,7 +584,7 @@
      "imagem": "https://image.zst.com.br/0AA3B0D3AD339F0C857D793614FA6B77_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     },
     {
      "loja": "Webcontinental",
@@ -716,7 +596,7 @@
      "imagem": "https://image.zst.com.br/66D785EC13C610C967DDCACE2C61BE22_235_235.jpg",
      "observacao": "ou 3x de R$ 104,70",
      "verificado": true,
-     "encontradoEm": "2026-11-06T18:15:16Z"
+     "encontradoEm": "2026-11-06T18:30:21Z"
     }
    ],
    "historico": [
@@ -726,7 +606,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-06T18:15:16Z"
+   "ultimaBusca": "2026-11-06T18:30:21Z"
   }
  },
  "alertas": [

@@ -1,12 +1,15 @@
 {
- "quando": "2026-11-06T18:15:16Z",
+ "quando": "2026-11-06T18:30:21Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 50,
- "paginas": 57,
- "ofertas": 43,
- "fotos": 36,
+ "paginas": 58,
+ "ofertas": 31,
+ "fotos": 31,
  "alertas": 0,
- "semResultado": [],
+ "semResultado": [
+  "tv",
+  "lavadora"
+ ],
  "falhas": [
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -37,7 +40,7 @@
    "ofertas": 0
   },
   "lava-loucas": {
-   "hits": 40,
+   "hits": 39,
    "combinam": 17,
    "ofertas": 17
   },
@@ -78,6 +81,6 @@
  },
  "pc": {
   "atualizadoEm": "2026-11-06T16:46:28Z",
-  "usado": true
+  "usado": false
  }
 }
