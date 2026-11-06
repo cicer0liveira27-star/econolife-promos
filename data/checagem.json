@@ -1,14 +1,13 @@
 {
- "quando": "2026-11-06T13:39:19Z",
+ "quando": "2026-11-06T13:46:44Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 56,
- "paginas": 49,
+ "buscas": 54,
+ "paginas": 57,
  "ofertas": 30,
  "fotos": 30,
- "alertas": 0,
+ "alertas": 1,
  "semResultado": [
-  "tv",
-  "philco-cafeteira"
+  "tv"
  ],
  "falhas": [
   {
@@ -27,7 +26,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 5
   },
   "tv": {
    "hits": 0,
@@ -51,10 +50,10 @@
    "barradasNaTrava": 3
   },
   "liquidificador": {
-   "hits": 22,
-   "combinam": 22,
+   "hits": 23,
+   "combinam": 23,
    "ofertas": 24,
-   "barradasNaTrava": 8
+   "barradasNaTrava": 4
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -73,9 +72,10 @@
    "ofertas": 5
   },
   "philco-cafeteira": {
-   "hits": 0,
-   "combinam": 0,
-   "exemplos": []
+   "hits": 28,
+   "combinam": 12,
+   "ofertas": 14,
+   "barradasNaTrava": 2
   }
  },
  "pc": {
