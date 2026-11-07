@@ -43,10 +43,10 @@
   },
   {
    "id": "lavadora",
-   "nome": "Máquina de Lavar Smart",
+   "nome": "LAVADORA INVERTER",
    "categoria": "Eletrodomésticos",
    "precoAlvo": 2800,
-   "marcas": "Brastemp, Electrolux ou Midea",
+   "marcas": "Brastemp, Electrolux, Samsung ou Midea",
    "detalhes": "cinza ou inox",
    "unidade": "",
    "ativo": true,
