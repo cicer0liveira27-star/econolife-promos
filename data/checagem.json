@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-07T09:00:25Z",
+ "quando": "2026-11-07T09:15:18Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 54,
- "paginas": 44,
+ "paginas": 45,
  "ofertas": 31,
  "fotos": 31,
  "alertas": 0,
@@ -57,13 +57,13 @@
    "barradasNaTrava": 9
   },
   "philco-cafeteira": {
-   "hits": 75,
-   "combinam": 47,
+   "hits": 74,
+   "combinam": 46,
    "ofertas": 20
   },
   "air-fryer": {
-   "hits": 90,
-   "combinam": 67,
+   "hits": 88,
+   "combinam": 66,
    "ofertas": 20
   }
  },
