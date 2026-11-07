@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-07T01:00:23Z",
+ "quando": "2026-11-07T01:15:15Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 50,
- "paginas": 57,
+ "paginas": 58,
  "ofertas": 31,
  "fotos": 31,
  "alertas": 0,
@@ -43,7 +43,7 @@
   "lava-loucas": {
    "hits": 40,
    "combinam": 17,
-   "ofertas": 20
+   "ofertas": 19
   },
   "ventilador": {
    "modelos": 1,
@@ -75,8 +75,8 @@
    "barradasNaTrava": 2
   },
   "air-fryer": {
-   "hits": 89,
-   "combinam": 66,
+   "hits": 88,
+   "combinam": 65,
    "ofertas": 20
   }
  },
