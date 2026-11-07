@@ -130,7 +130,10 @@
    "unidade": "",
    "ativo": true,
    "criadoEm": "2026-11-06T12:56:36.693Z",
-   "id": "philco-cafeteira"
+   "id": "philco-cafeteira",
+   "links": [
+    "https://www.buscape.com.br/search?q=Microondas%20"
+   ]
   },
   {
    "nome": "Air Fryer",
