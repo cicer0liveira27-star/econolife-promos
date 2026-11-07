@@ -43,17 +43,14 @@
   },
   {
    "id": "lavadora",
-   "nome": "LAVADORA INVERTER",
+   "nome": "LAVADORA LOAD FRONT",
    "categoria": "Eletrodomésticos",
-   "precoAlvo": 2800,
+   "precoAlvo": 3000,
    "marcas": "Brastemp, Electrolux, Samsung ou Midea",
-   "detalhes": "cinza ou inox",
+   "detalhes": "CINZA OU INOX",
    "unidade": "",
    "ativo": true,
-   "criadoEm": "2026-11-05T15:10:06Z",
-   "modelos": [
-    "Máquina de Lavar Smart"
-   ]
+   "criadoEm": "2026-11-05T15:10:06Z"
   },
   {
    "id": "lava-loucas",
