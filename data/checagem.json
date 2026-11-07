@@ -1,12 +1,14 @@
 {
- "quando": "2026-11-07T16:35:58Z",
+ "quando": "2026-11-07T16:44:48Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 64,
- "paginas": 54,
- "ofertas": 46,
- "fotos": 39,
+ "paginas": 55,
+ "ofertas": 35,
+ "fotos": 35,
  "alertas": 0,
- "semResultado": [],
+ "semResultado": [
+  "tv"
+ ],
  "falhas": [
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -59,13 +61,13 @@
    "ofertas": 20
   },
   "air-fryer": {
-   "hits": 90,
+   "hits": 89,
    "combinam": 67,
    "ofertas": 20
   }
  },
  "pc": {
   "atualizadoEm": "2026-11-07T15:13:39Z",
-  "usado": true
+  "usado": false
  }
 }
