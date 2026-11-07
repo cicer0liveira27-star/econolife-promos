@@ -1,18 +1,29 @@
 {
- "quando": "2026-11-07T16:44:48Z",
+ "quando": "2026-11-07T17:00:22Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 64,
- "paginas": 55,
- "ofertas": 35,
- "fotos": 35,
- "alertas": 0,
+ "buscas": 56,
+ "paginas": 51,
+ "ofertas": 29,
+ "fotos": 29,
+ "alertas": 1,
  "semResultado": [
-  "tv"
+  "tv",
+  "philco-cafeteira"
  ],
  "falhas": [
   {
+   "produto": "microondas",
+   "onde": "buscape.com.br",
+   "motivo": "produto do link não encontrado"
+  },
+  {
    "produto": "cooktop-4-bocas-a-gas",
    "onde": "amazon.com.br",
+   "motivo": "produto do link não encontrado"
+  },
+  {
+   "produto": "philco-cafeteira",
+   "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
   }
  ],
@@ -42,12 +53,13 @@
   "lava-loucas": {
    "hits": 39,
    "combinam": 17,
-   "ofertas": 20
+   "ofertas": 21
   },
   "iphone-16-lacrado": {
-   "hits": 12,
-   "combinam": 3,
-   "ofertas": 14
+   "hits": 23,
+   "combinam": 8,
+   "ofertas": 6,
+   "barradasNaTrava": 2
   },
   "cooktop-4-bocas-a-gas": {
    "modelos": 2,
@@ -55,14 +67,9 @@
    "ofertas": 5,
    "barradasNaTrava": 9
   },
-  "philco-cafeteira": {
-   "hits": 75,
-   "combinam": 46,
-   "ofertas": 20
-  },
   "air-fryer": {
-   "hits": 89,
-   "combinam": 67,
+   "hits": 88,
+   "combinam": 66,
    "ofertas": 20
   }
  },
