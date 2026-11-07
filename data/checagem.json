@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-07T06:45:15Z",
+ "quando": "2026-11-07T07:00:23Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 54,
- "paginas": 48,
+ "paginas": 45,
  "ofertas": 31,
  "fotos": 31,
  "alertas": 0,
@@ -41,7 +41,7 @@
    "ofertas": 0
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 17,
    "ofertas": 19
   },
@@ -57,13 +57,13 @@
    "barradasNaTrava": 9
   },
   "philco-cafeteira": {
-   "hits": 76,
-   "combinam": 47,
+   "hits": 75,
+   "combinam": 46,
    "ofertas": 20
   },
   "air-fryer": {
    "hits": 88,
-   "combinam": 65,
+   "combinam": 66,
    "ofertas": 20
   }
  },
