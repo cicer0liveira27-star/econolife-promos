@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-07T04:22:52Z",
+ "quando": "2026-11-07T04:27:26Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 50,
- "paginas": 60,
- "ofertas": 31,
- "fotos": 31,
+ "buscas": 48,
+ "paginas": 49,
+ "ofertas": 28,
+ "fotos": 28,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -50,12 +50,6 @@
    "modelosAchados": 1,
    "ofertas": 2,
    "barradasNaTrava": 3
-  },
-  "liquidificador": {
-   "hits": 24,
-   "combinam": 24,
-   "ofertas": 24,
-   "barradasNaTrava": 4
   },
   "iphone-16-lacrado": {
    "hits": 12,
