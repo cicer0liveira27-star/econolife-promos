@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-07T04:27:26Z",
+ "quando": "2026-11-07T04:45:17Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 48,
- "paginas": 49,
- "ofertas": 28,
- "fotos": 28,
+ "buscas": 54,
+ "paginas": 46,
+ "ofertas": 31,
+ "fotos": 31,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -45,12 +45,6 @@
    "combinam": 17,
    "ofertas": 19
   },
-  "ventilador": {
-   "modelos": 1,
-   "modelosAchados": 1,
-   "ofertas": 2,
-   "barradasNaTrava": 3
-  },
   "iphone-16-lacrado": {
    "hits": 12,
    "combinam": 3,
@@ -63,13 +57,12 @@
    "barradasNaTrava": 9
   },
   "philco-cafeteira": {
-   "hits": 28,
-   "combinam": 12,
-   "ofertas": 14,
-   "barradasNaTrava": 2
+   "hits": 75,
+   "combinam": 46,
+   "ofertas": 20
   },
   "air-fryer": {
-   "hits": 87,
+   "hits": 89,
    "combinam": 66,
    "ofertas": 20
   }
