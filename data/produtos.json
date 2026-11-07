@@ -84,17 +84,6 @@
    ]
   },
   {
-   "nome": "Liquidificador",
-   "categoria": "Eletrodomésticos",
-   "precoAlvo": 100,
-   "marcas": "",
-   "detalhes": "",
-   "unidade": "",
-   "ativo": true,
-   "criadoEm": "2026-11-05T16:35:23.626Z",
-   "id": "liquidificador"
-  },
-  {
    "nome": "Iphone 16",
    "categoria": "Eletrônicos",
    "precoAlvo": 4600,
