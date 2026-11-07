@@ -18,10 +18,10 @@
   },
   {
    "id": "microondas",
-   "nome": "Micro-ondas Electrolux 31L",
+   "nome": "Micro-ondas",
    "categoria": "Eletrodomésticos",
    "precoAlvo": 480,
-   "marcas": "Electrolux",
+   "marcas": "Electrolux, Midea ou Brastemp",
    "detalhes": "cinza ou inox",
    "unidade": "",
    "ativo": true,
