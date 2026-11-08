@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-08T07:00:23Z",
+ "quando": "2026-11-08T07:15:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 50,
- "ofertas": 30,
- "fotos": 30,
+ "paginas": 48,
+ "ofertas": 29,
+ "fotos": 29,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -53,7 +53,7 @@
   "lava-loucas": {
    "hits": 40,
    "combinam": 17,
-   "ofertas": 19
+   "ofertas": 15
   },
   "iphone-16-lacrado": {
    "hits": 22,
