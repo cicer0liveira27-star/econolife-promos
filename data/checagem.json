@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-08T01:45:15Z",
+ "quando": "2026-11-08T02:00:23Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
  "paginas": 49,
- "ofertas": 30,
- "fotos": 30,
+ "ofertas": 31,
+ "fotos": 31,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -51,7 +51,7 @@
    "ofertas": 14
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 17,
    "ofertas": 19
   },
@@ -68,8 +68,8 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 90,
-   "combinam": 67,
+   "hits": 89,
+   "combinam": 66,
    "ofertas": 19
   }
  },
