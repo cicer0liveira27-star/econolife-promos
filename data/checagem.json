@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-08T12:15:17Z",
+ "quando": "2026-11-08T12:30:21Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 49,
- "ofertas": 31,
- "fotos": 31,
+ "paginas": 51,
+ "ofertas": 30,
+ "fotos": 30,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -46,7 +46,7 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 43,
+   "hits": 42,
    "combinam": 5,
    "ofertas": 14
   },
@@ -68,7 +68,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 89,
+   "hits": 88,
    "combinam": 67,
    "ofertas": 19
   }
