@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-08T14:15:17Z",
+ "quando": "2026-11-08T14:28:01Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 50,
- "ofertas": 30,
- "fotos": 30,
+ "paginas": 49,
+ "ofertas": 31,
+ "fotos": 31,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -56,7 +56,7 @@
    "ofertas": 19
   },
   "iphone-16-lacrado": {
-   "hits": 22,
+   "hits": 23,
    "combinam": 8,
    "ofertas": 6,
    "barradasNaTrava": 2
@@ -69,7 +69,7 @@
   },
   "air-fryer": {
    "hits": 88,
-   "combinam": 67,
+   "combinam": 66,
    "ofertas": 19
   }
  },
