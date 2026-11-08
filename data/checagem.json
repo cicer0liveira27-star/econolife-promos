@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-08T07:45:16Z",
+ "quando": "2026-11-08T08:00:24Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 46,
+ "paginas": 52,
  "ofertas": 30,
  "fotos": 30,
  "alertas": 0,
@@ -15,21 +15,6 @@
    "produto": "microondas",
    "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
-  },
-  {
-   "produto": "lavadora",
-   "onde": "/lavadora-roupas/lava-e-seca-samsung-11kg-wd11m4473px",
-   "motivo": "HTTP Error 504: Gateway Timeout"
-  },
-  {
-   "produto": "lavadora",
-   "onde": "/lavadora-roupas/lava-e-seca-samsung-13kg-eco-bubble-smart-a",
-   "motivo": "HTTP Error 500: Internal Server Error"
-  },
-  {
-   "produto": "lavadora",
-   "onde": "/lavadora-roupas/lava-e-seca-samsung-13kg-wd13t-smart",
-   "motivo": "HTTP Error 504: Gateway Timeout"
   },
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -63,12 +48,12 @@
   "lavadora": {
    "hits": 42,
    "combinam": 5,
-   "ofertas": 5
+   "ofertas": 14
   },
   "lava-loucas": {
    "hits": 39,
    "combinam": 17,
-   "ofertas": 14
+   "ofertas": 19
   },
   "iphone-16-lacrado": {
    "hits": 23,
