@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-09T10:45:16Z",
+ "quando": "2026-11-09T11:00:26Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 49,
+ "paginas": 50,
  "ofertas": 31,
  "fotos": 31,
  "alertas": 0,
@@ -11,16 +11,6 @@
   "philco-cafeteira"
  ],
  "falhas": [
-  {
-   "produto": "geladeira",
-   "onde": "/geladeira/geladeira-electrolux-if44s-frost-free-duplex-400-",
-   "motivo": "HTTP Error 504: Gateway Timeout"
-  },
-  {
-   "produto": "geladeira",
-   "onde": "/geladeira/geladeira-electrolux-tf70s-frost-free-duplex-431-",
-   "motivo": "HTTP Error 504: Gateway Timeout"
-  },
   {
    "produto": "microondas",
    "onde": "buscape.com.br",
@@ -41,8 +31,8 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 6,
-   "barradasNaTrava": 2
+   "ofertas": 18,
+   "barradasNaTrava": 4
   },
   "microondas": {
    "modelos": 1,
