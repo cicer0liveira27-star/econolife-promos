@@ -1,78 +1,129 @@
 {
- "quando": "2026-11-09T04:00:23Z",
+ "quando": "2026-11-09T04:15:16Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 56,
- "paginas": 51,
- "ofertas": 28,
- "fotos": 28,
+ "buscas": 0,
+ "paginas": 1,
+ "ofertas": 0,
+ "fotos": 0,
  "alertas": 0,
  "semResultado": [
-  "tv",
+  "ventilador",
+  "forno-de-embutir-eletrico",
   "philco-cafeteira"
  ],
  "falhas": [
   {
+   "produto": "geladeira",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "geladeira",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
    "produto": "microondas",
    "onde": "buscape.com.br",
-   "motivo": "produto do link não encontrado"
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "microondas",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "microondas",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "tv",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "tv",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "lavadora",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "lavadora",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "lava-loucas",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "lava-loucas",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "ventilador",
+   "onde": "amazon.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "iphone-16-lacrado",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "iphone-16-lacrado",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
   },
   {
    "produto": "cooktop-4-bocas-a-gas",
    "onde": "amazon.com.br",
-   "motivo": "produto do link não encontrado"
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "cooktop-4-bocas-a-gas",
+   "onde": "amazon.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "cooktop-4-bocas-a-gas",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "cooktop-4-bocas-a-gas",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "forno-de-embutir-eletrico",
+   "onde": "amazon.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
   },
   {
    "produto": "philco-cafeteira",
    "onde": "buscape.com.br",
-   "motivo": "produto do link não encontrado"
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "air-fryer",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
+  },
+  {
+   "produto": "air-fryer",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 403: Forbidden"
   }
  ],
- "debug": {
-  "geladeira": {
-   "modelos": 3,
-   "modelosAchados": 3,
-   "ofertas": 18,
-   "barradasNaTrava": 4
-  },
-  "microondas": {
-   "modelos": 1,
-   "modelosAchados": 1,
-   "ofertas": 6,
-   "barradasNaTrava": 2
-  },
-  "tv": {
-   "hits": 0,
-   "combinam": 0,
-   "exemplos": []
-  },
-  "lavadora": {
-   "hits": 43,
-   "combinam": 5,
-   "ofertas": 15
-  },
-  "lava-loucas": {
-   "hits": 39,
-   "combinam": 17,
-   "ofertas": 21
-  },
-  "iphone-16-lacrado": {
-   "hits": 22,
-   "combinam": 8,
-   "ofertas": 6,
-   "barradasNaTrava": 2
-  },
-  "cooktop-4-bocas-a-gas": {
-   "modelos": 2,
-   "modelosAchados": 1,
-   "ofertas": 5,
-   "barradasNaTrava": 9
-  },
-  "air-fryer": {
-   "hits": 87,
-   "combinam": 65,
-   "ofertas": 21
-  }
- },
+ "debug": {},
  "pc": {
   "atualizadoEm": "2026-11-07T15:13:39Z",
   "usado": false
