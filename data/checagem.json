@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-09T06:45:15Z",
+ "quando": "2026-11-09T07:00:25Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 52,
- "ofertas": 29,
- "fotos": 29,
+ "paginas": 48,
+ "ofertas": 31,
+ "fotos": 31,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -50,14 +50,14 @@
    "ofertas": 15
   },
   "lava-loucas": {
-   "hits": 40,
+   "hits": 39,
    "combinam": 17,
    "ofertas": 21
   },
   "iphone-16-lacrado": {
-   "hits": 22,
-   "combinam": 8,
-   "ofertas": 6,
+   "hits": 21,
+   "combinam": 7,
+   "ofertas": 11,
    "barradasNaTrava": 2
   },
   "cooktop-4-bocas-a-gas": {
@@ -67,7 +67,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 88,
+   "hits": 87,
    "combinam": 65,
    "ofertas": 21
   }
