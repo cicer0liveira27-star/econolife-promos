@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-10T17:30:24Z",
+ "quando": "2026-11-10T17:45:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 50,
+ "paginas": 51,
  "ofertas": 27,
  "fotos": 27,
- "alertas": 1,
+ "alertas": 0,
  "semResultado": [
   "tv",
   "philco-cafeteira"
@@ -31,8 +31,8 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 16,
-   "barradasNaTrava": 4
+   "ofertas": 17,
+   "barradasNaTrava": 6
   },
   "microondas": {
    "modelos": 1,
