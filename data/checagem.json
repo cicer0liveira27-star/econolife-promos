@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-10T15:15:16Z",
+ "quando": "2026-11-10T15:30:22Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 52,
+ "paginas": 50,
  "ofertas": 28,
  "fotos": 28,
  "alertas": 0,
@@ -31,7 +31,7 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 17,
+   "ofertas": 16,
    "barradasNaTrava": 4
   },
   "microondas": {
@@ -45,17 +45,17 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 43,
+   "hits": 42,
    "combinam": 5,
    "ofertas": 15
   },
   "lava-loucas": {
-   "hits": 40,
+   "hits": 39,
    "combinam": 17,
-   "ofertas": 21
+   "ofertas": 20
   },
   "iphone-16-lacrado": {
-   "hits": 22,
+   "hits": 23,
    "combinam": 8,
    "ofertas": 6,
    "barradasNaTrava": 2
@@ -68,7 +68,7 @@
   },
   "air-fryer": {
    "hits": 86,
-   "combinam": 66,
+   "combinam": 65,
    "ofertas": 20
   }
  },
