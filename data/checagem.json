@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-10T15:00:27Z",
+ "quando": "2026-11-10T15:15:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 49,
+ "paginas": 52,
  "ofertas": 28,
  "fotos": 28,
  "alertas": 0,
@@ -31,7 +31,7 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 18,
+   "ofertas": 17,
    "barradasNaTrava": 4
   },
   "microondas": {
@@ -52,7 +52,7 @@
   "lava-loucas": {
    "hits": 40,
    "combinam": 17,
-   "ofertas": 22
+   "ofertas": 21
   },
   "iphone-16-lacrado": {
    "hits": 22,
