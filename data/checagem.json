@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-11T23:30:20Z",
+ "quando": "2026-11-11T23:45:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 54,
  "paginas": 54,
  "ofertas": 28,
  "fotos": 28,
- "alertas": 0,
+ "alertas": 1,
  "semResultado": [
   "tv",
   "philco-cafeteira"
@@ -67,7 +67,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 88,
+   "hits": 87,
    "combinam": 65,
    "ofertas": 20
   }
