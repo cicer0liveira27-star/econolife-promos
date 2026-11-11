@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-11T21:30:19Z",
+ "quando": "2026-11-11T21:45:17Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 54,
  "paginas": 54,
- "ofertas": 28,
- "fotos": 28,
- "alertas": 1,
+ "ofertas": 27,
+ "fotos": 27,
+ "alertas": 0,
  "semResultado": [
   "tv",
   "philco-cafeteira"
@@ -37,7 +37,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 5
   },
   "tv": {
    "hits": 2,
@@ -68,7 +68,7 @@
   },
   "air-fryer": {
    "hits": 87,
-   "combinam": 65,
+   "combinam": 64,
    "ofertas": 20
   }
  },
