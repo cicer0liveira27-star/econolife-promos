@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-11T16:15:16Z",
+ "quando": "2026-11-11T16:30:26Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 54,
  "paginas": 52,
@@ -37,8 +37,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6,
-   "barradasNaTrava": 2
+   "ofertas": 6
   },
   "tv": {
    "hits": 1,
@@ -47,7 +46,7 @@
    "barradasNaTrava": 12
   },
   "lavadora": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 5,
    "ofertas": 14
   },
@@ -68,8 +67,8 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 88,
-   "combinam": 65,
+   "hits": 86,
+   "combinam": 64,
    "ofertas": 20
   }
  },
