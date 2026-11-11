@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-11T13:30:21Z",
+ "quando": "2026-11-11T13:45:17Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
  "paginas": 50,
@@ -37,7 +37,8 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 6,
+   "barradasNaTrava": 2
   },
   "tv": {
    "hits": 0,
@@ -62,7 +63,7 @@
   "cooktop-4-bocas-a-gas": {
    "modelos": 2,
    "modelosAchados": 1,
-   "ofertas": 5,
+   "ofertas": 6,
    "barradasNaTrava": 9
   },
   "air-fryer": {
