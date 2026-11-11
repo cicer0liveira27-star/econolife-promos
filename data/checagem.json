@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-11T11:54:30Z",
+ "quando": "2026-11-11T12:01:03Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
- "paginas": 52,
- "ofertas": 26,
- "fotos": 26,
+ "paginas": 50,
+ "ofertas": 27,
+ "fotos": 27,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -55,10 +55,9 @@
    "ofertas": 21
   },
   "iphone-16-lacrado": {
-   "hits": 23,
-   "combinam": 8,
-   "ofertas": 6,
-   "barradasNaTrava": 2
+   "hits": 12,
+   "combinam": 3,
+   "ofertas": 14
   },
   "cooktop-4-bocas-a-gas": {
    "modelos": 2,
