@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-11T20:15:16Z",
+ "quando": "2026-11-11T21:00:50Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 54,
  "paginas": 52,
@@ -51,7 +51,7 @@
    "ofertas": 13
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 17,
    "ofertas": 21
   },
@@ -63,12 +63,12 @@
   "cooktop-4-bocas-a-gas": {
    "modelos": 2,
    "modelosAchados": 1,
-   "ofertas": 6,
-   "barradasNaTrava": 6
+   "ofertas": 5,
+   "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 86,
-   "combinam": 63,
+   "hits": 88,
+   "combinam": 65,
    "ofertas": 20
   }
  },
