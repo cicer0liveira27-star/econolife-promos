@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-11T19:30:20Z",
+ "quando": "2026-11-11T19:45:17Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 56,
- "paginas": 51,
- "ofertas": 25,
- "fotos": 25,
+ "buscas": 54,
+ "paginas": 52,
+ "ofertas": 27,
+ "fotos": 27,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -15,11 +15,6 @@
    "produto": "microondas",
    "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
-  },
-  {
-   "produto": "ventilador",
-   "onde": "amazon.com.br",
-   "motivo": "HTTP Error 500: Internal Server Error"
   },
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -47,8 +42,8 @@
   "tv": {
    "hits": 1,
    "combinam": 1,
-   "ofertas": 6,
-   "barradasNaTrava": 12
+   "ofertas": 5,
+   "barradasNaTrava": 10
   },
   "lavadora": {
    "hits": 39,
