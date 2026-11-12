@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-12T23:15:15Z",
+ "quando": "2026-11-12T23:30:22Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
  "paginas": 50,
@@ -45,7 +45,7 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 37,
+   "hits": 36,
    "combinam": 5,
    "ofertas": 12
   },
@@ -66,8 +66,8 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 88,
-   "combinam": 65,
+   "hits": 87,
+   "combinam": 63,
    "ofertas": 20
   }
  },
