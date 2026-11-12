@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-12T16:00:24Z",
+ "quando": "2026-11-12T16:15:17Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 54,
  "paginas": 52,
@@ -31,13 +31,13 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 18,
+   "ofertas": 17,
    "barradasNaTrava": 4
   },
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 5
+   "ofertas": 6
   },
   "tv": {
    "hits": 1,
@@ -51,7 +51,7 @@
    "ofertas": 13
   },
   "lava-loucas": {
-   "hits": 40,
+   "hits": 39,
    "combinam": 17,
    "ofertas": 22
   },
