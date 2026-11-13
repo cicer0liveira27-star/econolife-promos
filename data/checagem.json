@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-13T03:15:17Z",
+ "quando": "2026-11-13T03:30:21Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
  "paginas": 50,
- "ofertas": 29,
- "fotos": 29,
+ "ofertas": 30,
+ "fotos": 30,
  "alertas": 0,
  "semResultado": [
   "tv",
@@ -66,8 +66,8 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 88,
-   "combinam": 65,
+   "hits": 87,
+   "combinam": 63,
    "ofertas": 20
   }
  },
