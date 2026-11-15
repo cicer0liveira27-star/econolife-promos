@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-15T13:00:25Z",
+ "quando": "2026-11-15T13:15:16Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 56,
- "paginas": 50,
+ "buscas": 53,
+ "paginas": 43,
  "ofertas": 29,
  "fotos": 29,
  "alertas": 0,
@@ -17,6 +17,11 @@
    "motivo": "produto do link não encontrado"
   },
   {
+   "produto": "iphone-16-lacrado",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 504: Gateway Timeout"
+  },
+  {
    "produto": "cooktop-4-bocas-a-gas",
    "onde": "amazon.com.br",
    "motivo": "produto do link não encontrado"
@@ -25,6 +30,11 @@
    "produto": "philco-cafeteira",
    "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
+  },
+  {
+   "produto": "air-fryer",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "HTTP Error 504: Gateway Timeout"
   }
  ],
  "debug": {
@@ -50,7 +60,7 @@
    "ofertas": 12
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 17,
    "ofertas": 21
   },
@@ -63,11 +73,11 @@
    "modelos": 2,
    "modelosAchados": 1,
    "ofertas": 5,
-   "barradasNaTrava": 9
+   "barradasNaTrava": 6
   },
   "air-fryer": {
-   "hits": 88,
-   "combinam": 65,
+   "hits": 89,
+   "combinam": 64,
    "ofertas": 20
   }
  },
