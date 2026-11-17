@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-17T08:00:23Z",
+ "quando": "2026-11-17T08:15:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
  "paginas": 50,
@@ -47,7 +47,7 @@
   "lavadora": {
    "hits": 37,
    "combinam": 5,
-   "ofertas": 9
+   "ofertas": 11
   },
   "lava-loucas": {
    "hits": 40,
@@ -67,7 +67,7 @@
   },
   "air-fryer": {
    "hits": 85,
-   "combinam": 63,
+   "combinam": 64,
    "ofertas": 20
   }
  },
