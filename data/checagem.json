@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-17T18:30:21Z",
+ "quando": "2026-11-17T18:45:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
  "paginas": 50,
  "ofertas": 31,
  "fotos": 31,
- "alertas": 0,
+ "alertas": 1,
  "semResultado": [
   "tv",
   "philco-cafeteira"
@@ -47,7 +47,7 @@
   "lavadora": {
    "hits": 37,
    "combinam": 5,
-   "ofertas": 12
+   "ofertas": 13
   },
   "lava-loucas": {
    "hits": 40,
