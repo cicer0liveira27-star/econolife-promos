@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-18T19:15:16Z",
+ "quando": "2026-11-18T19:30:24Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
  "paginas": 50,
  "ofertas": 32,
  "fotos": 32,
- "alertas": 0,
+ "alertas": 1,
  "semResultado": [
   "tv",
   "philco-cafeteira"
@@ -46,12 +46,12 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 37,
+   "hits": 36,
    "combinam": 5,
    "ofertas": 14
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 17,
    "ofertas": 20
   },
@@ -68,7 +68,7 @@
   },
   "air-fryer": {
    "hits": 86,
-   "combinam": 64,
+   "combinam": 65,
    "ofertas": 18
   }
  },
