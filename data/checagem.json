@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-19T21:00:25Z",
+ "quando": "2026-11-19T21:15:18Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 56,
  "paginas": 50,
@@ -31,8 +31,8 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 18,
-   "barradasNaTrava": 4
+   "ofertas": 14,
+   "barradasNaTrava": 2
   },
   "microondas": {
    "modelos": 1,
@@ -67,7 +67,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 89,
+   "hits": 86,
    "combinam": 65,
    "ofertas": 18
   }
