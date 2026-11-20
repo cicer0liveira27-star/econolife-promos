@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-20T16:15:21Z",
+ "quando": "2026-11-20T16:24:09Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 56,
- "paginas": 50,
- "ofertas": 32,
- "fotos": 32,
- "alertas": 0,
+ "buscas": 58,
+ "paginas": 58,
+ "ofertas": 36,
+ "fotos": 36,
+ "alertas": 1,
  "semResultado": [
   "tv",
   "philco-cafeteira"
@@ -50,9 +50,9 @@
    "ofertas": 14
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 38,
    "combinam": 17,
-   "ofertas": 21
+   "ofertas": 22
   },
   "iphone-16-lacrado": {
    "hits": 11,
@@ -69,6 +69,11 @@
    "hits": 88,
    "combinam": 65,
    "ofertas": 18
+  },
+  "bi-cama-solteiro": {
+   "hits": 27,
+   "combinam": 27,
+   "ofertas": 15
   }
  },
  "pc": {
