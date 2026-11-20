@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-20T22:45:17Z",
+ "quando": "2026-11-20T23:00:36Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
  "ofertas": 36,
  "fotos": 36,
- "alertas": 0,
+ "alertas": 1,
  "semResultado": [
   "tv"
  ],
@@ -65,8 +65,8 @@
    "ofertas": 18
   },
   "bi-cama-solteiro": {
-   "hits": 27,
-   "combinam": 27,
+   "hits": 26,
+   "combinam": 26,
    "ofertas": 15
   }
  },
