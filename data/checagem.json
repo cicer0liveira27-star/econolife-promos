@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-20T22:15:17Z",
+ "quando": "2026-11-20T22:30:29Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 57,
- "paginas": 57,
+ "buscas": 52,
+ "paginas": 53,
  "ofertas": 36,
  "fotos": 36,
  "alertas": 0,
@@ -14,6 +14,11 @@
    "produto": "microondas",
    "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
+  },
+  {
+   "produto": "lavadora",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 500: Internal Server Error"
   },
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -41,7 +46,7 @@
   "lavadora": {
    "hits": 42,
    "combinam": 5,
-   "ofertas": 14
+   "ofertas": 12
   },
   "lava-loucas": {
    "hits": 38,
@@ -60,7 +65,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 86,
+   "hits": 87,
    "combinam": 64,
    "ofertas": 18
   },
