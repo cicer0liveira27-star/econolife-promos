@@ -1,14 +1,13 @@
 {
- "quando": "2026-11-20T16:24:09Z",
+ "quando": "2026-11-20T16:31:40Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 58,
- "paginas": 58,
+ "buscas": 57,
+ "paginas": 57,
  "ofertas": 36,
  "fotos": 36,
- "alertas": 1,
+ "alertas": 0,
  "semResultado": [
-  "tv",
-  "philco-cafeteira"
+  "tv"
  ],
  "falhas": [
   {
@@ -19,11 +18,6 @@
   {
    "produto": "cooktop-4-bocas-a-gas",
    "onde": "amazon.com.br",
-   "motivo": "produto do link não encontrado"
-  },
-  {
-   "produto": "philco-cafeteira",
-   "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
   }
  ],
