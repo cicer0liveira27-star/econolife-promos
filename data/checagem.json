@@ -1,15 +1,14 @@
 {
- "quando": "2026-11-21T07:00:33Z",
+ "quando": "2026-11-21T07:15:16Z",
  "fonte": "https://www.zoom.com.br",
- "buscas": 26,
- "paginas": 25,
- "ofertas": 32,
- "fotos": 32,
+ "buscas": 38,
+ "paginas": 42,
+ "ofertas": 34,
+ "fotos": 34,
  "alertas": 0,
  "semResultado": [
   "tv",
-  "ventilador",
-  "forno-de-embutir-eletrico"
+  "ventilador"
  ],
  "falhas": [
   {
@@ -48,39 +47,9 @@
    "motivo": "HTTP Error 403: Forbidden"
   },
   {
-   "produto": "iphone-16-lacrado",
-   "onde": "https://www.buscape.com.br",
-   "motivo": "HTTP Error 403: Forbidden"
-  },
-  {
    "produto": "cooktop-4-bocas-a-gas",
    "onde": "amazon.com.br",
-   "motivo": "HTTP Error 403: Forbidden"
-  },
-  {
-   "produto": "cooktop-4-bocas-a-gas",
-   "onde": "amazon.com.br",
-   "motivo": "HTTP Error 403: Forbidden"
-  },
-  {
-   "produto": "cooktop-4-bocas-a-gas",
-   "onde": "https://www.buscape.com.br",
-   "motivo": "HTTP Error 403: Forbidden"
-  },
-  {
-   "produto": "forno-de-embutir-eletrico",
-   "onde": "amazon.com.br",
-   "motivo": "HTTP Error 403: Forbidden"
-  },
-  {
-   "produto": "air-fryer",
-   "onde": "https://www.buscape.com.br",
-   "motivo": "HTTP Error 403: Forbidden"
-  },
-  {
-   "produto": "bi-cama-solteiro",
-   "onde": "https://www.buscape.com.br",
-   "motivo": "HTTP Error 403: Forbidden"
+   "motivo": "produto do link não encontrado"
   }
  ],
  "debug": {
@@ -106,7 +75,7 @@
    "ofertas": 14
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 17,
    "ofertas": 22
   },
@@ -119,16 +88,16 @@
    "modelos": 2,
    "modelosAchados": 1,
    "ofertas": 5,
-   "barradasNaTrava": 3
+   "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 86,
+   "hits": 85,
    "combinam": 64,
    "ofertas": 18
   },
   "bi-cama-solteiro": {
-   "hits": 27,
-   "combinam": 27,
+   "hits": 26,
+   "combinam": 26,
    "ofertas": 15
   }
  },
