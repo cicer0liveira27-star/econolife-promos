@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-21T11:15:16Z",
+ "quando": "2026-11-21T11:30:22Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 57,
- "paginas": 57,
+ "buscas": 55,
+ "paginas": 53,
  "ofertas": 36,
  "fotos": 36,
  "alertas": 0,
@@ -14,6 +14,11 @@
    "produto": "microondas",
    "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
+  },
+  {
+   "produto": "lava-loucas",
+   "onde": "https://www.zoom.com.br",
+   "motivo": "<urlopen error [Errno 104] Connection reset by peer>"
   },
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -44,7 +49,7 @@
    "ofertas": 14
   },
   "lava-loucas": {
-   "hits": 40,
+   "hits": 39,
    "combinam": 17,
    "ofertas": 22
   },
@@ -65,8 +70,8 @@
    "ofertas": 18
   },
   "bi-cama-solteiro": {
-   "hits": 27,
-   "combinam": 27,
+   "hits": 26,
+   "combinam": 26,
    "ofertas": 15
   }
  },
