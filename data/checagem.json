@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-21T20:15:19Z",
+ "quando": "2026-11-21T20:30:21Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
- "paginas": 57,
+ "paginas": 56,
  "ofertas": 36,
  "fotos": 36,
  "alertas": 0,
@@ -19,6 +19,11 @@
    "produto": "cooktop-4-bocas-a-gas",
    "onde": "amazon.com.br",
    "motivo": "produto do link não encontrado"
+  },
+  {
+   "produto": "cooktop-4-bocas-a-gas",
+   "onde": "/fogao/cooktop-electrolux-efficient-ke4gr-4-bocas-acendiment",
+   "motivo": "HTTP Error 503: Service Unavailable"
   }
  ],
  "debug": {
@@ -56,8 +61,8 @@
   "cooktop-4-bocas-a-gas": {
    "modelos": 2,
    "modelosAchados": 1,
-   "ofertas": 5,
-   "barradasNaTrava": 9
+   "ofertas": 0,
+   "barradasNaTrava": 6
   },
   "air-fryer": {
    "hits": 85,
