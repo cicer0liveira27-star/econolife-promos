@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-22T08:00:31Z",
+ "quando": "2026-11-22T08:03:52Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
- "paginas": 54,
+ "paginas": 57,
  "ofertas": 36,
  "fotos": 36,
  "alertas": 0,
@@ -39,12 +39,12 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 43,
+   "hits": 41,
    "combinam": 5,
    "ofertas": 13
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 38,
    "combinam": 17,
    "ofertas": 22
   },
@@ -60,13 +60,13 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 85,
+   "hits": 86,
    "combinam": 65,
    "ofertas": 22
   },
   "bi-cama-solteiro": {
-   "hits": 28,
-   "combinam": 28,
+   "hits": 26,
+   "combinam": 26,
    "ofertas": 15
   }
  },
