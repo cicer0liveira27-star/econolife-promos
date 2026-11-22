@@ -1,7 +1,7 @@
 {
- "quando": "2026-11-22T03:15:17Z",
+ "quando": "2026-11-22T03:30:20Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 56,
+ "buscas": 57,
  "paginas": 57,
  "ofertas": 36,
  "fotos": 36,
@@ -14,11 +14,6 @@
    "produto": "microondas",
    "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
-  },
-  {
-   "produto": "tv",
-   "onde": "https://www.buscape.com.br",
-   "motivo": "HTTP Error 504: Gateway Timeout"
   },
   {
    "produto": "cooktop-4-bocas-a-gas",
