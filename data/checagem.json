@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-22T07:15:17Z",
+ "quando": "2026-11-22T07:30:20Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
@@ -31,7 +31,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 5
+   "ofertas": 0
   },
   "tv": {
    "hits": 0,
@@ -41,10 +41,10 @@
   "lavadora": {
    "hits": 43,
    "combinam": 5,
-   "ofertas": 8
+   "ofertas": 13
   },
   "lava-loucas": {
-   "hits": 38,
+   "hits": 39,
    "combinam": 17,
    "ofertas": 22
   },
