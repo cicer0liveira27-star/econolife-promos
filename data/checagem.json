@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-22T13:00:26Z",
+ "quando": "2026-11-22T13:15:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
- "paginas": 56,
+ "paginas": 57,
  "ofertas": 36,
  "fotos": 36,
  "alertas": 0,
@@ -14,11 +14,6 @@
    "produto": "microondas",
    "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
-  },
-  {
-   "produto": "lavadora",
-   "onde": "/lavadora-roupas/lava-e-seca-samsung-13kg-wd13t-smart",
-   "motivo": "The read operation timed out"
   },
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -44,9 +39,9 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 42,
+   "hits": 44,
    "combinam": 5,
-   "ofertas": 12
+   "ofertas": 13
   },
   "lava-loucas": {
    "hits": 39,
