@@ -1,7 +1,7 @@
 {
- "quando": "2026-11-22T03:00:29Z",
+ "quando": "2026-11-22T03:15:17Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 57,
+ "buscas": 56,
  "paginas": 57,
  "ofertas": 36,
  "fotos": 36,
@@ -14,6 +14,11 @@
    "produto": "microondas",
    "onde": "buscape.com.br",
    "motivo": "produto do link não encontrado"
+  },
+  {
+   "produto": "tv",
+   "onde": "https://www.buscape.com.br",
+   "motivo": "HTTP Error 504: Gateway Timeout"
   },
   {
    "produto": "cooktop-4-bocas-a-gas",
@@ -39,7 +44,7 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 41,
+   "hits": 43,
    "combinam": 5,
    "ofertas": 14
   },
@@ -65,8 +70,8 @@
    "ofertas": 22
   },
   "bi-cama-solteiro": {
-   "hits": 26,
-   "combinam": 26,
+   "hits": 27,
+   "combinam": 27,
    "ofertas": 15
   }
  },
