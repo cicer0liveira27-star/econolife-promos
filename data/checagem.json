@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-23T11:45:18Z",
+ "quando": "2026-11-23T12:00:24Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
@@ -31,7 +31,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 5
+   "ofertas": 6
   },
   "tv": {
    "hits": 0,
@@ -39,7 +39,7 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 42,
+   "hits": 41,
    "combinam": 5,
    "ofertas": 13
   },
@@ -67,7 +67,7 @@
   "bi-cama-solteiro": {
    "hits": 27,
    "combinam": 27,
-   "ofertas": 15
+   "ofertas": 18
   }
  },
  "pc": {
