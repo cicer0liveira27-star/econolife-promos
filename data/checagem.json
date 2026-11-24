@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-24T18:45:16Z",
+ "quando": "2026-11-24T19:00:26Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
- "ofertas": 33,
- "fotos": 33,
+ "ofertas": 35,
+ "fotos": 35,
  "alertas": 0,
  "semResultado": [
   "tv"
@@ -26,7 +26,7 @@
    "modelos": 3,
    "modelosAchados": 3,
    "ofertas": 15,
-   "barradasNaTrava": 4
+   "barradasNaTrava": 2
   },
   "microondas": {
    "modelos": 1,
@@ -65,9 +65,9 @@
    "ofertas": 18
   },
   "bi-cama-solteiro": {
-   "hits": 26,
-   "combinam": 26,
-   "ofertas": 14
+   "hits": 27,
+   "combinam": 27,
+   "ofertas": 12
   }
  },
  "pc": {
