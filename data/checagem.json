@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-25T01:00:23Z",
+ "quando": "2026-11-25T01:15:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
  "ofertas": 35,
  "fotos": 35,
- "alertas": 0,
+ "alertas": 1,
  "semResultado": [
   "tv"
  ],
@@ -49,7 +49,7 @@
    "ofertas": 24
   },
   "iphone-16-lacrado": {
-   "hits": 11,
+   "hits": 12,
    "combinam": 3,
    "ofertas": 14
   },
@@ -65,9 +65,9 @@
    "ofertas": 18
   },
   "bi-cama-solteiro": {
-   "hits": 26,
-   "combinam": 26,
-   "ofertas": 14
+   "hits": 27,
+   "combinam": 27,
+   "ofertas": 13
   }
  },
  "pc": {
