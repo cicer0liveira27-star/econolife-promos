@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-25T07:15:17Z",
+ "quando": "2026-11-25T07:30:21Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
  "ofertas": 34,
  "fotos": 34,
- "alertas": 1,
+ "alertas": 0,
  "semResultado": [
   "tv"
  ],
@@ -25,7 +25,7 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 14,
+   "ofertas": 9,
    "barradasNaTrava": 2
   },
   "microondas": {
@@ -39,7 +39,7 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 42,
+   "hits": 41,
    "combinam": 5,
    "ofertas": 13
   },
@@ -67,7 +67,7 @@
   "bi-cama-solteiro": {
    "hits": 27,
    "combinam": 27,
-   "ofertas": 14
+   "ofertas": 16
   }
  },
  "pc": {
