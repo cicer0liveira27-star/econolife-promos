@@ -1,8 +1,8 @@
 {
- "quando": "2026-11-25T08:45:18Z",
+ "quando": "2026-11-25T09:00:32Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
- "paginas": 57,
+ "paginas": 53,
  "ofertas": 33,
  "fotos": 33,
  "alertas": 0,
@@ -26,7 +26,7 @@
    "modelos": 3,
    "modelosAchados": 3,
    "ofertas": 14,
-   "barradasNaTrava": 2
+   "barradasNaTrava": 1
   },
   "microondas": {
    "modelos": 1,
@@ -44,9 +44,9 @@
    "ofertas": 13
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 38,
    "combinam": 17,
-   "ofertas": 23
+   "ofertas": 22
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -65,9 +65,9 @@
    "ofertas": 20
   },
   "bi-cama-solteiro": {
-   "hits": 27,
-   "combinam": 27,
-   "ofertas": 13
+   "hits": 26,
+   "combinam": 26,
+   "ofertas": 14
   }
  },
  "pc": {
