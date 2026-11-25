@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-25T01:30:25Z",
+ "quando": "2026-11-25T01:45:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
@@ -31,7 +31,8 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 6,
+   "barradasNaTrava": 2
   },
   "tv": {
    "hits": 0,
@@ -60,13 +61,13 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 89,
+   "hits": 90,
    "combinam": 68,
    "ofertas": 18
   },
   "bi-cama-solteiro": {
-   "hits": 27,
-   "combinam": 27,
+   "hits": 26,
+   "combinam": 26,
    "ofertas": 13
   }
  },
