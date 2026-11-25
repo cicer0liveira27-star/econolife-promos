@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-25T11:45:16Z",
+ "quando": "2026-11-25T12:00:27Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
@@ -39,7 +39,7 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 41,
+   "hits": 42,
    "combinam": 5,
    "ofertas": 13
   },
@@ -65,9 +65,9 @@
    "ofertas": 20
   },
   "bi-cama-solteiro": {
-   "hits": 26,
-   "combinam": 26,
-   "ofertas": 14
+   "hits": 27,
+   "combinam": 27,
+   "ofertas": 17
   }
  },
  "pc": {
