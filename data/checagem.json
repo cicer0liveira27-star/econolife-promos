@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-25T08:15:17Z",
+ "quando": "2026-11-25T08:30:20Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
  "ofertas": 33,
  "fotos": 33,
- "alertas": 0,
+ "alertas": 1,
  "semResultado": [
   "tv"
  ],
@@ -60,14 +60,14 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 89,
-   "combinam": 68,
+   "hits": 87,
+   "combinam": 67,
    "ofertas": 20
   },
   "bi-cama-solteiro": {
    "hits": 27,
    "combinam": 27,
-   "ofertas": 15
+   "ofertas": 13
   }
  },
  "pc": {
