@@ -1,14 +1,12 @@
 {
- "quando": "2026-11-26T00:00:25Z",
+ "quando": "2026-11-26T00:12:59Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
- "ofertas": 32,
- "fotos": 32,
- "alertas": 0,
- "semResultado": [
-  "tv"
- ],
+ "ofertas": 43,
+ "fotos": 35,
+ "alertas": 5,
+ "semResultado": [],
  "falhas": [
   {
    "produto": "microondas",
@@ -71,7 +69,7 @@
   }
  },
  "pc": {
-  "atualizadoEm": "2026-11-07T15:13:39Z",
-  "usado": false
+  "atualizadoEm": "2026-11-26T00:08:35Z",
+  "usado": true
  }
 }
