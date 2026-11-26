@@ -1,14 +1,12 @@
 {
- "quando": "2026-11-26T20:28:17Z",
+ "quando": "2026-11-26T20:45:21Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 53,
- "ofertas": 32,
- "fotos": 32,
- "alertas": 0,
- "semResultado": [
-  "tv"
- ],
+ "ofertas": 42,
+ "fotos": 34,
+ "alertas": 9,
+ "semResultado": [],
  "falhas": [
   {
    "produto": "microondas",
@@ -39,12 +37,12 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 42,
+   "hits": 41,
    "combinam": 5,
-   "ofertas": 12
+   "ofertas": 14
   },
   "lava-loucas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 17,
    "ofertas": 22
   },
@@ -61,17 +59,17 @@
   },
   "air-fryer": {
    "hits": 92,
-   "combinam": 67,
+   "combinam": 68,
    "ofertas": 20
   },
   "bi-cama-solteiro": {
    "hits": 27,
    "combinam": 27,
-   "ofertas": 14
+   "ofertas": 13
   }
  },
  "pc": {
-  "atualizadoEm": "2026-11-26T00:08:35Z",
-  "usado": false
+  "atualizadoEm": "2026-11-26T20:25:41Z",
+  "usado": true
  }
 }
