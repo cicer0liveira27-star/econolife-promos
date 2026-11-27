@@ -151,14 +151,12 @@
    "id": "bi-cama-solteiro"
   },
   {
-   "nome": "Fogão 4 bocas",
+   "nome": "Fogão 4 bocas - Tampo de vidro",
    "categoria": "Eletrodomésticos",
    "precoAlvo": 800,
    "marcas": "Eletrolux, Esmaltec, Dako",
    "detalhes": "Branco ou Preto",
    "unidade": "",
-   "modelos": [],
-   "links": [],
    "ativo": true,
    "criadoEm": "2026-11-27T03:22:43.664Z",
    "id": "fogao-4-bocas"
