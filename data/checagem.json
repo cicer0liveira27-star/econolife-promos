@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-27T09:45:17Z",
+ "quando": "2026-11-27T10:00:27Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
- "ofertas": 35,
- "fotos": 35,
- "alertas": 1,
+ "ofertas": 36,
+ "fotos": 36,
+ "alertas": 0,
  "semResultado": [
   "tv"
  ],
@@ -41,12 +41,12 @@
   "lavadora": {
    "hits": 41,
    "combinam": 5,
-   "ofertas": 13
+   "ofertas": 14
   },
   "lava-loucas": {
-   "hits": 41,
+   "hits": 40,
    "combinam": 18,
-   "ofertas": 23
+   "ofertas": 21
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -60,8 +60,8 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 92,
-   "combinam": 68,
+   "hits": 91,
+   "combinam": 67,
    "ofertas": 22
   },
   "bi-cama-solteiro": {
@@ -73,7 +73,7 @@
    "hits": 39,
    "combinam": 6,
    "ofertas": 18,
-   "barradasNaTrava": 2
+   "barradasNaTrava": 1
   }
  },
  "pc": {
