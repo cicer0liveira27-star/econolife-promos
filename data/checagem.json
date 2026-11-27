@@ -1,14 +1,12 @@
 {
- "quando": "2026-11-27T03:22:00Z",
+ "quando": "2026-11-27T03:27:57Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 59,
- "ofertas": 33,
- "fotos": 33,
- "alertas": 1,
- "semResultado": [
-  "tv"
- ],
+ "ofertas": 47,
+ "fotos": 38,
+ "alertas": 7,
+ "semResultado": [],
  "falhas": [
   {
    "produto": "microondas",
@@ -60,7 +58,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 91,
+   "hits": 90,
    "combinam": 67,
    "ofertas": 22
   },
@@ -76,7 +74,7 @@
   }
  },
  "pc": {
-  "atualizadoEm": "2026-11-26T20:25:41Z",
-  "usado": false
+  "atualizadoEm": "2026-11-27T03:23:27Z",
+  "usado": true
  }
 }
