@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-27T14:30:22Z",
+ "quando": "2026-11-27T14:45:18Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
- "ofertas": 34,
- "fotos": 34,
- "alertas": 0,
+ "ofertas": 33,
+ "fotos": 33,
+ "alertas": 1,
  "semResultado": [
   "tv"
  ],
@@ -46,7 +46,7 @@
   "lava-loucas": {
    "hits": 41,
    "combinam": 18,
-   "ofertas": 21
+   "ofertas": 22
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -60,14 +60,14 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 90,
+   "hits": 92,
    "combinam": 67,
    "ofertas": 19
   },
   "bi-cama-solteiro": {
    "hits": 27,
    "combinam": 27,
-   "ofertas": 12
+   "ofertas": 16
   },
   "fogao-4-bocas": {
    "hits": 41,
