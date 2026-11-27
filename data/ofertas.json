@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-27T00:00:25Z",
+ "atualizadoEm": "2026-11-27T00:15:16Z",
  "status": {
   "resumo": "34 ofertas de lojas confiáveis via Buscapé e Zoom",
   "produtosVerificados": 11,
@@ -18,7 +18,7 @@
      "imagem": "https://image.zst.com.br/36A9D1CA892B0A32DAE08BA786707921_235_235.jpg",
      "observacao": "ou 8x de R$ 344,88",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     },
     {
@@ -31,7 +31,7 @@
      "imagem": "https://image.zst.com.br/E27683F2C31D9E7B5F22C71DC10BF551_235_235.jpg",
      "observacao": "ou 12x de R$ 229,08",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     },
     {
@@ -44,7 +44,7 @@
      "imagem": "https://image.zst.com.br/B73CFBCC04119DB8B4C59313A7003022_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     },
     {
@@ -57,7 +57,7 @@
      "imagem": "https://image.zst.com.br/499D1D90F77A401205BDD286FF853007_235_235.jpg",
      "observacao": "ou 10x de R$ 305,90",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Geladeira/Refrigerador Electrolux Frost Free Duplex 400L IF44S"
     },
     {
@@ -70,7 +70,7 @@
      "imagem": "https://image.zst.com.br/67940048FB1F3E19463E3CBE4B1C6B40_235_235.jpg",
      "observacao": "ou 8x de R$ 362,37",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Geladeira Electrolux Frost Free 431L Efficient AutoSense Duplex Inox Look (TF70S) 220V"
     }
    ],
@@ -186,22 +186,10 @@
      "loja": "Mercado Livre"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "lava-loucas": {
    "ofertas": [
-    {
-     "loja": "Amazon",
-     "vendedor": null,
-     "titulo": "Brastemp Lava-Louças de Piso BLF08BS Cinza 60x56x66 cm 8 Serviços com Função Acquaspray e Painel Intuitivo 67 dBA (volta",
-     "preco": 1554.83,
-     "url": "https://www.buscape.com.br/lead?oid=1033139912&channel=1",
-     "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-brastemp-blf08bs",
-     "imagem": "https://image.zst.com.br/AC5F77A6FD5640BF3BB66C5A968A7475_235_235.jpg",
-     "observacao": "",
-     "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
-    },
     {
      "loja": "Americanas",
      "vendedor": null,
@@ -212,19 +200,19 @@
      "imagem": "https://image.zst.com.br/C1CA835E553716A6BF8C11A7A9CF0C57_235_235.jpg",
      "observacao": "ou 8x de R$ 237,86",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
-     "loja": "Fast Shop",
+     "loja": "Amazon",
      "vendedor": null,
-     "titulo": "Lava Louças 8 Serviços Brastemp Cinza - BLF08BS",
-     "preco": 1762.25,
-     "url": "https://www.buscape.com.br/lead?oid=1543941522&channel=1",
+     "titulo": "Brastemp Lava-Louças de Piso BLF08BS Cinza 60x56x66 cm 8 Serviços com Função Acquaspray e Painel Intuitivo 67 dBA (volta",
+     "preco": 1747.0,
+     "url": "https://www.buscape.com.br/lead?oid=1033139912&channel=1",
      "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-brastemp-blf08bs",
-     "imagem": "https://image.zst.com.br/5CA077C0D565A4B22EDEECD0A6E730CE_235_235.jpg",
-     "observacao": "ou 8x de R$ 231,87",
+     "imagem": "https://image.zst.com.br/AC5F77A6FD5640BF3BB66C5A968A7475_235_235.jpg",
+     "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -236,7 +224,19 @@
      "imagem": "https://image.zst.com.br/2AAFEC436F7BEBEFE92FAB6A2FA8C48A_235_235.jpg",
      "observacao": "ou 10x de R$ 198,80",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
+    },
+    {
+     "loja": "Fast Shop",
+     "vendedor": null,
+     "titulo": "Lava-Louça Electrolux Inox com 8 Serviços, 8 Programas de Lavagem - LS08E",
+     "preco": 1989.0,
+     "url": "https://www.buscape.com.br/lead?oid=1544388788&channel=1",
+     "pagina": "https://www.buscape.com.br/lava-loucas/lava-loucas-8-servicos-electrolux-ls08e-cor-inox",
+     "imagem": "https://i.zst.com.br/thumbs/49/a/36/-1744573470.jpg",
+     "observacao": "",
+     "verificado": true,
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Webcontinental",
@@ -248,7 +248,7 @@
      "imagem": "https://image.zst.com.br/3298D3208A4FDD6F3293C1127338B0AD_235_235.jpg",
      "observacao": "ou 8x de R$ 257,47",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     }
    ],
    "historico": [
@@ -363,7 +363,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "lavadora": {
    "ofertas": [
@@ -371,13 +371,13 @@
      "loja": "Amazon",
      "vendedor": null,
      "titulo": "Samsung Lava e Seca WD11M com Digital Inverter WD11M4473PX Inox Look 11/7kg - 127V",
-     "preco": 3167.12,
+     "preco": 3239.1,
      "url": "https://www.buscape.com.br/lead?oid=1092201757&channel=1",
      "pagina": "https://www.buscape.com.br/lavadora-roupas/lava-e-seca-samsung-11kg-wd11m4473px",
      "imagem": "https://image.zst.com.br/99596D66792FD3AE5211B23E9195D642_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -389,7 +389,7 @@
      "imagem": "https://image.zst.com.br/23B0E43C355D8D549808502CE8F6BA10_235_235.jpg",
      "observacao": "ou 10x de R$ 398,88",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Webcontinental",
@@ -401,7 +401,7 @@
      "imagem": "https://image.zst.com.br/94BD1A24BF7ADD464A16943BE4FAC59C_235_235.jpg",
      "observacao": "ou 8x de R$ 727,37",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     }
    ],
    "historico": [
@@ -516,7 +516,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "microondas": {
    "ofertas": [
@@ -530,7 +530,7 @@
      "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
      "observacao": "ou 5x de R$ 134,60",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -543,7 +543,7 @@
      "imagem": "https://i.zst.com.br/thumbs/49/2a/38/-1748774156.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -556,7 +556,7 @@
      "imagem": "https://image.zst.com.br/58FBA49073E6DDA655FE76E9FB26A6FB_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -566,10 +566,10 @@
      "preco": 699.0,
      "url": "https://www.buscape.com.br/lead?oid=1470617211&channel=1",
      "pagina": "https://www.buscape.com.br/microondas/microondas-electrolux-31-litros-mi41s",
-     "imagem": "https://i.zst.com.br/thumbs/51/indsp.gif",
+     "imagem": "https://i.zst.com.br/thumbs/49/1b/34/-1748843447.jpg",
      "observacao": "ou 8x de R$ 87,37",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     },
     {
@@ -582,7 +582,7 @@
      "imagem": "https://image.zst.com.br/BA6B2639BDFD6D1174D690B15EBED6A8_235_235.jpg",
      "observacao": "ou 13x de R$ 56,07",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V"
     }
    ],
@@ -698,7 +698,7 @@
      "loja": "Buscape"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "tv": {
    "ofertas": [
@@ -742,7 +742,7 @@
      "loja": "Mercado Livre"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "ventilador": {
    "ofertas": [
@@ -756,7 +756,7 @@
      "imagem": "https://image.zst.com.br/6DC9A3E977C4290F3A958AEED51A441B_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT301-Tecnologia-Force/dp/B0CHC9NDN2/ref=asc_df_B0CHC9NDN2?mcid=d4505aebf0603d56bf22c4eee671574a&tag=googleshopp00-20&linkCode=df0&hvadid=710048990096&hvpos=&hvnetw=g&hvrand=6706783442840537618&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2438870345432&psc=1&hvocijid=6706783442840537618-B0CHC9NDN2-&hvexpln=0&language=pt_BR"
     },
     {
@@ -769,7 +769,7 @@
      "imagem": "https://image.zst.com.br/19AF806CE7991C409A79FBCC9C575622_235_235.jpg",
      "observacao": "ou 2x de R$ 67,90",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT301-Tecnologia-Force/dp/B0CHC9NDN2/ref=asc_df_B0CHC9NDN2?mcid=d4505aebf0603d56bf22c4eee671574a&tag=googleshopp00-20&linkCode=df0&hvadid=710048990096&hvpos=&hvnetw=g&hvrand=6706783442840537618&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2438870345432&psc=1&hvocijid=6706783442840537618-B0CHC9NDN2-&hvexpln=0&language=pt_BR"
     }
    ],
@@ -885,7 +885,7 @@
      "loja": "Magazine Luiza"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "iphone-16-lacrado": {
    "ofertas": [
@@ -899,7 +899,7 @@
      "imagem": "https://image.zst.com.br/FC18C121DEAF95DF2E2D89C449BAC565_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "KaBuM",
@@ -911,7 +911,7 @@
      "imagem": "https://image.zst.com.br/A341B89A567614716B4F232A3EAB7A92_235_235.jpg",
      "observacao": "ou 10x de R$ 588,77",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -923,7 +923,7 @@
      "imagem": "https://image.zst.com.br/9626616EF028F5B9B9D6DB390CA18515_235_235.jpg",
      "observacao": "ou 10x de R$ 588,78",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     }
    ],
    "historico": [
@@ -1038,7 +1038,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "cooktop-4-bocas-a-gas": {
    "ofertas": [
@@ -1052,7 +1052,7 @@
      "imagem": "https://image.zst.com.br/A67FAE4DE3D7DEF134D9CBA3D93B7D50_235_235.jpg",
      "observacao": "ou 8x de R$ 72,08",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     },
     {
@@ -1065,7 +1065,7 @@
      "imagem": "https://image.zst.com.br/C9BE1792FC63CFDE224E2DD7137024C8_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "Cooktop 4 Bocas a Gás GLP Electrolux Mesa de Vidro Preto Acendimento Automático Efficient KE4GR"
     }
    ],
@@ -1181,7 +1181,7 @@
      "loja": "Mercado Livre"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "forno-de-embutir-eletrico": {
    "ofertas": [
@@ -1195,7 +1195,7 @@
      "imagem": "https://image.zst.com.br/4D40E3B8B0C6D7C5485F07CFBE333A57_235_235.jpg",
      "observacao": "ou 8x de R$ 123,95",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
     },
     {
@@ -1208,7 +1208,7 @@
      "imagem": "https://image.zst.com.br/75754789BB5E2C152A436CF60B6400CE_235_235.jpg",
      "observacao": "ou 9x de R$ 122,21",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z",
+     "encontradoEm": "2026-11-27T00:15:16Z",
      "modelo": "https://www.amazon.com.br/Embutir-El%C3%A9trico-Dako-Supreme-Anal%C3%B3gico/dp/B0GL28Z6ZF/ref=asc_df_B0GL28Z6ZF?mcid=061fe007c99a3b45908f4ced70de1957&tag=googleshopp00-20&linkCode=df0&hvadid=796541962718&hvpos=&hvnetw=g&hvrand=14478734409844394856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215362&hvtargid=pla-2521480149047&psc=1&hvocijid=14478734409844394856-B0GL28Z6ZF-&hvexpln=0&language=pt_BR"
     }
    ],
@@ -1324,7 +1324,7 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "air-fryer": {
    "ofertas": [
@@ -1338,7 +1338,7 @@
      "imagem": "https://image.zst.com.br/9706E7BCA83EEE9A256C4A76A784E42E_235_235.jpg",
      "observacao": "ou 2x de R$ 105,00",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Amazon",
@@ -1350,7 +1350,7 @@
      "imagem": "https://image.zst.com.br/78C7CBFB55F6E6EC761E163F7B16EB7C_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Webcontinental",
@@ -1362,7 +1362,7 @@
      "imagem": "https://image.zst.com.br/41D19C3E18782242672132DF56C54E1A_235_235.jpg",
      "observacao": "ou 2x de R$ 114,95",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     }
    ],
    "historico": [
@@ -1472,7 +1472,7 @@
      "loja": "Webcontinental"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   },
   "bi-cama-solteiro": {
    "ofertas": [
@@ -1486,7 +1486,7 @@
      "imagem": "https://image.zst.com.br/08AA83274E9234B03D6DF219DBBC07F2_235_235.jpg",
      "observacao": "ou 4x de R$ 59,37",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Magazine Luiza",
@@ -1498,7 +1498,7 @@
      "imagem": "https://image.zst.com.br/D2A354214AAB97936E6C52D20E4F6518_235_235.jpg",
      "observacao": "ou 3x de R$ 83,33",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Amazon",
@@ -1510,7 +1510,7 @@
      "imagem": "https://image.zst.com.br/FA9B842035538CD6831A90394C493869_235_235.jpg",
      "observacao": "",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     },
     {
      "loja": "Webcontinental",
@@ -1522,7 +1522,7 @@
      "imagem": "https://image.zst.com.br/969C449B82657F5FDF042D471621F45B_235_235.jpg",
      "observacao": "ou 2x de R$ 119,99",
      "verificado": true,
-     "encontradoEm": "2026-11-27T00:00:25Z"
+     "encontradoEm": "2026-11-27T00:15:16Z"
     }
    ],
    "historico": [
@@ -1562,26 +1562,10 @@
      "loja": "Amazon"
     }
    ],
-   "ultimaBusca": "2026-11-27T00:00:25Z"
+   "ultimaBusca": "2026-11-27T00:15:16Z"
   }
  },
  "alertas": [
-  {
-   "id": "lavadora-tg-ofertasdodia-482247",
-   "produtoId": "lavadora",
-   "produtoNome": "Lava e Seca",
-   "texto": "Lava e Seca: 💥 Lavadora de alta pressão Electrolux 1650psi 1400w Easywash Qws1650 por R$ 263,00 (canal OFERTAS DO DIA)",
-   "titulo": "💥 Lavadora de alta pressão Electrolux 1650psi 1400w Easywash Qws1650",
-   "preco": 263.0,
-   "loja": "via OFERTAS DO DIA",
-   "url": "https://meli.la/2pursSj",
-   "post": "https://t.me/ofertasdodia/482247",
-   "imagem": "https://cdn1.telesco.pe/file/t3-pOjRiJaJAGfR82ef_X5eEO23YwuTG-WubbaYx5Yydli2F5kJQhpskcYEGAuFjJjSIo2IPU3pnIVMU6K47X0QOi_yRl37MneHWglJ87SWvFSzKXXk2clqgucKOw9Ksa3jZjWobrymV62MKCNsZid5krKsGgg_9H8bDqQZnT_TlSAO3Ru_F8BWNtgDWmsaveA4XpeXh5nwDjwi0Wb2E0Fwmpi_5xZw2nKrWn5xyIL0TX8BlkACQPzdE8tXxFxb21txSMXMIbMV1TCvgQGlLfdNNVxuEhDWQdSpcKRYRSAe9sRTbS66zgsA67wOI1iwRBtQPkRvgsUqIDGO2aL5tMQ.jpg",
-   "de": 3589.9,
-   "alvo": 3000,
-   "criadoEm": "2026-11-20T20:04:02Z",
-   "origem": "telegram"
-  },
   {
    "id": "lava-loucas-tg-ofertasdodia-482247",
    "produtoId": "lava-loucas",
@@ -4704,6 +4688,22 @@
    "imagem": "https://image.zst.com.br/AC5F77A6FD5640BF3BB66C5A968A7475_235_235.jpg",
    "de": 1663.0,
    "alvo": 2400
+  },
+  {
+   "id": "ventilador-tg-ofertasdodia-490746",
+   "produtoId": "ventilador",
+   "produtoNome": "Ventilador 40CM",
+   "texto": "Ventilador 40CM: 💥 Ventilador de Mesa Mondial 30cm 6 Pás 110V + Frete Grátis por R$ 87,92 (canal OFERTAS DO DIA)",
+   "titulo": "💥 Ventilador de Mesa Mondial 30cm 6 Pás 110V + Frete Grátis",
+   "preco": 87.92,
+   "loja": "via OFERTAS DO DIA",
+   "url": "https://cupom.cc/iW72xizu",
+   "post": "https://t.me/ofertasdodia/490746",
+   "imagem": "https://cdn1.telesco.pe/file/GhHE0adCkFo4M40aGtyJhvHczia8HJNER64QiTHqt0270lDDStCVL1faXrsJ8CWLt89Z2ImTRzsG4HrLIAKwX6C-ZE1gHPENCuMDf9L9p8hPJqT_tmJ94hCzhTWy1U70UF7tqPPnvd-LT24AaaoTuEFiwvpGNv5EW7FzqJbGP2f7Jt8bMw7dJtwuPALokHvVHvIgqaXNplZh1x8efz77-MvPAvkgMOeu5tyYkqSfZpoZ3wRRLpQMaThiijzuCvxQiRpUJPl5_XRJuAV0dQXUUkA9ZumeSpqbcQSI86fRNDL1zL9wxmet2hzOgFEt1xPD9iH9Nr59boMYfvs61oGsDg.jpg",
+   "de": 121.41,
+   "alvo": 120,
+   "criadoEm": "2026-11-27T00:18:09Z",
+   "origem": "telegram"
   }
  ],
  "ultimoResumo": "2026-11-26"
