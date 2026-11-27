@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-27T19:00:25Z",
+ "quando": "2026-11-27T19:15:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
- "ofertas": 34,
- "fotos": 34,
- "alertas": 0,
+ "ofertas": 33,
+ "fotos": 33,
+ "alertas": 1,
  "semResultado": [
   "tv"
  ],
@@ -25,7 +25,7 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 15,
+   "ofertas": 14,
    "barradasNaTrava": 2
   },
   "microondas": {
@@ -60,7 +60,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 90,
+   "hits": 91,
    "combinam": 67,
    "ofertas": 18
   },
