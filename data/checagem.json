@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-27T06:15:17Z",
+ "quando": "2026-11-27T06:30:22Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
  "ofertas": 36,
  "fotos": 36,
- "alertas": 1,
+ "alertas": 0,
  "semResultado": [
   "tv"
  ],
@@ -44,7 +44,7 @@
    "ofertas": 14
   },
   "lava-loucas": {
-   "hits": 40,
+   "hits": 41,
    "combinam": 18,
    "ofertas": 24
   },
