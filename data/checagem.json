@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-27T03:27:57Z",
+ "quando": "2026-11-27T03:36:24Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
- "paginas": 59,
- "ofertas": 47,
- "fotos": 38,
- "alertas": 7,
+ "paginas": 65,
+ "ofertas": 48,
+ "fotos": 39,
+ "alertas": 0,
  "semResultado": [],
  "falhas": [
   {
@@ -65,12 +65,13 @@
   "bi-cama-solteiro": {
    "hits": 27,
    "combinam": 27,
-   "ofertas": 12
+   "ofertas": 16
   },
   "fogao-4-bocas": {
-   "hits": 107,
-   "combinam": 1,
-   "ofertas": 1
+   "hits": 40,
+   "combinam": 6,
+   "ofertas": 18,
+   "barradasNaTrava": 2
   }
  },
  "pc": {
