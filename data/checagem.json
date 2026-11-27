@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-27T09:15:16Z",
+ "quando": "2026-11-27T09:30:26Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
  "ofertas": 35,
  "fotos": 35,
- "alertas": 0,
+ "alertas": 2,
  "semResultado": [
   "tv"
  ],
@@ -46,7 +46,7 @@
   "lava-loucas": {
    "hits": 41,
    "combinam": 18,
-   "ofertas": 22
+   "ofertas": 23
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -70,7 +70,7 @@
    "ofertas": 12
   },
   "fogao-4-bocas": {
-   "hits": 40,
+   "hits": 39,
    "combinam": 6,
    "ofertas": 18,
    "barradasNaTrava": 2
