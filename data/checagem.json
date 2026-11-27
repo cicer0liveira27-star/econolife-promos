@@ -1,12 +1,14 @@
 {
- "quando": "2026-11-27T04:45:16Z",
+ "quando": "2026-11-27T05:00:25Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
- "ofertas": 48,
- "fotos": 39,
+ "ofertas": 36,
+ "fotos": 36,
  "alertas": 0,
- "semResultado": [],
+ "semResultado": [
+  "tv"
+ ],
  "falhas": [
   {
    "produto": "microondas",
@@ -37,7 +39,7 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 40,
+   "hits": 41,
    "combinam": 5,
    "ofertas": 14
   },
@@ -76,6 +78,6 @@
  },
  "pc": {
   "atualizadoEm": "2026-11-27T03:23:27Z",
-  "usado": true
+  "usado": false
  }
 }
