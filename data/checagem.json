@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-27T00:30:22Z",
+ "quando": "2026-11-27T00:45:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 57,
  "paginas": 57,
  "ofertas": 34,
  "fotos": 34,
- "alertas": 1,
+ "alertas": 0,
  "semResultado": [
   "tv"
  ],
@@ -26,7 +26,7 @@
    "modelos": 3,
    "modelosAchados": 3,
    "ofertas": 16,
-   "barradasNaTrava": 2
+   "barradasNaTrava": 4
   },
   "microondas": {
    "modelos": 1,
@@ -46,7 +46,7 @@
   "lava-loucas": {
    "hits": 40,
    "combinam": 18,
-   "ofertas": 22
+   "ofertas": 23
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -60,7 +60,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 93,
+   "hits": 92,
    "combinam": 68,
    "ofertas": 22
   },
