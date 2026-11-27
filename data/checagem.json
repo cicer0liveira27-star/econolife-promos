@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-27T03:15:16Z",
+ "quando": "2026-11-27T03:22:00Z",
  "fonte": "https://www.buscape.com.br",
- "buscas": 57,
- "paginas": 57,
- "ofertas": 32,
- "fotos": 32,
+ "buscas": 67,
+ "paginas": 59,
+ "ofertas": 33,
+ "fotos": 33,
  "alertas": 1,
  "semResultado": [
   "tv"
@@ -68,6 +68,11 @@
    "hits": 27,
    "combinam": 27,
    "ofertas": 12
+  },
+  "fogao-4-bocas": {
+   "hits": 107,
+   "combinam": 1,
+   "ofertas": 1
   }
  },
  "pc": {
