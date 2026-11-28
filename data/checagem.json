@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-28T09:45:17Z",
+ "quando": "2026-11-28T10:00:25Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
@@ -26,7 +26,7 @@
    "modelos": 3,
    "modelosAchados": 3,
    "ofertas": 13,
-   "barradasNaTrava": 4
+   "barradasNaTrava": 3
   },
   "microondas": {
    "modelos": 1,
@@ -67,12 +67,13 @@
   "bi-cama-solteiro": {
    "hits": 27,
    "combinam": 27,
-   "ofertas": 14
+   "ofertas": 16
   },
   "fogao-4-bocas": {
-   "hits": 40,
-   "combinam": 5,
-   "ofertas": 13
+   "hits": 41,
+   "combinam": 6,
+   "ofertas": 14,
+   "barradasNaTrava": 1
   }
  },
  "pc": {
