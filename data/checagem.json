@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-28T06:00:27Z",
+ "quando": "2026-11-28T06:15:23Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
- "ofertas": 37,
- "fotos": 37,
+ "ofertas": 36,
+ "fotos": 36,
  "alertas": 0,
  "semResultado": [
   "tv"
@@ -25,13 +25,13 @@
   "geladeira": {
    "modelos": 3,
    "modelosAchados": 3,
-   "ofertas": 14,
+   "ofertas": 13,
    "barradasNaTrava": 2
   },
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 5
   },
   "tv": {
    "hits": 0,
