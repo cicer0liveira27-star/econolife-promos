@@ -1,5 +1,5 @@
 {
- "quando": "2026-11-28T10:00:25Z",
+ "quando": "2026-11-28T10:15:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
@@ -26,7 +26,7 @@
    "modelos": 3,
    "modelosAchados": 3,
    "ofertas": 13,
-   "barradasNaTrava": 3
+   "barradasNaTrava": 2
   },
   "microondas": {
    "modelos": 1,
@@ -41,7 +41,7 @@
   "lavadora": {
    "hits": 38,
    "combinam": 5,
-   "ofertas": 12
+   "ofertas": 11
   },
   "lava-loucas": {
    "hits": 41,
@@ -72,7 +72,7 @@
   "fogao-4-bocas": {
    "hits": 41,
    "combinam": 6,
-   "ofertas": 14,
+   "ofertas": 13,
    "barradasNaTrava": 1
   }
  },
