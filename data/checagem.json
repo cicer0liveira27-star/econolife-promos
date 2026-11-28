@@ -1,10 +1,10 @@
 {
- "quando": "2026-11-28T07:30:21Z",
+ "quando": "2026-11-28T07:45:16Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
- "ofertas": 37,
- "fotos": 37,
+ "ofertas": 38,
+ "fotos": 38,
  "alertas": 0,
  "semResultado": [
   "tv"
@@ -56,21 +56,21 @@
   "cooktop-4-bocas-a-gas": {
    "modelos": 2,
    "modelosAchados": 1,
-   "ofertas": 0,
-   "barradasNaTrava": 6
+   "ofertas": 5,
+   "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 92,
+   "hits": 91,
    "combinam": 68,
    "ofertas": 22
   },
   "bi-cama-solteiro": {
    "hits": 27,
    "combinam": 27,
-   "ofertas": 16
+   "ofertas": 13
   },
   "fogao-4-bocas": {
-   "hits": 41,
+   "hits": 40,
    "combinam": 6,
    "ofertas": 18,
    "barradasNaTrava": 2
