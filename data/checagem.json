@@ -1,11 +1,11 @@
 {
- "quando": "2026-11-28T03:45:16Z",
+ "quando": "2026-11-28T04:00:26Z",
  "fonte": "https://www.buscape.com.br",
  "buscas": 67,
  "paginas": 65,
- "ofertas": 37,
- "fotos": 37,
- "alertas": 0,
+ "ofertas": 35,
+ "fotos": 35,
+ "alertas": 3,
  "semResultado": [
   "tv"
  ],
@@ -31,7 +31,7 @@
   "microondas": {
    "modelos": 1,
    "modelosAchados": 1,
-   "ofertas": 6
+   "ofertas": 5
   },
   "tv": {
    "hits": 0,
@@ -39,14 +39,14 @@
    "exemplos": []
   },
   "lavadora": {
-   "hits": 37,
-   "combinam": 4,
-   "ofertas": 12
+   "hits": 38,
+   "combinam": 5,
+   "ofertas": 10
   },
   "lava-loucas": {
-   "hits": 41,
+   "hits": 42,
    "combinam": 18,
-   "ofertas": 22
+   "ofertas": 23
   },
   "iphone-16-lacrado": {
    "hits": 12,
@@ -60,7 +60,7 @@
    "barradasNaTrava": 9
   },
   "air-fryer": {
-   "hits": 92,
+   "hits": 91,
    "combinam": 67,
    "ofertas": 20
   },
@@ -70,10 +70,10 @@
    "ofertas": 16
   },
   "fogao-4-bocas": {
-   "hits": 39,
+   "hits": 40,
    "combinam": 6,
    "ofertas": 18,
-   "barradasNaTrava": 1
+   "barradasNaTrava": 2
   }
  },
  "pc": {
